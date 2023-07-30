@@ -83,20 +83,20 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @core/layouts/components/Logo.vue */ "./resources/js/src/@core/layouts/components/Logo.vue");
+/* harmony import */ var _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/layouts/components/Logo.vue */ "./resources/js/src/@core/layouts/components/Logo.vue");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var _validations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @validations */ "./resources/js/src/@core/utils/validations/validations.js");
-/* harmony import */ var _core_mixins_ui_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @core/mixins/ui/forms */ "./resources/js/src/@core/mixins/ui/forms.js");
+/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
 /* harmony import */ var _core_components_toastification_ToastificationContent_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @core/components/toastification/ToastificationContent.vue */ "./resources/js/src/@core/components/toastification/ToastificationContent.vue");
 //
 //
@@ -250,27 +250,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+/* eslint-disable global-require */
 
 
 
@@ -279,45 +260,66 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    VuexyLogo: _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    // BSV
-    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCard"],
-    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BLink"],
-    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardTitle"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
-    BInputGroupAppend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupAppend"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    // validations
+    VuexyLogo: _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BCol"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BButton"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BCardTitle"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BCardText"],
+    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BForm"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BFormGroup"],
+    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BImg"],
+    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BInputGroup"],
+    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BLink"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BFormInput"],
+    BInputGroupAppend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BInputGroupAppend"],
     ValidationProvider: vee_validate__WEBPACK_IMPORTED_MODULE_0__["ValidationProvider"],
     ValidationObserver: vee_validate__WEBPACK_IMPORTED_MODULE_0__["ValidationObserver"]
   },
-  mixins: [_core_mixins_ui_forms__WEBPACK_IMPORTED_MODULE_4__["togglePasswordVisibility"]],
   data: function data() {
     return {
-      regEmail: '',
-      username: '',
+      userEmail: '',
+      cPassword: '',
       password: '',
-      status: '',
-      // validation rules
+      sideImg: __webpack_require__(/*! @/assets/images/pages/reset-password-v2.svg */ "./resources/js/src/assets/images/pages/reset-password-v2.svg"),
+      // validation
       required: _validations__WEBPACK_IMPORTED_MODULE_3__["required"],
-      email: _validations__WEBPACK_IMPORTED_MODULE_3__["email"]
+      // Toggle Password
+      password1FieldType: 'password',
+      password2FieldType: 'password'
     };
   },
   computed: {
     passwordToggleIcon: function passwordToggleIcon() {
       return this.passwordFieldType === 'password' ? 'EyeIcon' : 'EyeOffIcon';
+    },
+    imgUrl: function imgUrl() {
+      if (_store_index__WEBPACK_IMPORTED_MODULE_4__["default"].state.appConfig.layout.skin === 'dark') {
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+        this.sideImg = __webpack_require__(/*! @/assets/images/pages/reset-password-v2-dark.svg */ "./resources/js/src/assets/images/pages/reset-password-v2-dark.svg");
+        return this.sideImg;
+      }
+
+      return this.sideImg;
+    },
+    password1ToggleIcon: function password1ToggleIcon() {
+      return this.password1FieldType === 'password' ? 'EyeIcon' : 'EyeOffIcon';
+    },
+    password2ToggleIcon: function password2ToggleIcon() {
+      return this.password2FieldType === 'password' ? 'EyeIcon' : 'EyeOffIcon';
     }
   },
   methods: {
+    togglePassword1Visibility: function togglePassword1Visibility() {
+      this.password1FieldType = this.password1FieldType === 'password' ? 'text' : 'password';
+    },
+    togglePassword2Visibility: function togglePassword2Visibility() {
+      this.password2FieldType = this.password2FieldType === 'password' ? 'text' : 'password';
+    },
     validationForm: function validationForm() {
       var _this = this;
 
-      this.$refs.registerForm.validate().then(function (success) {
+      this.$refs.simpleRules.validate().then(function (success) {
         if (success) {
           _this.$toast({
             component: _core_components_toastification_ToastificationContent_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
@@ -353,10 +355,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -401,15 +403,15 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Register-v1.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -684,10 +686,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263&":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263& ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891&":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891& ***!
+  \***************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -699,310 +701,323 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "auth-wrapper auth-v1 px-2" }, [
-    _c(
-      "div",
-      { staticClass: "auth-inner py-2" },
-      [
-        _c(
-          "b-card",
-          { staticClass: "mb-0" },
-          [
-            _c(
-              "b-link",
-              { staticClass: "brand-logo" },
-              [
-                _c("vuexy-logo"),
-                _vm._v(" "),
-                _c("h2", { staticClass: "brand-text text-primary ml-1" }, [
-                  _vm._v("\n          Vuexy\n        ")
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("b-card-title", { staticClass: "mb-1" }, [
-              _vm._v("\n        Adventure starts here 🚀\n      ")
-            ]),
-            _vm._v(" "),
-            _c("b-card-text", { staticClass: "mb-2" }, [
-              _vm._v("\n        Make your app management easy and fun!\n      ")
-            ]),
-            _vm._v(" "),
-            _c(
-              "validation-observer",
-              { ref: "registerForm" },
-              [
-                _c(
-                  "b-form",
-                  {
-                    staticClass: "auth-register-form mt-2",
-                    on: {
-                      submit: function($event) {
-                        $event.preventDefault()
-                        return _vm.validationForm.apply(null, arguments)
-                      }
-                    }
-                  },
-                  [
-                    _c(
-                      "b-form-group",
-                      { attrs: { label: "Username", "label-for": "username" } },
-                      [
-                        _c("validation-provider", {
-                          attrs: { name: "Username", rules: "required" },
-                          scopedSlots: _vm._u([
-                            {
-                              key: "default",
-                              fn: function(ref) {
-                                var errors = ref.errors
-                                return [
-                                  _c("b-form-input", {
-                                    attrs: {
-                                      id: "username",
-                                      state: errors.length > 0 ? false : null,
-                                      name: "register-username",
-                                      placeholder: "johndoe"
-                                    },
-                                    model: {
-                                      value: _vm.username,
-                                      callback: function($$v) {
-                                        _vm.username = $$v
-                                      },
-                                      expression: "username"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("small", { staticClass: "text-danger" }, [
-                                    _vm._v(_vm._s(errors[0]))
-                                  ])
-                                ]
-                              }
-                            }
-                          ])
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-form-group",
-                      { attrs: { label: "Email", "label-for": "email" } },
-                      [
-                        _c("validation-provider", {
-                          attrs: { name: "Email", rules: "required|email" },
-                          scopedSlots: _vm._u([
-                            {
-                              key: "default",
-                              fn: function(ref) {
-                                var errors = ref.errors
-                                return [
-                                  _c("b-form-input", {
-                                    attrs: {
-                                      id: "email",
-                                      state: errors.length > 0 ? false : null,
-                                      name: "register-email",
-                                      placeholder: "john@example.com"
-                                    },
-                                    model: {
-                                      value: _vm.regEmail,
-                                      callback: function($$v) {
-                                        _vm.regEmail = $$v
-                                      },
-                                      expression: "regEmail"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("small", { staticClass: "text-danger" }, [
-                                    _vm._v(_vm._s(errors[0]))
-                                  ])
-                                ]
-                              }
-                            }
-                          ])
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-form-group",
-                      { attrs: { label: "Password", "label-for": "password" } },
-                      [
-                        _c("validation-provider", {
-                          attrs: { name: "Password", rules: "required" },
-                          scopedSlots: _vm._u([
-                            {
-                              key: "default",
-                              fn: function(ref) {
-                                var errors = ref.errors
-                                return [
-                                  _c(
-                                    "b-input-group",
-                                    {
-                                      staticClass: "input-group-merge",
-                                      class:
-                                        errors.length > 0 ? "is-invalid" : null
-                                    },
-                                    [
-                                      _c("b-form-input", {
-                                        staticClass: "form-control-merge",
-                                        attrs: {
-                                          id: "password",
-                                          type: _vm.passwordFieldType,
-                                          state:
-                                            errors.length > 0 ? false : null,
-                                          name: "register-password",
-                                          placeholder: "············"
-                                        },
-                                        model: {
-                                          value: _vm.password,
-                                          callback: function($$v) {
-                                            _vm.password = $$v
-                                          },
-                                          expression: "password"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c(
-                                        "b-input-group-append",
-                                        { attrs: { "is-text": "" } },
-                                        [
-                                          _c("feather-icon", {
-                                            staticClass: "cursor-pointer",
-                                            attrs: {
-                                              icon: _vm.passwordToggleIcon
-                                            },
-                                            on: {
-                                              click:
-                                                _vm.togglePasswordVisibility
-                                            }
-                                          })
-                                        ],
-                                        1
-                                      )
-                                    ],
-                                    1
-                                  ),
-                                  _vm._v(" "),
-                                  _c("small", { staticClass: "text-danger" }, [
-                                    _vm._v(_vm._s(errors[0]))
-                                  ])
-                                ]
-                              }
-                            }
-                          ])
-                        })
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-form-group",
-                      [
-                        _c(
-                          "b-form-checkbox",
-                          {
-                            attrs: {
-                              id: "register-privacy-policy",
-                              name: "checkbox-1"
-                            },
-                            model: {
-                              value: _vm.status,
-                              callback: function($$v) {
-                                _vm.status = $$v
-                              },
-                              expression: "status"
-                            }
-                          },
-                          [
-                            _vm._v(
-                              "\n              I agree to\n              "
-                            ),
-                            _c("b-link", [_vm._v("privacy policy & terms")])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "b-button",
-                      {
-                        attrs: { variant: "primary", block: "", type: "submit" }
-                      },
-                      [_vm._v("\n            Sign up\n          ")]
-                    )
-                  ],
-                  1
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "b-card-text",
-              { staticClass: "text-center mt-2" },
-              [
-                _c("span", [_vm._v("Already have an account? ")]),
-                _vm._v(" "),
-                _c("b-link", { attrs: { to: { name: "auth-login-v1" } } }, [
-                  _c("span", [_vm._v("Sign in instead")])
-                ])
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "divider my-2" }, [
-              _c("div", { staticClass: "divider-text" }, [
-                _vm._v("\n          or\n        ")
+  return _c(
+    "div",
+    { staticClass: "auth-wrapper auth-v2" },
+    [
+      _c(
+        "b-row",
+        { staticClass: "auth-inner m-0" },
+        [
+          _c(
+            "b-link",
+            { staticClass: "brand-logo" },
+            [
+              _c("vuexy-logo"),
+              _vm._v(" "),
+              _c("h2", { staticClass: "brand-text text-primary ml-1" }, [
+                _vm._v("\n        Vuexy\n      ")
               ])
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "auth-footer-btn d-flex justify-content-center" },
-              [
-                _c(
-                  "b-button",
-                  {
-                    attrs: { variant: "facebook", href: "javascript:void(0)" }
-                  },
-                  [_c("feather-icon", { attrs: { icon: "FacebookIcon" } })],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-button",
-                  { attrs: { variant: "twitter", href: "javascript:void(0)" } },
-                  [_c("feather-icon", { attrs: { icon: "TwitterIcon" } })],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-button",
-                  { attrs: { variant: "google", href: "javascript:void(0)" } },
-                  [_c("feather-icon", { attrs: { icon: "MailIcon" } })],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "b-button",
-                  { attrs: { variant: "github", href: "javascript:void(0)" } },
-                  [_c("feather-icon", { attrs: { icon: "GithubIcon" } })],
-                  1
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    )
-  ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            {
+              staticClass: "d-none d-lg-flex align-items-center p-5",
+              attrs: { lg: "8" }
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-100 d-lg-flex align-items-center justify-content-center px-5"
+                },
+                [
+                  _c("b-img", {
+                    attrs: { src: _vm.imgUrl, fluid: "", alt: "Register V2" }
+                  })
+                ],
+                1
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            {
+              staticClass: "d-flex align-items-center auth-bg px-2 p-lg-5",
+              attrs: { lg: "4" }
+            },
+            [
+              _c(
+                "b-col",
+                {
+                  staticClass: "px-xl-2 mx-auto",
+                  attrs: { sm: "8", md: "6", lg: "12" }
+                },
+                [
+                  _c(
+                    "b-card-title",
+                    {
+                      staticClass: "font-weight-bold mb-1",
+                      attrs: { "title-tag": "h2" }
+                    },
+                    [_vm._v("\n          Reset Password 🔒\n        ")]
+                  ),
+                  _vm._v(" "),
+                  _c("b-card-text", { staticClass: "mb-2" }, [
+                    _vm._v(
+                      "\n          Your new password must be different from previously used passwords\n        "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "validation-observer",
+                    { ref: "simpleRules" },
+                    [
+                      _c(
+                        "b-form",
+                        {
+                          staticClass: "auth-reset-password-form mt-2",
+                          attrs: { method: "POST" },
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                              return _vm.validationForm.apply(null, arguments)
+                            }
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                label: "New Password",
+                                "label-for": "reset-password-new"
+                              }
+                            },
+                            [
+                              _c("validation-provider", {
+                                attrs: {
+                                  name: "Password",
+                                  vid: "Password",
+                                  rules: "required|password"
+                                },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "default",
+                                    fn: function(ref) {
+                                      var errors = ref.errors
+                                      return [
+                                        _c(
+                                          "b-input-group",
+                                          {
+                                            staticClass: "input-group-merge",
+                                            class:
+                                              errors.length > 0
+                                                ? "is-invalid"
+                                                : null
+                                          },
+                                          [
+                                            _c("b-form-input", {
+                                              staticClass: "form-control-merge",
+                                              attrs: {
+                                                id: "reset-password-new",
+                                                type: _vm.password1FieldType,
+                                                state:
+                                                  errors.length > 0
+                                                    ? false
+                                                    : null,
+                                                name: "reset-password-new",
+                                                placeholder: "············"
+                                              },
+                                              model: {
+                                                value: _vm.password,
+                                                callback: function($$v) {
+                                                  _vm.password = $$v
+                                                },
+                                                expression: "password"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "b-input-group-append",
+                                              { attrs: { "is-text": "" } },
+                                              [
+                                                _c("feather-icon", {
+                                                  staticClass: "cursor-pointer",
+                                                  attrs: {
+                                                    icon:
+                                                      _vm.password1ToggleIcon
+                                                  },
+                                                  on: {
+                                                    click:
+                                                      _vm.togglePassword1Visibility
+                                                  }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ],
+                                          1
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "small",
+                                          { staticClass: "text-danger" },
+                                          [_vm._v(_vm._s(errors[0]))]
+                                        )
+                                      ]
+                                    }
+                                  }
+                                ])
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                "label-for": "reset-password-confirm",
+                                label: "Confirm Password"
+                              }
+                            },
+                            [
+                              _c("validation-provider", {
+                                attrs: {
+                                  name: "Confirm Password",
+                                  rules: "required|confirmed:Password"
+                                },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "default",
+                                    fn: function(ref) {
+                                      var errors = ref.errors
+                                      return [
+                                        _c(
+                                          "b-input-group",
+                                          {
+                                            staticClass: "input-group-merge",
+                                            class:
+                                              errors.length > 0
+                                                ? "is-invalid"
+                                                : null
+                                          },
+                                          [
+                                            _c("b-form-input", {
+                                              staticClass: "form-control-merge",
+                                              attrs: {
+                                                id: "reset-password-confirm",
+                                                type: _vm.password2FieldType,
+                                                state:
+                                                  errors.length > 0
+                                                    ? false
+                                                    : null,
+                                                name: "reset-password-confirm",
+                                                placeholder: "············"
+                                              },
+                                              model: {
+                                                value: _vm.cPassword,
+                                                callback: function($$v) {
+                                                  _vm.cPassword = $$v
+                                                },
+                                                expression: "cPassword"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "b-input-group-append",
+                                              { attrs: { "is-text": "" } },
+                                              [
+                                                _c("feather-icon", {
+                                                  staticClass: "cursor-pointer",
+                                                  attrs: {
+                                                    icon:
+                                                      _vm.password2ToggleIcon
+                                                  },
+                                                  on: {
+                                                    click:
+                                                      _vm.togglePassword2Visibility
+                                                  }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ],
+                                          1
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "small",
+                                          { staticClass: "text-danger" },
+                                          [_vm._v(_vm._s(errors[0]))]
+                                        )
+                                      ]
+                                    }
+                                  }
+                                ])
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                block: "",
+                                type: "submit",
+                                variant: "primary"
+                              }
+                            },
+                            [
+                              _vm._v(
+                                "\n              Set New Password\n            "
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    { staticClass: "text-center mt-2" },
+                    [
+                      _c(
+                        "b-link",
+                        { attrs: { to: { name: "auth-login-v2" } } },
+                        [
+                          _c("feather-icon", {
+                            attrs: { icon: "ChevronLeftIcon" }
+                          }),
+                          _vm._v(" Back to login\n          ")
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -1148,34 +1163,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Logo_vue_vue_type_template_id_46f77075___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./resources/js/src/@core/mixins/ui/forms.js":
-/*!***************************************************!*\
-  !*** ./resources/js/src/@core/mixins/ui/forms.js ***!
-  \***************************************************/
-/*! exports provided: togglePasswordVisibility, _ */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "togglePasswordVisibility", function() { return togglePasswordVisibility; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_", function() { return _; });
-// We haven't added icon's computed property because it makes this mixin coupled with UI
-var togglePasswordVisibility = {
-  data: function data() {
-    return {
-      passwordFieldType: 'password'
-    };
-  },
-  methods: {
-    togglePasswordVisibility: function togglePasswordVisibility() {
-      this.passwordFieldType = this.passwordFieldType === 'password' ? 'text' : 'password';
-    }
-  }
-};
-var _ = null;
 
 /***/ }),
 
@@ -1385,18 +1372,40 @@ var validatorUrlValidator = function validatorUrlValidator(val) {
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Register-v1.vue":
-/*!*********************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Register-v1.vue ***!
-  \*********************************************************************/
+/***/ "./resources/js/src/assets/images/pages/reset-password-v2-dark.svg":
+/*!*************************************************************************!*\
+  !*** ./resources/js/src/assets/images/pages/reset-password-v2-dark.svg ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/_/_/_/_/produccion/resources/js/src/assets/images/pages/reset-password-v2-dark.svg";
+
+/***/ }),
+
+/***/ "./resources/js/src/assets/images/pages/reset-password-v2.svg":
+/*!********************************************************************!*\
+  !*** ./resources/js/src/assets/images/pages/reset-password-v2.svg ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/_/_/_/_/produccion/resources/js/src/assets/images/pages/reset-password-v2.svg";
+
+/***/ }),
+
+/***/ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue":
+/*!**************************************************************************!*\
+  !*** ./resources/js/src/views/pages/authentication/ResetPassword-v2.vue ***!
+  \**************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Register-v1.vue?vue&type=template&id=51e58263& */ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263&");
-/* harmony import */ var _Register_v1_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Register-v1.vue?vue&type=script&lang=js& */ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Register-v1.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ResetPassword-v2.vue?vue&type=template&id=5ad01891& */ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891&");
+/* harmony import */ var _ResetPassword_v2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ResetPassword-v2.vue?vue&type=script&lang=js& */ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1407,9 +1416,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Register_v1_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ResetPassword_v2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1419,54 +1428,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/pages/authentication/Register-v1.vue"
+component.options.__file = "resources/js/src/views/pages/authentication/ResetPassword-v2.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************/
+/***/ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Register-v1.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ResetPassword-v2.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss& ***!
-  \*******************************************************************************************************/
+/***/ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Register-v1.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ResetPassword-v2.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263& ***!
-  \****************************************************************************************************/
+/***/ "./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891& ***!
+  \*********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Register-v1.vue?vue&type=template&id=51e58263& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Register-v1.vue?vue&type=template&id=51e58263&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ResetPassword-v2.vue?vue&type=template&id=5ad01891& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/ResetPassword-v2.vue?vue&type=template&id=5ad01891&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Register_v1_vue_vue_type_template_id_51e58263___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ResetPassword_v2_vue_vue_type_template_id_5ad01891___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

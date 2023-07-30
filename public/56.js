@@ -1,26 +1,23 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[56],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _CalendarBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBasic.vue */ "./resources/js/src/views/components/calendar/CalendarBasic.vue");
-/* harmony import */ var _CalendarDisableReadonlyStates_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue");
-/* harmony import */ var _CalendarMinMaxRange_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue");
-/* harmony import */ var _CalendarDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CalendarDisableDate.vue */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue");
-/* harmony import */ var _CalendarVariant_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CalendarVariant.vue */ "./resources/js/src/views/components/calendar/CalendarVariant.vue");
-/* harmony import */ var _CalendarWidth_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CalendarWidth.vue */ "./resources/js/src/views/components/calendar/CalendarWidth.vue");
-/* harmony import */ var _CalendarStringFormat_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CalendarStringFormat.vue */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue");
-/* harmony import */ var _CalendarBorderPadding_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CalendarBorderPadding.vue */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue");
-/* harmony import */ var _CalendarSlot_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CalendarSlot.vue */ "./resources/js/src/views/components/calendar/CalendarSlot.vue");
-/* harmony import */ var _CalendarCustomClass_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./CalendarCustomClass.vue */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue");
-/* harmony import */ var _CalendarInternationalization_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./CalendarInternationalization.vue */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
 //
 //
 //
@@ -60,6 +57,177 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default.a,
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardSubTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardSubTitle"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_3__["default"],
+      rangePicker: ['2019-05-01', '2019-05-10']
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardText"],
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default.a
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_3__["default"],
+      rangePicker: ['2019-05-01', '2019-05-10']
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _ApexLineChart_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexLineChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue");
+/* harmony import */ var _ApexLineAreaChart_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ApexLineAreaChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue");
+/* harmony import */ var _ApexDataBarChart_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ApexDataBarChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue");
+/* harmony import */ var _ApexBarChart_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ApexBarChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue");
+/* harmony import */ var _ApexCandlestickChart_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ApexCandlestickChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue");
+/* harmony import */ var _ApexScatterChart_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ApexScatterChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue");
+/* harmony import */ var _ApexHeatMapChart_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ApexHeatMapChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue");
+/* harmony import */ var _ApexDonutChart_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ApexDonutChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue");
+/* harmony import */ var _ApexRadialBarChart_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ApexRadialBarChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue");
+/* harmony import */ var _ApexRadarChart_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ApexRadarChart.vue */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -75,40 +243,37 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    CalendarBasic: _CalendarBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    CalendarDisableReadonlyStates: _CalendarDisableReadonlyStates_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    CalendarMinMaxRange: _CalendarMinMaxRange_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    CalendarDisableDate: _CalendarDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    CalendarVariant: _CalendarVariant_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    CalendarWidth: _CalendarWidth_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    CalendarStringFormat: _CalendarStringFormat_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    CalendarBorderPadding: _CalendarBorderPadding_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    CalendarSlot: _CalendarSlot_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    CalendarCustomClass: _CalendarCustomClass_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
-    CalendarInternationalization: _CalendarInternationalization_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
+    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BLink"],
+    ApexLineChart: _ApexLineChart_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    ApexLineAreaChart: _ApexLineAreaChart_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    ApexDataBarChart: _ApexDataBarChart_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    ApexBarChart: _ApexBarChart_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    ApexCandlestickChart: _ApexCandlestickChart_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    ApexScatterChart: _ApexScatterChart_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    ApexHeatMapChart: _ApexHeatMapChart_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    ApexDonutChart: _ApexDonutChart_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    ApexRadarChart: _ApexRadarChart_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
+    ApexRadialBarChart: _ApexRadialBarChart_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js");
-/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prismjs__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prismjs/themes/prism-tomorrow.css */ "./node_modules/prismjs/themes/prism-tomorrow.css");
-/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
 //
 //
 //
@@ -145,349 +310,42 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default.a
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default.a,
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"]
   },
   data: function data() {
     return {
-      value: '',
-      context: null,
-      codeBasic: _code__WEBPACK_IMPORTED_MODULE_5__["codeBasic"]
-    };
-  },
-  methods: {
-    onContext: function onContext(ctx) {
-      this.context = ctx;
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeBorderPadding: _code__WEBPACK_IMPORTED_MODULE_2__["codeBorderPadding"]
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_3__["default"],
+      rangePicker: ['2019-05-01', '2019-05-10']
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      codeCustomClass: _code__WEBPACK_IMPORTED_MODULE_2__["codeCustomClass"]
-    };
-  },
-  methods: {
-    dateClass: function dateClass(ymd, date) {
-      var day = date.getDate();
-      return day >= 10 && day <= 20 ? 'table-primary' : '';
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      codeDisableDate: _code__WEBPACK_IMPORTED_MODULE_2__["codeDisableDate"]
-    };
-  },
-  methods: {
-    dateDisabled: function dateDisabled(ymd, date) {
-      // Disable weekends (Sunday = `0`, Saturday = `6`) and
-      // disable days that fall on the 13th of the month
-      var weekday = date.getDay();
-      var day = date.getDate(); // Return `true` if the date should be disabled
-
-      return weekday === 0 || weekday === 6 || day === 13;
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
-    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      state: 'disabled',
-      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
-    };
-  },
-  computed: {
-    disabled: function disabled() {
-      return this.state === 'disabled';
-    },
-    readonly: function readonly() {
-      return this.state === 'readonly';
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
-/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js");
-/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prismjs__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prismjs/themes/prism-tomorrow.css */ "./node_modules/prismjs/themes/prism-tomorrow.css");
-/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
 //
 //
 //
@@ -506,39 +364,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BCardSubTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardSubTitle"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_2__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
 //
 //
 //
@@ -583,459 +440,794 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BDropdown"],
+    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BDropdownItem"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_2__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-flatpickr-component */ "./node_modules/vue-flatpickr-component/dist/vue-flatpickr.min.js");
+/* harmony import */ var vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
-    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default.a
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BCardSubTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardSubTitle"],
+    flatPickr: vue_flatpickr_component__WEBPACK_IMPORTED_MODULE_2___default.a
   },
   data: function data() {
     return {
-      value: '',
-      codeInternationalization: _code__WEBPACK_IMPORTED_MODULE_5__["codeInternationalization"],
-      context: null,
-      showDecadeNav: false,
-      hideHeader: false,
-      locale: 'en-US',
-      locales: [{
-        value: 'en-US',
-        text: 'English US (en-US)'
-      }, {
-        value: 'de',
-        text: 'German (de)'
-      }, {
-        value: 'ar-EG',
-        text: 'Arabic Egyptian (ar-EG)'
-      }, {
-        value: 'zh',
-        text: 'Chinese (zh)'
-      }],
-      weekday: 0,
-      weekdays: [{
-        value: 0,
-        text: 'Sunday'
-      }, {
-        value: 1,
-        text: 'Monday'
-      }, {
-        value: 6,
-        text: 'Saturday'
-      }],
-      labels: {
-        de: {
-          labelPrevDecade: 'Vorheriges Jahrzehnt',
-          labelPrevYear: 'Vorheriges Jahr',
-          labelPrevMonth: 'Vorheriger Monat',
-          labelCurrentMonth: 'Aktueller Monat',
-          labelNextMonth: 'Nächster Monat',
-          labelNextYear: 'Nächstes Jahr',
-          labelNextDecade: 'Nächstes Jahrzehnt',
-          labelToday: 'Heute',
-          labelSelected: 'Ausgewähltes Datum',
-          labelNoDateSelected: 'Kein Datum gewählt',
-          labelCalendar: 'Kalender',
-          labelNav: 'Kalendernavigation',
-          labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren'
-        },
-        'ar-EG': {
-          labelPrevDecade: 'العقد السابق',
-          labelPrevYear: 'العام السابق',
-          labelPrevMonth: 'الشهر السابق',
-          labelCurrentMonth: 'الشهر الحالي',
-          labelNextMonth: 'الشهر المقبل',
-          labelNextYear: 'العام المقبل',
-          labelNextDecade: 'العقد القادم',
-          labelToday: 'اليوم',
-          labelSelected: 'التاريخ المحدد',
-          labelNoDateSelected: 'لم يتم اختيار تاريخ',
-          labelCalendar: 'التقويم',
-          labelNav: 'الملاحة التقويم',
-          labelHelp: 'استخدم مفاتيح المؤشر للتنقل في التواريخ'
-        },
-        zh: {
-          labelPrevDecade: '过去十年',
-          labelPrevYear: '上一年',
-          labelPrevMonth: '上个月',
-          labelCurrentMonth: '当前月份',
-          labelNextMonth: '下个月',
-          labelNextYear: '明年',
-          labelNextDecade: '下一个十年',
-          labelToday: '今天',
-          labelSelected: '选定日期',
-          labelNoDateSelected: '未选择日期',
-          labelCalendar: '日历',
-          labelNav: '日历导航',
-          labelHelp: '使用光标键浏览日期'
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_3__["default"],
+      rangePicker: ['2019-05-01', '2019-05-10']
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BBadge: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BBadge"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BCardSubTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardSubTitle"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_2__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_2__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardTitle"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_2__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-apexcharts */ "./node_modules/vue-apexcharts/dist/vue-apexcharts.js");
+/* harmony import */ var vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_apexcharts__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
+/* harmony import */ var _apexChartData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./apexChartData */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCard"],
+    VueApexCharts: vue_apexcharts__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BCardHeader: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardHeader"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardBody"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
+    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"]
+  },
+  directives: {
+    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  data: function data() {
+    return {
+      apexChatData: _apexChartData__WEBPACK_IMPORTED_MODULE_3__["default"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/string-repeat.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/internals/string-repeat.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
+
+// `String.prototype.repeat` method implementation
+// https://tc39.es/ecma262/#sec-string.prototype.repeat
+module.exports = function repeat(count) {
+  var str = toString(requireObjectCoercible(this));
+  var result = '';
+  var n = toInteger(count);
+  if (n < 0 || n == Infinity) throw RangeError('Wrong number of repetitions');
+  for (;n > 0; (n >>>= 1) && (str += str)) if (n & 1) result += str;
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/internals/this-number-value.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/internals/this-number-value.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var valueOf = 1.0.valueOf;
+
+// `thisNumberValue` abstract operation
+// https://tc39.es/ecma262/#sec-thisnumbervalue
+module.exports = function (value) {
+  return valueOf.call(value);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/es.number.to-fixed.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.number.to-fixed.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
+var thisNumberValue = __webpack_require__(/*! ../internals/this-number-value */ "./node_modules/core-js/internals/this-number-value.js");
+var repeat = __webpack_require__(/*! ../internals/string-repeat */ "./node_modules/core-js/internals/string-repeat.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+
+var nativeToFixed = 1.0.toFixed;
+var floor = Math.floor;
+
+var pow = function (x, n, acc) {
+  return n === 0 ? acc : n % 2 === 1 ? pow(x, n - 1, acc * x) : pow(x * x, n / 2, acc);
+};
+
+var log = function (x) {
+  var n = 0;
+  var x2 = x;
+  while (x2 >= 4096) {
+    n += 12;
+    x2 /= 4096;
+  }
+  while (x2 >= 2) {
+    n += 1;
+    x2 /= 2;
+  } return n;
+};
+
+var multiply = function (data, n, c) {
+  var index = -1;
+  var c2 = c;
+  while (++index < 6) {
+    c2 += n * data[index];
+    data[index] = c2 % 1e7;
+    c2 = floor(c2 / 1e7);
+  }
+};
+
+var divide = function (data, n) {
+  var index = 6;
+  var c = 0;
+  while (--index >= 0) {
+    c += data[index];
+    data[index] = floor(c / n);
+    c = (c % n) * 1e7;
+  }
+};
+
+var dataToString = function (data) {
+  var index = 6;
+  var s = '';
+  while (--index >= 0) {
+    if (s !== '' || index === 0 || data[index] !== 0) {
+      var t = String(data[index]);
+      s = s === '' ? t : s + repeat.call('0', 7 - t.length) + t;
+    }
+  } return s;
+};
+
+var FORCED = nativeToFixed && (
+  0.00008.toFixed(3) !== '0.000' ||
+  0.9.toFixed(0) !== '1' ||
+  1.255.toFixed(2) !== '1.25' ||
+  1000000000000000128.0.toFixed(0) !== '1000000000000000128'
+) || !fails(function () {
+  // V8 ~ Android 4.3-
+  nativeToFixed.call({});
+});
+
+// `Number.prototype.toFixed` method
+// https://tc39.es/ecma262/#sec-number.prototype.tofixed
+$({ target: 'Number', proto: true, forced: FORCED }, {
+  toFixed: function toFixed(fractionDigits) {
+    var number = thisNumberValue(this);
+    var fractDigits = toInteger(fractionDigits);
+    var data = [0, 0, 0, 0, 0, 0];
+    var sign = '';
+    var result = '0';
+    var e, z, j, k;
+
+    if (fractDigits < 0 || fractDigits > 20) throw RangeError('Incorrect fraction digits');
+    // eslint-disable-next-line no-self-compare -- NaN check
+    if (number != number) return 'NaN';
+    if (number <= -1e21 || number >= 1e21) return String(number);
+    if (number < 0) {
+      sign = '-';
+      number = -number;
+    }
+    if (number > 1e-21) {
+      e = log(number * pow(2, 69, 1)) - 69;
+      z = e < 0 ? number * pow(2, -e, 1) : number / pow(2, e, 1);
+      z *= 0x10000000000000;
+      e = 52 - e;
+      if (e > 0) {
+        multiply(data, 0, z);
+        j = fractDigits;
+        while (j >= 7) {
+          multiply(data, 1e7, 0);
+          j -= 7;
         }
+        multiply(data, pow(10, j, 1), 0);
+        j = e - 1;
+        while (j >= 23) {
+          divide(data, 1 << 23);
+          j -= 23;
+        }
+        divide(data, 1 << j);
+        multiply(data, 1, 1);
+        divide(data, 2);
+        result = dataToString(data);
+      } else {
+        multiply(data, 0, z);
+        multiply(data, 1 << -e, 0);
+        result = dataToString(data) + repeat.call('0', fractDigits);
       }
-    };
-  },
-  methods: {
-    onContext: function onContext(ctx) {
-      this.context = ctx;
     }
+    if (fractDigits > 0) {
+      k = result.length;
+      result = sign + (k <= fractDigits
+        ? '0.' + repeat.call('0', fractDigits - k) + result
+        : result.slice(0, k - fractDigits) + '.' + result.slice(k - fractDigits));
+    } else {
+      result = sign + result;
+    } return result;
   }
 });
 
+
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
+/***/ "./node_modules/core-js/modules/es.regexp.to-string.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.regexp.to-string.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var PROPER_FUNCTION_NAME = __webpack_require__(/*! ../internals/function-name */ "./node_modules/core-js/internals/function-name.js").PROPER;
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
+var $toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var flags = __webpack_require__(/*! ../internals/regexp-flags */ "./node_modules/core-js/internals/regexp-flags.js");
+
+var TO_STRING = 'toString';
+var RegExpPrototype = RegExp.prototype;
+var nativeToString = RegExpPrototype[TO_STRING];
+
+var NOT_GENERIC = fails(function () { return nativeToString.call({ source: 'a', flags: 'b' }) != '/a/b'; });
+// FF44- RegExp#toString has a wrong name
+var INCORRECT_NAME = PROPER_FUNCTION_NAME && nativeToString.name != TO_STRING;
+
+// `RegExp.prototype.toString` method
+// https://tc39.es/ecma262/#sec-regexp.prototype.tostring
+if (NOT_GENERIC || INCORRECT_NAME) {
+  redefine(RegExp.prototype, TO_STRING, function toString() {
+    var R = anObject(this);
+    var p = $toString(R.source);
+    var rf = R.flags;
+    var f = $toString(rf === undefined && R instanceof RegExp && !('flags' in RegExpPrototype) ? flags.call(R) : rf);
+    return '/' + p + '/' + f;
+  }, { unsafe: true });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../../../../../../node_modules/css-loader/dist/cjs.js!flatpickr/dist/flatpickr.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/flatpickr/dist/flatpickr.css");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
+// Module
+exports.push([module.i, ".flatpickr-calendar .flatpickr-day {\n  color: #6e6b7b;\n}\n[dir] .flatpickr-calendar .flatpickr-day.today {\n  border-color: #7367f0;\n}\n.flatpickr-calendar .flatpickr-day.today:hover {\n  color: #6e6b7b;\n}\n[dir] .flatpickr-calendar .flatpickr-day.today:hover {\n  background: transparent;\n}\n.flatpickr-calendar .flatpickr-day.selected, .flatpickr-calendar .flatpickr-day.selected:hover {\n  color: #fff;\n}\n[dir] .flatpickr-calendar .flatpickr-day.selected, [dir] .flatpickr-calendar .flatpickr-day.selected:hover {\n  background: #7367f0;\n  border-color: #7367f0;\n}\n[dir] .flatpickr-calendar .flatpickr-day.inRange, [dir] .flatpickr-calendar .flatpickr-day.inRange:hover {\n  background: #f3f2fe;\n  border-color: #f3f2fe;\n}\n[dir=ltr] .flatpickr-calendar .flatpickr-day.inRange, [dir=ltr] .flatpickr-calendar .flatpickr-day.inRange:hover {\n  box-shadow: -5px 0 0 #f3f2fe, 5px 0 0 #f3f2fe;\n}\n[dir=rtl] .flatpickr-calendar .flatpickr-day.inRange, [dir=rtl] .flatpickr-calendar .flatpickr-day.inRange:hover {\n  box-shadow: 5px 0 0 #f3f2fe, -5px 0 0 #f3f2fe;\n}\n.flatpickr-calendar .flatpickr-day.startRange, .flatpickr-calendar .flatpickr-day.endRange, .flatpickr-calendar .flatpickr-day.startRange:hover, .flatpickr-calendar .flatpickr-day.endRange:hover {\n  color: #fff;\n}\n[dir] .flatpickr-calendar .flatpickr-day.startRange, [dir] .flatpickr-calendar .flatpickr-day.endRange, [dir] .flatpickr-calendar .flatpickr-day.startRange:hover, [dir] .flatpickr-calendar .flatpickr-day.endRange:hover {\n  background: #7367f0;\n  border-color: #7367f0;\n}\n[dir=ltr] .flatpickr-calendar .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), [dir=ltr] .flatpickr-calendar .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)), [dir=ltr] .flatpickr-calendar .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {\n  box-shadow: -10px 0 0 #7367f0;\n}\n[dir=rtl] .flatpickr-calendar .flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), [dir=rtl] .flatpickr-calendar .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)), [dir=rtl] .flatpickr-calendar .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {\n  box-shadow: 10px 0 0 #7367f0;\n}\n.flatpickr-calendar .flatpickr-day.flatpickr-disabled, .flatpickr-calendar .flatpickr-day.prevMonthDay, .flatpickr-calendar .flatpickr-day.nextMonthDay {\n  color: #dae1e7;\n}\n[dir] .flatpickr-calendar .flatpickr-day:hover {\n  background: #f6f6f6;\n}\n.flatpickr-calendar:after, .flatpickr-calendar:before {\n  display: none;\n}\n.flatpickr-calendar .flatpickr-months .flatpickr-prev-month,\n.flatpickr-calendar .flatpickr-months .flatpickr-next-month {\n  top: -5px;\n}\n.flatpickr-calendar .flatpickr-months .flatpickr-prev-month:hover i, .flatpickr-calendar .flatpickr-months .flatpickr-prev-month:hover svg,\n.flatpickr-calendar .flatpickr-months .flatpickr-next-month:hover i,\n.flatpickr-calendar .flatpickr-months .flatpickr-next-month:hover svg {\n  fill: #7367f0;\n}\n.flatpickr-calendar .flatpickr-current-month span.cur-month {\n  font-weight: 300;\n}\n.flatpickr-calendar.open {\n  z-index: 1051;\n}\n.flatpickr-calendar.hasTime.open .flatpickr-time {\n  height: auto;\n}\n[dir] .flatpickr-time input:hover, [dir] .flatpickr-time .flatpickr-am-pm:hover, [dir] .flatpickr-time input:focus, [dir] .flatpickr-time .flatpickr-am-pm:focus {\n  background: #fff;\n}\n[dir] .dark-layout .flatpickr-calendar {\n  background: #161d31;\n  border-color: #161d31;\n  box-shadow: none;\n}\n.dark-layout .flatpickr-calendar .flatpickr-months i,\n.dark-layout .flatpickr-calendar .flatpickr-months svg {\n  fill: #b4b7bd;\n}\n.dark-layout .flatpickr-calendar .flatpickr-month {\n  color: #b4b7bd;\n}\n[dir=ltr] .dark-layout .flatpickr-calendar .flatpickr-weekwrapper .flatpickr-weeks {\n  box-shadow: 1px 0 0 #3b4253;\n}\n[dir=rtl] .dark-layout .flatpickr-calendar .flatpickr-weekwrapper .flatpickr-weeks {\n  box-shadow: -1px 0 0 #3b4253;\n}\n.dark-layout .flatpickr-calendar .flatpickr-weekday {\n  color: #b4b7bd;\n}\n.dark-layout .flatpickr-calendar .flatpickr-day, .dark-layout .flatpickr-calendar .flatpickr-day.today:hover {\n  color: #b4b7bd;\n}\n.dark-layout .flatpickr-calendar .flatpickr-day.selected {\n  color: #fff;\n}\n.dark-layout .flatpickr-calendar .flatpickr-day.prevMonthDay, .dark-layout .flatpickr-calendar .flatpickr-day.nextMonthDay, .dark-layout .flatpickr-calendar .flatpickr-day.flatpickr-disabled {\n  color: #4e5154 !important;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-day.inRange, [dir] .dark-layout .flatpickr-calendar .flatpickr-day.inRange:hover {\n  background: #283046;\n  border-color: #283046;\n}\n[dir=ltr] .dark-layout .flatpickr-calendar .flatpickr-day.inRange, [dir=ltr] .dark-layout .flatpickr-calendar .flatpickr-day.inRange:hover {\n  box-shadow: -5px 0 0 #283046, 5px 0 0 #283046;\n}\n[dir=rtl] .dark-layout .flatpickr-calendar .flatpickr-day.inRange, [dir=rtl] .dark-layout .flatpickr-calendar .flatpickr-day.inRange:hover {\n  box-shadow: 5px 0 0 #283046, -5px 0 0 #283046;\n}\n.dark-layout .flatpickr-calendar .flatpickr-day:hover:not(.selected):not(.today):not(.startRange):not(.endRange) {\n  color: #b4b7bd;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-day:hover:not(.selected):not(.today):not(.startRange):not(.endRange) {\n  border-color: #283046;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-days .flatpickr-day:hover:not(.selected):not(.today):not(.startRange):not(.endRange), [dir] .dark-layout .flatpickr-calendar .flatpickr-days .flatpickr-day:focus:not(.selected):not(.today):not(.startRange):not(.endRange) {\n  background: #283046;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-time {\n  border-color: #161d31 !important;\n}\n.dark-layout .flatpickr-calendar .flatpickr-time .numInput,\n.dark-layout .flatpickr-calendar .flatpickr-time .flatpickr-am-pm {\n  color: #b4b7bd;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-time .numInput:hover, [dir] .dark-layout .flatpickr-calendar .flatpickr-time .flatpickr-am-pm:hover {\n  background: #161d31;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-time .arrowUp:after {\n  border-bottom-color: #b4b7bd;\n}\n[dir] .dark-layout .flatpickr-calendar .flatpickr-time .arrowDown:after {\n  border-top-color: #b4b7bd;\n}\n[dir] .dark-layout .flatpickr-time input:hover, [dir] .dark-layout .flatpickr-time .flatpickr-am-pm:hover, [dir] .dark-layout .flatpickr-time input:focus, [dir] .dark-layout .flatpickr-time .flatpickr-am-pm:focus {\n  background: #161d31;\n}\n.flatpickr-input[readonly],\n.flatpickr-input ~ .form-control[readonly],\n.flatpickr-human-friendly[readonly] {\n  opacity: 1 !important;\n}\n[dir] .flatpickr-input[readonly], [dir] .flatpickr-input ~ .form-control[readonly], [dir] .flatpickr-human-friendly[readonly] {\n  background-color: inherit;\n}\n[dir] .flatpickr-weekdays {\n  margin-top: 8px;\n}\n.flatpickr-current-month .flatpickr-monthDropdown-months {\n  -webkit-appearance: none;\n}\n.flatpickr-current-month .flatpickr-monthDropdown-months,\n.flatpickr-current-month .numInputWrapper {\n  font-size: 1.1rem;\n  transition: all 0.15s ease-out;\n}\n[dir] .flatpickr-current-month .flatpickr-monthDropdown-months, [dir] .flatpickr-current-month .numInputWrapper {\n  border-radius: 4px;\n  padding: 2px;\n}\n.flatpickr-current-month .flatpickr-monthDropdown-months span,\n.flatpickr-current-month .numInputWrapper span {\n  display: none;\n}\nhtml[dir=rtl] .flatpickr-calendar .flatpickr-prev-month svg,\nhtml[dir=rtl] .flatpickr-calendar .flatpickr-next-month svg {\n  transform: rotate(180deg);\n}\n.apexcharts-canvas line[stroke=transparent] {\n  display: none;\n}\n[dir] .apexcharts-canvas .apexcharts-tooltip {\n  background: #fff;\n  border-color: #ebe9f1;\n}\n.apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-title {\n  font-weight: 600;\n}\n[dir] .apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-title {\n  background: #fff !important;\n  border-color: #ebe9f1 !important;\n}\n.apexcharts-canvas .apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-text-label,\n.apexcharts-canvas .apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-text-value {\n  color: #fff;\n}\n[dir] .apexcharts-canvas .apexcharts-xaxistooltip, [dir] .apexcharts-canvas .apexcharts-yaxistooltip {\n  background: #f8f8f8;\n  border-color: #ebe9f1;\n}\n[dir] .apexcharts-canvas .apexcharts-xaxistooltip-bottom:before {\n  border-bottom-color: #ebe9f1;\n}\n[dir] .apexcharts-canvas .apexcharts-xaxistooltip-bottom::after {\n  border-bottom-color: #f8f8f8;\n}\n[dir] .apexcharts-canvas .apexcharts-xaxistooltip-top:before {\n  border-top-color: #ebe9f1;\n}\n[dir] .apexcharts-canvas .apexcharts-xaxistooltip-top::after {\n  border-top-color: #f8f8f8;\n}\n[dir=ltr] .apexcharts-canvas .apexcharts-yaxistooltip-left:before {\n  border-left-color: #ebe9f1;\n}\n[dir=rtl] .apexcharts-canvas .apexcharts-yaxistooltip-left:before {\n  border-right-color: #ebe9f1;\n}\n[dir=ltr] .apexcharts-canvas .apexcharts-yaxistooltip-left:after {\n  border-left-color: #f8f8f8;\n}\n[dir=rtl] .apexcharts-canvas .apexcharts-yaxistooltip-left:after {\n  border-right-color: #f8f8f8;\n}\n[dir=ltr] .apexcharts-canvas .apexcharts-yaxistooltip-right:before {\n  border-right-color: #ebe9f1;\n}\n[dir=rtl] .apexcharts-canvas .apexcharts-yaxistooltip-right:before {\n  border-left-color: #ebe9f1;\n}\n[dir=ltr] .apexcharts-canvas .apexcharts-yaxistooltip-right:after {\n  border-right-color: #f8f8f8;\n}\n[dir=rtl] .apexcharts-canvas .apexcharts-yaxistooltip-right:after {\n  border-left-color: #f8f8f8;\n}\n.apexcharts-canvas .apexcharts-text,\n.apexcharts-canvas .apexcharts-tooltip-text,\n.apexcharts-canvas .apexcharts-datalabel-label,\n.apexcharts-canvas .apexcharts-datalabel {\n  font-family: Helvetica, Arial, serif !important;\n  fill: #6e6b7b;\n  font-weight: 400;\n  filter: none;\n}\n.apexcharts-canvas .apexcharts-pie-label {\n  fill: white;\n  filter: none;\n}\n.apexcharts-canvas .apexcharts-pie .apexcharts-pie-series .apexcharts-pie-area {\n  stroke-width: 0;\n}\n.apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-label,\n.apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-value {\n  font-size: 1.5rem;\n}\n[dir] .apexcharts-canvas .apexcharts-marker {\n  box-shadow: none;\n}\n[dir] .apexcharts-canvas .apexcharts-legend-series + .apexcharts-legend-series {\n  margin-top: 0.625rem;\n}\n.apexcharts-canvas .apexcharts-legend-series .apexcharts-legend-text {\n  color: #6e6b7b !important;\n  font-size: 1rem !important;\n}\n[dir=ltr] .apexcharts-canvas .apexcharts-legend-series .apexcharts-legend-text {\n  margin-left: 0.5rem;\n}\n[dir=rtl] .apexcharts-canvas .apexcharts-legend-series .apexcharts-legend-text {\n  margin-right: 0.5rem;\n}\n.apexcharts-canvas .apexcharts-xcrosshairs,\n.apexcharts-canvas .apexcharts-ycrosshairs,\n.apexcharts-canvas .apexcharts-gridline {\n  stroke: #ebe9f1;\n}\n.apexcharts-legend.position-bottom {\n  bottom: 3rem;\n}\n.dark-layout .apexcharts-canvas .apexcharts-xaxis-tick,\n.dark-layout .apexcharts-canvas line {\n  stroke: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-heatmap .apexcharts-heatmap-rect {\n  stroke: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-radialbar .apexcharts-radialbar-track .apexcharts-radialbar-area {\n  stroke: #161d31;\n}\n.dark-layout .apexcharts-canvas .apexcharts-radar-series polygon {\n  fill: #161d31;\n  stroke: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-datalabels-group .apexcharts-datalabel-value {\n  fill: #fff;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-tooltip {\n  background: #283046;\n  border-color: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-title {\n  color: #fff;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-title {\n  background: #283046 !important;\n  border-color: #3b4253 !important;\n}\n.dark-layout .apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-text-label,\n.dark-layout .apexcharts-canvas .apexcharts-tooltip .apexcharts-tooltip-text-value {\n  color: #fff;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip-bottom:before {\n  border-bottom-color: #3b4253;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip-bottom::after {\n  border-bottom-color: #161d31;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip-top:before {\n  border-top-color: #3b4253;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip-top::after {\n  border-top-color: #161d31;\n}\n[dir=ltr] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-left:before {\n  border-left-color: #3b4253;\n}\n[dir=rtl] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-left:before {\n  border-right-color: #3b4253;\n}\n[dir=ltr] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-left:after {\n  border-left-color: #161d31;\n}\n[dir=rtl] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-left:after {\n  border-right-color: #161d31;\n}\n[dir=ltr] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-right:before {\n  border-right-color: #3b4253;\n}\n[dir=rtl] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-right:before {\n  border-left-color: #3b4253;\n}\n[dir=ltr] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-right:after {\n  border-right-color: #161d31;\n}\n[dir=rtl] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip-right:after {\n  border-left-color: #161d31;\n}\n[dir] .dark-layout .apexcharts-canvas .apexcharts-xaxistooltip, [dir] .dark-layout .apexcharts-canvas .apexcharts-yaxistooltip {\n  background: #161d31;\n  border-color: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-xaxistooltip .apexcharts-xaxistooltip-text,\n.dark-layout .apexcharts-canvas .apexcharts-xaxistooltip .apexcharts-yaxistooltip-text,\n.dark-layout .apexcharts-canvas .apexcharts-yaxistooltip .apexcharts-xaxistooltip-text,\n.dark-layout .apexcharts-canvas .apexcharts-yaxistooltip .apexcharts-yaxistooltip-text {\n  color: #fff;\n}\n.dark-layout .apexcharts-canvas .apexcharts-xaxistooltip .apexcharts-xaxistooltip-text {\n  color: #fff;\n}\n.dark-layout .apexcharts-canvas .apexcharts-yaxis-label,\n.dark-layout .apexcharts-canvas .apexcharts-xaxis-label,\n.dark-layout .apexcharts-canvas .apexcharts-tooltip-text,\n.dark-layout .apexcharts-canvas .apexcharts-datalabel-label {\n  fill: #b4b7bd;\n}\n.dark-layout .apexcharts-canvas .apexcharts-marker {\n  stroke: #3b4253;\n}\n.dark-layout .apexcharts-canvas .apexcharts-legend-series .apexcharts-legend-text {\n  color: #b4b7bd !important;\n}\n.dark-layout .apexcharts-canvas .apexcharts-xcrosshairs,\n.dark-layout .apexcharts-canvas .apexcharts-ycrosshairs,\n.dark-layout .apexcharts-canvas .apexcharts-gridline {\n  stroke: #3b4253;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexChart.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a&":
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a& ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card",
+    { attrs: { "no-body": "" } },
+    [
+      _c("b-card-header", [
+        _c(
+          "div",
+          [
+            _c("b-card-sub-title", { staticClass: "mb-25" }, [
+              _vm._v("\n        Balance\n      ")
+            ]),
+            _vm._v(" "),
+            _c("b-card-title", { staticClass: "font-weight-bolder" }, [
+              _vm._v("\n        $74,382.72\n      ")
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "d-flex align-items-center" },
+          [
+            _c("feather-icon", { attrs: { icon: "CalendarIcon", size: "16" } }),
+            _vm._v(" "),
+            _c("flat-pickr", {
+              staticClass:
+                "form-control flat-picker bg-transparent border-0 shadow-none",
+              attrs: { config: { mode: "range" }, placeholder: "YYYY-MM-DD" },
+              model: {
+                value: _vm.rangePicker,
+                callback: function($$v) {
+                  _vm.rangePicker = $$v
+                },
+                expression: "rangePicker"
+              }
+            })
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-card-body",
+        [
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "bar",
+              height: "350",
+              options: _vm.apexChatData.barChart.chartOptions,
+              series: _vm.apexChatData.barChart.series
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
 
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    var now = new Date();
-    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // 15th two months prior
-
-    var minDate = new Date(today);
-    minDate.setMonth(minDate.getMonth() - 2);
-    minDate.setDate(15); // 15th in two months
-
-    var maxDate = new Date(today);
-    maxDate.setMonth(maxDate.getMonth() + 2);
-    maxDate.setDate(15);
-    return {
-      value: '',
-      codeMinMaxRange: _code__WEBPACK_IMPORTED_MODULE_2__["codeMinMaxRange"],
-      min: minDate,
-      max: maxDate
-    };
-  }
-});
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************/
-/*! exports provided: default */
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a&":
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a& ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card",
+    { attrs: { "no-body": "" } },
+    [
+      _c("b-card-header", [
+        _c(
+          "div",
+          [
+            _c("b-card-title", { staticClass: "mb-50" }, [
+              _vm._v("\n        Stocks Prices\n      ")
+            ]),
+            _vm._v(" "),
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v("\n        $50,863.98\n      ")
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "d-flex align-items-center" },
+          [
+            _c("feather-icon", { attrs: { icon: "CalendarIcon", size: "16" } }),
+            _vm._v(" "),
+            _c("flat-pickr", {
+              staticClass:
+                "form-control flat-picker bg-transparent border-0 shadow-none",
+              attrs: { config: { mode: "range" }, placeholder: "YYYY-MM-DD" },
+              model: {
+                value: _vm.rangePicker,
+                callback: function($$v) {
+                  _vm.rangePicker = $$v
+                },
+                expression: "rangePicker"
+              }
+            })
+          ],
+          1
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-card-body",
+        [
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "candlestick",
+              height: "400",
+              options: _vm.apexChatData.candlestickChart.chartOptions,
+              series: _vm.apexChatData.candlestickChart.series
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
 
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: null,
-      codeSlot: _code__WEBPACK_IMPORTED_MODULE_2__["codeSlot"]
-    };
-  },
-  methods: {
-    setToday: function setToday() {
-      var now = new Date();
-      this.value = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    },
-    clearDate: function clearDate() {
-      this.value = '';
-    }
-  }
-});
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
-  },
-  data: function data() {
-    return {
-      codeFormat: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormat"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeVariant: _code__WEBPACK_IMPORTED_MODULE_2__["codeVariant"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeWidth: _code__WEBPACK_IMPORTED_MODULE_2__["codeWidth"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1049,33 +1241,53 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-row",
+    { staticClass: "match-height" },
     [
-      _c("b-col", { attrs: { cols: "12" } }, [_c("calendar-basic")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [
+        _c(
+          "p",
+          { staticClass: "mb-2" },
+          [
+            _c("span", [
+              _vm._v(
+                "A Vue.js component for ApexCharts. Read full documnetation"
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "b-link",
+              {
+                attrs: {
+                  target: "_blank",
+                  href: "https://apexcharts.com/docs/installation/"
+                }
+              },
+              [_vm._v("\n        here\n      ")]
+            )
+          ],
+          1
+        )
+      ]),
       _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { md: "6" } },
-        [_c("calendar-disable-readonly-states")],
-        1
-      ),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("apex-line-area-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-disable-date")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("apex-data-bar-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-min-max-range")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("apex-scatter-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-variant")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("apex-line-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-width")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-bar-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-border-padding")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-candlestick-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { cols: "12" } }, [_c("calendar-string-format")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-heat-map-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-slot")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-radial-bar-chart")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-custom-class")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-radar-chart")], 1),
       _vm._v(" "),
-      _c("b-col", [_c("calendar-internationalization")], 1)
+      _c("b-col", { attrs: { md: "6" } }, [_c("apex-donut-chart")], 1)
     ],
     1
   )
@@ -1087,10 +1299,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&":
-/*!***********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044& ***!
-  \***********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d&":
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d& ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1103,222 +1315,52 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Calendar" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeBasic) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
+    "b-card",
+    { attrs: { "no-body": "" } },
     [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _c("span", [_vm._v("BootstrapVue's custom ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-calendar>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      component generates a WAI-ARIA compliant calendar style date selection widget, which can be used to control\n      other components, or can be used to create customized date picker inputs.\n    "
-          )
-        ])
-      ]),
-      _vm._v(" "),
       _c(
-        "b-row",
-        { staticClass: "text-center" },
+        "b-card-header",
         [
+          _c("b-card-title", { staticClass: "mb-50" }, [
+            _vm._v("\n      Data Science\n    ")
+          ]),
+          _vm._v(" "),
           _c(
-            "b-col",
-            { staticClass: "mt-1", attrs: { md: "6" } },
+            "div",
+            { staticClass: "d-flex align-items-center" },
             [
-              _c("b-calendar", {
-                attrs: { locale: "en-US" },
-                on: { context: _vm.onContext },
+              _c("feather-icon", {
+                attrs: { icon: "CalendarIcon", size: "16" }
+              }),
+              _vm._v(" "),
+              _c("flat-pickr", {
+                staticClass:
+                  "form-control flat-picker bg-transparent border-0 shadow-none",
+                attrs: { config: { mode: "range" }, placeholder: "YYYY-MM-DD" },
                 model: {
-                  value: _vm.value,
+                  value: _vm.rangePicker,
                   callback: function($$v) {
-                    _vm.value = $$v
+                    _vm.rangePicker = $$v
                   },
-                  expression: "value"
+                  expression: "rangePicker"
                 }
               })
             ],
             1
-          ),
-          _vm._v(" "),
-          _c("b-col", { attrs: { md: "6" } }, [
-            _c(
-              "div",
-              { staticClass: "mt-1" },
-              [
-                _c(
-                  "prism",
-                  {
-                    staticClass: "rounded mb-0",
-                    attrs: { language: "javascript" }
-                  },
-                  [
-                    _vm._v(
-                      "\n          Context: " +
-                        _vm._s(_vm.context) +
-                        "\n        "
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&":
-/*!*******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675& ***!
-  \*******************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Calendar Border & padding" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeBorderPadding) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _vm._v(
-          "\n    Fancy a calendar with a border with padding? Use Bootstrap's border and padding utility classes to add borders and\n    padding:\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "d-flex align-items-center justify-content-center" },
-        [
-          _c("b-calendar", {
-            staticClass: "border rounded p-2",
-            attrs: { locale: "en" }
-          })
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Adding CSS classes to specific dates" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeCustomClass) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v("If you need to highlight a specific date or dates, set the ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("date-info-fn")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop to a reference to a function that returns a CSS class string (or array of strings) to apply to the date's\n      cell. The function is passed two arguments:\n    "
           )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("ymd")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" The date as a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("YYYY-MM-DD")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" string, ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("date")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" The date as a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("Date")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" object")])
-      ]),
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "d-flex align-items-center justify-content-center" },
+        "b-card-body",
         [
-          _c("b-calendar", {
-            attrs: { "date-info-fn": _vm.dateClass, locale: "en" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "bar",
+              height: "400",
+              options: _vm.apexChatData.columnChart.chartOptions,
+              series: _vm.apexChatData.columnChart.series
             }
           })
         ],
@@ -1335,204 +1377,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Disabling dates" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDisableDate) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "If you need to disable specific dates within the calendar, specify a function reference to the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("date-disabled-fn")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop. The function is passed two arguments: ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("ymd")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" The date as a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("YYYY-MM-DD")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" string, ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("date")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" The date as a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("Date")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" object")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "d-flex align-items-center justify-content-center" },
-        [
-          _c("b-calendar", {
-            attrs: { "date-disabled-fn": _vm.dateDisabled, locale: "en" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          })
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Disabled and readonly states" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeStates) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Setting the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop will remove all interactivity of the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-calendar>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" component.")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" Setting the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("readonly")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop will disable selecting a date.")])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "d-flex justify-content-center" }, [
-        _c(
-          "div",
-          [
-            _c(
-              "b-form-group",
-              { attrs: { label: "Select calendar interactive state" } },
-              [
-                _c(
-                  "b-form-radio-group",
-                  {
-                    attrs: { "aria-controls": "ex-disabled-readonly" },
-                    model: {
-                      value: _vm.state,
-                      callback: function($$v) {
-                        _vm.state = $$v
-                      },
-                      expression: "state"
-                    }
-                  },
-                  [
-                    _c("b-form-radio", { attrs: { value: "disabled" } }, [
-                      _vm._v("\n            Disabled\n          ")
-                    ]),
-                    _vm._v(" "),
-                    _c("b-form-radio", { attrs: { value: "readonly" } }, [
-                      _vm._v("\n            Readonly\n          ")
-                    ]),
-                    _vm._v(" "),
-                    _c("b-form-radio", { attrs: { value: "normal" } }, [
-                      _vm._v("\n            Normal\n          ")
-                    ])
-                  ],
-                  1
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c("b-calendar", {
-              attrs: {
-                id: "ex-disabled-readonly",
-                disabled: _vm.disabled,
-                readonly: _vm.readonly
-              }
-            })
-          ],
-          1
-        )
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998&":
 /*!**************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998& ***!
   \**************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1546,189 +1393,24 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Internationalization" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [
-              _vm._v("\n    " + _vm._s(_vm.codeInternationalization) + "\n  ")
-            ]
-          },
-          proxy: true
-        }
-      ])
-    },
+    "b-card",
     [
-      _c("b-card-text", [
-        _c("span", [_vm._v("By default ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-calendar>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " will use the browser's default locale, but you can specify the locale (or locales) to use via the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("locale")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop. The prop accepts either a single locale string, or an array of locale strings (listed in order of\n      preferred locale).\n    "
-          )
-        ])
+      _c("b-card-title", { staticClass: "mb-1" }, [
+        _vm._v("\n    Expense Ratio\n  ")
       ]),
       _vm._v(" "),
-      _c(
-        "b-row",
-        [
-          _c(
-            "b-col",
-            { attrs: { cols: "12" } },
-            [
-              _c("label", { attrs: { for: "example-locales" } }, [
-                _vm._v("Locale:")
-              ]),
-              _vm._v(" "),
-              _c("b-form-select", {
-                attrs: { id: "example-locales", options: _vm.locales },
-                model: {
-                  value: _vm.locale,
-                  callback: function($$v) {
-                    _vm.locale = $$v
-                  },
-                  expression: "locale"
-                }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                { staticClass: "mt-2", attrs: { for: "example-weekdays" } },
-                [_vm._v("Start weekday:")]
-              ),
-              _vm._v(" "),
-              _c("b-form-select", {
-                attrs: { id: "example-weekdays", options: _vm.weekdays },
-                model: {
-                  value: _vm.weekday,
-                  callback: function($$v) {
-                    _vm.weekday = $$v
-                  },
-                  expression: "weekday"
-                }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "demo-inline-spacing" }, [
-                _c(
-                  "div",
-                  { staticClass: "d-flex align-items-center" },
-                  [
-                    _c(
-                      "b-form-checkbox",
-                      {
-                        attrs: { switch: "", inline: "" },
-                        model: {
-                          value: _vm.showDecadeNav,
-                          callback: function($$v) {
-                            _vm.showDecadeNav = $$v
-                          },
-                          expression: "showDecadeNav"
-                        }
-                      },
-                      [
-                        _vm._v(
-                          "\n            Show decade navigation buttons\n          "
-                        )
-                      ]
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "d-flex align-items-center" },
-                  [
-                    _c(
-                      "b-form-checkbox",
-                      {
-                        attrs: { switch: "", inline: "" },
-                        model: {
-                          value: _vm.hideHeader,
-                          callback: function($$v) {
-                            _vm.hideHeader = $$v
-                          },
-                          expression: "hideHeader"
-                        }
-                      },
-                      [_vm._v("\n            Hide the date header\n          ")]
-                    )
-                  ],
-                  1
-                )
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "text-center", attrs: { md: "6" } },
-            [
-              _c(
-                "b-calendar",
-                _vm._b(
-                  {
-                    staticClass: "mt-1",
-                    attrs: {
-                      locale: _vm.locale,
-                      "start-weekday": _vm.weekday,
-                      "hide-header": _vm.hideHeader,
-                      "show-decade-nav": _vm.showDecadeNav
-                    },
-                    on: { context: _vm.onContext },
-                    model: {
-                      value: _vm.value,
-                      callback: function($$v) {
-                        _vm.value = $$v
-                      },
-                      expression: "value"
-                    }
-                  },
-                  "b-calendar",
-                  _vm.labels[_vm.locale] || {},
-                  false
-                )
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c(
-                "prism",
-                {
-                  staticClass: "rounded mt-1 mb-0",
-                  attrs: { language: "javascript" }
-                },
-                [
-                  _vm._v(
-                    "\n        Context: " + _vm._s(_vm.context) + "\n      "
-                  )
-                ]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+      _c("b-card-sub-title", { staticClass: "mb-2" }, [
+        _vm._v("\n    Spending on various categories\n  ")
+      ]),
+      _vm._v(" "),
+      _c("vue-apex-charts", {
+        attrs: {
+          type: "donut",
+          height: "350",
+          options: _vm.apexChatData.donutChart.chartOptions,
+          series: _vm.apexChatData.donutChart.series
+        }
+      })
     ],
     1
   )
@@ -1740,10 +1422,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c&":
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c& ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1756,54 +1438,56 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Minimum and maximum dates" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeMinMaxRange) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
+    "b-card",
+    { attrs: { "no-body": "" } },
     [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Restrict the calendar range via the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("min")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("max")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" props. The props accept a date string in the format of ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("YYYY-MM-DD")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("Date")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" object.")])
-      ]),
+      _c(
+        "b-card-header",
+        [
+          _c("b-card-title", [_vm._v("Daily Sales States")]),
+          _vm._v(" "),
+          _c(
+            "b-dropdown",
+            {
+              attrs: { variant: "link", "toggle-class": "p-0", "no-caret": "" },
+              scopedSlots: _vm._u([
+                {
+                  key: "button-content",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", {
+                        staticClass: "text-body",
+                        attrs: { icon: "MoreVerticalIcon" }
+                      })
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("b-dropdown-item", [_vm._v("\n        Last 28 Days\n      ")]),
+              _vm._v(" "),
+              _c("b-dropdown-item", [_vm._v("\n        Last Month\n      ")]),
+              _vm._v(" "),
+              _c("b-dropdown-item", [_vm._v("\n        Last Year\n      ")])
+            ],
+            1
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "d-flex align-items-center justify-content-center" },
+        "b-card-body",
         [
-          _c("b-calendar", {
-            attrs: { min: _vm.min, max: _vm.max, locale: "en" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "heatmap",
+              height: "350",
+              options: _vm.apexChatData.heatMapChart.chartOptions,
+              series: _vm.apexChatData.heatMapChart.series
             }
           })
         ],
@@ -1820,10 +1504,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&":
-/*!**********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e& ***!
-  \**********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6&":
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1836,265 +1520,55 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Default slot" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSlot) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
+    "b-card",
+    { attrs: { "no-body": "" } },
     [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "Provide optional content at the bottom of the calendar interface via the use of default slot. The slot can be\n      used to add buttons such as\n    "
-          )
-        ]),
+      _c("b-card-header", [
+        _c(
+          "div",
+          [
+            _c("b-card-title", { staticClass: "mb-1" }, [
+              _vm._v("\n        Line Chart\n      ")
+            ]),
+            _vm._v(" "),
+            _c("b-card-sub-title", [_vm._v("Commercial networks")])
+          ],
+          1
+        ),
         _vm._v(" "),
-        _c("code", [_vm._v("Select Today")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("Reset")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", etc.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "d-flex align-items-center justify-content-center" },
-        [
-          _c(
-            "b-calendar",
-            {
-              attrs: { "value-as-date": "", locale: "en" },
+        _c(
+          "div",
+          { staticClass: "d-flex align-items-center" },
+          [
+            _c("feather-icon", { attrs: { icon: "CalendarIcon", size: "16" } }),
+            _vm._v(" "),
+            _c("flat-pickr", {
+              staticClass:
+                "form-control flat-picker bg-transparent border-0 shadow-none",
+              attrs: { config: { mode: "range" }, placeholder: "YYYY-MM-DD" },
               model: {
-                value: _vm.value,
+                value: _vm.rangePicker,
                 callback: function($$v) {
-                  _vm.value = $$v
+                  _vm.rangePicker = $$v
                 },
-                expression: "value"
+                expression: "rangePicker"
               }
-            },
-            [
-              _c(
-                "div",
-                { staticClass: "d-flex", attrs: { dir: "ltr" } },
-                [
-                  _vm.value
-                    ? _c(
-                        "b-button",
-                        {
-                          attrs: { size: "sm", variant: "outline-secondary" },
-                          on: { click: _vm.clearDate }
-                        },
-                        [_vm._v("\n          Clear date\n        ")]
-                      )
-                    : _vm._e(),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      staticClass: "ml-auto",
-                      attrs: { size: "sm", variant: "outline-primary" },
-                      on: { click: _vm.setToday }
-                    },
-                    [_vm._v("\n          Set Today\n        ")]
-                  )
-                ],
-                1
-              )
-            ]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&":
-/*!******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8& ***!
-  \******************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Date string format" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFormat) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "To change format options of the displayed date text inside the component, e.g. in the header, set the\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("date-format-options")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " prop to an object containing the requested format properties for the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("Intl.DateTimeFormat")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" object (see also Internationalization).")])
+            })
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
       _c(
-        "b-row",
-        { staticClass: "text-center" },
+        "b-card-body",
         [
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c("h6", [_vm._v("Custom date format:")]),
-              _vm._v(" "),
-              _c("b-calendar", {
-                staticClass: "mb-1 mb-md-0",
-                attrs: {
-                  "date-format-options": {
-                    year: "numeric",
-                    month: "short",
-                    day: "2-digit",
-                    weekday: "short"
-                  },
-                  locale: "en"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c("h6", [_vm._v("Short date format:")]),
-              _vm._v(" "),
-              _c("b-calendar", {
-                attrs: {
-                  "date-format-options": {
-                    year: "numeric",
-                    month: "numeric",
-                    day: "numeric"
-                  },
-                  locale: "en"
-                }
-              })
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&":
-/*!*************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96& ***!
-  \*************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Calendar Variant" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeVariant) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v("The selected date button (background color) defaults to the ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("'primary'")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " theme variant. You can change this to any of the Bootstrap v4 theme variant colors: "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [
-          _vm._v("'secondary', 'success', 'danger', 'warning', 'info'")
-        ]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", etc, via the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("selected-variant")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "d-flex justify-content-center" },
-        [
-          _c("b-calendar", {
-            attrs: { "selected-variant": "success", "today-variant": "info" }
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "area",
+              height: "400",
+              options: _vm.apexChatData.lineAreaChartSpline.chartOptions,
+              series: _vm.apexChatData.lineAreaChartSpline.series
+            }
           })
         ],
         1
@@ -2110,10 +1584,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&":
-/*!***********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76& ***!
-  \***********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2126,53 +1600,64 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Calendar Width" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeWidth) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
+    "b-card",
+    { attrs: { "no-body": "" } },
     [
-      _c("b-card-text", [
-        _c("span", [_vm._v("To change the width, set the ")]),
+      _c("b-card-header", [
+        _c(
+          "div",
+          [
+            _c("b-card-title", { staticClass: "mb-1" }, [
+              _vm._v("\n        Balance\n      ")
+            ]),
+            _vm._v(" "),
+            _c("b-card-sub-title", [
+              _vm._v("Commercial networks & enterprises")
+            ])
+          ],
+          1
+        ),
         _vm._v(" "),
-        _c("code", [_vm._v("width")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to any valid CSS width (including units).")])
+        _c(
+          "div",
+          { staticClass: "d-flex align-items-center flex-wrap mt-sm-0 mt-1" },
+          [
+            _c("h5", { staticClass: "font-weight-bolder mb-0 mr-1" }, [
+              _vm._v("\n        $ 100,000\n      ")
+            ]),
+            _vm._v(" "),
+            _c(
+              "b-badge",
+              { attrs: { variant: "light-secondary" } },
+              [
+                _c("feather-icon", {
+                  staticClass: "text-danger mr-25",
+                  attrs: { icon: "ArrowDownIcon", size: "16" }
+                }),
+                _vm._v(" "),
+                _c("span", { staticClass: "align-middle" }, [_vm._v("20%")])
+              ],
+              1
+            )
+          ],
+          1
+        )
       ]),
       _vm._v(" "),
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "Optionally, make the calendar full width by setting the prop "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("block")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            ", which will make it expand to fit the width of the parent element. The "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("width")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop has no effect when ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("block")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" is set.")])
-      ]),
-      _vm._v(" "),
-      _c("b-calendar", { attrs: { block: "", locale: "en-US" } })
+      _c(
+        "b-card-body",
+        [
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "line",
+              height: "400",
+              options: _vm.apexChatData.lineChartSimple.chartOptions,
+              series: _vm.apexChatData.lineChartSimple.series
+            }
+          })
+        ],
+        1
+      )
     ],
     1
   )
@@ -2184,240 +1669,221 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/@core/components/b-card-code/index.js":
-/*!****************************************************************!*\
-  !*** ./resources/js/src/@core/components/b-card-code/index.js ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-
-/* harmony default export */ __webpack_exports__["default"] = (_BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/Calendar.vue":
-/*!*****************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/Calendar.vue ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Calendar.vue?vue&type=template&id=c8fa0140& */ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&");
-/* harmony import */ var _Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Calendar.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/Calendar.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Calendar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140& ***!
-  \************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Calendar.vue?vue&type=template&id=c8fa0140& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card",
+    { attrs: { title: "Mobile Comparison" } },
+    [
+      _c("vue-apex-charts", {
+        attrs: {
+          type: "radar",
+          height: "400",
+          options: _vm.apexChatData.radarChart.chartOptions,
+          series: _vm.apexChatData.radarChart.series
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue":
-/*!**********************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue ***!
-  \**********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarBasic.vue?vue&type=template&id=80736044& */ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&");
-/* harmony import */ var _CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarBasic.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044& ***!
-  \*****************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22&":
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22& ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBasic.vue?vue&type=template&id=80736044& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card",
+    { attrs: { "no-body": "" } },
+    [
+      _c(
+        "b-card-header",
+        [
+          _c("b-card-title", { staticClass: "mb-sm-0 mb-1" }, [
+            _vm._v("\n      Statistics\n    ")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card-body",
+        [
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "radialBar",
+              height: "400",
+              options: _vm.apexChatData.radialBarChart.chartOptions,
+              series: _vm.apexChatData.radialBarChart.series
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue":
-/*!******************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarBorderPadding.vue?vue&type=template&id=0a469675& */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&");
-/* harmony import */ var _CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBorderPadding.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarBorderPadding.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBorderPadding.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675& ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18&":
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18& ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBorderPadding.vue?vue&type=template&id=0a469675& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card",
+    { attrs: { "no-body": "" } },
+    [
+      _c(
+        "b-card-header",
+        [
+          _c("h4", { staticClass: "card-title mb-50" }, [
+            _vm._v("\n      New Technologies Data\n    ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-button-group",
+            [
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "ripple",
+                      rawName: "v-ripple.400",
+                      value: "rgba(186, 191, 199, 0.15)",
+                      expression: "'rgba(186, 191, 199, 0.15)'",
+                      modifiers: { "400": true }
+                    }
+                  ],
+                  attrs: { variant: "outline-primary" }
+                },
+                [_vm._v("\n        Daily\n      ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "ripple",
+                      rawName: "v-ripple.400",
+                      value: "rgba(186, 191, 199, 0.15)",
+                      expression: "'rgba(186, 191, 199, 0.15)'",
+                      modifiers: { "400": true }
+                    }
+                  ],
+                  attrs: { variant: "outline-primary" }
+                },
+                [_vm._v("\n        Monthly\n      ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "ripple",
+                      rawName: "v-ripple.400",
+                      value: "rgba(186, 191, 199, 0.15)",
+                      expression: "'rgba(186, 191, 199, 0.15)'",
+                      modifiers: { "400": true }
+                    }
+                  ],
+                  attrs: { variant: "outline-primary" }
+                },
+                [_vm._v("\n        Yearly\n      ")]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card-body",
+        [
+          _c("vue-apex-charts", {
+            attrs: {
+              type: "scatter",
+              height: "400",
+              options: _vm.apexChatData.scatterChart.chartOptions,
+              series: _vm.apexChatData.scatterChart.series
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue ***!
-  \****************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarCustomClass.vue?vue&type=template&id=7255e1b7& */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&");
-/* harmony import */ var _CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarCustomClass.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexBarChart.vue?vue&type=template&id=ff68753a& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a&");
+/* harmony import */ var _ApexBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexBarChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2426,9 +1892,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2438,55 +1904,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarCustomClass.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarCustomClass.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexBarChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&":
-/*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7& ***!
-  \***********************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a& ***!
+  \******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarCustomClass.vue?vue&type=template&id=7255e1b7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexBarChart.vue?vue&type=template&id=ff68753a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexBarChart.vue?vue&type=template&id=ff68753a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexBarChart_vue_vue_type_template_id_ff68753a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue ***!
-  \****************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarDisableDate.vue?vue&type=template&id=d2e54f34& */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&");
-/* harmony import */ var _CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarDisableDate.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexCandlestickChart.vue?vue&type=template&id=d688945a& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a&");
+/* harmony import */ var _ApexCandlestickChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexCandlestickChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2495,9 +1961,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexCandlestickChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2507,55 +1973,57 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarDisableDate.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableDate.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexCandlestickChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexCandlestickChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexCandlestickChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&":
-/*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34& ***!
-  \***********************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a& ***!
+  \**************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableDate.vue?vue&type=template&id=d2e54f34& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexCandlestickChart.vue?vue&type=template&id=d688945a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexCandlestickChart.vue?vue&type=template&id=d688945a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexCandlestickChart_vue_vue_type_template_id_d688945a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue ***!
+  \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&");
-/* harmony import */ var _CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexChart.vue?vue&type=template&id=60c252b6& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6&");
+/* harmony import */ var _ApexChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ApexChart.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -2563,10 +2031,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _ApexChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2576,55 +2044,140 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexChart.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6&":
 /*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6& ***!
   \***************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& ***!
-  \*********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexChart.vue?vue&type=template&id=60c252b6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexChart.vue?vue&type=template&id=60c252b6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexChart_vue_vue_type_template_id_60c252b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue":
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexDataBarChart.vue?vue&type=template&id=63037a2d& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d&");
+/* harmony import */ var _ApexDataBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexDataBarChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ApexDataBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDataBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexDataBarChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDataBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d& ***!
+  \**********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexDataBarChart.vue?vue&type=template&id=63037a2d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDataBarChart.vue?vue&type=template&id=63037a2d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDataBarChart_vue_vue_type_template_id_63037a2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue":
 /*!*************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue ***!
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue ***!
   \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarInternationalization.vue?vue&type=template&id=7fa36e96& */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&");
-/* harmony import */ var _CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarInternationalization.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexDonutChart.vue?vue&type=template&id=26dc7998& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998&");
+/* harmony import */ var _ApexDonutChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexDonutChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2633,9 +2186,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexDonutChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2645,55 +2198,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarInternationalization.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js& ***!
   \**************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarInternationalization.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDonutChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexDonutChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDonutChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&":
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998&":
 /*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96& ***!
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998& ***!
   \********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarInternationalization.vue?vue&type=template&id=7fa36e96& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexDonutChart.vue?vue&type=template&id=26dc7998& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexDonutChart.vue?vue&type=template&id=26dc7998&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexDonutChart_vue_vue_type_template_id_26dc7998___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue ***!
-  \****************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue ***!
+  \***************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&");
-/* harmony import */ var _CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c&");
+/* harmony import */ var _ApexHeatMapChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexHeatMapChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2702,9 +2255,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexHeatMapChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2714,55 +2267,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarMinMaxRange.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarMinMaxRange.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexHeatMapChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexHeatMapChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexHeatMapChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&":
-/*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& ***!
-  \***********************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c& ***!
+  \**********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexHeatMapChart.vue?vue&type=template&id=a5e94f6c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexHeatMapChart_vue_vue_type_template_id_a5e94f6c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue":
-/*!*********************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue ***!
-  \*********************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue ***!
+  \****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarSlot.vue?vue&type=template&id=026e7a7e& */ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&");
-/* harmony import */ var _CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarSlot.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexLineAreaChart.vue?vue&type=template&id=f1a485d6& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6&");
+/* harmony import */ var _ApexLineAreaChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexLineAreaChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2771,9 +2324,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexLineAreaChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2783,55 +2336,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarSlot.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarSlot.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineAreaChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexLineAreaChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineAreaChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e& ***!
-  \****************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6&":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6& ***!
+  \***********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarSlot.vue?vue&type=template&id=026e7a7e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexLineAreaChart.vue?vue&type=template&id=f1a485d6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineAreaChart.vue?vue&type=template&id=f1a485d6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineAreaChart_vue_vue_type_template_id_f1a485d6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue ***!
-  \*****************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarStringFormat.vue?vue&type=template&id=185696e8& */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&");
-/* harmony import */ var _CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarStringFormat.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexLineChart.vue?vue&type=template&id=1c50d522& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522&");
+/* harmony import */ var _ApexLineChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexLineChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2840,9 +2393,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexLineChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2852,55 +2405,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarStringFormat.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarStringFormat.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexLineChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&":
-/*!************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8& ***!
-  \************************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522& ***!
+  \*******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarStringFormat.vue?vue&type=template&id=185696e8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexLineChart.vue?vue&type=template&id=1c50d522& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexLineChart.vue?vue&type=template&id=1c50d522&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexLineChart_vue_vue_type_template_id_1c50d522___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue":
-/*!************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue ***!
-  \************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarVariant.vue?vue&type=template&id=0f8e3a96& */ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&");
-/* harmony import */ var _CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarVariant.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexRadarChart.vue?vue&type=template&id=64271fd0& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0&");
+/* harmony import */ var _ApexRadarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexRadarChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2909,9 +2462,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexRadarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2921,55 +2474,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarVariant.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarVariant.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexRadarChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&":
-/*!*******************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96& ***!
-  \*******************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0& ***!
+  \********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarVariant.vue?vue&type=template&id=0f8e3a96& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexRadarChart.vue?vue&type=template&id=64271fd0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadarChart.vue?vue&type=template&id=64271fd0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadarChart_vue_vue_type_template_id_64271fd0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue":
-/*!**********************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue ***!
-  \**********************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarWidth.vue?vue&type=template&id=21fb1d76& */ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&");
-/* harmony import */ var _CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarWidth.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexRadialBarChart.vue?vue&type=template&id=6384bd22& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22&");
+/* harmony import */ var _ApexRadialBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexRadialBarChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2978,9 +2531,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ApexRadialBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2990,74 +2543,787 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/calendar/CalendarWidth.vue"
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarWidth.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadialBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexRadialBarChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadialBarChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22&":
+/*!************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22& ***!
+  \************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarWidth.vue?vue&type=template&id=21fb1d76& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexRadialBarChart.vue?vue&type=template&id=6384bd22& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexRadialBarChart.vue?vue&type=template&id=6384bd22&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexRadialBarChart_vue_vue_type_template_id_6384bd22___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/calendar/code.js":
-/*!************************************************************!*\
-  !*** ./resources/js/src/views/components/calendar/code.js ***!
-  \************************************************************/
-/*! exports provided: codeBasic, codeStates, codeDisableDate, codeMinMaxRange, codeVariant, codeWidth, codeBorderPadding, codeFormat, codeSlot, codeCustomClass, codeInternationalization */
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue ***!
+  \***************************************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDisableDate", function() { return codeDisableDate; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeMinMaxRange", function() { return codeMinMaxRange; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVariant", function() { return codeVariant; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeWidth", function() { return codeWidth; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBorderPadding", function() { return codeBorderPadding; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormat", function() { return codeFormat; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSlot", function() { return codeSlot; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustomClass", function() { return codeCustomClass; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInternationalization", function() { return codeInternationalization; });
-var codeBasic = "\n<template>\n  <b-row class=\"text-center\">\n    <b-col\n      md=\"6\"\n      class=\"mt-1\"\n    >\n\n      <!-- calendar -->\n      <b-calendar\n        v-model=\"value\"\n        locale=\"en-US\"\n        @context=\"onContext\"\n      />\n    </b-col>\n    <b-col md=\"6\">\n\n      <!-- prism -->\n      <div class=\"mt-1\">\n        <prism\n          language=\"javascript\"\n          class=\"rounded mb-0\"\n        >\n          Context: {{ context }}\n        </prism>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BRow, BCol, BCalendar} from 'bootstrap-vue'\nimport Prism from 'vue-prism-component'\nimport 'prismjs'\nimport 'prismjs/themes/prism-tomorrow.css'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BCalendar,\n    Prism,\n  },\n  data: () => ({\n    value: '',\n    context: null,\n  }),\n  methods: {\n    onContext(ctx) {\n      this.context = ctx\n    },\n  },\n}\n</script>\n";
-var codeStates = "\n<template>\n  <div class=\"d-flex justify-content-center\">\n    <div>\n\n      <!-- checkbox -->\n      <b-form-group label=\"Select calendar interactive state\">\n        <b-form-radio-group\n          v-model=\"state\"\n          aria-controls=\"ex-disabled-readonly\"\n        >\n          <b-form-radio value=\"disabled\">\n            Disabled\n          </b-form-radio>\n          <b-form-radio value=\"readonly\">\n            Readonly\n          </b-form-radio>\n          <b-form-radio value=\"normal\">\n            Normal\n          </b-form-radio>\n        </b-form-radio-group>\n      </b-form-group>\n\n      <!-- calendar -->\n      <b-calendar\n        id=\"ex-disabled-readonly\"\n        :disabled=\"disabled\"\n        :readonly=\"readonly\"\n      />\n    </div>\n  </div>\n</template>\n\n<script>\nimport {BFormGroup, BFormRadioGroup, BFormRadio, BCalendar} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormRadioGroup,\n    BFormRadio,\n    BCalendar,\n  },\n  data: () => ({\n    state: 'disabled',\n  }),\n  computed: {\n    disabled() {\n      return this.state === 'disabled'\n    },\n    readonly() {\n      return this.state === 'readonly'\n    },\n  },\n}\n</script>\n";
-var codeDisableDate = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :date-disabled-fn=\"dateDisabled\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data: () => ({\n    value: '',\n  }),\n  methods: {\n    dateDisabled(ymd, date) {\n      const weekday = date.getDay()\n      const day = date.getDate()\n      return weekday === 0 || weekday === 6 || day === 13\n    },\n  },\n}\n</script>\n";
-var codeMinMaxRange = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :min=\"min\"\n      :max=\"max\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data() {\n    const now = new Date()\n    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())\n    // 15th two months prior\n    const minDate = new Date(today)\n    minDate.setMonth(minDate.getMonth() - 2)\n    minDate.setDate(15)\n    // 15th in two months\n    const maxDate = new Date(today)\n    maxDate.setMonth(maxDate.getMonth() + 2)\n    maxDate.setDate(15)\n\n    return {\n      value: '',\n      min: minDate,\n      max: maxDate,\n    }\n  },\n}\n</script>\n";
-var codeVariant = "\n<template>\n  <div class=\"d-flex justify-content-center\">\n    <b-calendar\n      selected-variant=\"success\"\n      today-variant=\"info\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
-var codeWidth = "\n<template>\n  <b-calendar\n    block\n    locale=\"en-US\"\n  />\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
-var codeBorderPadding = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      class=\"border rounded p-2\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
-var codeFormat = "\n<template>\n  <b-row class=\"text-center\">\n    <b-col md=\"6\">\n      <h6>Custom date format:</h6>\n      <b-calendar\n        :date-format-options=\"{ year: 'numeric', month: 'short', day: '2-digit', weekday: 'short' }\"\n        locale=\"en\"\n        class=\"mb-1 mb-md-0\"\n      />\n    </b-col>\n    <b-col md=\"6\">\n      <h6>Short date format:</h6>\n      <b-calendar\n        :date-format-options=\"{ year: 'numeric', month: 'numeric', day: 'numeric' }\"\n        locale=\"en\"\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BCalendar, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeSlot = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      value-as-date\n      locale=\"en\"\n    >\n      <div\n        class=\"d-flex\"\n        dir=\"ltr\"\n      >\n        <b-button\n          v-if=\"value\"\n          size=\"sm\"\n          variant=\"outline-secondary\"\n          @click=\"clearDate\"\n        >\n          Clear date\n        </b-button>\n        <b-button\n          size=\"sm\"\n          variant=\"outline-primary\"\n          class=\"ml-auto\"\n          @click=\"setToday\"\n        >\n          Set Today\n        </b-button>\n      </div>\n    </b-calendar>\n  </div>\n</template>\n\n<script>\nimport { BCalendar, BButton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BButton,\n  },\n  data: () => ({\n    value: null,\n  }),\n  methods: {\n    setToday() {\n      const now = new Date()\n      this.value = new Date(now.getFullYear(), now.getMonth(), now.getDate())\n    },\n    clearDate() {\n      this.value = ''\n    },\n  },\n}\n</script>\n";
-var codeCustomClass = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :date-info-fn=\"dateClass\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data: () => ({\n    value: '',\n  }),\n  methods: {\n    dateClass(ymd, date) {\n      const day = date.getDate()\n      return day >= 10 && day <= 20 ? 'table-info' : ''\n    },\n  },\n}\n</script>\n";
-var codeInternationalization = "\n<template>\n  <b-row>\n    <b-col cols=\"12\">\n\n      <!-- select locale-->\n      <label for=\"example-locales\">Locale:</label>\n      <b-form-select\n        id=\"example-locales\"\n        v-model=\"locale\"\n        :options=\"locales\"\n      />\n\n      <!-- select weekday-->\n      <label\n        for=\"example-weekdays\"\n        class=\"mt-2\"\n      >Start weekday:</label>\n      <b-form-select\n        id=\"example-weekdays\"\n        v-model=\"weekday\"\n        :options=\"weekdays\"\n      />\n\n      <!-- switch -->\n      <div class=\"demo-inline-spacing\">\n        <div class=\"d-flex align-items-center\">\n          <b-form-checkbox\n            v-model=\"showDecadeNav\"\n            switch\n            inline\n          >\n            Show decade navigation buttons\n          </b-form-checkbox>\n        </div>\n\n        <div class=\"d-flex align-items-center\">\n          <b-form-checkbox\n            v-model=\"hideHeader\"\n            switch\n            inline\n          >\n            Hide the date header\n          </b-form-checkbox>\n        </div>\n      </div>\n    </b-col>\n\n    <!-- calendar -->\n    <b-col\n      md=\"6\"\n      class=\"text-center\"\n    >\n      <b-calendar\n        v-model=\"value\"\n        v-bind=\"labels[locale] || {}\"\n        :locale=\"locale\"\n        :start-weekday=\"weekday\"\n        :hide-header=\"hideHeader\"\n        :show-decade-nav=\"showDecadeNav\"\n        class=\"mt-1\"\n        @context=\"onContext\"\n      />\n    </b-col>\n\n    <!-- prism -->\n    <b-col md=\"6\">\n      <prism\n        language=\"javascript\"\n        class=\"rounded mt-1 mb-0\"\n      >\n        Context: {{ context }}\n      </prism>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BCalendar, BRow, BCol, BFormCheckbox, BFormSelect} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BRow,\n    BCol,\n    BFormCheckbox,\n    BFormSelect,\n  },\n  data: () => ({\n    value: '',\n    context: null,\n    showDecadeNav: false,\n    hideHeader: false,\n    locale: 'en-US',\n    locales: [\n      { value: 'en-US', text: 'English US (en-US)' },\n      { value: 'de', text: 'German (de)' },\n      { value: 'ar-EG', text: 'Arabic Egyptian (ar-EG)' },\n      { value: 'zh', text: 'Chinese (zh)' },\n    ],\n    weekday: 0,\n    weekdays: [\n      { value: 0, text: 'Sunday' },\n      { value: 1, text: 'Monday' },\n      { value: 6, text: 'Saturday' },\n    ],\n    labels: {\n      de: {\n        labelPrevDecade: 'Vorheriges Jahrzehnt',\n        labelPrevYear: 'Vorheriges Jahr',\n        labelPrevMonth: 'Vorheriger Monat',\n        labelCurrentMonth: 'Aktueller Monat',\n        labelNextMonth: 'N\xE4chster Monat',\n        labelNextYear: 'N\xE4chstes Jahr',\n        labelNextDecade: 'N\xE4chstes Jahrzehnt',\n        labelToday: 'Heute',\n        labelSelected: 'Ausgew\xE4hltes Datum',\n        labelNoDateSelected: 'Kein Datum gew\xE4hlt',\n        labelCalendar: 'Kalender',\n        labelNav: 'Kalendernavigation',\n        labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren',\n      },\n      'ar-EG': {\n        labelPrevDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelCurrentMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u062D\u0627\u0644\u064A',\n        labelNextMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0642\u0627\u062F\u0645',\n        labelToday: '\u0627\u0644\u064A\u0648\u0645',\n        labelSelected: '\u0627\u0644\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0645\u062D\u062F\u062F',\n        labelNoDateSelected: '\u0644\u0645 \u064A\u062A\u0645 \u0627\u062E\u062A\u064A\u0627\u0631 \u062A\u0627\u0631\u064A\u062E',\n        labelCalendar: '\u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelNav: '\u0627\u0644\u0645\u0644\u0627\u062D\u0629 \u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelHelp: '\u0627\u0633\u062A\u062E\u062F\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0624\u0634\u0631 \u0644\u0644\u062A\u0646\u0642\u0644 \u0641\u064A \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E',\n      },\n      zh: {\n        labelPrevDecade: '\u8FC7\u53BB\u5341\u5E74',\n        labelPrevYear: '\u4E0A\u4E00\u5E74',\n        labelPrevMonth: '\u4E0A\u4E2A\u6708',\n        labelCurrentMonth: '\u5F53\u524D\u6708\u4EFD',\n        labelNextMonth: '\u4E0B\u4E2A\u6708',\n        labelNextYear: '\u660E\u5E74',\n        labelNextDecade: '\u4E0B\u4E00\u4E2A\u5341\u5E74',\n        labelToday: '\u4ECA\u5929',\n        labelSelected: '\u9009\u5B9A\u65E5\u671F',\n        labelNoDateSelected: '\u672A\u9009\u62E9\u65E5\u671F',\n        labelCalendar: '\u65E5\u5386',\n        labelNav: '\u65E5\u5386\u5BFC\u822A',\n        labelHelp: '\u4F7F\u7528\u5149\u6807\u952E\u6D4F\u89C8\u65E5\u671F',\n      },\n    },\n  }),\n  methods: {\n    onContext(ctx) {\n      this.context = ctx\n    },\n  },\n}\n</script>\n";
+/* harmony import */ var _ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApexScatterChart.vue?vue&type=template&id=12ceeb18& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18&");
+/* harmony import */ var _ApexScatterChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApexScatterChart.vue?vue&type=script&lang=js& */ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ApexScatterChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexScatterChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexScatterChart.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexScatterChart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18& ***!
+  \**********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ApexScatterChart.vue?vue&type=template&id=12ceeb18& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/charts-and-maps/charts/apex-chart/ApexScatterChart.vue?vue&type=template&id=12ceeb18&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApexScatterChart_vue_vue_type_template_id_12ceeb18___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/src/views/charts-and-maps/charts/apex-chart/apexChartData.js ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.regexp.to-string.js */ "./node_modules/core-js/modules/es.regexp.to-string.js");
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_number_to_fixed_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.number.to-fixed.js */ "./node_modules/core-js/modules/es.number.to-fixed.js");
+/* harmony import */ var core_js_modules_es_number_to_fixed_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_to_fixed_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _themeConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @themeConfig */ "./resources/js/themeConfig.js");
+
+
+
+ // heat chart data generator
+
+function generateDataHeatMap(count, yrange) {
+  var i = 0;
+  var series = [];
+
+  while (i < count) {
+    var x = "w".concat((i + 1).toString());
+    var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+    series.push({
+      x: x,
+      y: y
+    }); // eslint-disable-next-line no-plusplus
+
+    i++;
+  }
+
+  return series;
+} // colors
+
+
+var chartColors = {
+  column: {
+    series1: '#826af9',
+    series2: '#d2b0ff',
+    bg: '#f8d3ff'
+  },
+  success: {
+    shade_100: '#7eefc7',
+    shade_200: '#06774f'
+  },
+  donut: {
+    series1: '#ffe700',
+    series2: '#00d4bd',
+    series3: '#826bf8',
+    series4: '#2b9bf4',
+    series5: '#FFA1A1'
+  },
+  area: {
+    series3: '#a4f8cd',
+    series2: '#60f2ca',
+    series1: '#2bdac7'
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  lineChartSimple: {
+    series: [{
+      data: [280, 200, 220, 180, 270, 250, 70, 90, 200, 150, 160, 100, 150, 100, 50]
+    }],
+    chartOptions: {
+      chart: {
+        zoom: {
+          enabled: false
+        },
+        toolbar: {
+          show: false
+        }
+      },
+      markers: {
+        strokeWidth: 7,
+        strokeOpacity: 1,
+        strokeColors: [_themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].light],
+        colors: [_themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].warning]
+      },
+      colors: [_themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].warning],
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        curve: 'straight'
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: true
+          }
+        }
+      },
+      tooltip: {
+        custom: function custom(data) {
+          return '<div class="px-1 py-50"><span>'.concat(data.series[data.seriesIndex][data.dataPointIndex], "%</span></div>");
+        }
+      },
+      xaxis: {
+        categories: ['7/12', '8/12', '9/12', '10/12', '11/12', '12/12', '13/12', '14/12', '15/12', '16/12', '17/12', '18/12', '19/12', '20/12', '21/12']
+      },
+      yaxis: {// opposite: isRtl,
+      }
+    }
+  },
+  lineAreaChartSpline: {
+    series: [{
+      name: 'Visits',
+      data: [100, 120, 90, 170, 130, 160, 140, 240, 220, 180, 270, 280, 375]
+    }, {
+      name: 'Clicks',
+      data: [60, 80, 70, 110, 80, 100, 90, 180, 160, 140, 200, 220, 275]
+    }, {
+      name: 'Sales',
+      data: [20, 40, 30, 70, 40, 60, 50, 140, 120, 100, 140, 180, 220]
+    }],
+    chartOptions: {
+      chart: {
+        toolbar: {
+          show: false
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        show: false,
+        curve: 'straight'
+      },
+      legend: {
+        show: true,
+        position: 'top',
+        horizontalAlign: 'left',
+        fontSize: '14px',
+        fontFamily: 'Montserrat'
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: true
+          }
+        }
+      },
+      xaxis: {
+        categories: ['7/12', '8/12', '9/12', '10/12', '11/12', '12/12', '13/12', '14/12', '15/12', '16/12', '17/12', '18/12', '19/12', '20/12']
+      },
+      yaxis: {// opposite: isRtl
+      },
+      fill: {
+        opacity: 1,
+        type: 'solid'
+      },
+      tooltip: {
+        shared: false
+      },
+      colors: [chartColors.area.series3, chartColors.area.series2, chartColors.area.series1]
+    }
+  },
+  columnChart: {
+    series: [{
+      name: 'Apple',
+      data: [90, 120, 55, 100, 80, 125, 175, 70, 88, 180]
+    }, {
+      name: 'Samsung',
+      data: [85, 100, 30, 40, 95, 90, 30, 110, 62, 20]
+    }],
+    chartOptions: {
+      chart: {
+        stacked: true,
+        toolbar: {
+          show: false
+        }
+      },
+      colors: [chartColors.column.series1, chartColors.column.series2],
+      plotOptions: {
+        bar: {
+          columnWidth: '15%',
+          colors: {
+            backgroundBarColors: [chartColors.column.bg, chartColors.column.bg, chartColors.column.bg, chartColors.column.bg, chartColors.column.bg],
+            backgroundBarRadius: 10
+          }
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      legend: {
+        show: true,
+        position: 'top',
+        fontSize: '14px',
+        fontFamily: 'Montserrat',
+        horizontalAlign: 'left'
+      },
+      stroke: {
+        show: true,
+        colors: ['transparent']
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: true
+          }
+        }
+      },
+      xaxis: {
+        categories: ['7/12', '8/12', '9/12', '10/12', '11/12', '12/12', '13/12', '14/12', '15/12', '16/12']
+      },
+      yaxis: {// opposite: isRtl,
+      },
+      fill: {
+        opacity: 1
+      }
+    }
+  },
+  barChart: {
+    series: [{
+      data: [700, 350, 480, 600, 210, 550, 150]
+    }],
+    chartOptions: {
+      chart: {
+        toolbar: {
+          show: false
+        }
+      },
+      colors: _themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].info,
+      plotOptions: {
+        bar: {
+          horizontal: true,
+          barHeight: '30%',
+          endingShape: 'rounded'
+        }
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: false
+          }
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      xaxis: {
+        categories: ['MON, 11', 'THU, 14', 'FRI, 15', 'MON, 18', 'WED, 20', 'FRI, 21', 'MON, 23']
+      },
+      yaxis: {// opposite: isRtl,
+      }
+    }
+  },
+  candlestickChart: {
+    series: [{
+      data: [{
+        x: new Date(1538778600000),
+        y: [150, 170, 50, 100]
+      }, {
+        x: new Date(1538780400000),
+        y: [200, 400, 170, 330]
+      }, {
+        x: new Date(1538782200000),
+        y: [330, 340, 250, 280]
+      }, {
+        x: new Date(1538784000000),
+        y: [300, 330, 200, 320]
+      }, {
+        x: new Date(1538785800000),
+        y: [320, 450, 280, 350]
+      }, {
+        x: new Date(1538787600000),
+        y: [300, 350, 80, 250]
+      }, {
+        x: new Date(1538789400000),
+        y: [200, 330, 170, 300]
+      }, {
+        x: new Date(1538791200000),
+        y: [200, 220, 70, 130]
+      }, {
+        x: new Date(1538793000000),
+        y: [220, 270, 180, 250]
+      }, {
+        x: new Date(1538794800000),
+        y: [200, 250, 80, 100]
+      }, {
+        x: new Date(1538796600000),
+        y: [150, 170, 50, 120]
+      }, {
+        x: new Date(1538798400000),
+        y: [110, 450, 10, 420]
+      }, {
+        x: new Date(1538800200000),
+        y: [400, 480, 300, 320]
+      }, {
+        x: new Date(1538802000000),
+        y: [380, 480, 350, 450]
+      }]
+    }],
+    chartOptions: {
+      chart: {
+        toolbar: {
+          show: false
+        }
+      },
+      xaxis: {
+        type: 'datetime'
+      },
+      yaxis: {
+        tooltip: {
+          enabled: true
+        } // opposite: isRtl,
+
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: true
+          }
+        }
+      },
+      legend: {
+        show: false
+      },
+      plotOptions: {
+        candlestick: {
+          colors: {
+            upward: _themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].success,
+            downward: _themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].danger
+          }
+        },
+        bar: {
+          columnWidth: '40%'
+        }
+      }
+    }
+  },
+  scatterChart: {
+    series: [{
+      name: 'Angular',
+      data: [[5.4, 170], [5.4, 100], [6.3, 170], [5.7, 140], [5.9, 130], [7.0, 150], [8.0, 120], [9.0, 170], [10.0, 190], [11.0, 220], [12.0, 170], [13.0, 230]]
+    }, {
+      name: 'Vue',
+      data: [[14.0, 220], [15.0, 280], [16.0, 230], [18.0, 320], [17.5, 280], [19.0, 250], [20.0, 350], [20.5, 320], [20.0, 320], [19.0, 280], [17.0, 280], [22.0, 300], [18.0, 120]]
+    }, {
+      name: 'React',
+      data: [[14.0, 290], [13.0, 190], [20.0, 220], [21.0, 350], [21.5, 290], [22.0, 220], [23.0, 140], [19.0, 400], [20.0, 200], [22.0, 90], [20.0, 120]]
+    }],
+    chartOptions: {
+      chart: {
+        zoom: {
+          enabled: true,
+          type: 'xy'
+        },
+        toolbar: {
+          show: false
+        }
+      },
+      grid: {
+        xaxis: {
+          lines: {
+            show: true
+          }
+        }
+      },
+      colors: [_themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].warning, _themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].primary, _themeConfig__WEBPACK_IMPORTED_MODULE_3__["$themeColors"].success],
+      legend: {
+        show: true,
+        position: 'top',
+        horizontalAlign: 'left'
+      },
+      xaxis: {
+        tickAmount: 10,
+        labels: {
+          formatter: function formatter(val) {
+            return parseFloat(val).toFixed(1);
+          }
+        }
+      },
+      yaxis: {// opposite: isRtl,
+      }
+    }
+  },
+  heatMapChart: {
+    series: [{
+      name: 'SUN',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'MON',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'TUE',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'WED',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'THU',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'FRI',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }, {
+      name: 'SAT',
+      data: generateDataHeatMap(24, {
+        min: 0,
+        max: 60
+      })
+    }],
+    chartOptions: {
+      dataLabels: {
+        enabled: false
+      },
+      legend: {
+        show: true,
+        position: 'bottom'
+      },
+      colors: ['#7367F0'],
+      plotOptions: {
+        heatmap: {
+          enableShades: false,
+          colorScale: {
+            ranges: [{
+              from: 0,
+              to: 10,
+              name: '0-10',
+              color: '#b9b3f8'
+            }, {
+              from: 11,
+              to: 20,
+              name: '10-20',
+              color: '#aba4f6'
+            }, {
+              from: 21,
+              to: 30,
+              name: '20-30',
+              color: '#9d95f5'
+            }, {
+              from: 31,
+              to: 40,
+              name: '30-40',
+              color: '#8f85f3'
+            }, {
+              from: 41,
+              to: 50,
+              name: '40-50',
+              color: '#8176f2'
+            }, {
+              from: 51,
+              to: 60,
+              name: '50-60',
+              color: '#7367f0'
+            }]
+          }
+        }
+      },
+      xaxis: {
+        labels: {
+          show: false
+        },
+        axisBorder: {
+          show: false
+        },
+        axisTicks: {
+          show: false
+        }
+      },
+      chart: {
+        height: 350,
+        type: 'heatmap',
+        toolbar: {
+          show: false
+        }
+      }
+    }
+  },
+  donutChart: {
+    series: [85, 16, 50, 50],
+    chartOptions: {
+      legend: {
+        show: true,
+        position: 'bottom',
+        fontSize: '14px',
+        fontFamily: 'Montserrat'
+      },
+      colors: [chartColors.donut.series1, chartColors.donut.series5, chartColors.donut.series3, chartColors.donut.series2],
+      dataLabels: {
+        enabled: true,
+        formatter: function formatter(val) {
+          // eslint-disable-next-line radix
+          return "".concat(parseInt(val), "%");
+        }
+      },
+      plotOptions: {
+        pie: {
+          donut: {
+            labels: {
+              show: true,
+              name: {
+                fontSize: '2rem',
+                fontFamily: 'Montserrat'
+              },
+              value: {
+                fontSize: '1rem',
+                fontFamily: 'Montserrat',
+                formatter: function formatter(val) {
+                  // eslint-disable-next-line radix
+                  return "".concat(parseInt(val), "%");
+                }
+              },
+              total: {
+                show: true,
+                fontSize: '1.5rem',
+                label: 'Operational',
+                formatter: function formatter() {
+                  return '31%';
+                }
+              }
+            }
+          }
+        }
+      },
+      labels: ['Operational', 'Networking', 'Hiring', 'R&D'],
+      responsive: [{
+        breakpoint: 992,
+        options: {
+          chart: {
+            height: 380
+          },
+          legend: {
+            position: 'bottom'
+          }
+        }
+      }, {
+        breakpoint: 576,
+        options: {
+          chart: {
+            height: 320
+          },
+          plotOptions: {
+            pie: {
+              donut: {
+                labels: {
+                  show: true,
+                  name: {
+                    fontSize: '1.5rem'
+                  },
+                  value: {
+                    fontSize: '1rem'
+                  },
+                  total: {
+                    fontSize: '1.5rem'
+                  }
+                }
+              }
+            }
+          },
+          legend: {
+            show: true
+          }
+        }
+      }]
+    }
+  },
+  radialBarChart: {
+    series: [80, 50, 35],
+    chartOptions: {
+      colors: [chartColors.donut.series1, chartColors.donut.series2, chartColors.donut.series4],
+      plotOptions: {
+        radialBar: {
+          size: 185,
+          hollow: {
+            size: '25%'
+          },
+          track: {
+            margin: 15
+          },
+          dataLabels: {
+            name: {
+              fontSize: '2rem',
+              fontFamily: 'Montserrat'
+            },
+            value: {
+              fontSize: '1rem',
+              fontFamily: 'Montserrat'
+            },
+            total: {
+              show: true,
+              fontSize: '1rem',
+              label: 'Comments',
+              formatter: function formatter() {
+                return '80%';
+              }
+            }
+          }
+        }
+      },
+      legend: {
+        show: true,
+        position: 'bottom',
+        horizontalAlign: 'center'
+      },
+      stroke: {
+        lineCap: 'round'
+      },
+      labels: ['Comments', 'Replies', 'Shares']
+    }
+  },
+  radarChart: {
+    series: [{
+      name: 'iPhone 11',
+      data: [41, 64, 81, 60, 42, 42, 33, 23]
+    }, {
+      name: 'Samsung s20',
+      data: [65, 46, 42, 25, 58, 63, 76, 43]
+    }],
+    chartOptions: {
+      chart: {
+        toolbar: {
+          show: false
+        },
+        dropShadow: {
+          enabled: false,
+          blur: 8,
+          left: 1,
+          top: 1,
+          opacity: 0.2
+        }
+      },
+      legend: {
+        show: true,
+        fontSize: '14px',
+        fontFamily: 'Montserrat'
+      },
+      yaxis: {
+        show: false
+      },
+      colors: [chartColors.donut.series1, chartColors.donut.series3],
+      xaxis: {
+        categories: ['Battery', 'Brand', 'Camera', 'Memory', 'Storage', 'Display', 'OS', 'Price']
+      },
+      fill: {
+        opacity: [1, 0.8]
+      },
+      stroke: {
+        show: false,
+        width: 0
+      },
+      markers: {
+        size: 0
+      },
+      grid: {
+        show: false
+      }
+    }
+  }
+});
 
 /***/ })
 

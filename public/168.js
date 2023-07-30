@@ -1,29 +1,23 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[168],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
-/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
-/* harmony import */ var _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @core/layouts/components/Logo.vue */ "./resources/js/src/@core/layouts/components/Logo.vue");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _auth_jwt_useJwt__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/auth/jwt/useJwt */ "./resources/js/src/auth/jwt/useJwt.js");
-/* harmony import */ var _validations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @validations */ "./resources/js/src/@core/utils/validations/validations.js");
-/* harmony import */ var _core_mixins_ui_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @core/mixins/ui/forms */ "./resources/js/src/@core/mixins/ui/forms.js");
-/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
-/* harmony import */ var _auth_utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/auth/utils */ "./resources/js/src/auth/utils.js");
-/* harmony import */ var _core_components_toastification_ToastificationContent_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @core/components/toastification/ToastificationContent.vue */ "./resources/js/src/@core/components/toastification/ToastificationContent.vue");
-
-
+/* harmony import */ var _vue_composition_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @vue/composition-api */ "./node_modules/@vue/composition-api/dist/vue-composition-api.esm.js");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/store */ "./resources/js/src/store/index.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/router */ "./resources/js/src/router/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @core/layouts/components/Logo.vue */ "./resources/js/src/@core/layouts/components/Logo.vue");
+/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
+/* harmony import */ var _invoiceStoreModule__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../invoiceStoreModule */ "./resources/js/src/views/apps/invoice/invoiceStoreModule.js");
+/* harmony import */ var _InvoiceSidebarSendInvoice_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../InvoiceSidebarSendInvoice.vue */ "./resources/js/src/views/apps/invoice/InvoiceSidebarSendInvoice.vue");
+/* harmony import */ var _InvoiceSidebarAddPayment_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../InvoiceSidebarAddPayment.vue */ "./resources/js/src/views/apps/invoice/InvoiceSidebarAddPayment.vue");
 //
 //
 //
@@ -87,8 +81,280 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-/* eslint-disable global-require */
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -100,394 +366,119 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   directives: {
-    'b-tooltip': bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["VBTooltip"]
+    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_5__["default"],
+    'b-toggle': bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["VBToggle"]
   },
   components: {
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCol"],
-    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BLink"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormInput"],
-    BInputGroupAppend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BInputGroupAppend"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BInputGroup"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormCheckbox"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCardText"],
-    BCardTitle: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCardTitle"],
-    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BImg"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BForm"],
-    BSpinner: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BSpinner"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BButton"],
-    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BAlert"],
-    VuexyLogo: _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    ValidationProvider: vee_validate__WEBPACK_IMPORTED_MODULE_2__["ValidationProvider"],
-    ValidationObserver: vee_validate__WEBPACK_IMPORTED_MODULE_2__["ValidationObserver"]
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BCol"],
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BCard"],
+    BCardBody: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BCardBody"],
+    BTableLite: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BTableLite"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BCardText"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BButton"],
+    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BAlert"],
+    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BLink"],
+    Logo: _core_layouts_components_Logo_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    InvoiceSidebarAddPayment: _InvoiceSidebarAddPayment_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    InvoiceSidebarSendInvoice: _InvoiceSidebarSendInvoice_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   },
-  mixins: [_core_mixins_ui_forms__WEBPACK_IMPORTED_MODULE_7__["togglePasswordVisibility"]],
-  data: function data() {
-    return {
-      status: '',
-      password: 'admin',
-      usuario: '',
-      userEmail: 'admin@demo.com',
-      sideImg: __webpack_require__(/*! @/assets/images/pages/login-v2.svg */ "./resources/js/src/assets/images/pages/login-v2.svg"),
-      showLoading: false,
-      respuesta: "",
-      // validation rules
-      required: _validations__WEBPACK_IMPORTED_MODULE_6__["required"],
-      email: _validations__WEBPACK_IMPORTED_MODULE_6__["email"]
+  setup: function setup() {
+    var invoiceData = Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["ref"])(null);
+    var paymentDetails = Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["ref"])({}); // Invoice Description
+    // ? Your real data will contain this information
+
+    var invoiceDescription = [{
+      taskTitle: 'Native App Development',
+      taskDescription: 'Developed a full stack native app using React Native, Bootstrap & Python',
+      rate: '$60.00',
+      hours: '30',
+      total: '$1,800.00'
+    }, {
+      taskTitle: 'UI Kit Design',
+      taskDescription: 'Designed a UI kit for native app using Sketch, Figma & Adobe XD',
+      rate: '$60.00',
+      hours: '20',
+      total: '$1200.00'
+    }];
+    var INVOICE_APP_STORE_MODULE_NAME = 'app-invoice'; // Register module
+
+    if (!_store__WEBPACK_IMPORTED_MODULE_1__["default"].hasModule(INVOICE_APP_STORE_MODULE_NAME)) _store__WEBPACK_IMPORTED_MODULE_1__["default"].registerModule(INVOICE_APP_STORE_MODULE_NAME, _invoiceStoreModule__WEBPACK_IMPORTED_MODULE_6__["default"]); // UnRegister on leave
+
+    Object(_vue_composition_api__WEBPACK_IMPORTED_MODULE_0__["onUnmounted"])(function () {
+      if (_store__WEBPACK_IMPORTED_MODULE_1__["default"].hasModule(INVOICE_APP_STORE_MODULE_NAME)) _store__WEBPACK_IMPORTED_MODULE_1__["default"].unregisterModule(INVOICE_APP_STORE_MODULE_NAME);
+    });
+    _store__WEBPACK_IMPORTED_MODULE_1__["default"].dispatch('app-invoice/fetchInvoice', {
+      id: _router__WEBPACK_IMPORTED_MODULE_2__["default"].currentRoute.params.id
+    }).then(function (response) {
+      invoiceData.value = response.data.invoice;
+      paymentDetails.value = response.data.paymentDetails;
+    })["catch"](function (error) {
+      if (error.response.status === 404) {
+        invoiceData.value = undefined;
+      }
+    });
+
+    var printInvoice = function printInvoice() {
+      window.print();
     };
-  },
-  computed: {
-    passwordToggleIcon: function passwordToggleIcon() {
-      return this.passwordFieldType === 'password' ? 'EyeIcon' : 'EyeOffIcon';
-    },
-    imgUrl: function imgUrl() {
-      if (_store_index__WEBPACK_IMPORTED_MODULE_8__["default"].state.appConfig.layout.skin === 'dark') {
-        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-        this.sideImg = __webpack_require__(/*! @/assets/images/pages/login-v2-dark.svg */ "./resources/js/src/assets/images/pages/login-v2-dark.svg");
-        return this.sideImg;
-      }
 
-      return this.sideImg;
-    }
-  },
-  methods: {
-    login: function login() {
-      var _this = this;
-
-      this.showLoading = true;
-      localStorage.removeItem('userData');
-      this.$refs.loginForm.validate().then(function (success) {
-        if (success) {
-          /*useJwt
-            .login({
-              email: this.userEmail,
-              password: this.password,
-            })*/
-          var reiniciar = true;
-
-          _this.$http.post('/login', {
-            usuarioUsu: _this.usuario,
-            password: _this.password
-          }).then(function (response) {
-            /*if(response.data.message == "The given data was invalid.")
-                reiniciar = true;
-            else
-                reiniciar = false;*/
-
-            /*if(!reiniciar)
-            {*/
-            console.log(response.data);
-            var userData = response.data.userData;
-            _auth_jwt_useJwt__WEBPACK_IMPORTED_MODULE_5__["default"].setToken(response.data.accessToken);
-            _auth_jwt_useJwt__WEBPACK_IMPORTED_MODULE_5__["default"].setRefreshToken(response.data.refreshToken);
-            localStorage.setItem('userData', JSON.stringify(userData));
-
-            _this.$ability.update(response.data.userData.ability); // ? This is just for demo purpose as well.
-            // ? Because we are showing eCommerce app's cart items count in navbar
-            //this.$store.commit('app-ecommerce/UPDATE_CART_ITEMS_COUNT', userData.extras.eCommerceCartItemsCount)
-            // ? This is just for demo purpose. Don't think CASL is role based in this case, we used role in if condition just for ease
-
-
-            _this.$router.replace(Object(_auth_utils__WEBPACK_IMPORTED_MODULE_9__["getHomeRouteForLoggedInUser"])(response.data.userData.role)).then(function () {
-              _this.$toast({
-                component: _core_components_toastification_ToastificationContent_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
-                position: 'top-right',
-                props: {
-                  title: "Welcome ".concat(userData.fullName || userData.username),
-                  icon: 'CoffeeIcon',
-                  variant: 'success',
-                  text: "You have successfully logged in as ".concat(userData.role, ". Now you can start to explore!")
-                }
-              });
-            });
-
-            _this.showLoading = false;
-            return;
-            /*}*/
-          })["catch"](function (error) {
-            console.log(error);
-            _this.showLoading = false; //this.$refs.loginForm.setErrors(error.response.data.error)
-          });
-          /*this.repuesta = response.data;
-          this.showLoading = false;*/
-          //return;
-
-          /**************************************************************************************/
-
-          /*this.$http.get('/home',
-          {                
-          })
-          .then(response => {
-                // console.log(response.data);
-              const { userData } = response.data;
-              useJwt.setToken(response.data.accessToken);
-              useJwt.setRefreshToken(response.data.refreshToken);
-              localStorage.setItem('userData', JSON.stringify(userData));
-            
-              this.$ability.update(response.data.userData.ability)
-              // ? This is just for demo purpose as well.
-              // ? Because we are showing eCommerce app's cart items count in navbar
-              //this.$store.commit('app-ecommerce/UPDATE_CART_ITEMS_COUNT', userData.extras.eCommerceCartItemsCount)
-                // ? This is just for demo purpose. Don't think CASL is role based in this case, we used role in if condition just for ease
-              this.$router.replace(getHomeRouteForLoggedInUser(response.data.userData.role)).then(() => {
-                  this.$toast({
-                      component: ToastificationContent,
-                      position: 'top-right',
-                      props: {
-                          title: `Welcome ${userData.fullName || userData.username}`,
-                          icon: 'CoffeeIcon',
-                          variant: 'success',
-                          text: `You have successfully logged in as ${userData.role}. Now you can start to explore!`,
-                      },
-                  })
-              })
-              return;
-          })
-          .catch(error => {
-                  console.log(error);
-                  this.showLoading = false;
-            //this.$refs.loginForm.setErrors(error.response.data.error)
-          })*/
-
-        }
-      });
-    },
-    created: function created() {
-      /*this.$http.get('/LiberAPP/Convoy')
-          .then(res => {
-             this.convoys = res.data;
-          })
-          .catch(error => {
-              this.Toast(true,'danger','Convoy','Error al cargar los registros: '+error);
-              this.showLoading = false;
-          });*/
-    }
+    return {
+      invoiceData: invoiceData,
+      paymentDetails: paymentDetails,
+      invoiceDescription: invoiceDescription,
+      printInvoice: printInvoice
+    };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/core-js/internals/get-substitution.js":
-/*!************************************************************!*\
-  !*** ./node_modules/core-js/internals/get-substitution.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toObject = __webpack_require__(/*! ../internals/to-object */ "./node_modules/core-js/internals/to-object.js");
-
-var floor = Math.floor;
-var replace = ''.replace;
-var SUBSTITUTION_SYMBOLS = /\$([$&'`]|\d{1,2}|<[^>]*>)/g;
-var SUBSTITUTION_SYMBOLS_NO_NAMED = /\$([$&'`]|\d{1,2})/g;
-
-// `GetSubstitution` abstract operation
-// https://tc39.es/ecma262/#sec-getsubstitution
-module.exports = function (matched, str, position, captures, namedCaptures, replacement) {
-  var tailPos = position + matched.length;
-  var m = captures.length;
-  var symbols = SUBSTITUTION_SYMBOLS_NO_NAMED;
-  if (namedCaptures !== undefined) {
-    namedCaptures = toObject(namedCaptures);
-    symbols = SUBSTITUTION_SYMBOLS;
-  }
-  return replace.call(replacement, symbols, function (match, ch) {
-    var capture;
-    switch (ch.charAt(0)) {
-      case '$': return '$';
-      case '&': return matched;
-      case '`': return str.slice(0, position);
-      case "'": return str.slice(tailPos);
-      case '<':
-        capture = namedCaptures[ch.slice(1, -1)];
-        break;
-      default: // \d\d?
-        var n = +ch;
-        if (n === 0) return match;
-        if (n > m) {
-          var f = floor(n / 10);
-          if (f === 0) return match;
-          if (f <= m) return captures[f - 1] === undefined ? ch.charAt(1) : captures[f - 1] + ch.charAt(1);
-          return match;
-        }
-        capture = captures[n - 1];
-    }
-    return capture === undefined ? '' : capture;
-  });
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/modules/es.string.replace.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/core-js/modules/es.string.replace.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var fixRegExpWellKnownSymbolLogic = __webpack_require__(/*! ../internals/fix-regexp-well-known-symbol-logic */ "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js");
-var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
-var anObject = __webpack_require__(/*! ../internals/an-object */ "./node_modules/core-js/internals/an-object.js");
-var isCallable = __webpack_require__(/*! ../internals/is-callable */ "./node_modules/core-js/internals/is-callable.js");
-var toInteger = __webpack_require__(/*! ../internals/to-integer */ "./node_modules/core-js/internals/to-integer.js");
-var toLength = __webpack_require__(/*! ../internals/to-length */ "./node_modules/core-js/internals/to-length.js");
-var toString = __webpack_require__(/*! ../internals/to-string */ "./node_modules/core-js/internals/to-string.js");
-var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "./node_modules/core-js/internals/require-object-coercible.js");
-var advanceStringIndex = __webpack_require__(/*! ../internals/advance-string-index */ "./node_modules/core-js/internals/advance-string-index.js");
-var getMethod = __webpack_require__(/*! ../internals/get-method */ "./node_modules/core-js/internals/get-method.js");
-var getSubstitution = __webpack_require__(/*! ../internals/get-substitution */ "./node_modules/core-js/internals/get-substitution.js");
-var regExpExec = __webpack_require__(/*! ../internals/regexp-exec-abstract */ "./node_modules/core-js/internals/regexp-exec-abstract.js");
-var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "./node_modules/core-js/internals/well-known-symbol.js");
-
-var REPLACE = wellKnownSymbol('replace');
-var max = Math.max;
-var min = Math.min;
-
-var maybeToString = function (it) {
-  return it === undefined ? it : String(it);
-};
-
-// IE <= 11 replaces $0 with the whole match, as if it was $&
-// https://stackoverflow.com/questions/6024666/getting-ie-to-replace-a-regex-with-the-literal-string-0
-var REPLACE_KEEPS_$0 = (function () {
-  // eslint-disable-next-line regexp/prefer-escape-replacement-dollar-char -- required for testing
-  return 'a'.replace(/./, '$0') === '$0';
-})();
-
-// Safari <= 13.0.3(?) substitutes nth capture where n>m with an empty string
-var REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE = (function () {
-  if (/./[REPLACE]) {
-    return /./[REPLACE]('a', '$0') === '';
-  }
-  return false;
-})();
-
-var REPLACE_SUPPORTS_NAMED_GROUPS = !fails(function () {
-  var re = /./;
-  re.exec = function () {
-    var result = [];
-    result.groups = { a: '7' };
-    return result;
-  };
-  // eslint-disable-next-line regexp/no-useless-dollar-replacements -- false positive
-  return ''.replace(re, '$<a>') !== '7';
-});
-
-// @@replace logic
-fixRegExpWellKnownSymbolLogic('replace', function (_, nativeReplace, maybeCallNative) {
-  var UNSAFE_SUBSTITUTE = REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE ? '$' : '$0';
-
-  return [
-    // `String.prototype.replace` method
-    // https://tc39.es/ecma262/#sec-string.prototype.replace
-    function replace(searchValue, replaceValue) {
-      var O = requireObjectCoercible(this);
-      var replacer = searchValue == undefined ? undefined : getMethod(searchValue, REPLACE);
-      return replacer
-        ? replacer.call(searchValue, O, replaceValue)
-        : nativeReplace.call(toString(O), searchValue, replaceValue);
-    },
-    // `RegExp.prototype[@@replace]` method
-    // https://tc39.es/ecma262/#sec-regexp.prototype-@@replace
-    function (string, replaceValue) {
-      var rx = anObject(this);
-      var S = toString(string);
-
-      if (
-        typeof replaceValue === 'string' &&
-        replaceValue.indexOf(UNSAFE_SUBSTITUTE) === -1 &&
-        replaceValue.indexOf('$<') === -1
-      ) {
-        var res = maybeCallNative(nativeReplace, rx, S, replaceValue);
-        if (res.done) return res.value;
-      }
-
-      var functionalReplace = isCallable(replaceValue);
-      if (!functionalReplace) replaceValue = toString(replaceValue);
-
-      var global = rx.global;
-      if (global) {
-        var fullUnicode = rx.unicode;
-        rx.lastIndex = 0;
-      }
-      var results = [];
-      while (true) {
-        var result = regExpExec(rx, S);
-        if (result === null) break;
-
-        results.push(result);
-        if (!global) break;
-
-        var matchStr = toString(result[0]);
-        if (matchStr === '') rx.lastIndex = advanceStringIndex(S, toLength(rx.lastIndex), fullUnicode);
-      }
-
-      var accumulatedResult = '';
-      var nextSourcePosition = 0;
-      for (var i = 0; i < results.length; i++) {
-        result = results[i];
-
-        var matched = toString(result[0]);
-        var position = max(min(toInteger(result.index), S.length), 0);
-        var captures = [];
-        // NOTE: This is equivalent to
-        //   captures = result.slice(1).map(maybeToString)
-        // but for some reason `nativeSlice.call(result, 1, result.length)` (called in
-        // the slice polyfill when slicing native arrays) "doesn't work" in safari 9 and
-        // causes a crash (https://pastebin.com/N21QzeQA) when trying to debug it.
-        for (var j = 1; j < result.length; j++) captures.push(maybeToString(result[j]));
-        var namedCaptures = result.groups;
-        if (functionalReplace) {
-          var replacerArgs = [matched].concat(captures, position, S);
-          if (namedCaptures !== undefined) replacerArgs.push(namedCaptures);
-          var replacement = toString(replaceValue.apply(undefined, replacerArgs));
-        } else {
-          replacement = getSubstitution(matched, S, position, captures, namedCaptures, replaceValue);
-        }
-        if (position >= nextSourcePosition) {
-          accumulatedResult += S.slice(nextSourcePosition, position) + replacement;
-          nextSourcePosition = position + matched.length;
-        }
-      }
-      return accumulatedResult + S.slice(nextSourcePosition);
-    }
-  ];
-}, !REPLACE_SUPPORTS_NAMED_GROUPS || !REPLACE_KEEPS_$0 || REGEXP_REPLACE_SUBSTITUTES_UNDEFINED_CAPTURE);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".auth-wrapper {\n  display: flex;\n  flex-basis: 100%;\n  min-height: 100vh;\n  min-height: calc(var(--vh, 1vh) * 100);\n  width: 100%;\n}\n.auth-wrapper .auth-inner {\n  width: 100%;\n  position: relative;\n}\n.auth-wrapper.auth-v1 {\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n.auth-wrapper.auth-v1 .auth-inner:before {\n  width: 244px;\n  height: 243px;\n  content: \" \";\n  position: absolute;\n  top: -54px;\n}\n[dir] .auth-wrapper.auth-v1 .auth-inner:before {\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPQAAADzCAMAAACG9Mt0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA9KADAAQAAAABAAAA8wAAAADhQHfUAAAAyVBMVEUAAAD///+AgP+AgP9mZv+AgNWAgP9tbf9gYP+AgP9xcf9mZv+AZuaAgP9dXf90dOhiYv92dv9mZu5mZv93d+53d/9paf94afCAcfFrXvJra/9mZvJzZvJzc/JoaP96b/Rqav91aupsYvV2bOt2bPVxaPZ7cfZqavZyau1waPd4aO9xafBxafh4afB1bfh4avFuZ/F2afJzZvJzZ/N0aPN0bvN3bPR0ae5yZ/R3be93bfR1au9zafBxbPVzavV0a/F0a/ZyafFwaPKZm3nTAAAAQ3RSTlMAAQIEBQYGBwgICQoKCgsLDQ0PDw8PERESExMUFBQWFxgYGhoaGxsdHSAgIiIiIyQlJygqLCwtLi8vLzAzNDU3Nzg7h9vbHgAAA9RJREFUeNrt3ftS2kAUx/Fc1gSyWsErtuJdRDQiiteolb7/QzUoTm07k4AzObuu3/MCez45yWbzT36eZ6b8erO1e1B97baadd+zocJWmg0HaXe/+uqmg2GWtkLT5Lle1m9LdhG2+1lvzuiUO1knEF81yFc1N+35m15kZOGodz1vyLx+v2Lseq/erxtZd/NuweCTtfiwaWLOD5FnsqI7+VnP3y8afnEs3Es/1+H1qvETwuq18B7e6VlwLup1ZM8kWWQBOsrmHL7GVtxvYRZYgQ4ywae61ffsqH5Lbq20bQm6ncp9P2ehJegwE/u+rl95ttSwLrVSc2ANetAU28dSa9Cp2E623bUG3d2VWmn/wBq0XCugQYMGLdVKoOJaoiuok1NdXSW1WAUfRPtRUllflaJf5ZE/O9pXVbZUPTov5c+IDqvtRwStdTgLutoxy6GnGfYb2o+1I2gd+1OiqzfLocvVE7TSDqG1mgodaqfQZbvZC9rXjqG1X45WzqFVKVpk0LLo4lGP0ZGD6KgMnTiITkrQgXYQrYNitHISrYrRsZPouBhdcxJdK0YnTqKTYrR2Eq1BgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRoh9DH59ag86ACoSYOL61B55EUQk1s3VqDzsNHhJpYe7QGncfMSHUxaliCHgcKSXVxeWQJehwdJdXF4dAS9DgkTKqLxuibFeiXODixNi7OrEC/BP+JtbE0WrYA/RrxKNfH2YUF6NegSbk+Gk87xtErN6EsWm88fzeMXpwE9EruLns/l42io4dJFLPo2/Po1w+D6IW7t9Bt2SPx3vOOMfS7eHVZtN54ulg2go56138Ct4XRunE2Ovsmjg46WeddUoUWr6WL0fCoIYgO2/2s91fstDZQjcPL0ePt5flpdXUwqW46uMrS1j95JNpQrW0dHp9UV/uT2m416/8HVGg3qzhpBjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KBBgwYNGjRo0KC/FDpx0pwUo2tOomvF6NhJdFyMVk6iVTE6cBIdeF9vJyvZx/I/AzuIjsrQvoNovwzt4FamSs0Ojrp80PmvoB0zh940pb7azf1yg7t0LIt978uppzbnalfucDW92ZndLPRmKweGPduYJ+zoM5/Dk+gD5NdvLhXXPp88qcUqmEH5G5JZRs6cuxwIAAAAAElFTkSuQmCC\");\n}\n[dir=ltr] .auth-wrapper.auth-v1 .auth-inner:before {\n  left: -46px;\n}\n[dir=rtl] .auth-wrapper.auth-v1 .auth-inner:before {\n  right: -46px;\n}\n@media (max-width: 575.98px) {\n.auth-wrapper.auth-v1 .auth-inner:before {\n    display: none;\n}\n}\n.auth-wrapper.auth-v1 .auth-inner:after {\n  width: 272px;\n  height: 272px;\n  content: \" \";\n  position: absolute;\n  bottom: -55px;\n  z-index: -1;\n}\n[dir] .auth-wrapper.auth-v1 .auth-inner:after {\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARAAAAEQCAMAAABP1NsnAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABEKADAAQAAAABAAABEAAAAAAQWxS2AAAAwFBMVEUAAAD///+AgICAgP9VVaqqVf+qqv+AgL+AgP9mZsxmZv+ZZv+AgNWAgP9tbdttbf+Sbf+AYN+AgN+AgP9xceNmZv+AZuaAZv90dOh0dP9qav+AauqAav+AgP92dv9tbf+Abe2Abf93Zu53d+6AcO94afCAcfF5a+R5a/JzZuaAZvKAc/J5bed5bfOAaPN6b/R1auqAavR6ZvV6cPV2bOuAbPV7aPZ2be2AbfZ7au17avZ3Zu53b+57a+97a/d4aO9J6CoeAAAAQHRSTlMAAQICAwMDBAQFBQUGBgcHBwgICAkKCgoLCwwMDAwNDg4ODw8QERITExQUFBUVFhcYGBkZGhobHBwdHR4eHx8gJ5uMWwAAA/FJREFUeNrt2G1XEkEYxvHZNk2xHGzdbKFl0cTwgdSkCKzu7/+t4pw6sAjtjIueE/f8r3fMO35nZnbuy5gVGcvfzJe0rnTfGI+MggGJRUZnbpPIhJKt88nU53JnFULvyISY6KAv8vPj0vr2rYwiE2Z2B9J+uNYcyyQxwWZvaeGH3G4bMjsvI/kcwTC/V+7kLoahlITzQojP3ZFgsJCh7IJQzpX0QFj4uMiY18eDMZ9bZCF9OQahnK6cm/Y7js0sh/LF3Auv1PlQd3MxbdXYIQspV44EEEAAAWTNDAYYkKdJbNMsLzYueZbaZ2iM46RVbHBaiZ9Js+nHEdli42N9XuSen5hGp1CQTuOJQDRsD99N4gMSpYWapNH6IJo83CIeILZQFesEaber79NCWRoukOpNEnW0gXQqD81w6ACxhbrYde7VuFCYeA2QRCNIsgZISyNIqz6IyhPjOjNVIFYniK3dmKU6QdLaJUimEySrDZLrBMlrgxRKU7sxCw/EMe0CAggggADySJCqxixIkKpNEh6IozELD8RxjQACCCCAAPJIkKrGLEgQXqqAAEJjxrQLCCCAAEJjRmNGY8a0CwgggABCYwYIfQgggNCYMe0CAggggNCY0ZjRmDHtAgIIIIAAQmNGHwIIIDRmTLuAAAIIIDRmNGY0Zky7gAACCCCA0JjRhwACCI0Z0y4ggAACCI0ZjRmNGdMuIIAAAgggNGb0IYAAQmPGtAsIIIAAQmNGY0ZjxrQLCCCAAAIIjRl9CCCA0Jgx7QICCCCA0JjRmNGYMe0CAggggABCY0YfAgggNGZMu4AAAgggNGY0ZjRmTLuAAAIIIIDQmNGHAAIIjRnTLiCAAAIIjRmNGY0ZIEy7gAACCCA0ZvQhgABCY8a0CwgggABCY0ZjBgiNGdMuIIAAAgiN2f/Sh+Q6PfLaIJlOkKw2SKoTJK3dmFmdILb2tBvrBIlrg5iWRo+WqQ+SaARJ1gCJAzsxThCN16p1vNurGjNjoo42j07kAHFskoY2kEbl33U0ZgoPjXW+Rl0gkarnahqtDaJKxMPDDWIiNafGenh4gExvVhXfmk7Da6L1AVGxSby2h6MxK79Zk42ea1pJbJ48sU2zDezQ8iy1z6BBwoyjMQsvXp8YQAAhgADilRfyy+wf8WqZZUfGZihvgZiB3FybC+kCUU5XLkAo50C+gbBQdUzkAIVyejIAYfFTI1solHP2HgNCnHn5AYNy4jvpoVB6fVzL91cwzLJ9Lfd7S0jhehxO5H5/yePr1W6gHonI7fJ5ORSR/n6Q2yQanq763zuXU5LJZRKiyD/W9/pjkdPZz0/yJ8fqVyry+qQZDMjJKoDfy8bRVhHhQTwAAAAASUVORK5CYII=\");\n}\n[dir=ltr] .auth-wrapper.auth-v1 .auth-inner:after {\n  right: -75px;\n}\n[dir=rtl] .auth-wrapper.auth-v1 .auth-inner:after {\n  left: -75px;\n}\n@media (max-width: 575.98px) {\n.auth-wrapper.auth-v1 .auth-inner:after {\n    display: none;\n}\n}\n.auth-wrapper.auth-v2 {\n  align-items: flex-start;\n}\n.auth-wrapper.auth-v2 .auth-inner {\n  height: 100vh;\n  overflow-y: auto;\n  height: calc(var(--vh, 1vh) * 100);\n}\n.auth-wrapper.auth-v2 .brand-logo {\n  position: absolute;\n  top: 2rem;\n  z-index: 1;\n}\n[dir] .auth-wrapper.auth-v2 .brand-logo {\n  margin: 0;\n}\n[dir=ltr] .auth-wrapper.auth-v2 .brand-logo {\n  left: 2rem;\n}\n[dir=rtl] .auth-wrapper.auth-v2 .brand-logo {\n  right: 2rem;\n}\n.auth-wrapper.auth-v1 .auth-inner {\n  max-width: 400px;\n}\n.auth-wrapper .brand-logo {\n  display: flex;\n  justify-content: center;\n}\n[dir] .auth-wrapper .brand-logo {\n  margin: 1rem 0 2rem 0;\n}\n.auth-wrapper .brand-logo .brand-text {\n  font-weight: 600;\n}\n[dir] .auth-wrapper .auth-footer-btn .btn {\n  padding: 0.6rem !important;\n}\n[dir=ltr] .auth-wrapper .auth-footer-btn .btn:not(:last-child) {\n  margin-right: 1rem;\n}\n[dir=rtl] .auth-wrapper .auth-footer-btn .btn:not(:last-child) {\n  margin-left: 1rem;\n}\n@media (min-width: 1200px) {\n.auth-wrapper.auth-v2 .auth-card {\n    width: 400px;\n}\n}\n[dir] .auth-wrapper .auth-bg {\n  background-color: #fff;\n}\n[dir] .dark-layout .auth-wrapper .auth-bg {\n  background-color: #283046;\n}\n@media (max-height: 625px) {\n[dir] .dark-layout .auth-wrapper .auth-inner {\n    background-color: #283046;\n}\n[dir] .auth-wrapper .auth-bg {\n    padding-top: 3rem;\n}\n[dir] .auth-wrapper .auth-inner {\n    background-color: #fff;\n    padding-bottom: 1rem;\n}\n.auth-wrapper.auth-v2 .brand-logo {\n    width: 100%;\n    display: flex;\n    justify-content: unset;\n    position: relative;\n}\n[dir=ltr] .auth-wrapper.auth-v2 .brand-logo {\n    left: 0;\n    padding-left: 1.5rem;\n}\n[dir=rtl] .auth-wrapper.auth-v2 .brand-logo {\n    right: 0;\n    padding-right: 1.5rem;\n}\n}\n.brand-logo svg {\n  height: 28px;\n  width: 40.95px;\n}", ""]);
+exports.push([module.i, "[dir=ltr] .invoice-preview .invoice-padding[data-v-12670cf2], [dir=ltr] .invoice-edit .invoice-padding[data-v-12670cf2], [dir=ltr] .invoice-add .invoice-padding[data-v-12670cf2] {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}[dir=rtl] .invoice-preview .invoice-padding[data-v-12670cf2], [dir=rtl] .invoice-edit .invoice-padding[data-v-12670cf2], [dir=rtl] .invoice-add .invoice-padding[data-v-12670cf2] {\n  padding-right: 2.5rem;\n  padding-left: 2.5rem;\n}\n[dir=ltr] .invoice-preview .table th[data-v-12670cf2]:first-child, [dir=ltr] .invoice-preview .table td[data-v-12670cf2]:first-child, [dir=ltr] .invoice-edit .table th[data-v-12670cf2]:first-child, [dir=ltr] .invoice-edit .table td[data-v-12670cf2]:first-child, [dir=ltr] .invoice-add .table th[data-v-12670cf2]:first-child, [dir=ltr] .invoice-add .table td[data-v-12670cf2]:first-child {\n  padding-left: 2.5rem;\n}\n[dir=rtl] .invoice-preview .table th[data-v-12670cf2]:first-child, [dir=rtl] .invoice-preview .table td[data-v-12670cf2]:first-child, [dir=rtl] .invoice-edit .table th[data-v-12670cf2]:first-child, [dir=rtl] .invoice-edit .table td[data-v-12670cf2]:first-child, [dir=rtl] .invoice-add .table th[data-v-12670cf2]:first-child, [dir=rtl] .invoice-add .table td[data-v-12670cf2]:first-child {\n  padding-right: 2.5rem;\n}\n.invoice-preview .logo-wrapper[data-v-12670cf2],\n.invoice-edit .logo-wrapper[data-v-12670cf2],\n.invoice-add .logo-wrapper[data-v-12670cf2] {\n  display: flex;\n  align-items: center;\n}\n[dir] .invoice-preview .logo-wrapper[data-v-12670cf2], [dir] .invoice-edit .logo-wrapper[data-v-12670cf2], [dir] .invoice-add .logo-wrapper[data-v-12670cf2] {\n  margin-bottom: 1.9rem;\n}\n.invoice-preview .logo-wrapper .invoice-logo[data-v-12670cf2],\n.invoice-edit .logo-wrapper .invoice-logo[data-v-12670cf2],\n.invoice-add .logo-wrapper .invoice-logo[data-v-12670cf2] {\n  font-size: 2.142rem;\n  font-weight: bold;\n  letter-spacing: -0.54px;\n}\n[dir] .invoice-preview .logo-wrapper .invoice-logo[data-v-12670cf2], [dir] .invoice-edit .logo-wrapper .invoice-logo[data-v-12670cf2], [dir] .invoice-add .logo-wrapper .invoice-logo[data-v-12670cf2] {\n  margin-bottom: 0;\n}\n[dir=ltr] .invoice-preview .logo-wrapper .invoice-logo[data-v-12670cf2], [dir=ltr] .invoice-edit .logo-wrapper .invoice-logo[data-v-12670cf2], [dir=ltr] .invoice-add .logo-wrapper .invoice-logo[data-v-12670cf2] {\n  margin-left: 1rem;\n}\n[dir=rtl] .invoice-preview .logo-wrapper .invoice-logo[data-v-12670cf2], [dir=rtl] .invoice-edit .logo-wrapper .invoice-logo[data-v-12670cf2], [dir=rtl] .invoice-add .logo-wrapper .invoice-logo[data-v-12670cf2] {\n  margin-right: 1rem;\n}\n.invoice-preview .invoice-title[data-v-12670cf2],\n.invoice-edit .invoice-title[data-v-12670cf2],\n.invoice-add .invoice-title[data-v-12670cf2] {\n  font-size: 1.285rem;\n}\n[dir] .invoice-preview .invoice-title[data-v-12670cf2], [dir] .invoice-edit .invoice-title[data-v-12670cf2], [dir] .invoice-add .invoice-title[data-v-12670cf2] {\n  margin-bottom: 1rem;\n}\n.invoice-preview .invoice-title .invoice-number[data-v-12670cf2],\n.invoice-edit .invoice-title .invoice-number[data-v-12670cf2],\n.invoice-add .invoice-title .invoice-number[data-v-12670cf2] {\n  font-weight: 600;\n}\n.invoice-preview .invoice-date-wrapper[data-v-12670cf2],\n.invoice-edit .invoice-date-wrapper[data-v-12670cf2],\n.invoice-add .invoice-date-wrapper[data-v-12670cf2] {\n  display: flex;\n  align-items: center;\n}\n[dir] .invoice-preview .invoice-date-wrapper[data-v-12670cf2]:not(:last-of-type), [dir] .invoice-edit .invoice-date-wrapper[data-v-12670cf2]:not(:last-of-type), [dir] .invoice-add .invoice-date-wrapper[data-v-12670cf2]:not(:last-of-type) {\n  margin-bottom: 0.5rem;\n}\n.invoice-preview .invoice-date-wrapper .invoice-date-title[data-v-12670cf2],\n.invoice-edit .invoice-date-wrapper .invoice-date-title[data-v-12670cf2],\n.invoice-add .invoice-date-wrapper .invoice-date-title[data-v-12670cf2] {\n  width: 7rem;\n}\n[dir] .invoice-preview .invoice-date-wrapper .invoice-date-title[data-v-12670cf2], [dir] .invoice-edit .invoice-date-wrapper .invoice-date-title[data-v-12670cf2], [dir] .invoice-add .invoice-date-wrapper .invoice-date-title[data-v-12670cf2] {\n  margin-bottom: 0;\n}\n.invoice-preview .invoice-date-wrapper .invoice-date[data-v-12670cf2],\n.invoice-edit .invoice-date-wrapper .invoice-date[data-v-12670cf2],\n.invoice-add .invoice-date-wrapper .invoice-date[data-v-12670cf2] {\n  font-weight: 600;\n}\n[dir] .invoice-preview .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir] .invoice-edit .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir] .invoice-add .invoice-date-wrapper .invoice-date[data-v-12670cf2] {\n  margin-bottom: 0;\n}\n[dir=ltr] .invoice-preview .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir=ltr] .invoice-edit .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir=ltr] .invoice-add .invoice-date-wrapper .invoice-date[data-v-12670cf2] {\n  margin-left: 0.5rem;\n}\n[dir=rtl] .invoice-preview .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir=rtl] .invoice-edit .invoice-date-wrapper .invoice-date[data-v-12670cf2], [dir=rtl] .invoice-add .invoice-date-wrapper .invoice-date[data-v-12670cf2] {\n  margin-right: 0.5rem;\n}\n[dir] .invoice-preview .invoice-spacing[data-v-12670cf2], [dir] .invoice-edit .invoice-spacing[data-v-12670cf2], [dir] .invoice-add .invoice-spacing[data-v-12670cf2] {\n  margin: 1.45rem 0;\n}\n.invoice-preview .invoice-number-date .title[data-v-12670cf2],\n.invoice-edit .invoice-number-date .title[data-v-12670cf2],\n.invoice-add .invoice-number-date .title[data-v-12670cf2] {\n  width: 115px;\n}\n.invoice-preview .invoice-total-wrapper[data-v-12670cf2],\n.invoice-edit .invoice-total-wrapper[data-v-12670cf2],\n.invoice-add .invoice-total-wrapper[data-v-12670cf2] {\n  width: 100%;\n  max-width: 12rem;\n}\n.invoice-preview .invoice-total-wrapper .invoice-total-item[data-v-12670cf2],\n.invoice-edit .invoice-total-wrapper .invoice-total-item[data-v-12670cf2],\n.invoice-add .invoice-total-wrapper .invoice-total-item[data-v-12670cf2] {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n[dir] .invoice-preview .invoice-total-wrapper .invoice-total-item .invoice-total-title[data-v-12670cf2], [dir] .invoice-edit .invoice-total-wrapper .invoice-total-item .invoice-total-title[data-v-12670cf2], [dir] .invoice-add .invoice-total-wrapper .invoice-total-item .invoice-total-title[data-v-12670cf2] {\n  margin-bottom: 0.35rem;\n}\n.invoice-preview .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2],\n.invoice-edit .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2],\n.invoice-add .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2] {\n  font-weight: 600;\n}\n[dir] .invoice-preview .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2], [dir] .invoice-edit .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2], [dir] .invoice-add .invoice-total-wrapper .invoice-total-item .invoice-total-amount[data-v-12670cf2] {\n  margin-bottom: 0.35rem;\n}\n@media (min-width: 768px) {\n[dir] .invoice-preview .invoice-title[data-v-12670cf2], [dir] .invoice-edit .invoice-title[data-v-12670cf2], [dir] .invoice-add .invoice-title[data-v-12670cf2] {\n    margin-bottom: 3rem;\n}\n[dir=ltr] .invoice-preview .invoice-title[data-v-12670cf2], [dir=ltr] .invoice-edit .invoice-title[data-v-12670cf2], [dir=ltr] .invoice-add .invoice-title[data-v-12670cf2] {\n    text-align: right;\n}\n[dir=rtl] .invoice-preview .invoice-title[data-v-12670cf2], [dir=rtl] .invoice-edit .invoice-title[data-v-12670cf2], [dir=rtl] .invoice-add .invoice-title[data-v-12670cf2] {\n    text-align: left;\n}\n}\n[dir] .invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2], [dir] .invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n  margin-bottom: 0;\n}\n[dir=ltr] .invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2], [dir=ltr] .invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n  text-align: left;\n  margin-right: 3.5rem;\n}\n[dir=rtl] .invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2], [dir=rtl] .invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n  text-align: right;\n  margin-left: 3.5rem;\n}\n.invoice-edit .invoice-preview-card .invoice-edit-input[data-v-12670cf2],\n.invoice-edit .invoice-preview-card .invoice-edit-input-group[data-v-12670cf2],\n.invoice-add .invoice-preview-card .invoice-edit-input[data-v-12670cf2],\n.invoice-add .invoice-preview-card .invoice-edit-input-group[data-v-12670cf2] {\n  max-width: 11.21rem;\n}\n[dir] .invoice-edit .invoice-preview-card .invoice-product-details[data-v-12670cf2], [dir] .invoice-add .invoice-preview-card .invoice-product-details[data-v-12670cf2] {\n  background-color: #fcfcfc;\n  padding: 3.75rem 3.45rem 2.3rem 3.45rem;\n}\n[dir] .invoice-edit .invoice-preview-card .invoice-product-details .product-details-border[data-v-12670cf2], [dir] .invoice-add .invoice-preview-card .invoice-product-details .product-details-border[data-v-12670cf2] {\n  border: 1px solid #ebe9f1;\n  border-radius: 0.357rem;\n}\n[dir] .invoice-edit .invoice-preview-card .invoice-to-title[data-v-12670cf2], [dir] .invoice-add .invoice-preview-card .invoice-to-title[data-v-12670cf2] {\n  margin-bottom: 1.9rem;\n}\n.invoice-edit .invoice-preview-card .col-title[data-v-12670cf2],\n.invoice-add .invoice-preview-card .col-title[data-v-12670cf2] {\n  position: absolute;\n  top: -3.2rem;\n}\n.invoice-edit .invoice-preview-card .item-options-menu[data-v-12670cf2],\n.invoice-add .invoice-preview-card .item-options-menu[data-v-12670cf2] {\n  min-width: 20rem;\n}\n[dir] .invoice-edit .invoice-preview-card .repeater-wrapper[data-v-12670cf2]:not(:last-child), [dir] .invoice-add .invoice-preview-card .repeater-wrapper[data-v-12670cf2]:not(:last-child) {\n  margin-bottom: 3rem;\n}\n.invoice-edit .invoice-preview-card .invoice-calculations .total-amt-title[data-v-12670cf2],\n.invoice-add .invoice-preview-card .invoice-calculations .total-amt-title[data-v-12670cf2] {\n  width: 100px;\n}\n@media (max-width: 769px) {\n.invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2],\n.invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n    width: 115px;\n}\n[dir=ltr] .invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2], [dir=ltr] .invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n    margin-right: 0;\n}\n[dir=rtl] .invoice-edit .invoice-preview-card .invoice-title[data-v-12670cf2], [dir=rtl] .invoice-add .invoice-preview-card .invoice-title[data-v-12670cf2] {\n    margin-left: 0;\n}\n.invoice-edit .invoice-preview-card .invoice-edit-input[data-v-12670cf2],\n.invoice-add .invoice-preview-card .invoice-edit-input[data-v-12670cf2] {\n    max-width: 100%;\n}\n}\n@media (max-width: 992px) {\n.invoice-edit .col-title[data-v-12670cf2],\n.invoice-add .col-title[data-v-12670cf2] {\n    top: -1.5rem !important;\n}\n}\n@media print {\n[dir] .invoice-edit hr[data-v-12670cf2], [dir] .invoice-add hr[data-v-12670cf2] {\n    margin-top: 1rem !important;\n    margin-bottom: 1rem !important;\n}\n}", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "@media print {\n[dir] body {\n    background-color: transparent !important;\n}\nnav.header-navbar {\n    display: none;\n}\n.main-menu {\n    display: none;\n}\n.header-navbar-shadow {\n    display: none !important;\n}\n[dir] .content.app-content {\n    padding-top: 2rem !important;\n}\n[dir=ltr] .content.app-content {\n    margin-left: 0;\n}\n[dir=rtl] .content.app-content {\n    margin-right: 0;\n}\nfooter.footer {\n    display: none;\n}\n[dir] .card {\n    background-color: transparent;\n    box-shadow: none;\n}\n.customizer-toggle {\n    display: none !important;\n}\n.invoice-preview-wrapper .row.invoice-preview .col-md-8 {\n    max-width: 100%;\n    flex-grow: 1;\n}\n.invoice-preview-wrapper .row.invoice-preview .invoice-preview-card .card-body:nth-of-type(2) .row > .col-12 {\n    max-width: 50% !important;\n}\n.invoice-preview-wrapper .row.invoice-preview .invoice-preview-card .card-body:nth-of-type(2) .row .col-12:nth-child(2) {\n    display: flex;\n    align-items: flex-start;\n    justify-content: flex-end;\n}\n[dir] .invoice-preview-wrapper .row.invoice-preview .invoice-preview-card .card-body:nth-of-type(2) .row .col-12:nth-child(2) {\n    margin-top: 0 !important;\n}\n.invoice-preview-wrapper .invoice-actions {\n    display: none;\n}\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Login.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -501,7 +492,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -509,10 +500,40 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32&":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32& ***!
-  \****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=style&index=1&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -525,279 +546,795 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    { staticClass: "auth-wrapper auth-v2" },
+    "section",
+    { staticClass: "invoice-preview-wrapper" },
     [
       _c(
-        "b-row",
-        { staticClass: "auth-inner m-0" },
+        "b-alert",
+        { attrs: { variant: "danger", show: _vm.invoiceData === undefined } },
         [
+          _c("h4", { staticClass: "alert-heading" }, [
+            _vm._v("\n      Error fetching invoice data\n    ")
+          ]),
+          _vm._v(" "),
           _c(
-            "b-link",
-            { staticClass: "brand-logo" },
+            "div",
+            { staticClass: "alert-body" },
             [
-              _c("vuexy-logo"),
-              _vm._v(" "),
-              _c("h2", { staticClass: "brand-text text-primary ml-1" }, [
-                _vm._v("LiberAPP")
-              ])
+              _vm._v(
+                "\n      No invoice found with this invoice id. Check\n      "
+              ),
+              _c(
+                "b-link",
+                {
+                  staticClass: "alert-link",
+                  attrs: { to: { name: "apps-invoice-list" } }
+                },
+                [_vm._v("\n        Invoice List\n      ")]
+              ),
+              _vm._v("\n      for other invoices.\n    ")
             ],
             1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            {
-              staticClass: "d-none d-lg-flex align-items-center p-5",
-              attrs: { lg: "8" }
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "w-100 d-lg-flex align-items-center justify-content-center px-5"
-                },
-                [
-                  _c("b-img", {
-                    attrs: { fluid: "", src: _vm.imgUrl, alt: "Login V2" }
-                  })
-                ],
-                1
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            {
-              staticClass: "d-flex align-items-center auth-bg px-2 p-lg-5",
-              attrs: { lg: "4" }
-            },
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _vm.invoiceData
+        ? _c(
+            "b-row",
+            { staticClass: "invoice-preview" },
             [
               _c(
                 "b-col",
-                {
-                  staticClass: "px-xl-2 mx-auto",
-                  attrs: { sm: "8", md: "6", lg: "12" }
-                },
+                { attrs: { cols: "12", xl: "9", md: "8" } },
                 [
                   _c(
-                    "b-card-title",
+                    "b-card",
                     {
-                      staticClass: "mb-1 font-weight-bold",
-                      attrs: { "title-tag": "h2" }
+                      staticClass: "invoice-preview-card",
+                      attrs: { "no-body": "" }
                     },
                     [
-                      _vm._v(
-                        "\n                    Bienvenido!!\n                "
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "mb-2" }, [
-                    _vm._v(
-                      "\n                    Ingrese sus credenciales para acceder...\n                "
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("validation-observer", {
-                    ref: "loginForm",
-                    scopedSlots: _vm._u([
-                      {
-                        key: "default",
-                        fn: function(ref) {
-                          var invalid = ref.invalid
-                          return [
-                            _c(
-                              "b-form",
-                              {
-                                staticClass: "auth-login-form mt-2",
-                                on: {
-                                  submit: function($event) {
-                                    $event.preventDefault()
-                                    return _vm.login.apply(null, arguments)
-                                  }
-                                }
-                              },
-                              [
+                      _c(
+                        "b-card-body",
+                        { staticClass: "invoice-padding pb-0" },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "d-flex justify-content-between flex-md-row flex-column invoice-spacing mt-0"
+                            },
+                            [
+                              _c("div", [
                                 _c(
-                                  "b-form-group",
-                                  {
-                                    attrs: {
-                                      label: "Usuario",
-                                      "label-for": "login-usuario"
-                                    }
-                                  },
+                                  "div",
+                                  { staticClass: "logo-wrapper" },
                                   [
-                                    _c("b-form-input", {
-                                      attrs: {
-                                        id: "login-usuario",
-                                        name: "login-usuario",
-                                        placeholder: "12345678"
+                                    _c("logo"),
+                                    _vm._v(" "),
+                                    _c(
+                                      "h3",
+                                      {
+                                        staticClass: "text-primary invoice-logo"
                                       },
-                                      model: {
-                                        value: _vm.usuario,
-                                        callback: function($$v) {
-                                          _vm.usuario = $$v
-                                        },
-                                        expression: "usuario"
-                                      }
-                                    })
+                                      [
+                                        _vm._v(
+                                          "\n                  Vuexy\n                "
+                                        )
+                                      ]
+                                    )
                                   ],
                                   1
                                 ),
                                 _vm._v(" "),
+                                _c("p", { staticClass: "card-text mb-25" }, [
+                                  _vm._v(
+                                    "\n                Office 149, 450 South Brand Brooklyn\n              "
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "card-text mb-25" }, [
+                                  _vm._v(
+                                    "\n                San Diego County, CA 91905, USA\n              "
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "card-text mb-0" }, [
+                                  _vm._v(
+                                    "\n                +1 (123) 456 7891, +44 (876) 543 2198\n              "
+                                  )
+                                ])
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "mt-md-0 mt-2" }, [
+                                _c("h4", { staticClass: "invoice-title" }, [
+                                  _vm._v(
+                                    "\n                Invoice\n                "
+                                  ),
+                                  _c(
+                                    "span",
+                                    { staticClass: "invoice-number" },
+                                    [_vm._v("#" + _vm._s(_vm.invoiceData.id))]
+                                  )
+                                ]),
+                                _vm._v(" "),
                                 _c(
-                                  "b-form-group",
+                                  "div",
+                                  { staticClass: "invoice-date-wrapper" },
                                   [
                                     _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex justify-content-between"
-                                      },
+                                      "p",
+                                      { staticClass: "invoice-date-title" },
                                       [
-                                        _c(
-                                          "label",
-                                          { attrs: { for: "login-password" } },
-                                          [_vm._v("Contraseña")]
+                                        _vm._v(
+                                          "\n                  Date Issued:\n                "
                                         )
                                       ]
                                     ),
                                     _vm._v(" "),
-                                    _c("validation-provider", {
-                                      attrs: {
-                                        name: "Password",
-                                        vid: "password",
-                                        rules: "required"
-                                      },
-                                      scopedSlots: _vm._u(
-                                        [
-                                          {
-                                            key: "default",
-                                            fn: function(ref) {
-                                              var errors = ref.errors
-                                              return [
-                                                _c(
-                                                  "b-input-group",
-                                                  {
-                                                    staticClass:
-                                                      "input-group-merge",
-                                                    class:
-                                                      errors.length > 0
-                                                        ? "is-invalid"
-                                                        : null
-                                                  },
-                                                  [
-                                                    _c("b-form-input", {
-                                                      staticClass:
-                                                        "form-control-merge",
-                                                      attrs: {
-                                                        id: "login-password",
-                                                        state:
-                                                          errors.length > 0
-                                                            ? false
-                                                            : null,
-                                                        type:
-                                                          _vm.passwordFieldType,
-                                                        name: "login-password",
-                                                        placeholder: "Password"
-                                                      },
-                                                      model: {
-                                                        value: _vm.password,
-                                                        callback: function(
-                                                          $$v
-                                                        ) {
-                                                          _vm.password = $$v
-                                                        },
-                                                        expression: "password"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c(
-                                                      "b-input-group-append",
-                                                      {
-                                                        attrs: { "is-text": "" }
-                                                      },
-                                                      [
-                                                        _c("feather-icon", {
-                                                          staticClass:
-                                                            "cursor-pointer",
-                                                          attrs: {
-                                                            icon:
-                                                              _vm.passwordToggleIcon
-                                                          },
-                                                          on: {
-                                                            click:
-                                                              _vm.togglePasswordVisibility
-                                                          }
-                                                        })
-                                                      ],
-                                                      1
-                                                    )
-                                                  ],
-                                                  1
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "small",
-                                                  {
-                                                    staticClass: "text-danger"
-                                                  },
-                                                  [_vm._v(_vm._s(errors[0]))]
-                                                )
-                                              ]
-                                            }
-                                          }
-                                        ],
-                                        null,
-                                        true
+                                    _c("p", { staticClass: "invoice-date" }, [
+                                      _vm._v(
+                                        "\n                  " +
+                                          _vm._s(_vm.invoiceData.issuedDate) +
+                                          "\n                "
                                       )
-                                    })
-                                  ],
-                                  1
+                                    ])
+                                  ]
                                 ),
                                 _vm._v(" "),
                                 _c(
-                                  "b-button",
-                                  {
-                                    attrs: {
-                                      type: "submit",
-                                      variant: "primary",
-                                      block: "",
-                                      disabled: _vm.showLoading
-                                    }
-                                  },
+                                  "div",
+                                  { staticClass: "invoice-date-wrapper" },
                                   [
-                                    _vm.showLoading
-                                      ? _c("b-spinner", {
-                                          attrs: { small: "" }
-                                        })
-                                      : _vm._e(),
-                                    _vm._v(
-                                      "\n                            Iniciar Sesión\n                        "
-                                    )
-                                  ],
-                                  1
+                                    _c(
+                                      "p",
+                                      { staticClass: "invoice-date-title" },
+                                      [
+                                        _vm._v(
+                                          "\n                  Due Date:\n                "
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("p", { staticClass: "invoice-date" }, [
+                                      _vm._v(
+                                        "\n                  " +
+                                          _vm._s(_vm.invoiceData.dueDate) +
+                                          "\n                "
+                                      )
+                                    ])
+                                  ]
                                 )
-                              ],
-                              1
+                              ])
+                            ]
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("hr", { staticClass: "invoice-spacing" }),
+                      _vm._v(" "),
+                      _vm.invoiceData.client
+                        ? _c(
+                            "b-card-body",
+                            { staticClass: "invoice-padding pt-0" },
+                            [
+                              _c(
+                                "b-row",
+                                { staticClass: "invoice-spacing" },
+                                [
+                                  _c(
+                                    "b-col",
+                                    {
+                                      staticClass: "p-0",
+                                      attrs: { cols: "12", xl: "6" }
+                                    },
+                                    [
+                                      _c("h6", { staticClass: "mb-2" }, [
+                                        _vm._v(
+                                          "\n                Invoice To:\n              "
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("h6", { staticClass: "mb-25" }, [
+                                        _vm._v(
+                                          "\n                " +
+                                            _vm._s(
+                                              _vm.invoiceData.client.name
+                                            ) +
+                                            "\n              "
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "p",
+                                        { staticClass: "card-text mb-25" },
+                                        [
+                                          _vm._v(
+                                            "\n                " +
+                                              _vm._s(
+                                                _vm.invoiceData.client.company
+                                              ) +
+                                              "\n              "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "p",
+                                        { staticClass: "card-text mb-25" },
+                                        [
+                                          _vm._v(
+                                            "\n                " +
+                                              _vm._s(
+                                                _vm.invoiceData.client.address
+                                              ) +
+                                              ", " +
+                                              _vm._s(
+                                                _vm.invoiceData.client.country
+                                              ) +
+                                              "\n              "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "p",
+                                        { staticClass: "card-text mb-25" },
+                                        [
+                                          _vm._v(
+                                            "\n                " +
+                                              _vm._s(
+                                                _vm.invoiceData.client.contact
+                                              ) +
+                                              "\n              "
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "p",
+                                        { staticClass: "card-text mb-0" },
+                                        [
+                                          _vm._v(
+                                            "\n                " +
+                                              _vm._s(
+                                                _vm.invoiceData.client
+                                                  .companyEmail
+                                              ) +
+                                              "\n              "
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-col",
+                                    {
+                                      staticClass:
+                                        "p-0 mt-xl-0 mt-2 d-flex justify-content-xl-end",
+                                      attrs: { xl: "6", cols: "12" }
+                                    },
+                                    [
+                                      _c("div", [
+                                        _c("h6", { staticClass: "mb-2" }, [
+                                          _vm._v(
+                                            "\n                  Payment Details:\n                "
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("table", [
+                                          _c("tbody", [
+                                            _c("tr", [
+                                              _c(
+                                                "td",
+                                                { staticClass: "pr-1" },
+                                                [
+                                                  _vm._v(
+                                                    "\n                        Total Due:\n                      "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("td", [
+                                                _c(
+                                                  "span",
+                                                  {
+                                                    staticClass:
+                                                      "font-weight-bold"
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      _vm._s(
+                                                        _vm.paymentDetails
+                                                          .totalDue
+                                                      )
+                                                    )
+                                                  ]
+                                                )
+                                              ])
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("tr", [
+                                              _c(
+                                                "td",
+                                                { staticClass: "pr-1" },
+                                                [
+                                                  _vm._v(
+                                                    "\n                        Bank name:\n                      "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("td", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.paymentDetails.bankName
+                                                  )
+                                                )
+                                              ])
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("tr", [
+                                              _c(
+                                                "td",
+                                                { staticClass: "pr-1" },
+                                                [
+                                                  _vm._v(
+                                                    "\n                        Country:\n                      "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("td", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.paymentDetails.country
+                                                  )
+                                                )
+                                              ])
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("tr", [
+                                              _c(
+                                                "td",
+                                                { staticClass: "pr-1" },
+                                                [
+                                                  _vm._v(
+                                                    "\n                        IBAN:\n                      "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("td", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.paymentDetails.iban
+                                                  )
+                                                )
+                                              ])
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("tr", [
+                                              _c(
+                                                "td",
+                                                { staticClass: "pr-1" },
+                                                [
+                                                  _vm._v(
+                                                    "\n                        SWIFT code:\n                      "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("td", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.paymentDetails.swiftCode
+                                                  )
+                                                )
+                                              ])
+                                            ])
+                                          ])
+                                        ])
+                                      ])
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _c("b-table-lite", {
+                        attrs: {
+                          responsive: "",
+                          items: _vm.invoiceDescription,
+                          fields: ["taskDescription", "rate", "hours", "total"]
+                        },
+                        scopedSlots: _vm._u(
+                          [
+                            {
+                              key: "cell(taskDescription)",
+                              fn: function(data) {
+                                return [
+                                  _c(
+                                    "b-card-text",
+                                    { staticClass: "font-weight-bold mb-25" },
+                                    [
+                                      _vm._v(
+                                        "\n              " +
+                                          _vm._s(data.item.taskTitle) +
+                                          "\n            "
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-card-text",
+                                    { staticClass: "text-nowrap" },
+                                    [
+                                      _vm._v(
+                                        "\n              " +
+                                          _vm._s(data.item.taskDescription) +
+                                          "\n            "
+                                      )
+                                    ]
+                                  )
+                                ]
+                              }
+                            }
+                          ],
+                          null,
+                          false,
+                          141958717
+                        )
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "b-card-body",
+                        { staticClass: "invoice-padding pb-0" },
+                        [
+                          _c(
+                            "b-row",
+                            [
+                              _c(
+                                "b-col",
+                                {
+                                  staticClass: "mt-md-0 mt-3",
+                                  attrs: {
+                                    cols: "12",
+                                    md: "6",
+                                    order: "2",
+                                    "order-md": "1"
+                                  }
+                                },
+                                [
+                                  _c("b-card-text", { staticClass: "mb-0" }, [
+                                    _c(
+                                      "span",
+                                      { staticClass: "font-weight-bold" },
+                                      [_vm._v("Salesperson:")]
+                                    ),
+                                    _vm._v(" "),
+                                    _c("span", { staticClass: "ml-75" }, [
+                                      _vm._v("Alfie Solomons")
+                                    ])
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-col",
+                                {
+                                  staticClass:
+                                    "mt-md-6 d-flex justify-content-end",
+                                  attrs: {
+                                    cols: "12",
+                                    md: "6",
+                                    order: "1",
+                                    "order-md": "2"
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    { staticClass: "invoice-total-wrapper" },
+                                    [
+                                      _c(
+                                        "div",
+                                        { staticClass: "invoice-total-item" },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass: "invoice-total-title"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    Subtotal:\n                  "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "invoice-total-amount"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    $1800\n                  "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "invoice-total-item" },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass: "invoice-total-title"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    Discount:\n                  "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "invoice-total-amount"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    $28\n                  "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "invoice-total-item" },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass: "invoice-total-title"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    Tax:\n                  "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "invoice-total-amount"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    21%\n                  "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("hr", { staticClass: "my-50" }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "invoice-total-item" },
+                                        [
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass: "invoice-total-title"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    Total:\n                  "
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "p",
+                                            {
+                                              staticClass:
+                                                "invoice-total-amount"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                    $1690\n                  "
+                                              )
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("hr", { staticClass: "invoice-spacing" }),
+                      _vm._v(" "),
+                      _c(
+                        "b-card-body",
+                        { staticClass: "invoice-padding pt-0" },
+                        [
+                          _c("span", { staticClass: "font-weight-bold" }, [
+                            _vm._v("Note: ")
+                          ]),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "It was a pleasure working with you and your team. We hope you will keep us in mind for future freelance\n            projects. Thank You!"
                             )
-                          ]
-                        }
-                      }
-                    ])
-                  })
+                          ])
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                {
+                  staticClass: "invoice-actions",
+                  attrs: { cols: "12", md: "4", xl: "3" }
+                },
+                [
+                  _c(
+                    "b-card",
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "ripple",
+                              rawName: "v-ripple.400",
+                              value: "rgba(255, 255, 255, 0.15)",
+                              expression: "'rgba(255, 255, 255, 0.15)'",
+                              modifiers: { "400": true }
+                            },
+                            {
+                              name: "b-toggle",
+                              rawName: "v-b-toggle.sidebar-send-invoice",
+                              modifiers: { "sidebar-send-invoice": true }
+                            }
+                          ],
+                          staticClass: "mb-75",
+                          attrs: { variant: "primary", block: "" }
+                        },
+                        [_vm._v("\n          Send Invoice\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "ripple",
+                              rawName: "v-ripple.400",
+                              value: "rgba(186, 191, 199, 0.15)",
+                              expression: "'rgba(186, 191, 199, 0.15)'",
+                              modifiers: { "400": true }
+                            }
+                          ],
+                          staticClass: "mb-75",
+                          attrs: { variant: "outline-secondary", block: "" }
+                        },
+                        [_vm._v("\n          Download\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "ripple",
+                              rawName: "v-ripple.400",
+                              value: "rgba(186, 191, 199, 0.15)",
+                              expression: "'rgba(186, 191, 199, 0.15)'",
+                              modifiers: { "400": true }
+                            }
+                          ],
+                          staticClass: "mb-75",
+                          attrs: { variant: "outline-secondary", block: "" },
+                          on: { click: _vm.printInvoice }
+                        },
+                        [_vm._v("\n          Print\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "ripple",
+                              rawName: "v-ripple.400",
+                              value: "rgba(186, 191, 199, 0.15)",
+                              expression: "'rgba(186, 191, 199, 0.15)'",
+                              modifiers: { "400": true }
+                            }
+                          ],
+                          staticClass: "mb-75",
+                          attrs: {
+                            variant: "outline-secondary",
+                            block: "",
+                            to: {
+                              name: "apps-invoice-edit",
+                              params: { id: _vm.$route.params.id }
+                            }
+                          }
+                        },
+                        [_vm._v("\n          Edit\n        ")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          directives: [
+                            {
+                              name: "b-toggle",
+                              rawName: "v-b-toggle.sidebar-invoice-add-payment",
+                              modifiers: { "sidebar-invoice-add-payment": true }
+                            },
+                            {
+                              name: "ripple",
+                              rawName: "v-ripple.400",
+                              value: "rgba(255, 255, 255, 0.15)",
+                              expression: "'rgba(255, 255, 255, 0.15)'",
+                              modifiers: { "400": true }
+                            }
+                          ],
+                          staticClass: "mb-75",
+                          attrs: { variant: "success", block: "" }
+                        },
+                        [_vm._v("\n          Add Payment\n        ")]
+                      )
+                    ],
+                    1
+                  )
                 ],
                 1
               )
             ],
             1
           )
-        ],
-        1
-      )
+        : _vm._e(),
+      _vm._v(" "),
+      _c("invoice-sidebar-send-invoice"),
+      _vm._v(" "),
+      _c("invoice-sidebar-add-payment")
     ],
     1
   )
@@ -809,19 +1346,21 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Login.vue":
-/*!***************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Login.vue ***!
-  \***************************************************************/
+/***/ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue ***!
+  \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Login.vue?vue&type=template&id=92be1b32& */ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32&");
-/* harmony import */ var _Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Login.vue?vue&type=script&lang=js& */ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Login.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true& */ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true&");
+/* harmony import */ var _InvoicePreview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./InvoicePreview.vue?vue&type=script&lang=js& */ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& */ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&");
+/* harmony import */ var _InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./InvoicePreview.vue?vue&type=style&index=1&lang=scss& */ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -830,67 +1369,83 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__["default"])(
+  _InvoicePreview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "12670cf2",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/pages/authentication/Login.vue"
+component.options.__file = "resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************/
+/***/ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Login.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss& ***!
-  \*************************************************************************************************/
+/***/ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&":
+/*!******************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Login.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=0&id=12670cf2&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_0_id_12670cf2_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32& ***!
-  \**********************************************************************************************/
+/***/ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss& ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=style&index=1&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=style&index=1&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true&":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true& ***!
+  \***************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Login.vue?vue&type=template&id=92be1b32& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/pages/authentication/Login.vue?vue&type=template&id=92be1b32&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/apps/invoice/invoice-preview/InvoicePreview.vue?vue&type=template&id=12670cf2&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Login_vue_vue_type_template_id_92be1b32___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InvoicePreview_vue_vue_type_template_id_12670cf2_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

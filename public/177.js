@@ -1,21 +1,36 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[177],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
-/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
+/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
+/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
+/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
+/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
+/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! vue-cleave-component */ "./node_modules/vue-cleave-component/dist/vue-cleave.min.js");
+/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(vue_cleave_component__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! cleave.js/dist/addons/cleave-phone.us */ "./node_modules/cleave.js/dist/addons/cleave-phone.us.js");
+/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+var _components;
+
 //
 //
 //
@@ -151,6 +166,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
 
 
 
@@ -158,64 +189,59 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BToast: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BToast"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BImg"],
-    BSpinner: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BSpinner"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    VueGoodTable: vue_good_table__WEBPACK_IMPORTED_MODULE_4__["VueGoodTable"],
-    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BAvatar"],
-    BBadge: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BBadge"],
-    BPagination: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BPagination"],
-    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
-    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BAlert"],
-    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BDropdown"],
-    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BDropdownItem"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BOverlay: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BOverlay"],
-    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_2___default.a
-  },
+  components: (_components = {
+    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButtonToolbar"],
+    BToast: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BToast"],
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_2__["default"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCol"],
+    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BImg"],
+    BSpinner: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BSpinner"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormGroup"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormInput"],
+    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormCheckbox"],
+    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BForm"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButton"],
+    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButtonGroup"],
+    VueGoodTable: vue_good_table__WEBPACK_IMPORTED_MODULE_8__["VueGoodTable"],
+    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BAvatar"],
+    BBadge: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BBadge"],
+    BPagination: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BPagination"],
+    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormSelect"],
+    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BAlert"],
+    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BDropdown"],
+    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BDropdownItem"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardText"],
+    BOverlay: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BOverlay"],
+    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_6___default.a
+  }, Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BFormCheckbox", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormCheckbox"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BCardBody", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardBody"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "FormWizard", vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__["FormWizard"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "TabContent", vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__["TabContent"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BInputGroup", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BInputGroup"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BInputGroupPrepend", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BInputGroupPrepend"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BTabs", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BTabs"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BTab", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BTab"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "Cleave", vue_cleave_component__WEBPACK_IMPORTED_MODULE_10___default.a), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BCardText", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardText"]), _components),
   directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_3__["default"]
+    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_7__["default"]
   },
   data: function data() {
     return {
-      /**************************** tabla ****************************/
-      pageLength: 5,
+      /**************************** elementos de ux ****************************/
       dir: false,
+      pageLength: 10,
       searchTerm: '',
-      columns: [{
-        label: 'Acciones',
+      tabIndex: 1,
+
+      /**************************** tabla ****************************/
+      tcolumnas: [{
+        label: '',
         field: 'acciones'
       }, {
         label: 'ID',
-        field: 'idGrifo'
+        field: 'idDato'
       }, {
-        label: 'Grifo',
-        field: 'nombreGri'
-      }, {
-        label: 'Ciudad',
-        field: 'ciudadGri'
-      }, {
-        label: 'Empresa',
-        field: 'empresaGri'
-      }, {
-        label: 'idDato',
-        field: 'detalleCiudad',
-        hidden: true
+        label: 'Valor',
+        field: 'valorDat'
       }],
 
       /**************************** modal ****************************/
       headerBgVariant: 'dark',
       headerTextVariant: 'success',
-      headerTitleVariant: 'NUEVO GRIFO',
+      headerTitleVariant: 'NUEVO',
       bodyBgVariant: 'light',
       bodyTextVariant: 'success',
       footerBgVariant: 'dark',
@@ -225,72 +251,126 @@ __webpack_require__.r(__webpack_exports__);
       boton: false,
 
       /**************************** entorno ****************************/
-      grifos: [],
+      tabla: [],
+      combustibles: [],
+      rutas: [],
       ciudades: [],
-      grifo: {
-        idGrifo: '',
-        nombreGri: '',
-        ciudadGri: '',
-        empresaGri: '',
-        detalleCiudad: '',
-        Ciudad_idDato: ''
+      titulo: "",
+      opcion: 0,
+      plantilla: {
+        idDato: 0,
+        valorDat: ""
+      },
+
+      /**************************** formulario ****************************/
+      general: {
+        idDato: 0,
+        valorDat: ""
+      },
+
+      /******************************** variables *********************/
+      datos: {
+        tipoDat: "TIPO",
+        grupoDat: "COMBUSTIBLE"
       }
     };
   },
   methods: {
     Toast: function Toast() {
-      var append = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+      var prm_append = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
       var variant = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-      var titulo = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
-      var mensaje = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : "";
+      var prm_titulo = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
+      var prm_mensaje = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : "";
       var toaster = 'b-toaster-bottom-full';
-      this.$bvToast.toast(mensaje, {
-        title: titulo,
+      this.$bvToast.toast(prm_mensaje, {
+        title: prm_titulo,
         toaster: toaster,
         variant: variant,
         solid: false,
-        appendToast: append
+        appendToast: prm_append
       });
     },
     Nuevo: function Nuevo() {
       this.headerTextVariant = 'success';
-      this.headerTitleVariant = 'NUEVO GRIFO';
       this.boton = false;
-      this.grifo = {
-        idGrifo: '',
-        nombreGri: '',
-        ciudadGri: '',
-        empresaGri: '',
-        detalleCiudad: '',
-        Ciudad_idDato: ''
-      };
+      this.headerTitleVariant = "NUEVO";
+      this.general = Object.assign({}, this.plantilla);
     },
-    Editar: function Editar(prm_grifo) {
+    Cambiar: function Cambiar(prm_valor) {
+      switch (prm_valor) {
+        case "combustible":
+          this.tabla = this.combustibles;
+          this.titulo = "Tipos de Combustibles";
+          this.datos = {
+            tipoDat: 'TIPO',
+            grupoDat: 'COMBUSTIBLE'
+          };
+          this.opcion = 1;
+          break;
+
+        case "ruta":
+          this.tabla = this.rutas;
+          this.titulo = "Rutas";
+          this.datos = {
+            tipoDat: 'RUTA',
+            grupoDat: 'COMBUSTIBLE'
+          };
+          this.opcion = 2;
+          break;
+
+        case "ciudad":
+          this.tabla = this.ciudades;
+          this.titulo = "Ciudad";
+          this.datos = {
+            tipoDat: 'CIUDAD',
+            grupoDat: 'COMBUSTIBLE'
+          };
+          this.opcion = 3;
+          break;
+      }
+    },
+    Editar: function Editar(prm_general) {
       this.headerTextVariant = 'primary';
-      this.headerTitleVariant = "EDITAR GRIFO";
+      this.headerTitleVariant = "EDITAR";
       this.boton = true;
-      this.grifo = prm_grifo;
+      this.general = prm_general;
     },
     Guardar: function Guardar() {
       var _this = this;
 
       this.showLoading = true;
-      this.grifo.Ciudad_idDato = this.grifo.detalleCiudad.idDato;
-      this.grifo.ciudadGri = this.grifo.detalleCiudad.valorDat;
-      var jsonGrifo = JSON.stringify(this.grifo);
-      this.$http.post('/LiberAPP/Grifo/Guardar', {
-        grifo: jsonGrifo
+      var jsonGeneral = JSON.stringify(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.general), this.datos));
+      this.$http.post('/LiberAPP/General/Guardar', {
+        general: jsonGeneral
       }).then(function (res) {
-        _this.Toast(true, 'success', 'Agregar Grifo', 'Guardado Correctamente');
+        _this.Toast(true, 'success', 'Agregar Tipo', 'Guardado Correctamente');
 
         _this.showModal = false;
         _this.showLoading = false;
 
-        _this.Grifo(); //respuesta
-        //this.grifos = res.data;
+        switch (_this.opcion) {
+          case 0:
+            _this.Combustibles();
 
+            break;
+
+          case 1:
+            _this.Combustibles();
+
+            break;
+
+          case 2:
+            _this.Rutas();
+
+            break;
+
+          case 3:
+            _this.Ciudades();
+
+            break;
+        }
       })["catch"](function (error) {
-        _this.Toast(true, 'danger', 'Actualizar Grifo', 'Error al guardar el registro: ' + error);
+        _this.Toast(true, 'danger', 'Agregar Viatico', 'Error al guardar el registro: ' + error);
 
         _this.showLoading = false;
       });
@@ -299,90 +379,138 @@ __webpack_require__.r(__webpack_exports__);
       var _this2 = this;
 
       this.showLoading = true;
-      this.grifo.Ciudad_idDato = this.grifo.detalleCiudad.idDato;
-      this.grifo.ciudadGri = this.grifo.detalleCiudad.valorDat;
-      var jsonGrifo = JSON.stringify(this.grifo);
-      this.$http.post('/LiberAPP/Grifo/Actualizar', {
-        grifo: jsonGrifo
+      var jsonGeneral = JSON.stringify(this.general);
+      this.$http.post('/LiberAPP/General/Actualizar', {
+        general: jsonGeneral
       }).then(function (res) {
-        _this2.Toast(true, 'primary', 'Actualizar Grifo', 'Actualizado Correctamente');
+        _this2.Toast(true, 'primary', 'Actualizar Viatico', 'Actualizado Correctamente');
 
         _this2.showModal = false;
         _this2.showLoading = false;
+        console.log('opcion:: ', _this2.opcion);
 
-        _this2.Grifo(); //respuesta
-        //this.grifos = res.data;
+        switch (_this2.opcion) {
+          case 0:
+            _this2.Combustibles();
 
+            break;
+
+          case 1:
+            _this2.Combustibles();
+
+            break;
+
+          case 2:
+            _this2.Rutas();
+
+            break;
+
+          case 3:
+            _this2.Ciudades();
+
+            break;
+        }
       })["catch"](function (error) {
-        _this2.Toast(true, 'danger', 'Actualizar Grifo', 'Error al actualizar el registro: ' + error);
+        _this2.Toast(true, 'danger', 'Actualizar Viatico', 'Error al actualizar el registro: ' + error);
 
         _this2.showLoading = false;
       });
     },
-    Grifo: function Grifo() {
+    Combustibles: function Combustibles() {
       var _this3 = this;
 
-      this.$http.get('/LiberAPP/Grifo').then(function (res) {
-        _this3.grifos = res.data;
+      this.$http.get('/LiberAPP/Dato/Select/TIPO/COMBUSTIBLE').then(function (res) {
+        _this3.combustibles = res.data;
+        _this3.tabla = _this3.combustibles;
       })["catch"](function (error) {
-        _this3.Toast(true, 'danger', 'Grifo', 'Error al cargar los registros: ' + error);
+        _this3.Toast(true, 'danger', 'Combustibles', 'Error al cargar los registros: ' + error);
 
         _this3.showLoading = false;
+      });
+    },
+    Rutas: function Rutas() {
+      var _this4 = this;
+
+      this.$http.get('/LiberAPP/Dato/Select/RUTA/COMBUSTIBLE').then(function (res) {
+        _this4.rutas = res.data;
+        _this4.tabla = _this4.rutas;
+      })["catch"](function (error) {
+        _this4.Toast(true, 'danger', 'rutas', 'Error al cargar los registros: ' + error);
+
+        _this4.showLoading = false;
+      });
+    },
+    Ciudades: function Ciudades() {
+      var _this5 = this;
+
+      this.$http.get('/LiberAPP/Dato/Select/CIUDAD/COMBUSTIBLE').then(function (res) {
+        _this5.ciudades = res.data;
+        _this5.tabla = _this5.ciudades;
+      })["catch"](function (error) {
+        _this5.Toast(true, 'danger', 'ciudad', 'Error al cargar los registros: ' + error);
+
+        _this5.showLoading = false;
       });
     }
   },
   computed: {
-    statusVariant: function statusVariant() {
-      var statusColor = {
-        /* eslint-disable key-spacing */
-        Current: 'light-primary',
-        Professional: 'light-success',
-        Rejected: 'light-danger',
-        Resigned: 'light-warning',
-        Applied: 'light-info'
-        /* eslint-enable key-spacing */
-
-      };
-      return function (status) {
-        return statusColor[status];
-      };
-    },
     direction: function direction() {
-      if (_store_index__WEBPACK_IMPORTED_MODULE_5__["default"].state.appConfig.isRTL) {
-        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+      if (_store_index__WEBPACK_IMPORTED_MODULE_9__["default"].state.appConfig.isRTL) {
         this.dir = true;
         return this.dir;
-      } // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-
+      }
 
       this.dir = false;
       return this.dir;
     }
   },
   created: function created() {
-    var _this4 = this;
+    var _this6 = this;
 
-    this.$http.get('/LiberAPP/Grifo').then(function (res) {
-      _this4.grifos = res.data;
+    this.$http.get('/LiberAPP/Dato/Select/COMBUSTIBLE/COMBUSTIBLE').then(function (res) {
+      _this6.combustibles = res.data;
     })["catch"](function (error) {
-      _this4.Toast(true, 'danger', 'Grifo', 'Error al cargar los registros: ' + error);
+      _this6.Toast(true, 'danger', 'Combustible', 'Error al cargar los registros: ' + error);
 
-      _this4.showLoading = false;
+      _this6.showLoading = false;
+    });
+    this.$http.get('/LiberAPP/Dato/Select/RUTA/COMBUSTIBLE').then(function (res) {
+      _this6.rutas = res.data;
+    })["catch"](function (error) {
+      _this6.Toast(true, 'danger', 'Rutas', 'Error al cargar los registros: ' + error);
+
+      _this6.showLoading = false;
     });
     this.$http.get('/LiberAPP/Dato/Select/CIUDAD/COMBUSTIBLE').then(function (res) {
-      _this4.ciudades = res.data;
+      _this6.ciudades = res.data;
     })["catch"](function (error) {
-      _this4.Toast(true, 'danger', 'Tramos', 'Error al cargar los registros: ' + error);
+      _this6.Toast(true, 'danger', 'Ciudades', 'Error al cargar los registros: ' + error);
+
+      _this6.showLoading = false;
+    });
+  },
+  mounted: function mounted() {
+    this.Combustibles();
+  },
+  Combustibles: function Combustibles() {
+    var _this7 = this;
+
+    this.$http.get('/LiberAPP/Dato/Select/COMBUSTIBLE/COMBUSTIBLE').then(function (res) {
+      _this7.combustibles = res.data;
+    })["catch"](function (error) {
+      _this7.Toast(true, 'danger', 'Viatico', 'Error al cargar los registros: ' + error);
+
+      _this7.showLoading = false;
     });
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -397,15 +525,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Grifo.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Combustible.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -427,10 +555,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85&":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85& ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -443,371 +571,595 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "b-card-code",
-    { attrs: { title: "Listado de Grifos" } },
+    "div",
     [
       _c(
-        "b-button",
-        {
-          directives: [
+        "b-tabs",
+        { attrs: { "content-class": "pt-1", fill: "" } },
+        [
+          _c(
+            "b-tab",
             {
-              name: "b-modal",
-              rawName: "v-b-modal.modal-formulario",
-              modifiers: { "modal-formulario": true }
-            }
-          ],
-          attrs: { variant: "gradient-success" },
-          on: { click: _vm.Nuevo }
-        },
-        [
-          _c("feather-icon", {
-            staticClass: "mr-50",
-            attrs: { icon: "PlusIcon" }
-          }),
-          _vm._v(" "),
-          _c("span", { staticClass: "align-middle" }, [_vm._v("NUEVO GRIFO")])
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "custom-search d-flex justify-content-end" },
-        [
-          _c("b-form-group", [
-            _c(
-              "div",
-              { staticClass: "d-flex align-items-center" },
-              [
-                _c("label", { staticClass: "mr-1" }, [_vm._v("Buscar:")]),
-                _vm._v(" "),
-                _c("b-form-input", {
-                  staticClass: "d-inline-block",
-                  attrs: {
-                    placeholder: "Ingrese texto a buscar",
-                    type: "text"
+              attrs: { active: "", title: "Combustible" },
+              on: {
+                click: function($event) {
+                  return _vm.Cambiar("combustible")
+                }
+              },
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "DollarSignIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Combustible")])
+                    ]
                   },
-                  model: {
-                    value: _vm.searchTerm,
-                    callback: function($$v) {
-                      _vm.searchTerm = $$v
-                    },
-                    expression: "searchTerm"
-                  }
-                })
-              ],
-              1
-            )
-          ])
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-card-text",
+                [
+                  _c(
+                    "b-badge",
+                    { attrs: { pill: "", variant: "light-warning" } },
+                    [_vm._v("Tipos de Combustible")]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              [
+                _c(
+                  "b-button",
+                  {
+                    directives: [
+                      {
+                        name: "b-modal",
+                        rawName: "v-b-modal.modal-formulario",
+                        modifiers: { "modal-formulario": true }
+                      }
+                    ],
+                    attrs: { variant: "success" },
+                    on: { click: _vm.Nuevo }
+                  },
+                  [
+                    _c("feather-icon", {
+                      staticClass: "mr-50",
+                      attrs: { icon: "PlusIcon" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "align-middle" }, [
+                      _vm._v("Nuevo Combustible")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            ],
+            2
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            {
+              attrs: { title: "Ruta" },
+              on: {
+                click: function($event) {
+                  return _vm.Cambiar("ruta")
+                }
+              },
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "MapIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Rutas")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-card-text",
+                [
+                  _c(
+                    "b-badge",
+                    { attrs: { pill: "", variant: "light-warning" } },
+                    [_vm._v("Rutas")]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              [
+                _c(
+                  "b-button",
+                  {
+                    directives: [
+                      {
+                        name: "b-modal",
+                        rawName: "v-b-modal.modal-formulario",
+                        modifiers: { "modal-formulario": true }
+                      }
+                    ],
+                    attrs: { variant: "success" },
+                    on: { click: _vm.Nuevo }
+                  },
+                  [
+                    _c("feather-icon", {
+                      staticClass: "mr-50",
+                      attrs: { icon: "PlusIcon" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "align-middle" }, [
+                      _vm._v("Nueva Ruta")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            ],
+            2
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            {
+              attrs: { title: "Ciudad" },
+              on: {
+                click: function($event) {
+                  return _vm.Cambiar("ciudad")
+                }
+              },
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "TargetIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Ciudades")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c(
+                "b-card-text",
+                [
+                  _c(
+                    "b-badge",
+                    { attrs: { pill: "", variant: "light-warning" } },
+                    [_vm._v("Ciudades")]
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              [
+                _c(
+                  "b-button",
+                  {
+                    directives: [
+                      {
+                        name: "b-modal",
+                        rawName: "v-b-modal.modal-formulario",
+                        modifiers: { "modal-formulario": true }
+                      }
+                    ],
+                    attrs: { variant: "success" },
+                    on: { click: _vm.Nuevo }
+                  },
+                  [
+                    _c("feather-icon", {
+                      staticClass: "mr-50",
+                      attrs: { icon: "PlusIcon" }
+                    }),
+                    _vm._v(" "),
+                    _c("span", { staticClass: "align-middle" }, [
+                      _vm._v("Nueva Ciudad")
+                    ])
+                  ],
+                  1
+                )
+              ]
+            ],
+            2
+          )
         ],
         1
       ),
       _vm._v(" "),
-      _c("vue-good-table", {
-        attrs: {
-          columns: _vm.columns,
-          rows: _vm.grifos,
-          rtl: _vm.direction,
-          "search-options": { enabled: true, externalQuery: _vm.searchTerm },
-          "select-options": {
-            enabled: true,
-            selectOnCheckboxOnly: true, // only select when checkbox is clicked instead of the row
-            selectionInfoClass: "custom-class",
-            selectionText: "rows selected",
-            clearSelectionText: "clear",
-            disableSelectInfo: true, // disable the select info panel on top
-            selectAllByGroup: true // when used in combination with a grouped table, add a checkbox in the header row to check/uncheck the entire group
-          }
-        },
-        scopedSlots: _vm._u([
-          {
-            key: "table-row",
-            fn: function(props) {
-              return [
-                props.column.field === "acciones"
-                  ? _c(
-                      "span",
-                      [
-                        _c(
-                          "b-button",
-                          {
-                            directives: [
-                              {
-                                name: "b-modal",
-                                rawName: "v-b-modal.modal-formulario",
-                                modifiers: { "modal-formulario": true }
-                              }
+      [
+        _c(
+          "div",
+          [
+            _c("br"),
+            _vm._v(" "),
+            _c("vue-good-table", {
+              attrs: {
+                columns: _vm.tcolumnas,
+                rows: _vm.tabla,
+                rtl: _vm.direction,
+                "search-options": {
+                  enabled: true,
+                  externalQuery: _vm.searchTerm
+                },
+                "select-options": {
+                  enabled: true,
+                  selectOnCheckboxOnly: true, // only select when checkbox is clicked instead of the row
+                  selectionInfoClass: "custom-class",
+                  selectionText: "rows selected",
+                  clearSelectionText: "clear",
+                  disableSelectInfo: true, // disable the select info panel on top
+                  selectAllByGroup: true // when used in combination with a grouped table, add a checkbox in the header row to check/uncheck the entire group
+                },
+                "pagination-options": { enabled: true, perPage: _vm.pageLength }
+              },
+              scopedSlots: _vm._u([
+                {
+                  key: "table-row",
+                  fn: function(props) {
+                    return [
+                      props.column.field === "acciones"
+                        ? _c(
+                            "span",
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-modal",
+                                      rawName: "v-b-modal.modal-formulario",
+                                      modifiers: { "modal-formulario": true }
+                                    }
+                                  ],
+                                  staticClass: "btn-icon rounded-circle",
+                                  attrs: { variant: "primary" },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.Editar(props.formattedRow)
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("feather-icon", {
+                                    attrs: { icon: "Edit2Icon" }
+                                  })
+                                ],
+                                1
+                              )
                             ],
-                            staticClass: "btn-icon rounded-circle",
-                            attrs: { variant: "gradient-primary" },
-                            on: {
-                              click: function($event) {
-                                return _vm.Editar(props.formattedRow)
-                              }
-                            }
+                            1
+                          )
+                        : _c("span", [
+                            _vm._v(
+                              "\n                        " +
+                                _vm._s(props.formattedRow[props.column.field]) +
+                                "\n                    "
+                            )
+                          ])
+                    ]
+                  }
+                },
+                {
+                  key: "pagination-bottom",
+                  fn: function(props) {
+                    return [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "d-flex justify-content-between flex-wrap"
+                        },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass: "d-flex align-items-center mb-0 mt-1"
+                            },
+                            [
+                              _c("span", { staticClass: "text-nowrap" }, [
+                                _vm._v(
+                                  "\n                                " +
+                                    _vm._s(_vm.$t("message.pagelength")) +
+                                    "\n                            "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-select", {
+                                staticClass: "mx-1",
+                                attrs: { options: ["3", "5", "10"] },
+                                on: {
+                                  input: function(value) {
+                                    return props.perPageChanged({
+                                      currentPerPage: value
+                                    })
+                                  }
+                                },
+                                model: {
+                                  value: _vm.pageLength,
+                                  callback: function($$v) {
+                                    _vm.pageLength = $$v
+                                  },
+                                  expression: "pageLength"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "text-nowrap" }, [
+                                _vm._v(
+                                  "  " +
+                                    _vm._s(_vm.$t("message.of")) +
+                                    " " +
+                                    _vm._s(props.total) +
+                                    " " +
+                                    _vm._s(_vm.$t("message.pageText2")) +
+                                    " "
+                                )
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            [
+                              _c("b-pagination", {
+                                staticClass: "mt-1 mb-0",
+                                attrs: {
+                                  value: 1,
+                                  "total-rows": props.total,
+                                  "per-page": _vm.pageLength,
+                                  "first-number": "",
+                                  "last-number": "",
+                                  align: "right",
+                                  "prev-class": "prev-item",
+                                  "next-class": "next-item"
+                                },
+                                on: {
+                                  input: function(value) {
+                                    return props.pageChanged({
+                                      currentPage: value
+                                    })
+                                  }
+                                },
+                                scopedSlots: _vm._u(
+                                  [
+                                    {
+                                      key: "prev-text",
+                                      fn: function() {
+                                        return [
+                                          _c("feather-icon", {
+                                            attrs: {
+                                              icon: "ChevronLeftIcon",
+                                              size: "18"
+                                            }
+                                          })
+                                        ]
+                                      },
+                                      proxy: true
+                                    },
+                                    {
+                                      key: "next-text",
+                                      fn: function() {
+                                        return [
+                                          _c("feather-icon", {
+                                            attrs: {
+                                              icon: "ChevronRightIcon",
+                                              size: "18"
+                                            }
+                                          })
+                                        ]
+                                      },
+                                      proxy: true
+                                    }
+                                  ],
+                                  null,
+                                  true
+                                )
+                              })
+                            ],
+                            1
+                          )
+                        ]
+                      )
+                    ]
+                  }
+                }
+              ])
+            }),
+            _vm._v(" "),
+            _c(
+              "b-modal",
+              {
+                attrs: {
+                  id: "modal-formulario",
+                  "header-bg-variant": _vm.headerBgVariant,
+                  "header-text-variant": _vm.headerTextVariant,
+                  title: _vm.headerTitleVariant,
+                  "footer-bg-variant": _vm.footerBgVariant,
+                  "footer-text-variant": _vm.footerTextVariant,
+                  centered: "",
+                  "no-close-on-backdrop": "",
+                  "title-tag": "div",
+                  "cancel-title": "Cancelar",
+                  "ok-title": "Guardar",
+                  size: "lg",
+                  "cancel-variant": "secondary",
+                  "ok-variant": "success"
+                },
+                scopedSlots: _vm._u([
+                  {
+                    key: "modal-footer",
+                    fn: function() {
+                      return [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "w-100 d-flex justify-content-between"
                           },
                           [
-                            _c("feather-icon", { attrs: { icon: "Edit2Icon" } })
+                            _c(
+                              "b-button",
+                              {
+                                attrs: {
+                                  variant: "secondary",
+                                  size: "sm",
+                                  disabled: _vm.showLoading
+                                },
+                                on: {
+                                  click: function($event) {
+                                    _vm.showModal = false
+                                  }
+                                }
+                              },
+                              [
+                                !_vm.showLoading
+                                  ? _c("feather-icon", {
+                                      staticClass: "mr-50",
+                                      attrs: { icon: "XIcon" }
+                                    })
+                                  : _c("b-spinner", { attrs: { small: "" } }),
+                                _vm._v(" "),
+                                _c("span", { staticClass: "align-middle" }, [
+                                  _vm._v("Cancelar")
+                                ])
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            !_vm.boton
+                              ? _c(
+                                  "b-button",
+                                  {
+                                    attrs: {
+                                      variant: "success",
+                                      size: "sm",
+                                      disabled: _vm.showLoading
+                                    },
+                                    on: { click: _vm.Guardar }
+                                  },
+                                  [
+                                    !_vm.showLoading
+                                      ? _c("feather-icon", {
+                                          staticClass: "mr-50",
+                                          attrs: { icon: "CheckIcon" }
+                                        })
+                                      : _c("b-spinner", {
+                                          attrs: { small: "" }
+                                        }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "span",
+                                      { staticClass: "align-middle" },
+                                      [_vm._v("Guardar")]
+                                    )
+                                  ],
+                                  1
+                                )
+                              : _c(
+                                  "b-button",
+                                  {
+                                    attrs: {
+                                      variant: "primary",
+                                      size: "sm",
+                                      disabled: _vm.showLoading
+                                    },
+                                    on: { click: _vm.Actualizar }
+                                  },
+                                  [
+                                    !_vm.showLoading
+                                      ? _c("feather-icon", {
+                                          staticClass: "mr-50",
+                                          attrs: { icon: "CheckIcon" }
+                                        })
+                                      : _c("b-spinner", {
+                                          attrs: { small: "" }
+                                        }),
+                                    _vm._v(" "),
+                                    _c(
+                                      "span",
+                                      { staticClass: "align-middle" },
+                                      [_vm._v("Actualizar")]
+                                    )
+                                  ],
+                                  1
+                                )
+                          ],
+                          1
+                        )
+                      ]
+                    },
+                    proxy: true
+                  }
+                ]),
+                model: {
+                  value: _vm.showModal,
+                  callback: function($$v) {
+                    _vm.showModal = $$v
+                  },
+                  expression: "showModal"
+                }
+              },
+              [
+                _c(
+                  "b-row",
+                  [
+                    _c(
+                      "b-col",
+                      { attrs: { md: "12", xl: "12" } },
+                      [
+                        _c(
+                          "b-form-group",
+                          { attrs: { label: "Ingrese Valor" } },
+                          [
+                            _c("b-form-input", {
+                              model: {
+                                value: _vm.general.valorDat,
+                                callback: function($$v) {
+                                  _vm.$set(_vm.general, "valorDat", $$v)
+                                },
+                                expression: "general.valorDat"
+                              }
+                            })
                           ],
                           1
                         )
                       ],
                       1
                     )
-                  : _c("span", [
-                      _vm._v(
-                        "\n        " +
-                          _vm._s(props.formattedRow[props.column.field]) +
-                          "\n      "
-                      )
-                    ])
-              ]
-            }
-          }
-        ])
-      }),
-      _vm._v(" "),
-      _c(
-        "b-modal",
-        {
-          attrs: {
-            id: "modal-formulario",
-            "header-bg-variant": _vm.headerBgVariant,
-            "header-text-variant": _vm.headerTextVariant,
-            title: _vm.headerTitleVariant,
-            "footer-bg-variant": _vm.footerBgVariant,
-            "footer-text-variant": _vm.footerTextVariant,
-            centered: "",
-            "no-close-on-backdrop": "",
-            "title-tag": "div",
-            "cancel-title": "Cancelar",
-            "ok-title": "Guardar",
-            size: "lg",
-            "cancel-variant": "secondary",
-            "ok-variant": "success"
-          },
-          scopedSlots: _vm._u([
-            {
-              key: "modal-footer",
-              fn: function() {
-                return [
-                  _c(
-                    "div",
-                    { staticClass: "w-100 d-flex justify-content-between" },
-                    [
-                      _c(
-                        "b-button",
-                        {
-                          attrs: {
-                            variant: "secondary",
-                            size: "sm",
-                            disabled: _vm.showLoading
-                          },
-                          on: {
-                            click: function($event) {
-                              _vm.showModal = false
-                            }
-                          }
-                        },
-                        [
-                          !_vm.showLoading
-                            ? _c("feather-icon", {
-                                staticClass: "mr-50",
-                                attrs: { icon: "XIcon" }
-                              })
-                            : _c("b-spinner", { attrs: { small: "" } }),
-                          _vm._v(" "),
-                          _c("span", { staticClass: "align-middle" }, [
-                            _vm._v("Cancelar")
-                          ])
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      !_vm.boton
-                        ? _c(
-                            "b-button",
-                            {
-                              attrs: {
-                                variant: "success",
-                                size: "sm",
-                                disabled: _vm.showLoading
-                              },
-                              on: { click: _vm.Guardar }
-                            },
-                            [
-                              !_vm.showLoading
-                                ? _c("feather-icon", {
-                                    staticClass: "mr-50",
-                                    attrs: { icon: "SaveIcon" }
-                                  })
-                                : _c("b-spinner", { attrs: { small: "" } }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "align-middle" }, [
-                                _vm._v("Guardar")
-                              ])
-                            ],
-                            1
-                          )
-                        : _c(
-                            "b-button",
-                            {
-                              attrs: {
-                                variant: "primary",
-                                size: "sm",
-                                disabled: _vm.showLoading
-                              },
-                              on: { click: _vm.Actualizar }
-                            },
-                            [
-                              !_vm.showLoading
-                                ? _c("feather-icon", {
-                                    staticClass: "mr-50",
-                                    attrs: { icon: "SaveIcon" }
-                                  })
-                                : _c("b-spinner", { attrs: { small: "" } }),
-                              _vm._v(" "),
-                              _c("span", { staticClass: "align-middle" }, [
-                                _vm._v("Actualizar")
-                              ])
-                            ],
-                            1
-                          )
-                    ],
-                    1
-                  )
-                ]
-              },
-              proxy: true
-            }
-          ]),
-          model: {
-            value: _vm.showModal,
-            callback: function($$v) {
-              _vm.showModal = $$v
-            },
-            expression: "showModal"
-          }
-        },
-        [
-          _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { md: "6", xl: "4" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "ID" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: { readonly: "" },
-                        model: {
-                          value: _vm.grifo.idGrifo,
-                          callback: function($$v) {
-                            _vm.$set(_vm.grifo, "idGrifo", $$v)
-                          },
-                          expression: "grifo.idGrifo"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { md: "12", xl: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Nombre Grifo" } },
-                    [
-                      _c("b-form-input", {
-                        model: {
-                          value: _vm.grifo.nombreGri,
-                          callback: function($$v) {
-                            _vm.$set(_vm.grifo, "nombreGri", $$v)
-                          },
-                          expression: "grifo.nombreGri"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "12", xl: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Ciudad" } },
-                    [
-                      _c("v-select", {
-                        staticStyle: { flex: "1" },
-                        attrs: { label: "valorDat", options: _vm.ciudades },
-                        model: {
-                          value: _vm.grifo.detalleCiudad,
-                          callback: function($$v) {
-                            _vm.$set(_vm.grifo, "detalleCiudad", $$v)
-                          },
-                          expression: "grifo.detalleCiudad"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "12", xl: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Empresa" } },
-                    [
-                      _c("b-form-input", {
-                        model: {
-                          value: _vm.grifo.empresaGri,
-                          callback: function($$v) {
-                            _vm.$set(_vm.grifo, "empresaGri", $$v)
-                          },
-                          expression: "grifo.empresaGri"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _vm._v(" "),
-          _c("b-overlay", { attrs: { show: _vm.showLoading, "no-wrap": "" } })
-        ],
-        1
-      )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._v(" "),
+                _c("b-overlay", {
+                  attrs: { show: _vm.showLoading, "no-wrap": "" }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ]
     ],
-    1
+    2
   )
 }
 var staticRenderFns = []
@@ -832,18 +1184,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Combustible/Maestro/Grifo.vue":
-/*!**************************************************************!*\
-  !*** ./resources/js/src/views/Combustible/Maestro/Grifo.vue ***!
-  \**************************************************************/
+/***/ "./resources/js/src/views/Combustible/Maestro/Combustible.vue":
+/*!********************************************************************!*\
+  !*** ./resources/js/src/views/Combustible/Maestro/Combustible.vue ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Grifo.vue?vue&type=template&id=10299e85& */ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85&");
-/* harmony import */ var _Grifo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Grifo.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Grifo.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Combustible.vue?vue&type=template&id=1d25c4a5& */ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5&");
+/* harmony import */ var _Combustible_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Combustible.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Combustible.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -854,9 +1206,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Grifo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Combustible_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -866,54 +1218,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Combustible/Maestro/Grifo.vue"
+component.options.__file = "resources/js/src/views/Combustible/Maestro/Combustible.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************!*\
-  !*** ./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************/
+/***/ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Grifo.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Combustible.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************/
+/***/ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Grifo.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Combustible.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85&":
-/*!*********************************************************************************************!*\
-  !*** ./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85& ***!
-  \*********************************************************************************************/
+/***/ "./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5&":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5& ***!
+  \***************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Grifo.vue?vue&type=template&id=10299e85& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Grifo.vue?vue&type=template&id=10299e85&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Combustible.vue?vue&type=template&id=1d25c4a5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Combustible/Maestro/Combustible.vue?vue&type=template&id=1d25c4a5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Grifo_vue_vue_type_template_id_10299e85___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Combustible_vue_vue_type_template_id_1d25c4a5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

@@ -1,20 +1,19 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[106],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _ButtonToolbarNavigation_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarNavigation.vue */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue");
-/* harmony import */ var _ButtonToolbarInput_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ButtonToolbarInput.vue */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue");
-/* harmony import */ var _ButtonToolbarDropdown_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ButtonToolbarDropdown.vue */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue");
-/* harmony import */ var _ButtonToolbarSize_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ButtonToolbarSize.vue */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue");
-/* harmony import */ var _ButtonToolbarJustify_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ButtonToolbarJustify.vue */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue");
+/* harmony import */ var _AutoSuggestBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggestBasic.vue */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue");
+/* harmony import */ var _AutoSuggestSlot_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AutoSuggestSlot.vue */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue");
+/* harmony import */ var _AutoSuggestSection_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AutoSuggestSection.vue */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue");
+/* harmony import */ var _AutoSuggestAjax_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AutoSuggestAjax.vue */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue");
 //
 //
 //
@@ -26,8 +25,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-
 
 
 
@@ -37,207 +34,48 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    ButtonToolbarNavigation: _ButtonToolbarNavigation_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    ButtonToolbarInput: _ButtonToolbarInput_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    ButtonToolbarDropdown: _ButtonToolbarDropdown_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    ButtonToolbarSize: _ButtonToolbarSize_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    ButtonToolbarJustify: _ButtonToolbarJustify_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+    AutoSuggestBasic: _AutoSuggestBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    AutoSuggestSlot: _AutoSuggestSlot_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    AutoSuggestSection: _AutoSuggestSection_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    AutoSuggestAjax: _AutoSuggestAjax_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/button-toolbar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonToolbar"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
-    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BDropdown"],
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BDropdownItem"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  data: function data() {
-    return {
-      codeDropdown: _code__WEBPACK_IMPORTED_MODULE_3__["codeDropdown"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/button-toolbar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonToolbar"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BFormInput"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BInputGroup"],
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  data: function data() {
-    return {
-      codeInput: _code__WEBPACK_IMPORTED_MODULE_3__["codeInput"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/button-toolbar/code.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.iterator.js */ "./node_modules/core-js/modules/es.string.iterator.js");
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.sort.js */ "./node_modules/core-js/modules/es.array.sort.js");
+/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_autosuggest__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vue-autosuggest */ "./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/autosuggest/code.js");
+
+
+
+
+
+
 //
 //
 //
@@ -267,85 +105,237 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+/* eslint-disable vue/no-unused-components */
+
+/* eslint no-unused-expressions: ["error", { "allowShortCircuit": true }] */
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonToolbar"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardText"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    VueAutosuggest: vue_autosuggest__WEBPACK_IMPORTED_MODULE_8__["VueAutosuggest"],
+    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_7__["BCard"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_7__["BCardText"],
+    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_7__["BAvatar"]
   },
   data: function data() {
+    var _this = this;
+
     return {
-      codeJustify: _code__WEBPACK_IMPORTED_MODULE_3__["codeJustify"]
+      codeAjax: _code__WEBPACK_IMPORTED_MODULE_10__["codeAjax"],
+      query: '',
+      results: [],
+      timeout: null,
+      selected: null,
+      debounceMilliseconds: 250,
+      usersUrl: 'https://jsonplaceholder.typicode.com/users',
+      photosUrl: 'https://jsonplaceholder.typicode.com/photos',
+      inputProps: {
+        id: 'autosuggest__input_ajax',
+        placeholder: 'Do you feel lucky, punk?',
+        "class": 'form-control',
+        name: 'ajax'
+      },
+      suggestions: [],
+      sectionConfigs: {
+        destinations: {
+          limit: 6,
+          label: 'Destination',
+          onSelected: function onSelected(selected) {
+            _this.selected = selected.item;
+          }
+        },
+        hotels: {
+          limit: 6,
+          label: 'Hotels',
+          onSelected: function onSelected(selected) {
+            _this.selected = selected.item;
+          }
+        }
+      }
     };
+  },
+  methods: {
+    fetchResults: function fetchResults() {
+      var _this2 = this;
+
+      var query = this.query;
+      clearTimeout(this.timeout);
+      this.timeout = setTimeout(function () {
+        var photosPromise = axios__WEBPACK_IMPORTED_MODULE_9___default.a.get(_this2.photosUrl);
+        var usersPromise = axios__WEBPACK_IMPORTED_MODULE_9___default.a.get(_this2.usersUrl);
+        Promise.all([photosPromise, usersPromise]).then(function (values) {
+          _this2.suggestions = [];
+          _this2.selected = null;
+
+          var photos = _this2.filterResults(values[0].data, query, 'title');
+
+          var users = _this2.filterResults(values[1].data, query, 'name');
+
+          users.length && _this2.suggestions.push({
+            name: 'destinations',
+            data: users
+          });
+          photos.length && _this2.suggestions.push({
+            name: 'hotels',
+            data: photos
+          });
+        });
+      }, this.debounceMilliseconds);
+    },
+    filterResults: function filterResults(data, text, field) {
+      return data.filter(function (item) {
+        if (item[field].toLowerCase().indexOf(text.toLowerCase()) > -1) {
+          return item[field];
+        }
+
+        return false;
+      }).sort();
+    },
+    renderSuggestion: function renderSuggestion(suggestion) {
+      var h = this.$createElement;
+
+      if (suggestion.name === 'hotels') {
+        var image = suggestion.item;
+        return h("div", {
+          "class": "d-flex"
+        }, [h("div", [h("b-avatar", {
+          "attrs": {
+            "src": image.thumbnailUrl
+          },
+          "class": "mr-50"
+        })]), h("div", [h("span", [image.title])])]);
+      }
+
+      return suggestion.item.name;
+    },
+    getSuggestionValue: function getSuggestionValue(suggestion) {
+      var name = suggestion.name,
+          item = suggestion.item;
+      return name === 'hotels' ? item.title : item.name;
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vue_autosuggest__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-autosuggest */ "./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js");
+/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/autosuggest/code.js");
+
+
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    VueAutosuggest: vue_autosuggest__WEBPACK_IMPORTED_MODULE_4__["VueAutosuggest"],
+    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+  },
+  data: function data() {
+    return {
+      datasuggest: [],
+      filteredOptions: [],
+      limit: 10,
+      selected: null,
+      codeBasic: _code__WEBPACK_IMPORTED_MODULE_6__["codeBasic"]
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    this.$http.get('/autosuggest/data').then(function (res) {
+      _this.datasuggest = res;
+    });
+  },
+  methods: {
+    onInputChange: function onInputChange(text) {
+      if (text === '' || text === undefined) {
+        return;
+      }
+      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */
+
+
+      var filteredDevelopers = this.datasuggest.data[0].developers.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      var filteredDesigner = this.datasuggest.data[0].designers.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      var filteredData = filteredDevelopers.concat(filteredDesigner);
+      this.filteredOptions = [{
+        data: filteredData
+      }];
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/button-toolbar/code.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_autosuggest__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-autosuggest */ "./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js");
+/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/autosuggest/code.js");
+
+
+
 //
 //
 //
@@ -364,169 +354,152 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+/* eslint-disable vue/no-unused-components */
+
+/* eslint no-unused-expressions: ["error", { "allowShortCircuit": true }] */
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonToolbar"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardText"],
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    VueAutosuggest: vue_autosuggest__WEBPACK_IMPORTED_MODULE_3__["VueAutosuggest"],
+    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BAvatar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardText"]
   },
   data: function data() {
+    var _this = this;
+
     return {
-      codeNavigation: _code__WEBPACK_IMPORTED_MODULE_3__["codeNavigation"]
+      codeSection: _code__WEBPACK_IMPORTED_MODULE_6__["codeSection"],
+      datasuggest: [],
+      query: '',
+      suggestions: [],
+      selected: null,
+      inputProps: {
+        id: 'autosuggest__input',
+        "class": 'form-control',
+        placeholder: "Type 'e'"
+      },
+      sectionConfigs: {
+        developers: {
+          limit: 6,
+          label: 'Developers',
+          onSelected: function onSelected(selected) {
+            _this.selected = selected.item;
+          }
+        },
+        pages: {
+          limit: 6,
+          label: 'Pages',
+          onSelected: function onSelected(selected) {
+            _this.selected = selected.item;
+          }
+        }
+      },
+      limit: 10
     };
+  },
+  created: function created() {
+    var _this2 = this;
+
+    this.$http.get('/autosuggest/data').then(function (res) {
+      _this2.datasuggest = res;
+    });
+  },
+  methods: {
+    fetchResults: function fetchResults(text) {
+      var query = this.query;
+
+      if (query) {
+        this.suggestions = [];
+      }
+      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */
+
+
+      var filteredDevelopers = this.datasuggest.data[0].developers.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      var filteredPages = this.datasuggest.data[0].pages.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      filteredDevelopers.length && this.suggestions.push({
+        name: 'developers',
+        data: filteredDevelopers
+      });
+      filteredPages.length && this.suggestions.push({
+        name: 'pages',
+        data: filteredPages
+      });
+    },
+    renderSuggestion: function renderSuggestion(suggestion) {
+      var h = this.$createElement;
+
+      if (suggestion.name === 'developers') {
+        var dev = suggestion.item;
+        return h("div", {
+          "class": "d-flex align-items-center"
+        }, [h("b-avatar", {
+          "attrs": {
+            "src": dev.img
+          },
+          "class": "mr-50"
+        }), h("div", {
+          "class": "detail"
+        }, [h("b-card-text", {
+          "class": "mb-0"
+        }, [dev.name]), h("small", {
+          "class": "text-muted"
+        }, [dev.email])])]);
+      }
+
+      if (suggestion.name === 'pages') {
+        var page = suggestion.item;
+        return h("div", {
+          "class": "d-flex align-items-center"
+        }, [h("feather-icon", {
+          "attrs": {
+            "icon": page.icon,
+            "size": '18'
+          },
+          "class": 'mr-75'
+        }), h("span", [page.name])]);
+      }
+
+      return false;
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/button-toolbar/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
+/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vue_autosuggest__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-autosuggest */ "./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js");
+/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/autosuggest/code.js");
+
+
+
+
 //
 //
 //
@@ -563,28 +536,158 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonToolbar"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButtonGroup"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BButton"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCardText"],
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    VueAutosuggest: vue_autosuggest__WEBPACK_IMPORTED_MODULE_4__["VueAutosuggest"],
+    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_6__["BCardText"],
+    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_6__["BAvatar"]
   },
   data: function data() {
     return {
-      codeSize: _code__WEBPACK_IMPORTED_MODULE_3__["codeSize"]
+      datasuggest: [],
+      filteredOptions: [],
+      inputProps: {
+        id: 'autosuggest__input',
+        "class": 'form-control',
+        placeholder: "Type 'e'"
+      },
+      limit: 10,
+      codeSlot: _code__WEBPACK_IMPORTED_MODULE_7__["codeSlot"]
     };
+  },
+  created: function created() {
+    var _this = this;
+
+    this.$http.get('/autosuggest/data').then(function (res) {
+      _this.datasuggest = res;
+    });
+  },
+  methods: {
+    onSelected: function onSelected(option) {
+      this.selected = option.item;
+    },
+    onInputChange: function onInputChange(text) {
+      if (text === '' || text === undefined) {
+        return;
+      }
+      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */
+
+
+      var filteredDevelopers = this.datasuggest.data[0].developers.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      var filteredDesigner = this.datasuggest.data[0].designers.filter(function (item) {
+        return item.name.toLowerCase().indexOf(text.toLowerCase()) > -1;
+      }).slice(0, this.limit);
+      var filteredData = filteredDevelopers.concat(filteredDesigner);
+      this.filteredOptions = [{
+        data: filteredData
+      }];
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".autosuggest__results-container {\n  position: relative;\n  z-index: 999;\n}\n.autosuggest__results-container .autosuggest__results {\n  position: absolute;\n  width: 100%;\n  overflow-y: auto;\n  max-height: 40vh;\n}\n[dir] .autosuggest__results-container .autosuggest__results {\n  background-color: #fff;\n  margin-top: 1rem;\n  border-radius: 0.5rem;\n  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;\n}\n[dir] .autosuggest__results-container .autosuggest__results ul {\n  margin-bottom: 0;\n}\n[dir=ltr] .autosuggest__results-container .autosuggest__results ul {\n  padding-left: 0;\n}\n[dir=rtl] .autosuggest__results-container .autosuggest__results ul {\n  padding-right: 0;\n}\n.autosuggest__results-container .autosuggest__results ul li {\n  list-style: none;\n}\n[dir] .autosuggest__results-container .autosuggest__results ul li {\n  padding: 0.75rem 1rem;\n}\n[dir] .autosuggest__results-container .autosuggest__results ul li:hover, [dir] .autosuggest__results-container .autosuggest__results ul li.autosuggest__results-item--highlighted {\n  background: #ededed;\n}\n.autosuggest__results-container .autosuggest__results ul li .detail {\n  line-height: 0.5;\n}\n.autosuggest__results-container .autosuggest__results ul .autosuggest__results-before {\n  color: #7367f0;\n  font-weight: 600;\n}\nbody.dark-layout .autosuggest__results-container .autosuggest__results {\n  color: #b4b7bd;\n}\n[dir] body.dark-layout .autosuggest__results-container .autosuggest__results {\n  background-color: #283046;\n}\n[dir] body.dark-layout .autosuggest__results-container .autosuggest__results .autosuggest__results-item--highlighted, [dir] body.dark-layout .autosuggest__results-container .autosuggest__results .autosuggest__results-item:hover, [dir] body.dark-layout .autosuggest__results-container .autosuggest__results .autosuggest__results-before:hover {\n  background-color: #242b3d;\n}\nbody.dark-layout .autosuggest__results-container .autosuggest__results .my-suggestion-item {\n  color: #b4b7bd;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "pre[data-v-5eb64bae] {\n  min-height: 295px;\n}[dir] pre[data-v-5eb64bae] {\n  padding: 1.5rem;\n  margin-bottom: 0;\n  border-radius: 0.5rem;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggest.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -603,15 +706,13 @@ var render = function() {
         "b-col",
         { attrs: { cols: "12" } },
         [
-          _c("button-toolbar-navigation"),
+          _c("auto-suggest-basic"),
           _vm._v(" "),
-          _c("button-toolbar-input"),
+          _c("auto-suggest-slot"),
           _vm._v(" "),
-          _c("button-toolbar-dropdown"),
+          _c("auto-suggest-section"),
           _vm._v(" "),
-          _c("button-toolbar-size"),
-          _vm._v(" "),
-          _c("button-toolbar-justify")
+          _c("auto-suggest-ajax")
         ],
         1
       )
@@ -626,9 +727,76 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Ajax" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeAjax) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("vue-autosuggest", {
+        ref: "autocomplete",
+        attrs: {
+          suggestions: _vm.suggestions,
+          "input-props": _vm.inputProps,
+          "section-configs": _vm.sectionConfigs,
+          "render-suggestion": _vm.renderSuggestion,
+          "get-suggestion-value": _vm.getSuggestionValue
+        },
+        on: { input: _vm.fetchResults },
+        model: {
+          value: _vm.query,
+          callback: function($$v) {
+            _vm.query = $$v
+          },
+          expression: "query"
+        }
+      }),
+      _vm._v(" "),
+      _c("b-card-text", { staticClass: "mt-1" }, [
+        _vm._v("\n    Selected element (object):\n  ")
+      ]),
+      _vm._v(" "),
+      _c("b-card", { staticClass: "border", attrs: { "no-body": "" } }, [
+        _c("pre", [_vm._v(_vm._s(JSON.stringify(_vm.selected, null, 4)))])
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16&":
 /*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16& ***!
   \*************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -644,150 +812,43 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Button Toolbar with Dropdown" },
+      attrs: { title: "Basic" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDropdown) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeBasic) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c(
-        "b-button-toolbar",
-        {
-          staticClass: "demo-inline-spacing",
-          attrs: {
-            "aria-label": "Toolbar with button groups and dropdown menu"
+      _c("vue-autosuggest", {
+        attrs: {
+          suggestions: _vm.filteredOptions,
+          limit: 10,
+          "input-props": {
+            id: "autosuggest__input",
+            class: "form-control",
+            placeholder: "Do you feel lucky?"
           }
         },
-        [
-          _c(
-            "b-button-group",
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        New\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Edit\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Undo\n      ")]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-dropdown",
-            {
-              directives: [
-                {
-                  name: "ripple",
-                  rawName: "v-ripple.400",
-                  value: "rgba(113, 102, 240, 0.15)",
-                  expression: "'rgba(113, 102, 240, 0.15)'",
-                  modifiers: { "400": true }
-                }
-              ],
-              attrs: { right: "", text: "menu", variant: "outline-primary" }
-            },
-            [
-              _c("b-dropdown-item", [_vm._v("Item 1")]),
-              _vm._v(" "),
-              _c("b-dropdown-item", [_vm._v("Item 2")]),
-              _vm._v(" "),
-              _c("b-dropdown-item", [_vm._v("Item 3")])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-button-group",
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Save\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Cancel\n      ")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+        on: { input: _vm.onInputChange },
+        scopedSlots: _vm._u([
+          {
+            key: "default",
+            fn: function(ref) {
+              var suggestion = ref.suggestion
+              return [
+                _c("span", { staticClass: "my-suggestion-item" }, [
+                  _vm._v(_vm._s(suggestion.item.name))
+                ])
+              ]
+            }
+          }
+        ])
+      })
     ],
     1
   )
@@ -799,308 +860,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Button Toolbar with Input" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeInput) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c(
-        "b-button-toolbar",
-        {
-          staticClass: "demo-inline-spacing",
-          attrs: { "aria-label": "Toolbar with button groups and input groups" }
-        },
-        [
-          _c(
-            "b-button-group",
-            { attrs: { size: "sm" } },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Save\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Cancel\n      ")]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-input-group",
-            { attrs: { size: "sm", append: ".00", prepend: "$" } },
-            [
-              _c("b-form-input", {
-                staticClass: "text-right",
-                attrs: { value: "100" }
-              })
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7&":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7& ***!
-  \************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Justify" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeJustify) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "Make the toolbar span the maximum available width, by increasing spacing between the button groups, input groups and dropdowns, by setting the prop "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("justify")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(".")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-button-toolbar",
-        { attrs: { justify: "" } },
-        [
-          _c(
-            "b-button-group",
-            { staticClass: "mr-2 mb-1" },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Button\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Button\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Button\n      ")]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-button-group",
-            { staticClass: "mr-2 mb-1" },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "HomeIcon" } })],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "SearchIcon" } })],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "BellIcon" } })],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "ShoppingCartIcon" } })],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028&":
 /*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028& ***!
   \***************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1116,178 +878,35 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Button groups & Keyboard navigation" },
+      attrs: { title: "Section" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeNavigation) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeSection) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c("b-card-text", [
-        _vm._v(
-          "Group a series of button-groups and/or input-groups together on a single line, with optional keyboard navigation"
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-button-toolbar",
-        {
-          staticClass: "demo-inline-spacing",
-          attrs: { "key-nav": "", "aria-label": "Toolbar with button groups" }
+      _c("vue-autosuggest", {
+        attrs: {
+          suggestions: _vm.suggestions,
+          "input-props": _vm.inputProps,
+          "section-configs": _vm.sectionConfigs,
+          "render-suggestion": _vm.renderSuggestion,
+          limit: 10
         },
-        [
-          _c(
-            "b-button-group",
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  staticClass: "btn-icon",
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "ChevronsLeftIcon" } })],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  staticClass: "btn-icon",
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "ChevronLeftIcon" } })],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-button-group",
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Edit\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Undo\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Redo\n      ")]
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-button-group",
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  staticClass: "btn-icon",
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "ChevronRightIcon" } })],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  staticClass: "btn-icon",
-                  attrs: { variant: "outline-primary" }
-                },
-                [_c("feather-icon", { attrs: { icon: "ChevronsRightIcon" } })],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+        on: { input: _vm.fetchResults },
+        model: {
+          value: _vm.query,
+          callback: function($$v) {
+            _vm.query = $$v
+          },
+          expression: "query"
+        }
+      })
     ],
     1
   )
@@ -1299,10 +918,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba&":
-/*!*********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba& ***!
-  \*********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2&":
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2& ***!
+  \************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1317,229 +936,68 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Size" },
+      attrs: { title: "Slot" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSize) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeSlot) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "If you want smaller or larger buttons or controls, set the size prop directly on the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-button-group>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-input-group>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-dropdown>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" components")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-button-toolbar",
-        [
-          _c(
-            "b-button-group",
-            { attrs: { size: "lg" } },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
+      _c("vue-autosuggest", {
+        attrs: {
+          suggestions: _vm.filteredOptions,
+          "input-props": _vm.inputProps,
+          "on-selected": _vm.onSelected,
+          limit: 10
+        },
+        on: { input: _vm.onInputChange },
+        scopedSlots: _vm._u([
+          {
+            key: "default",
+            fn: function(ref) {
+              var suggestion = ref.suggestion
+              return [
+                _c(
+                  "div",
+                  { staticClass: "d-flex align-items-center" },
+                  [
+                    _c("b-avatar", { attrs: { src: suggestion.item.img } }),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "detail ml-50" },
+                      [
+                        _c("b-card-text", { staticClass: "mb-0" }, [
+                          _vm._v(
+                            "\n            " +
+                              _vm._s(suggestion.item.name) +
+                              "\n          "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("small", { staticClass: "text-muted" }, [
+                          _vm._v(
+                            "\n            " +
+                              _vm._s(suggestion.item.time) +
+                              "\n          "
+                          )
+                        ])
+                      ],
+                      1
+                    )
                   ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        First\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Second\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Third\n      ")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-button-toolbar",
-        [
-          _c(
-            "b-button-group",
-            { staticClass: "my-1" },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        First\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Second\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Third\n      ")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-button-toolbar",
-        [
-          _c(
-            "b-button-group",
-            { attrs: { size: "sm" } },
-            [
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        First\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Second\n      ")]
-              ),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  directives: [
-                    {
-                      name: "ripple",
-                      rawName: "v-ripple.400",
-                      value: "rgba(113, 102, 240, 0.15)",
-                      expression: "'rgba(113, 102, 240, 0.15)'",
-                      modifiers: { "400": true }
-                    }
-                  ],
-                  attrs: { variant: "outline-primary" }
-                },
-                [_vm._v("\n        Third\n      ")]
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+                  1
+                )
+              ]
+            }
+          }
+        ])
+      })
     ],
     1
   )
@@ -1551,18 +1009,20 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue ***!
-  \****************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue ***!
+  \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbar.vue?vue&type=template&id=58b4d2ce& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce&");
-/* harmony import */ var _ButtonToolbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbar.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AutoSuggest.vue?vue&type=template&id=52bbb72e& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e&");
+/* harmony import */ var _AutoSuggest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggest.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AutoSuggest.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -1570,10 +1030,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _AutoSuggest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1583,193 +1043,73 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbar.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggest.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce&":
-/*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce& ***!
-  \***********************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss& ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggest.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e& ***!
+  \**************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbar.vue?vue&type=template&id=58b4d2ce& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbar.vue?vue&type=template&id=58b4d2ce&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggest.vue?vue&type=template&id=52bbb72e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggest.vue?vue&type=template&id=52bbb72e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbar_vue_vue_type_template_id_58b4d2ce___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue":
-/*!************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a&");
-/* harmony import */ var _ButtonToolbarDropdown_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarDropdown.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbarDropdown_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarDropdown_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarDropdown.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarDropdown_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarDropdown.vue?vue&type=template&id=647e2d4a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarDropdown_vue_vue_type_template_id_647e2d4a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggest_vue_vue_type_template_id_52bbb72e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1&");
-/* harmony import */ var _ButtonToolbarInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarInput.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbarInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1& ***!
-  \****************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarInput.vue?vue&type=template&id=24f3a9e1&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarInput_vue_vue_type_template_id_24f3a9e1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue":
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue":
 /*!***********************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue ***!
   \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7&");
-/* harmony import */ var _ButtonToolbarJustify_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarJustify.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true&");
+/* harmony import */ var _AutoSuggestAjax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggestAjax.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -1777,68 +1117,153 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbarJustify_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _AutoSuggestAjax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "5eb64bae",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarJustify_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarJustify.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarJustify_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestAjax.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7&":
-/*!******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7& ***!
-  \******************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader!../../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=style&index=0&id=5eb64bae&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_style_index_0_id_5eb64bae_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarJustify.vue?vue&type=template&id=6838c5e7&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestAjax.vue?vue&type=template&id=5eb64bae&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarJustify_vue_vue_type_template_id_6838c5e7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestAjax_vue_vue_type_template_id_5eb64bae_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue":
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16&");
+/* harmony import */ var _AutoSuggestBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggestBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _AutoSuggestBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestBasic.vue?vue&type=template&id=5a9c2f16&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestBasic_vue_vue_type_template_id_5a9c2f16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue":
 /*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue ***!
   \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d&");
-/* harmony import */ var _ButtonToolbarNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarNavigation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AutoSuggestSection.vue?vue&type=template&id=ff562028& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028&");
+/* harmony import */ var _AutoSuggestSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggestSection.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1847,9 +1272,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbarNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _AutoSuggestSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1859,55 +1284,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarNavigation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestSection.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d&":
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028&":
 /*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d& ***!
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028& ***!
   \*********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarNavigation.vue?vue&type=template&id=4c8ef58d&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestSection.vue?vue&type=template&id=ff562028& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSection.vue?vue&type=template&id=ff562028&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarNavigation_vue_vue_type_template_id_4c8ef58d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSection_vue_vue_type_template_id_ff562028___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue":
-/*!********************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue ***!
-  \********************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue ***!
+  \***********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ButtonToolbarSize.vue?vue&type=template&id=1fd009ba& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba&");
-/* harmony import */ var _ButtonToolbarSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ButtonToolbarSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AutoSuggestSlot.vue?vue&type=template&id=c01c19f2& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2&");
+/* harmony import */ var _AutoSuggestSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AutoSuggestSlot.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1916,9 +1341,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ButtonToolbarSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _AutoSuggestSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1928,62 +1353,60 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestSlot.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2&":
+/*!******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2& ***!
+  \******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ButtonToolbarSize.vue?vue&type=template&id=1fd009ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/button-toolbar/ButtonToolbarSize.vue?vue&type=template&id=1fd009ba&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./AutoSuggestSlot.vue?vue&type=template&id=c01c19f2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/autosuggest/AutoSuggestSlot.vue?vue&type=template&id=c01c19f2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ButtonToolbarSize_vue_vue_type_template_id_1fd009ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AutoSuggestSlot_vue_vue_type_template_id_c01c19f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/components/button-toolbar/code.js":
-/*!******************************************************************!*\
-  !*** ./resources/js/src/views/components/button-toolbar/code.js ***!
-  \******************************************************************/
-/*! exports provided: codeNavigation, codeInput, codeDropdown, codeSize, codeJustify */
+/***/ "./resources/js/src/views/forms/form-element/autosuggest/code.js":
+/*!***********************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/autosuggest/code.js ***!
+  \***********************************************************************/
+/*! exports provided: codeBasic, codeSlot, codeSection, codeAjax */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeNavigation", function() { return codeNavigation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInput", function() { return codeInput; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDropdown", function() { return codeDropdown; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeJustify", function() { return codeJustify; });
-var codeNavigation = "\n<template>\n  <b-button-toolbar\n    key-nav\n    aria-label=\"Toolbar with button groups\"\n    class=\"demo-inline-spacing\"\n  >\n\n    <!-- group  1 -->\n    <b-button-group>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        class=\"btn-icon\"\n        variant=\"outline-primary\"\n      >\n        <feather-icon icon=\"ChevronsLeftIcon\" />\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        class=\"btn-icon\"\n        variant=\"outline-primary\"\n      >\n        <feather-icon icon=\"ChevronLeftIcon\" />\n      </b-button>\n    </b-button-group>\n\n    <!-- group 2 -->\n    <b-button-group>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n      >\n        Edit\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n      >\n        Undo\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n      >\n        Redo\n      </b-button>\n    </b-button-group>\n\n    <!-- group 3 -->\n    <b-button-group>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        class=\"btn-icon\"\n        variant=\"outline-primary\"\n      >\n        <feather-icon icon=\"ChevronRightIcon\" />\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        class=\"btn-icon\"\n        variant=\"outline-primary\"\n      >\n        <feather-icon icon=\"ChevronsRightIcon\" />\n      </b-button>\n    </b-button-group>\n  </b-button-toolbar>\n</template>\n\n<script>\nimport {BButtonToolbar, BButtonGroup, BButton} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BButtonToolbar,\n    BButtonGroup,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeInput = "\n<template>\n   <b-button-toolbar\n      class=\"demo-inline-spacing\"\n      aria-label=\"Toolbar with button groups and input groups\"\n    >\n      <b-button-group size=\"sm\">\n        <b-button\n          v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n          variant=\"outline-primary\"\n        >\n          Save\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n          variant=\"outline-primary\"\n        >\n          Cancel\n        </b-button>\n      </b-button-group>\n      <b-input-group\n        size=\"sm\"\n        append=\".00\"\n        prepend=\"$\"\n      >\n        <b-form-input\n          value=\"100\"\n          class=\"text-right\"\n        />\n      </b-input-group>\n  </b-button-toolbar>\n</template>\n\n<script>\nimport {\n  BButtonToolbar, BButtonGroup, BButton, BFormInput, BInputGroup,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BButtonToolbar,\n    BButtonGroup,\n    BButton,\n    BFormInput,\n    BInputGroup,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeDropdown = "\n<template>\n  <b-button-toolbar aria-label=\"Toolbar with button groups and dropdown menu\">\n    <b-button-group>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        New\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Edit\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Undo\n      </b-button>\n    </b-button-group>\n    <b-dropdown\n      v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n      class=\"mx-1\"\n      right\n      text=\"menu\"\n      variant=\"primary\"\n    >\n      <b-dropdown-item>Item 1</b-dropdown-item>\n      <b-dropdown-item>Item 2</b-dropdown-item>\n      <b-dropdown-item>Item 3</b-dropdown-item>\n    </b-dropdown>\n    <b-button-group>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Save\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Cancel\n      </b-button>\n    </b-button-group>\n  </b-button-toolbar>\n</template>\n\n<script>\nimport {\n  BButtonToolbar, BButtonGroup, BButton, BDropdown, BDropdownItem,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BButtonToolbar,\n    BButtonGroup,\n    BButton,\n    BDropdown,\n    BDropdownItem,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeSize = "\n<template>\n  <div>\n     <b-button-toolbar>\n      <b-button-group\n        size=\"lg\"\n      >\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          First\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Second\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Third\n        </b-button>\n      </b-button-group>\n    </b-button-toolbar>\n\n    <b-button-toolbar>\n      <b-button-group\n        class=\"my-1\"\n      >\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          First\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Second\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Third\n        </b-button>\n      </b-button-group>\n    </b-button-toolbar>\n\n    <b-button-toolbar>\n      <b-button-group\n        size=\"sm\"\n      >\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          First\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Second\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          variant=\"primary\"\n        >\n          Third\n        </b-button>\n      </b-button-group>\n    </b-button-toolbar>\n  </div>\n</template>\n\n<script>\nimport { BButtonToolbar, BButtonGroup, BButton } from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BButtonToolbar,\n    BButtonGroup,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeJustify = "\n<template>\n  <b-button-toolbar justify>\n    <b-button-group\n      class=\"mr-2 mb-1\"\n      vertical\n    >\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Button\n      </b-button>\n    </b-button-group>\n    <b-button-group\n      class=\"mr-2 mb-1\"\n      vertical\n    >\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"primary\"\n      >\n        Primary\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"secondary\"\n      >\n        Secondary\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"success\"\n      >\n        Success\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"warning\"\n      >\n        Warning\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"danger\"\n      >\n        Danger\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n        variant=\"info\"\n      >\n        Info\n      </b-button>\n    </b-button-group>\n    <b-button-group\n      class=\"mb-1\"\n      vertical\n    >\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-secondary\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(40, 199, 111, 0.15)'\"\n        variant=\"outline-success\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(255, 159, 67, 0.15)'\"\n        variant=\"outline-warning\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(234, 84, 85, 0.15)'\"\n        variant=\"outline-danger\"\n      >\n        Button\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(0, 207, 232, 0.15)'\"\n        variant=\"outline-info\"\n      >\n        Button\n      </b-button>\n    </b-button-group>\n  </b-button-toolbar>\n</template>\n\n<script>\nimport { BButtonToolbar, BButtonGroup, BButton } from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BButtonToolbar,\n    BButtonGroup,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSlot", function() { return codeSlot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSection", function() { return codeSection; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeAjax", function() { return codeAjax; });
+var codeBasic = "\n<template>\n  <vue-autosuggest\n    :suggestions=\"filteredOptions\"\n    :limit=\"10\"\n    :input-props=\"{id:'autosuggest__input',class:'form-control', placeholder:'Do you feel lucky?'}\"\n    @input=\"onInputChange\"\n  >\n    <template slot-scope=\"{suggestion}\">\n      <span class=\"my-suggestion-item\">{{ suggestion.item.name }}</span>\n    </template>\n  </vue-autosuggest>\n</template>\n\n<script>\nimport { VueAutosuggest } from 'vue-autosuggest'\n\nexport default {\n  components: {\n    VueAutosuggest,\n  },\n  data() {\n    return {\n      datasuggest: [],\n      filteredOptions: [],\n      limit: 10,\n      selected: null,\n    }\n  },\n  created() {\n    this.$http.get('/autosuggest/data')\n      .then(res => { this.datasuggest = res })\n  },\n  methods: {\n    onInputChange(text) {\n      if (text === '' || text === undefined) {\n        return\n      }\n\n      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */\n      const filteredDevelopers = this.datasuggest.data[0].developers.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      const filteredDesigner = this.datasuggest.data[0].designers.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      const filteredData = filteredDevelopers.concat(filteredDesigner)\n      this.filteredOptions = [{\n        data: filteredData,\n      }]\n    },\n  },\n}\n</script>\n";
+var codeSlot = "\n<template>\n  <vue-autosuggest\n    :suggestions=\"filteredOptions\"\n    :input-props=\"inputProps\"\n    :on-selected=\"onSelected\"\n    :limit=\"10\"\n    @input=\"onInputChange\"\n  >\n    <template slot-scope=\"{suggestion}\">\n      <div class=\"d-flex align-items-center\">\n        <b-avatar :src=\"suggestion.item.img\" />\n        <div class=\"detail ml-50\">\n          <b-card-text class=\"mb-0\">\n            {{ suggestion.item.name }}\n          </b-card-text>\n          <small class=\"text-muted\">\n            {{ suggestion.item.time }}\n          </small>\n        </div>\n      </div>\n    </template>\n  </vue-autosuggest>\n</template>\n\n<script>\nimport { VueAutosuggest } from 'vue-autosuggest'\nimport { BAvatar, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    VueAutosuggest,\n    BCardText,\n    BAvatar,\n  },\n  data() {\n    return {\n      datasuggest: [],\n      filteredOptions: [],\n      inputProps: {\n        id: 'autosuggest__input',\n        class: 'form-control',\n        placeholder: \"Type 'e'\",\n      },\n      limit: 10,\n    }\n  },\n  created() {\n    this.$http.get('/autosuggest/data')\n      .then(res => { this.datasuggest = res })\n  },\n  methods: {\n    onSelected(option) {\n      this.selected = option.item\n    },\n    onInputChange(text) {\n      if (text === '' || text === undefined) {\n        return\n      }\n\n      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */\n      const filteredDevelopers = this.datasuggest.data[0].developers.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      const filteredDesigner = this.datasuggest.data[0].designers.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      const filteredData = filteredDevelopers.concat(filteredDesigner)\n      this.filteredOptions = [{\n        data: filteredData,\n      }]\n    },\n  },\n}\n</script>\n";
+var codeSection = "\n<template>\n  <vue-autosuggest\n    v-model=\"query\"\n    :suggestions=\"suggestions\"\n    :input-props=\"inputProps\"\n    :section-configs=\"sectionConfigs\"\n    :render-suggestion=\"renderSuggestion\"\n    :limit=\"10\"\n    @input=\"fetchResults\"\n  />\n</template>\n\n<script>\n/* eslint-disable vue/no-unused-components */\n/* eslint no-unused-expressions: [\"error\", { \"allowShortCircuit\": true }] */\nimport { VueAutosuggest } from 'vue-autosuggest'\nimport { BAvatar, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    VueAutosuggest,\n    BAvatar,\n    BCardText,\n  },\n  data() {\n    return {\n      datasuggest: [],\n      query: '',\n      suggestions: [],\n      selected: null,\n      inputProps: {\n        id: 'autosuggest__input',\n        class: 'form-control',\n        placeholder: \"Type 'e'\",\n      },\n      sectionConfigs: {\n        developers: {\n          limit: 6,\n          label: 'Developers',\n          onSelected: selected => {\n            this.selected = selected.item\n          },\n        },\n        pages: {\n          limit: 6,\n          label: 'Pages',\n          onSelected: selected => {\n            this.selected = selected.item\n          },\n        },\n      },\n      limit: 10,\n    }\n  },\n  created() {\n    this.$http.get('/autosuggest/data')\n      .then(res => { this.datasuggest = res })\n  },\n  methods: {\n    fetchResults(text) {\n      const { query } = this\n      if (query) {\n        this.suggestions = []\n      }\n\n      /* Full control over filtering. Maybe fetch from API?! Up to you!!! */\n      const filteredDevelopers = this.datasuggest.data[0].developers.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      const filteredPages = this.datasuggest.data[0].pages.filter(item => item.name.toLowerCase().indexOf(text.toLowerCase()) > -1).slice(0, this.limit)\n      filteredDevelopers.length && this.suggestions.push({ name: 'developers', data: filteredDevelopers })\n      filteredPages.length && this.suggestions.push({ name: 'pages', data: filteredPages })\n    },\n    renderSuggestion(suggestion) {\n      if (suggestion.name === 'developers') {\n        const dev = suggestion.item\n        return (\n          <div class=\"d-flex align-items-center\">\n            <b-avatar src={dev.img} class=\"mr-50\"></b-avatar>\n            <div class=\"detail\">\n              <b-card-text class=\"mb-0\">{dev.name}</b-card-text>\n              <small class=\"text-muted\">{dev.email}</small>\n            </div>\n          </div>\n        )\n      }\n      if (suggestion.name === 'pages') {\n        const page = suggestion.item\n        return (\n          <div class=\"d-flex align-items-center\">\n            <feather-icon icon={page.icon} size={'18'} class={'mr-75'} />\n            <span>{page.name}</span>\n          </div>\n        )\n      }\n      return false\n    },\n  },\n}\n</script>\n";
+var codeAjax = "\n<template>\n  <div>\n    <vue-autosuggest\n      ref=\"autocomplete\"\n      v-model=\"query\"\n      :suggestions=\"suggestions\"\n      :input-props=\"inputProps\"\n      :section-configs=\"sectionConfigs\"\n      :render-suggestion=\"renderSuggestion\"\n      :get-suggestion-value=\"getSuggestionValue\"\n      @input=\"fetchResults\"\n    />\n\n    <b-card-text class=\"mt-1\">\n      Selected element (object):\n    </b-card-text>\n    <b-card\n      class=\"border\"\n      no-body\n    >\n      <pre>{{ JSON.stringify(selected, null, 4) }}</pre>\n    </b-card>\n  </div>\n</template>\n\n<script>\n/* eslint-disable vue/no-unused-components */\n/* eslint no-unused-expressions: [\"error\", { \"allowShortCircuit\": true }] */\nimport { BCard, BCardText, BAvatar } from 'bootstrap-vue'\nimport { VueAutosuggest } from 'vue-autosuggest'\nimport axios from 'axios'\n\nexport default {\n  components: {\n    VueAutosuggest,\n    BCard,\n    BCardText,\n    BAvatar,\n  },\n  data() {\n    return {\n      query: '',\n      results: [],\n      timeout: null,\n      selected: null,\n      debounceMilliseconds: 250,\n      usersUrl: 'https://jsonplaceholder.typicode.com/users',\n      photosUrl: 'https://jsonplaceholder.typicode.com/photos',\n      inputProps: {\n        id: 'autosuggest__input_ajax',\n        placeholder: 'Do you feel lucky, punk?',\n        class: 'form-control',\n        name: 'ajax',\n      },\n      suggestions: [],\n      sectionConfigs: {\n        destinations: {\n          limit: 6,\n          label: 'Destination',\n          onSelected: selected => {\n            this.selected = selected.item\n          },\n        },\n        hotels: {\n          limit: 6,\n          label: 'Hotels',\n          onSelected: selected => {\n            this.selected = selected.item\n          },\n        },\n      },\n    }\n  },\n  methods: {\n    fetchResults() {\n      const { query } = this\n\n      clearTimeout(this.timeout)\n      this.timeout = setTimeout(() => {\n        const photosPromise = axios.get(this.photosUrl)\n        const usersPromise = axios.get(this.usersUrl)\n\n        Promise.all([photosPromise, usersPromise]).then(values => {\n          this.suggestions = []\n          this.selected = null\n\n          const photos = this.filterResults(values[0].data, query, 'title')\n          const users = this.filterResults(values[1].data, query, 'name')\n          users.length && this.suggestions.push({ name: 'destinations', data: users })\n          photos.length && this.suggestions.push({ name: 'hotels', data: photos })\n        })\n      }, this.debounceMilliseconds)\n    },\n    filterResults(data, text, field) {\n      return data.filter(item => {\n        if (item[field].toLowerCase().indexOf(text.toLowerCase()) > -1) {\n          return item[field]\n        }\n        return false\n      }).sort()\n    },\n    renderSuggestion(suggestion) {\n      if (suggestion.name === 'hotels') {\n        const image = suggestion.item\n        return (\n          <div class=\"d-flex\">\n            <div>\n              <b-avatar src={image.thumbnailUrl} class=\"mr-50\"></b-avatar>\n            </div>\n            <div>\n              <span>{image.title}</span>\n            </div>\n          </div>\n        )\n      }\n      return suggestion.item.name\n    },\n    getSuggestionValue(suggestion) {\n      const { name, item } = suggestion\n      return name === 'hotels' ? item.title : item.name\n    },\n  },\n}\n</script>\n\n<style lang=\"scss\" scoped>\npre{\n  min-height: 295px;\n  padding: 1.5rem;\n  margin-bottom: 0;\n  border-radius: .5rem;\n}\n</style>\n";
 
 /***/ })
 

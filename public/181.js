@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[181],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25,23 +25,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var _components;
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -170,6 +153,9 @@ var _components;
         label: 'Serie',
         field: 'serie'
       }, {
+        label: 'Estado',
+        field: 'estadoCom'
+      }, {
         label: 'ID',
         field: 'idComprobante',
         hidden: true
@@ -178,15 +164,11 @@ var _components;
       /**************************** entorno ****************************/
       facturas: [],
       empresas: [],
-      zexternos: [],
 
       /**************************** formulario ****************************/
-      externo: 0,
-      tipo: "TODO",
-      condicion: "TODO",
-      estado: "TODO",
-      desde: "",
-      hasta: ""
+      cliente: "",
+      fechaInicio: "",
+      fechaFin: ""
     };
   },
   methods: {
@@ -208,7 +190,7 @@ var _components;
       var _this = this;
 
       this.showLoading = true;
-      this.$http.get('/LiberAPP/Comprobante/Listar/' + this.externo.idExterno + '/' + this.desde + '/' + this.hasta + '/' + this.tipo + '/' + this.condicion).then(function (res) {
+      this.$http.get('/LiberAPP/Comprobante/Listar/' + this.cliente + '/' + this.fechaInicio + '/' + this.fechaFin).then(function (res) {
         _this.facturas = res.data;
         _this.showLoading = false;
       })["catch"](function (error) {
@@ -234,23 +216,14 @@ var _components;
   created: function created() {
     var _this2 = this;
 
-    var today = new Date();
-    this.desde = today.getFullYear() + "-" + (today.getMonth() + 1) + "-01";
-    this.hasta = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-    this.$http.get('/LiberAPP/Externo/Select').then(function (res) {
-      _this2.zexternos = res.data;
+    this.$http.get('/LiberAPP/Grifo/Empresa/Select').then(function (res) {
+      _this2.empresas = res.data;
 
-      _this2.zexternos.unshift({
-        idExterno: 0,
-        nombreExt: 'TODOS'
+      _this2.empresas.unshift({
+        empresaGri: 'TODOS'
       });
-
-      _this2.externo = {
-        idExterno: 0,
-        nombreExt: 'TODOS'
-      };
     })["catch"](function (error) {
-      _this2.Toast(true, 'danger', 'Externo', 'Error al cargar los registros: ' + error);
+      _this2.Toast(true, 'danger', 'Empresas', 'Error al cargar los registros: ' + error);
     });
     /*this.$http.get('/LiberAPP/Abastecimiento/Comprobante/Combustible/Consumo/Listar').then(res => {
         this.facturas = res.data;
@@ -263,10 +236,10 @@ var _components;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -283,15 +256,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Comprobante.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Rendimiento.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -313,10 +286,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a&":
-/*!*********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a& ***!
-  \*********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -343,353 +316,43 @@ var render = function() {
                 [
                   _c(
                     "b-form-group",
-                    { attrs: { label: "Proveedor/Cliente:" } },
+                    { attrs: { label: "CLIENTES" } },
                     [
-                      _c("v-select", {
-                        staticStyle: { flex: "1" },
-                        attrs: { label: "nombreExt", options: _vm.zexternos },
-                        model: {
-                          value: _vm.externo,
-                          callback: function($$v) {
-                            _vm.externo = $$v
-                          },
-                          expression: "externo"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "4", xl: "3" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Tipo" } },
-                    [
-                      _vm.tipo == "TODO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.tipo = "FACTURA"
-                                }
-                              }
-                            },
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
                             [
                               _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" TODO")
+                                attrs: { icon: "FastForwardIcon" }
+                              })
                             ],
                             1
-                          )
-                        : _vm._e(),
-                      _vm._v(" "),
-                      _vm.tipo == "FACTURA"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.tipo = "BOLETA"
-                                }
-                              }
+                          ),
+                          _vm._v(" "),
+                          _c("v-select", {
+                            staticStyle: { flex: "1" },
+                            attrs: {
+                              label: "empresaGri",
+                              reduce: function(empresas) {
+                                return empresas.empresaGri
+                              },
+                              options: _vm.empresas
                             },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" FACTURA")
-                            ],
-                            1
-                          )
-                        : _vm.tipo == "BOLETA"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.tipo = "LEASING"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" BOLETA")
-                            ],
-                            1
-                          )
-                        : _vm.tipo == "LEASING"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.tipo = "PRESTAMO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" LEASING")
-                            ],
-                            1
-                          )
-                        : _vm.tipo == "PRESTAMO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.tipo = "TODO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" PRESTAMO")
-                            ],
-                            1
-                          )
-                        : _vm._e()
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "4", xl: "3" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Condición" } },
-                    [
-                      _vm.condicion == "TODO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.condicion = "DEUDA"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" TODO")
-                            ],
-                            1
-                          )
-                        : _vm._e(),
-                      _vm._v(" "),
-                      _vm.condicion == "DEUDA"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.condicion = "ABONO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" DEUDA")
-                            ],
-                            1
-                          )
-                        : _vm.condicion == "ABONO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.condicion = "TODO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" ABONO")
-                            ],
-                            1
-                          )
-                        : _vm._e()
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "4", xl: "3" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Estado" } },
-                    [
-                      _vm.estado == "TODO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "FACTURADO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" TODO")
-                            ],
-                            1
-                          )
-                        : _vm._e(),
-                      _vm._v(" "),
-                      _vm.estado == "FACTURADO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "primary" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "ENTREGADO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleRightIcon" }
-                              }),
-                              _vm._v(" FACTURADO")
-                            ],
-                            1
-                          )
-                        : _vm.estado == "ENTREGADO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "REGISTRADO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" ENTREGADO")
-                            ],
-                            1
-                          )
-                        : _vm.estado == "REGISTRADO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "PAGADO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" REGISTRADO")
-                            ],
-                            1
-                          )
-                        : _vm.estado == "PAGADO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "CERRADO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" PAGADO")
-                            ],
-                            1
-                          )
-                        : _vm.estado == "CERRADO"
-                        ? _c(
-                            "b-button",
-                            {
-                              staticStyle: { "margin-top": "2px" },
-                              attrs: { variant: "info" },
-                              on: {
-                                click: function($event) {
-                                  _vm.estado = "TODO"
-                                }
-                              }
-                            },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "ToggleLeftIcon" }
-                              }),
-                              _vm._v(" CERRADO")
-                            ],
-                            1
-                          )
-                        : _vm._e()
+                            model: {
+                              value: _vm.cliente,
+                              callback: function($$v) {
+                                _vm.cliente = $$v
+                              },
+                              expression: "cliente"
+                            }
+                          })
+                        ],
+                        1
+                      )
                     ],
                     1
                   )
@@ -705,16 +368,34 @@ var render = function() {
                     "b-form-group",
                     { attrs: { label: "Desde" } },
                     [
-                      _c("flat-pickr", {
-                        staticClass: "form-control",
-                        model: {
-                          value: _vm.desde,
-                          callback: function($$v) {
-                            _vm.desde = $$v
-                          },
-                          expression: "desde"
-                        }
-                      })
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("flat-pickr", {
+                            staticClass: "form-control",
+                            model: {
+                              value: _vm.fechaInicio,
+                              callback: function($$v) {
+                                _vm.fechaInicio = $$v
+                              },
+                              expression: "fechaInicio"
+                            }
+                          })
+                        ],
+                        1
+                      )
                     ],
                     1
                   )
@@ -730,17 +411,35 @@ var render = function() {
                     "b-form-group",
                     { attrs: { label: "Hasta" } },
                     [
-                      _c("flat-pickr", {
-                        staticClass: "form-control",
-                        attrs: { config: { minDate: _vm.desde } },
-                        model: {
-                          value: _vm.hasta,
-                          callback: function($$v) {
-                            _vm.hasta = $$v
-                          },
-                          expression: "hasta"
-                        }
-                      })
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("flat-pickr", {
+                            staticClass: "form-control",
+                            attrs: { config: { minDate: _vm.fechaInicio } },
+                            model: {
+                              value: _vm.fechaFin,
+                              callback: function($$v) {
+                                _vm.fechaFin = $$v
+                              },
+                              expression: "fechaFin"
+                            }
+                          })
+                        ],
+                        1
+                      )
                     ],
                     1
                   )
@@ -748,67 +447,45 @@ var render = function() {
                 1
               ),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { staticClass: "text-center", attrs: { md: "12", xl: "12" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      attrs: { variant: "success", disabled: _vm.showLoading },
-                      on: {
-                        click: function($event) {
-                          return _vm.Listar()
+              _c("b-col", { attrs: { md: "6", xl: "3" } }, [
+                _c(
+                  "div",
+                  { staticClass: "demo-inline-spacing" },
+                  [
+                    _c(
+                      "b-button",
+                      {
+                        attrs: {
+                          variant: "success",
+                          disabled: _vm.showLoading
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.Listar()
+                          }
                         }
-                      }
-                    },
-                    [
-                      !_vm.showLoading
-                        ? _c("feather-icon", {
-                            staticClass: "mr-50",
-                            attrs: { icon: "ArrowDownIcon" }
-                          })
-                        : _c("b-spinner", { attrs: { small: "" } }),
-                      _vm._v(" "),
-                      _c("span", { staticClass: "align-middle" }, [
-                        _vm._v("Listar")
-                      ])
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      attrs: { variant: "success", disabled: _vm.showLoading },
-                      on: {
-                        click: function($event) {
-                          return _vm.Importar()
-                        }
-                      }
-                    },
-                    [
-                      !_vm.showLoading
-                        ? _c("feather-icon", {
-                            staticClass: "mr-50",
-                            attrs: { icon: "ArrowDownIcon" }
-                          })
-                        : _c("b-spinner", { attrs: { small: "" } }),
-                      _vm._v(" "),
-                      _c("span", { staticClass: "align-middle" }, [
-                        _vm._v("Importar Excel")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
+                      },
+                      [
+                        !_vm.showLoading
+                          ? _c("feather-icon", {
+                              staticClass: "mr-50",
+                              attrs: { icon: "ArrowDownIcon" }
+                            })
+                          : _c("b-spinner", { attrs: { small: "" } }),
+                        _vm._v(" "),
+                        _c("span", { staticClass: "align-middle" }, [
+                          _vm._v("Listar")
+                        ])
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ])
             ],
             1
           ),
-          _vm._v(" "),
-          _c("br"),
           _vm._v(" "),
           _c("vue-good-table", {
             attrs: {
@@ -822,7 +499,8 @@ var render = function() {
                 key: "table-row",
                 fn: function(props) {
                   return [
-                    props.column.field === "ver"
+                    props.column.field === "ver" &&
+                    props.row.estadoCom == "CERRADO"
                       ? _c("span", [
                           _c(
                             "a",
@@ -842,6 +520,30 @@ var render = function() {
                             1
                           )
                         ])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    props.column.field === "estadoCom"
+                      ? _c(
+                          "span",
+                          [
+                            props.row.estadoCom == "FACTURADO"
+                              ? _c(
+                                  "b-badge",
+                                  { attrs: { variant: "danger" } },
+                                  [_vm._v("ABIERTO")]
+                                )
+                              : _vm._e(),
+                            _vm._v(" "),
+                            props.row.estadoCom == "CERRADO"
+                              ? _c(
+                                  "b-badge",
+                                  { attrs: { variant: "success" } },
+                                  [_vm._v(_vm._s(props.row.estadoCom))]
+                                )
+                              : _vm._e()
+                          ],
+                          1
+                        )
                       : _c("span", [
                           _vm._v(
                             "\n                    " +
@@ -883,18 +585,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue":
-/*!********************************************************************!*\
-  !*** ./resources/js/src/views/Finanza/Transaccion/Comprobante.vue ***!
-  \********************************************************************/
+/***/ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/views/Finanza/Reporte/Rendimiento.vue ***!
+  \****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Comprobante.vue?vue&type=template&id=3acbb74a& */ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a&");
-/* harmony import */ var _Comprobante_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Comprobante.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Comprobante.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Rendimiento.vue?vue&type=template&id=58250798& */ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798&");
+/* harmony import */ var _Rendimiento_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Rendimiento.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Rendimiento.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -905,9 +607,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Comprobante_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Rendimiento_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -917,54 +619,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Finanza/Transaccion/Comprobante.vue"
+component.options.__file = "resources/js/src/views/Finanza/Reporte/Rendimiento.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************!*\
-  !*** ./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************/
+/***/ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Comprobante.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Rendimiento.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&":
-/*!******************************************************************************************************!*\
-  !*** ./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss& ***!
-  \******************************************************************************************************/
+/***/ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss& ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Comprobante.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Rendimiento.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a&":
-/*!***************************************************************************************************!*\
-  !*** ./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a& ***!
-  \***************************************************************************************************/
+/***/ "./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798& ***!
+  \***********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Comprobante.vue?vue&type=template&id=3acbb74a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Transaccion/Comprobante.vue?vue&type=template&id=3acbb74a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Rendimiento.vue?vue&type=template&id=58250798& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Finanza/Reporte/Rendimiento.vue?vue&type=template&id=58250798&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Comprobante_vue_vue_type_template_id_3acbb74a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Rendimiento_vue_vue_type_template_id_58250798___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

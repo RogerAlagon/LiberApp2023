@@ -1,93 +1,24 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[69],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
-  },
-  data: function data() {
-    return {
-      codeFloatinLabel: _code__WEBPACK_IMPORTED_MODULE_2__["codeFloatinLabel"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormInputBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputBasic.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue");
-/* harmony import */ var _FormInputSize_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormInputSize.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue");
-/* harmony import */ var _FormInputHorizontalLableSize_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue");
-/* harmony import */ var _FormFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormFloatingLabel.vue */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue");
-/* harmony import */ var _FormInputContextualStates_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormInputContextualStates.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue");
-/* harmony import */ var _FormInputValidateTooltips_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue");
-/* harmony import */ var _FormInputDatalist_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormInputDatalist.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue");
-/* harmony import */ var _FormInputDebounce_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormInputDebounce.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue");
-/* harmony import */ var _FormInputFormatter_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormInputFormatter.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue");
+/* harmony import */ var _TabDefault_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabDefault.vue */ "./resources/js/src/views/components/tab/TabDefault.vue");
+/* harmony import */ var _TabFilled_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TabFilled.vue */ "./resources/js/src/views/components/tab/TabFilled.vue");
+/* harmony import */ var _TabJustified_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TabJustified.vue */ "./resources/js/src/views/components/tab/TabJustified.vue");
+/* harmony import */ var _TabAlignment_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TabAlignment.vue */ "./resources/js/src/views/components/tab/TabAlignment.vue");
+/* harmony import */ var _TabLazy_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./TabLazy.vue */ "./resources/js/src/views/components/tab/TabLazy.vue");
+/* harmony import */ var _TabDynamic_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./TabDynamic.vue */ "./resources/js/src/views/components/tab/TabDynamic.vue");
+/* harmony import */ var _TabIcon_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./TabIcon.vue */ "./resources/js/src/views/components/tab/TabIcon.vue");
+/* harmony import */ var _TabProgrammatically_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./TabProgrammatically.vue */ "./resources/js/src/views/components/tab/TabProgrammatically.vue");
+/* harmony import */ var _TabPosition_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./TabPosition.vue */ "./resources/js/src/views/components/tab/TabPosition.vue");
 //
 //
 //
@@ -134,24 +65,24 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormInputBasic: _FormInputBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormInputSize: _FormInputSize_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormInputHorizontalLableSize: _FormInputHorizontalLableSize_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormFloatingLabel: _FormFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormInputContextualStates: _FormInputContextualStates_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormInputValidateTooltips: _FormInputValidateTooltips_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormInputDatalist: _FormInputDatalist_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    FormInputDebounce: _FormInputDebounce_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    FormInputFormatter: _FormInputFormatter_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
+    TabDefault: _TabDefault_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    TabFilled: _TabFilled_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    TabJustified: _TabJustified_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    TabAlignment: _TabAlignment_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    TabLazy: _TabLazy_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    TabDynamic: _TabDynamic_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    TabIcon: _TabIcon_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    TabProgrammatically: _TabProgrammatically_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    TabPosition: _TabPosition_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -159,68 +90,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 //
 //
 //
@@ -274,24 +144,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"]
   },
   data: function data() {
     return {
-      codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"]
+      codeAlignment: _code__WEBPACK_IMPORTED_MODULE_2__["codeAlignment"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -299,16 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 //
 //
 //
@@ -359,165 +218,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
-    BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"]
   },
   data: function data() {
     return {
-      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
+      codeDefault: _code__WEBPACK_IMPORTED_MODULE_2__["codeDefault"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var core_js_modules_es_array_splice_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.splice.js */ "./node_modules/core-js/modules/es.array.splice.js");
+/* harmony import */ var core_js_modules_es_array_splice_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_splice_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"]
-  },
-  data: function data() {
-    return {
-      sizes: ['Small', 'Medium', 'Large', 'Extra Large'],
-      codeDatalist: _code__WEBPACK_IMPORTED_MODULE_2__["codeDatalist"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      codeDebounce: _code__WEBPACK_IMPORTED_MODULE_2__["codeDebounce"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
 //
 //
 //
@@ -568,40 +296,125 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"]
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__["default"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BTab"],
+    BNavItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BNavItem"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BButton"]
   },
   data: function data() {
     return {
-      text1: '',
-      text2: '',
-      codeFormatter: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormatter"]
+      tabs: [1],
+      tabCounter: 1,
+      codeDynamic: _code__WEBPACK_IMPORTED_MODULE_3__["codeDynamic"]
     };
   },
   methods: {
-    formatter: function formatter(value) {
-      return value.toLowerCase();
+    closeTab: function closeTab(x) {
+      for (var i = 0; i < this.tabs.length; i += 1) {
+        if (this.tabs[i] === x) {
+          this.tabs.splice(i, 1);
+        }
+      }
+    },
+    newTab: function newTab() {
+      this.tabs.push(this.tabCounter += 1);
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      codeFill: _code__WEBPACK_IMPORTED_MODULE_2__["codeFill"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 //
 //
 //
@@ -667,24 +480,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"]
   },
   data: function data() {
     return {
-      codeHorizontalSize: _code__WEBPACK_IMPORTED_MODULE_2__["codeHorizontalSize"]
+      codeIcon: _code__WEBPACK_IMPORTED_MODULE_2__["codeIcon"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -692,7 +505,245 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"]
+  },
+  data: function data() {
+    return {
+      codeJustified: _code__WEBPACK_IMPORTED_MODULE_2__["codeJustified"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"],
+    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BAlert"]
+  },
+  data: function data() {
+    return {
+      codeLazy: _code__WEBPACK_IMPORTED_MODULE_2__["codeLazy"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -763,25 +814,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"]
   },
   data: function data() {
     return {
-      codeSize: _code__WEBPACK_IMPORTED_MODULE_2__["codeSize"]
+      codePosition: _code__WEBPACK_IMPORTED_MODULE_2__["codePosition"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -790,44 +839,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
 /* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/tab/code.js");
 //
 //
 //
@@ -902,129 +914,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
+    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButtonGroup"],
     BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    BFormRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRow"],
-    BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"],
-    BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCard"],
+    BTab: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTab"],
+    BTabs: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BTabs"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   directives: {
     Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   data: function data() {
     return {
-      value1: 'John',
-      value2: 'Doe',
-      value3: '',
-      codeValidateTooltips: _code__WEBPACK_IMPORTED_MODULE_3__["codeValidateTooltips"]
+      tabIndex: 1,
+      codeProgrammatically: _code__WEBPACK_IMPORTED_MODULE_3__["codeProgrammatically"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&":
-/*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e& ***!
-  \*************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Floating Label Inputs" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFloatinLabel) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-2" }, [
-        _c("span", [_vm._v("For Flating Label Inputs, need to use ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v(".form-label-group")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" class & add prop ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" for disabled Floating Label Input.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        [
-          _c("b-col", { attrs: { md: "6" } }, [
-            _c(
-              "div",
-              { staticClass: "form-label-group" },
-              [
-                _c("b-form-input", {
-                  attrs: {
-                    id: "floating-label1",
-                    placeholder: "Label Placeholder"
-                  }
-                }),
-                _vm._v(" "),
-                _c("label", { attrs: { for: "floating-label1" } }, [
-                  _vm._v("Label-placeholder")
-                ])
-              ],
-              1
-            )
-          ]),
-          _vm._v(" "),
-          _c("b-col", { attrs: { md: "6" } }, [
-            _c(
-              "div",
-              { staticClass: "form-label-group" },
-              [
-                _c("b-form-input", {
-                  attrs: { placeholder: "Disabled-placeholder", disabled: "" }
-                }),
-                _vm._v(" "),
-                _c("label", { attrs: { for: "floating-label-disable" } }, [
-                  _vm._v("Disabled-placeholder")
-                ])
-              ],
-              1
-            )
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1040,38 +953,23 @@ var render = function() {
     "b-row",
     { staticClass: "match-height" },
     [
-      _c("b-col", { attrs: { cols: "12" } }, [_c("form-input-basic")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-default")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-size")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-icon")], 1),
       _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { md: "6" } },
-        [_c("form-input-horizontal-lable-size")],
-        1
-      ),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("tab-position")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { cols: "12" } }, [_c("form-floating-label")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-filled")], 1),
       _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { cols: "12" } },
-        [_c("form-input-contextual-states")],
-        1
-      ),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-justified")], 1),
       _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { cols: "12" } },
-        [_c("form-input-validate-tooltips")],
-        1
-      ),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-alignment")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-datalist")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-programmatically")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-debounce")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-lazy")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { cols: "12" } }, [_c("form-input-formatter")], 1)
+      _c("b-col", { attrs: { lg: "6" } }, [_c("tab-dynamic")], 1)
     ],
     1
   )
@@ -1083,10 +981,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1101,811 +999,1112 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Basic Inputs" },
+      attrs: { title: "Alignments" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeBasic) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeAlignment) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c(
-        "b-row",
-        [
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                { attrs: { label: "Basic Input", "label-for": "basicInput" } },
-                [
-                  _c("b-form-input", {
-                    attrs: { id: "basicInput", placeholder: "Enter Email" }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                [
-                  _c("label", { attrs: { for: "InputHelp" } }, [
-                    _vm._v("Input text with help")
-                  ]),
-                  _vm._v(" "),
-                  _c("small", { staticClass: "text-muted" }, [
-                    _vm._v(" eg. "),
-                    _c("i", [_vm._v("someone@example.com")])
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-input", { attrs: { id: "InputHelp" } })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                {
-                  attrs: {
-                    label: "Disabled Input",
-                    "label-for": "disabledInput"
-                  }
-                },
-                [
-                  _c("b-form-input", {
-                    attrs: { id: "disabledInput", disabled: "" }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                {
-                  attrs: {
-                    label: "With Helper Text",
-                    "label-for": "helperInput",
-                    description: "Find helper text here for given textbox."
-                  }
-                },
-                [
-                  _c("b-form-input", {
-                    attrs: { id: "helperInput", placeholder: "Name" }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                {
-                  attrs: {
-                    label: "Readonly Input",
-                    "label-for": "readOnlyInput"
-                  }
-                },
-                [
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "readOnlyInput",
-                      value: "You can't update me :P",
-                      readonly: ""
-                    }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6", xl: "4" } },
-            [
-              _c(
-                "b-form-group",
-                {
-                  attrs: {
-                    label: "Readonly Static Text",
-                    "label-for": "plainTextInput"
-                  }
-                },
-                [
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "plainTextInput",
-                      plaintext: "",
-                      value: "email@pixinvent.com"
-                    }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Contextual states" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeStates) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Use ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-valid-feedback>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-invalid-feedback>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" form sub-components for input validation.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        [
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c(
-                "b-form-group",
-                { attrs: { label: "Valid State", "label-for": "input-valid" } },
-                [
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "input-valid",
-                      state: true,
-                      placeholder: "Valid"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-form-valid-feedback", [
-                    _vm._v("\n          This is valid state.\n        ")
-                  ])
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c(
-                "b-form-group",
-                {
-                  attrs: {
-                    label: "Invalid State",
-                    "label-for": "input-invalid"
-                  }
-                },
-                [
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "input-invalid",
-                      state: false,
-                      placeholder: "Invalid"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-form-invalid-feedback", [
-                    _vm._v("\n          This is invalid state.\n        ")
-                  ])
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&":
-/*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942& ***!
-  \*************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Datalist support" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDatalist) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Datalists are a native HTML tag ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<datalist>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" that contains a list of ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<option>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      tags. By assigning an ID to the datalist tag, the list can be references from a text input by adding a\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("list")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" attribute.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-form-group",
-        { staticClass: "mb-0" },
-        [
-          _c("b-form-input", { attrs: { list: "my-list-id" } }),
-          _vm._v(" "),
-          _c(
-            "datalist",
-            { attrs: { id: "my-list-id" } },
-            [
-              _c("option", [_vm._v("Manual Option")]),
-              _vm._v(" "),
-              _vm._l(_vm.sizes, function(size) {
-                return _c("option", { key: size }, [
-                  _vm._v("\n        " + _vm._s(size) + "\n      ")
-                ])
-              })
-            ],
-            2
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&":
-/*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a& ***!
-  \*************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Debounce support" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDebounce) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("To enable debouncing, set the prop ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("debounce")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " to any integer greater than zero. The value is specified in milliseconds. Setting "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("debounce")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("0")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" will disable debouncing.")])
-      ]),
-      _vm._v(" "),
-      _c("b-form-input", {
-        attrs: { type: "text", debounce: "500" },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      }),
-      _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-        _c("strong", [_vm._v("Value : ")]),
-        _c("span", [_vm._v(_vm._s(_vm.value))])
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&":
-/*!**************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980& ***!
-  \**************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Formatter support" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFormatter) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("code", [_vm._v("<b-form-input>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " optionally supports formatting by passing a function reference to the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("formatter")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop.")])
-      ]),
+      _c("h6", [_vm._v("Left")]),
       _vm._v(" "),
       _c(
         "div",
+        { staticClass: "mb-3" },
         [
           _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: "Text input with formatter (on input)",
-                "label-for": "input-formatter",
-                description: "We will convert your name to lowercase instantly"
-              }
-            },
+            "b-tabs",
+            { attrs: { align: "left" } },
             [
-              _c("b-form-input", {
-                attrs: {
-                  id: "input-formatter",
-                  placeholder: "Enter your name",
-                  formatter: _vm.formatter
-                },
-                model: {
-                  value: _vm.text1,
-                  callback: function($$v) {
-                    _vm.text1 = $$v
-                  },
-                  expression: "text1"
-                }
-              })
+              _c("b-tab", { attrs: { title: "Home" } }),
+              _vm._v(" "),
+              _c("b-tab", { attrs: { active: "", title: "Service" } }),
+              _vm._v(" "),
+              _c("b-tab", { attrs: { title: "Account" } })
             ],
             1
-          ),
-          _vm._v(" "),
-          _c("b-card-text", [
-            _c("strong", [_vm._v("Value:")]),
-            _vm._v(" " + _vm._s(_vm.text1))
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: "Text input with lazy formatter (on blur)",
-                "label-for": "input-lazy",
-                description: "This one is a little lazy!"
-              }
-            },
-            [
-              _c("b-form-input", {
-                attrs: {
-                  id: "input-lazy",
-                  placeholder: "Enter your name",
-                  "lazy-formatter": "",
-                  formatter: _vm.formatter
-                },
-                model: {
-                  value: _vm.text2,
-                  callback: function($$v) {
-                    _vm.text2 = $$v
-                  },
-                  expression: "text2"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-card-text", { staticClass: "mb-0" }, [
-            _c("strong", [_vm._v("Value:")]),
-            _vm._v(" " + _vm._s(_vm.text2) + "\n    ")
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&":
-/*!************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& ***!
-  \************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Horizontal form label sizing" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeHorizontalSize) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "You can control the label text size match the size of your form input(s) via the optional "
           )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("label-size")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop. Values can be ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("'sm'")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("'lg'")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " for small or large label, respectively. Sizes work for both horizontal and non-horizontal form groups."
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-form-group",
-        {
-          attrs: {
-            "label-cols": "4",
-            "label-cols-lg": "2",
-            "label-size": "lg",
-            label: "Large",
-            "label-for": "input-lg"
-          }
-        },
-        [
-          _c("b-form-input", {
-            attrs: { id: "input-lg", size: "lg", placeholder: "Large Input" }
-          })
         ],
         1
       ),
       _vm._v(" "),
-      _c(
-        "b-form-group",
-        {
-          attrs: {
-            "label-cols": "4",
-            "label-cols-lg": "2",
-            label: "Default",
-            "label-for": "input-default"
-          }
-        },
-        [
-          _c("b-form-input", {
-            attrs: { id: "input-default", placeholder: "Normal Input" }
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-form-group",
-        {
-          attrs: {
-            "label-cols": "4",
-            "label-cols-lg": "2",
-            "label-size": "sm",
-            label: "Small",
-            "label-for": "input-sm"
-          }
-        },
-        [
-          _c("b-form-input", {
-            attrs: { id: "input-sm", size: "sm", placeholder: "Small Input" }
-          })
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&":
-/*!*********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a& ***!
-  \*********************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Sizing Options" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSize) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Set heights using the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("size")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("sm")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("lg")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" for small or large respectively.")])
-      ]),
+      _c("h6", [_vm._v("\n    Center\n  ")]),
       _vm._v(" "),
       _c(
         "div",
+        { staticClass: "mb-3" },
         [
           _c(
-            "b-row",
+            "b-tabs",
+            { attrs: { align: "center" } },
             [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Large", "label-for": "largeInput" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "largeInput",
-                          size: "lg",
-                          placeholder: "Large Input"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
+              _c("b-tab", { attrs: { title: "Home", active: "" } }),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
+              _c("b-tab", { attrs: { title: "Service" } }),
+              _vm._v(" "),
+              _c("b-tab", { attrs: { title: "Account" } })
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Right")]),
+      _vm._v(" "),
+      _c(
+        "b-tabs",
+        { attrs: { align: "right" } },
+        [
+          _c("b-tab", { attrs: { title: "Home" } }),
+          _vm._v(" "),
+          _c("b-tab", { attrs: { title: "Service" } }),
+          _vm._v(" "),
+          _c("b-tab", { attrs: { active: "", title: "Account" } })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Default" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeDefault) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        [
+          _c(
+            "b-tab",
+            { attrs: { title: "Home" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan carrot cake. Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon biscuit gummi bears. Pudding candy canes sugar plum cookie chocolate cake powder croissant.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Carrot cake tiramisu danish candy cake muffin croissant tart dessert. Tiramisu caramels candy canes chocolate cake sweet roll liquorice icing cupcake. Candy cookie sweet roll bear claw sweet roll.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { active: "", title: "Service" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Biscuit macaroon sugar plum sesame snaps oat cake halvah fruitcake pudding cotton candy. Cheesecake tart wafer soufflé. Chocolate marzipan donut pie soufflé dragée cheesecake. Gummi bears dessert croissant chocolate jujubes fruitcake. Pie cupcake halvah.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "Tiramisu carrot cake marzipan sugar plum powder marzipan sugar plum bonbon powder. Macaroon jujubes ice cream sugar plum lollipop wafer caramels. Cheesecake chocolate tart cake gingerbread fruitcake cake candy jelly-o. Candy cookie lollipop. Wafer lemon drops chocolate cake gummi bears."
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Disabled", disabled: "" } },
+            [
+              _c("b-card-text", [
+                _vm._v("\n        Carrot cake dragée chocolate.\n      ")
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Account" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Chocolate croissant cupcake croissant jelly donut. Cheesecake toffee apple pie chocolate bar biscuit tart croissant. Lemon drops danish cookie. Oat cake macaroon icing tart lollipop cookie sweet bear claw.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Carrot cake dragée chocolate. Lemon drops ice cream wafer gummies dragée. Chocolate bar liquorice cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder tootsie roll cake.\n      "
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Dynamic tabs + tabs-end slot" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeDynamic) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        {
+          scopedSlots: _vm._u([
+            {
+              key: "tabs-end",
+              fn: function() {
+                return [
                   _c(
-                    "b-form-group",
+                    "b-nav-item",
                     {
-                      attrs: { label: "Default", "label-for": "defaultLabel" }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "defaultLabel",
-                          placeholder: "Normal Input"
+                      attrs: { role: "presentation" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          return _vm.newTab.apply(null, arguments)
                         }
-                      })
+                      }
+                    },
+                    [_c("b", [_vm._v("+")])]
+                  )
+                ]
+              },
+              proxy: true
+            },
+            {
+              key: "empty",
+              fn: function() {
+                return [
+                  _c("div", { staticClass: "text-center text-muted" }, [
+                    _vm._v("\n        There are no open tabs"),
+                    _c("br"),
+                    _vm._v("\n        Open a new tab using the "),
+                    _c("b", [_vm._v("+")]),
+                    _vm._v(" button above.\n      ")
+                  ])
+                ]
+              },
+              proxy: true
+            }
+          ])
+        },
+        _vm._l(_vm.tabs, function(i) {
+          return _c(
+            "b-tab",
+            { key: "dyn-tab-" + i, attrs: { title: "Tab " + i } },
+            [
+              _vm._v("\n      Tab contents " + _vm._s(i) + "\n      "),
+              _c(
+                "b-button",
+                {
+                  staticClass: "float-right",
+                  attrs: { size: "sm", variant: "danger" },
+                  on: {
+                    click: function($event) {
+                      return _vm.closeTab(i)
+                    }
+                  }
+                },
+                [_vm._v("\n        Close tab\n      ")]
+              )
+            ],
+            1
+          )
+        }),
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Filled" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeFill) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        { attrs: { "content-class": "pt-1", fill: "" } },
+        [
+          _c(
+            "b-tab",
+            { attrs: { title: "Home" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry."
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder."
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { active: "", title: "Profile" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Messages" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry. Oat cake lemon drops gingerbread dessert caramels.Lollipop croissant caramels jelly-o bonbon. Marshmallow tiramisu carrot cake pudding bonbon icing.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Sugar plum wafer lollipop. Tiramisu danish apple pie powder cookie. Macaroon marzipan toffee carrot cake biscuit cake dragée soufflé. Donut danish cookie sweet topping halvah carrot cake chocolate bonbon.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Settings" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Dragée jelly-o pie halvah pudding bear claw. Carrot cake pie toffee pastry candy canes. Ice cream tiramisu chocolate bar apple pie jujubes croissant toffee. Sweet roll chocolate bar pastry macaroon jelly-o. Jujubes pudding lemon drops dessert cake. Pudding cupcake chupa chups brownie.\n      "
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Tabs Icon" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeIcon) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        [
+          _c(
+            "b-tab",
+            {
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "HomeIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Home")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan carrot cake. Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon biscuit gummi bears. Pudding candy canes sugar plum cookie chocolate cake powder croissant.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Carrot cake tiramisu danish candy cake muffin croissant tart dessert. Tiramisu caramels candy canes chocolate cake sweet roll liquorice icing cupcake. Candy cookie sweet roll bear claw sweet roll\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            {
+              attrs: { active: "" },
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "ToolIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Services")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Muffin cupcake candy chocolate cake gummi bears fruitcake donut dessert pie. Wafer toffee bonbon dragée. Jujubes cotton candy gummies chupa chups. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer. Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            {
+              attrs: { disabled: "" },
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "EyeOffIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Disabled")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Halvah dessert fruitcake toffee oat cake tart oat cake topping jelly beans. Pudding sweet pie pastry lemon drops jujubes danish pie gingerbread. Liquorice powder wafer.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            {
+              scopedSlots: _vm._u([
+                {
+                  key: "title",
+                  fn: function() {
+                    return [
+                      _c("feather-icon", { attrs: { icon: "UserIcon" } }),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Account")])
+                    ]
+                  },
+                  proxy: true
+                }
+              ])
+            },
+            [
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Chocolate croissant cupcake croissant jelly donut. Cheesecake toffee apple pie chocolate bar biscuit tart croissant. Lemon drops danish cookie. Oat cake macaroon icing tart lollipop cookie sweet bear claw.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Carrot cake dragée chocolate. Lemon drops ice cream wafer gummies dragée. Chocolate bar liquorice cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder tootsie roll cake.\n      "
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Justified" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeJustified) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        { attrs: { "content-class": "mt-2", justified: "" } },
+        [
+          _c(
+            "b-tab",
+            { attrs: { title: "Home" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry.Danish fruitcake bonbon bear claw gummi bears apple pie. Chocolate sweet topping fruitcake cake.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Dragée jelly-o pie halvah pudding bear claw. Carrot cake pie toffee pastry candy canes. Ice cream tiramisu chocolate bar apple pie jujubes croissant toffee. Sweet roll chocolate bar pastry macaroon jelly-o. Jujubes pudding lemon drops dessert cake. Pudding cupcake chupa chups brownie.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { active: "", title: "Profile" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Chocolate cake icing tiramisu liquorice toffee donut sweet roll cake. Cupcake dessert icing dragée dessert. Liquorice jujubes cake tart pie donut. Cotton candy candy canes lollipop liquorice chocolate marzipan muffin pie liquorice.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Sesame snaps chupa chups jelly-o candy croissant pastry. Lollipop pudding biscuit. Sweet roll candy canes tootsie roll halvah jujubes gummi bears toffee cheesecake. Topping macaroon marshmallow caramels. Pastry caramels pastry.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Messages" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Chocolate cake icing tiramisu liquorice toffee donut sweet roll cake. Cupcake dessert icing dragée dessert. Liquorice jujubes cake tart pie donut. Cotton candy candy canes lollipop liquorice chocolate marzipan muffin pie liquorice.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Settings" } },
+            [
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry.I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie.\n      "
+                )
+              ]),
+              _vm._v(" "),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      "
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Lazy loading tab content" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeLazy) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        { attrs: { "content-class": "mt-1" } },
+        [
+          _c(
+            "b-tab",
+            { attrs: { title: "Regular tab" } },
+            [
+              _c(
+                "b-alert",
+                { staticClass: "mb-0", attrs: { variant: "info", show: "" } },
+                [
+                  _c("div", { staticClass: "alert-body" }, [
+                    _vm._v("\n          I'm always mounted\n        ")
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Lazy tab", lazy: "" } },
+            [
+              _c(
+                "b-alert",
+                { staticClass: "mb-0", attrs: { variant: "info", show: "" } },
+                [
+                  _c("div", { staticClass: "alert-body" }, [
+                    _vm._v("\n          I'm lazy mounted!\n        ")
+                  ])
+                ]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Position" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codePosition) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c(
+        "b-tabs",
+        [
+          _c(
+            "b-tab",
+            { attrs: { title: "Top" } },
+            [
+              _c(
+                "b-tabs",
+                { attrs: { "content-class": "mt-2" } },
+                [
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 1" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { active: "", title: "Tab 2" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sugar plum tootsie roll biscuit caramels. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Pudding caramels pastry powder cake soufflé wafer caramels. Jelly-o pie cupcake.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 2" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut.\n          "
+                        )
+                      ])
                     ],
                     1
                   )
                 ],
                 1
-              ),
-              _vm._v(" "),
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Right" } },
+            [
               _c(
-                "b-col",
-                { attrs: { cols: "12" } },
+                "b-tabs",
+                {
+                  attrs: {
+                    vertical: "",
+                    end: "",
+                    "nav-class": "nav-right",
+                    "nav-wrapper-class": "nav-vertical"
+                  }
+                },
                 [
                   _c(
-                    "b-form-group",
-                    { attrs: { label: "Small", "label-for": "smallInput" } },
+                    "b-tab",
+                    { attrs: { active: "", title: "Tab 1" } },
                     [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "smallInput",
-                          size: "sm",
-                          placeholder: "Small Input"
-                        }
-                      })
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 2" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sugar plum tootsie roll biscuit caramels. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Pudding caramels pastry powder cake soufflé wafer caramels. Jelly-o pie cupcake.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 3" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Bottom" } },
+            [
+              _c(
+                "b-tabs",
+                { attrs: { end: "" } },
+                [
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 1", active: "" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Pudding candy canes sugar plum cookie chocolate cake powder croissant. Carrot cake tiramisu danish candy\n            cake muffin croissant tart dessert.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Tiramisu caramels candy canes chocolate cake sweet roll liquorice\n            icing cupcake.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 2" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan\n            carrot cake. Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon\n            biscuit gummi bears.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 3" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Carrot cake dragée chocolate. Lemon drops ice cream wafer gummies dragée. Chocolate bar liquorice\n            cheesecake cookie chupa chups marshmallow oat cake biscuit.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Dessert toffee fruitcake ice cream powder tootsie roll cake.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { active: "", title: "Left" } },
+            [
+              _c(
+                "b-tabs",
+                {
+                  attrs: { vertical: "", "nav-wrapper-class": "nav-vertical" }
+                },
+                [
+                  _c(
+                    "b-tab",
+                    { attrs: { active: "", title: "Tab 1" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 2" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sugar plum tootsie roll biscuit caramels. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Pudding caramels pastry powder cake soufflé wafer caramels. Jelly-o pie cupcake.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n          "
+                        )
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-tab",
+                    { attrs: { title: "Tab 3" } },
+                    [
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n          "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("b-card-text", [
+                        _vm._v(
+                          "\n            Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n          "
+                        )
+                      ])
                     ],
                     1
                   )
@@ -1929,10 +2128,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc&":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc& ***!
+  \************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1947,13 +2146,13 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Input Validation States with Tootltips" },
+      attrs: { title: "Prigrammatic activation" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
             return [
-              _vm._v("\n    " + _vm._s(_vm.codeValidateTooltips) + "\n  ")
+              _vm._v("\n    " + _vm._s(_vm.codeProgrammatically) + "\n  ")
             ]
           },
           proxy: true
@@ -1961,169 +2160,132 @@ var render = function() {
       ])
     },
     [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Use ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("tooltip")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" true in ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-valid-feedback>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-invalid-feedback>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" form sub-components.")])
-      ]),
-      _vm._v(" "),
       _c(
-        "b-form",
+        "b-tabs",
         {
-          staticClass: "needs-validation",
-          attrs: { novalidate: "" },
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
+          model: {
+            value: _vm.tabIndex,
+            callback: function($$v) {
+              _vm.tabIndex = $$v
+            },
+            expression: "tabIndex"
           }
         },
         [
           _c(
-            "b-form-row",
+            "b-tab",
+            { attrs: { title: "General" } },
             [
-              _c(
-                "b-col",
-                { staticClass: "mb-3", attrs: { md: "4" } },
-                [
-                  _c("label", { attrs: { for: "input-valid1" } }, [
-                    _vm._v("Valid Input:")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "input-valid1",
-                      state: _vm.value1.length > 0,
-                      placeholder: "Valid input"
-                    },
-                    model: {
-                      value: _vm.value1,
-                      callback: function($$v) {
-                        _vm.value1 = $$v
-                      },
-                      expression: "value1"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v("\n          Looks good!\n        ")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v(
-                      "\n          Please provide a valid input.\n        "
-                    )
-                  ])
-                ],
-                1
-              ),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Cookie cheesecake gummi bears. Topping apple pie chupa chups topping soufflé chocolate bar sesame snaps fruitcake sweet. Danish donut brownie wafer. Jelly beans apple pie wafer danish pastry lollipop biscuit marshmallow\n      "
+                )
+              ]),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { staticClass: "mb-3", attrs: { md: "4" } },
-                [
-                  _c("label", { attrs: { for: "input-invalid1" } }, [
-                    _vm._v("Invalid Input:")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "input-invalid1",
-                      state: _vm.value2.length > 0,
-                      placeholder: "Invalid input"
-                    },
-                    model: {
-                      value: _vm.value2,
-                      callback: function($$v) {
-                        _vm.value2 = $$v
-                      },
-                      expression: "value2"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v("\n          Looks good!\n        ")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v(
-                      "\n          Please provide a valid input.\n        "
-                    )
-                  ])
-                ],
-                1
-              ),
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Pie powder sweet cotton candy topping pie. Chocolate gummi bears tootsie roll gingerbread. Jujubes pie bonbon chocolate cake dragée macaroon candy.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Edit profile" } },
+            [
+              _c("b-card-text", [_vm._v("I'm the second tab")]),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { staticClass: "mb-3", attrs: { md: "4" } },
-                [
-                  _c("label", { attrs: { for: "input-invalid2" } }, [
-                    _vm._v("Invalid Input:")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-input", {
-                    attrs: {
-                      id: "input-invalid2",
-                      state: _vm.value3.length > 0,
-                      placeholder: "Invalid input"
-                    },
-                    model: {
-                      value: _vm.value3,
-                      callback: function($$v) {
-                        _vm.value3 = $$v
-                      },
-                      expression: "value3"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v("\n          Looks good!\n        ")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
-                    _vm._v("\n          Please provide a valid city.\n        ")
-                  ])
-                ],
-                1
-              ),
+              _c("b-card", { staticClass: "border mb-0" }, [
+                _vm._v(
+                  "\n        Apple pie jelly sugar plum cupcake biscuit danish cheesecake danish pastry. Cheesecake lemon  pastry marzipan. Wafer bear claw chocolate bar soufflé gummies sugar plum macaroon brownie.\n      "
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-tab", { attrs: { title: "Premium Plan", disabled: "" } }, [
+            _vm._v("\n      Sibzamini!\n    ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-tab",
+            { attrs: { title: "Info" } },
+            [
+              _c("b-card-text", [_vm._v("\n        I'm the last tab\n      ")]),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  )
-                ],
-                1
-              )
+              _c("b-card-text", [
+                _vm._v(
+                  "\n        Lemon drops icing chocolate bar icing cheesecake sesame snaps tootsie roll. Bonbon carrot cake biscuit. Apple pie topping jujubes candy gingerbread soufflé chocolate bar. Jelly lollipop candy canes. Lemon drops marshmallow pastry. Carrot cake lollipop cookie cotton candy dragée liquorice.\n      "
+                )
+              ])
             ],
             1
           )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "text-center" },
+        [
+          _c(
+            "b-button-group",
+            { staticClass: "mt-1" },
+            [
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "ripple",
+                      rawName: "v-ripple.400",
+                      value: "rgba(113, 102, 240, 0.15)",
+                      expression: "'rgba(113, 102, 240, 0.15)'",
+                      modifiers: { "400": true }
+                    }
+                  ],
+                  attrs: { variant: "outline-primary" },
+                  on: {
+                    click: function($event) {
+                      _vm.tabIndex--
+                    }
+                  }
+                },
+                [_vm._v("\n        Previous\n      ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-button",
+                {
+                  directives: [
+                    {
+                      name: "ripple",
+                      rawName: "v-ripple.400",
+                      value: "rgba(113, 102, 240, 0.15)",
+                      expression: "'rgba(113, 102, 240, 0.15)'",
+                      modifiers: { "400": true }
+                    }
+                  ],
+                  attrs: { variant: "outline-primary" },
+                  on: {
+                    click: function($event) {
+                      _vm.tabIndex++
+                    }
+                  }
+                },
+                [_vm._v("\n        Next\n      ")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-card-text", [
+            _c("small", [_vm._v("Current Tab: " + _vm._s(_vm.tabIndex))])
+          ])
         ],
         1
       )
@@ -2153,18 +2315,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue":
-/*!************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue ***!
-  \************************************************************************************/
+/***/ "./resources/js/src/views/components/tab/Tab.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/src/views/components/tab/Tab.vue ***!
+  \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormFloatingLabel.vue?vue&type=template&id=75f6689e& */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&");
-/* harmony import */ var _FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormFloatingLabel.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tab.vue?vue&type=template&id=66cf98e8& */ "./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8&");
+/* harmony import */ var _Tab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Tab.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2173,9 +2335,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Tab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2185,538 +2347,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue"
+component.options.__file = "resources/js/src/views/components/tab/Tab.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormFloatingLabel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormFloatingLabel.vue?vue&type=template&id=75f6689e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue":
-/*!****************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInput.vue?vue&type=template&id=b0bfc04c& */ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&");
-/* harmony import */ var _FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInput.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInput.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&":
-/*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c& ***!
-  \***********************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInput.vue?vue&type=template&id=b0bfc04c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputBasic.vue?vue&type=template&id=290c6ba4& */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&");
-/* harmony import */ var _FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4& ***!
-  \****************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputBasic.vue?vue&type=template&id=290c6ba4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputContextualStates.vue?vue&type=template&id=018c332d& */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&");
-/* harmony import */ var _FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputContextualStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputContextualStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d& ***!
-  \***************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputContextualStates.vue?vue&type=template&id=018c332d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue":
-/*!************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputDatalist.vue?vue&type=template&id=10a1e942& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&");
-/* harmony import */ var _FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputDatalist.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDatalist.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDatalist.vue?vue&type=template&id=10a1e942& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue":
-/*!************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputDebounce.vue?vue&type=template&id=33dcb87a& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&");
-/* harmony import */ var _FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputDebounce.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDebounce.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDebounce.vue?vue&type=template&id=33dcb87a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue ***!
-  \*************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputFormatter.vue?vue&type=template&id=66b10980& */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&");
-/* harmony import */ var _FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputFormatter.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputFormatter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980& ***!
-  \********************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputFormatter.vue?vue&type=template&id=66b10980& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&");
-/* harmony import */ var _FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputHorizontalLableSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&":
-/*!******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& ***!
-  \******************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue":
+/***/ "./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js&":
 /*!********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue ***!
+  !*** ./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js& ***!
   \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputSize.vue?vue&type=template&id=161beb0a& */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&");
-/* harmony import */ var _FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tab.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/Tab.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Tab_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Tab.vue?vue&type=template&id=66cf98e8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/Tab.vue?vue&type=template&id=66cf98e8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Tab_vue_vue_type_template_id_66cf98e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabAlignment.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabAlignment.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabAlignment.vue?vue&type=template&id=03eba732& */ "./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732&");
+/* harmony import */ var _TabAlignment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabAlignment.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2725,9 +2404,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _TabAlignment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2737,55 +2416,262 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputSize.vue"
+component.options.__file = "resources/js/src/views/components/tab/TabAlignment.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************/
+/***/ "./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabAlignment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabAlignment.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabAlignment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732& ***!
+  \***********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputSize.vue?vue&type=template&id=161beb0a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabAlignment.vue?vue&type=template&id=03eba732& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabAlignment.vue?vue&type=template&id=03eba732&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabAlignment_vue_vue_type_template_id_03eba732___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue":
+/***/ "./resources/js/src/views/components/tab/TabDefault.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDefault.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabDefault.vue?vue&type=template&id=32ba6cc5& */ "./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5&");
+/* harmony import */ var _TabDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabDefault.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabDefault.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabDefault.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabDefault.vue?vue&type=template&id=32ba6cc5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDefault.vue?vue&type=template&id=32ba6cc5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDefault_vue_vue_type_template_id_32ba6cc5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabDynamic.vue":
+/*!**************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDynamic.vue ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabDynamic.vue?vue&type=template&id=3d5ac7c3& */ "./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3&");
+/* harmony import */ var _TabDynamic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabDynamic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabDynamic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabDynamic.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDynamic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabDynamic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDynamic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabDynamic.vue?vue&type=template&id=3d5ac7c3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabDynamic.vue?vue&type=template&id=3d5ac7c3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabDynamic_vue_vue_type_template_id_3d5ac7c3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabFilled.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabFilled.vue ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabFilled.vue?vue&type=template&id=b9ec95e4& */ "./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4&");
+/* harmony import */ var _TabFilled_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabFilled.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabFilled_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabFilled.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabFilled_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabFilled.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabFilled_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4&":
 /*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue ***!
+  !*** ./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4& ***!
   \********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabFilled.vue?vue&type=template&id=b9ec95e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabFilled.vue?vue&type=template&id=b9ec95e4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabFilled_vue_vue_type_template_id_b9ec95e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabIcon.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabIcon.vue ***!
+  \***********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue?vue&type=template&id=09795500& */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&");
-/* harmony import */ var _FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabIcon.vue?vue&type=template&id=d60554b6& */ "./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6&");
+/* harmony import */ var _TabIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabIcon.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2794,9 +2680,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _TabIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2806,72 +2692,346 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue"
+component.options.__file = "resources/js/src/views/components/tab/TabIcon.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputValidateTooltips.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabIcon.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500& ***!
-  \***************************************************************************************************************************/
+/***/ "./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6& ***!
+  \******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputValidateTooltips.vue?vue&type=template&id=09795500& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabIcon.vue?vue&type=template&id=d60554b6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabIcon.vue?vue&type=template&id=d60554b6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabIcon_vue_vue_type_template_id_d60554b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-input/code.js":
-/*!**********************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-input/code.js ***!
-  \**********************************************************************/
-/*! exports provided: codeFloatinLabel, codeBasic, codeDatalist, codeDebounce, codeSize, codeStates, codeFormatter, codeValidateTooltips, codeFloatingLabelIcon, codeHorizontalSize */
+/***/ "./resources/js/src/views/components/tab/TabJustified.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabJustified.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFloatinLabel", function() { return codeFloatinLabel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDatalist", function() { return codeDatalist; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDebounce", function() { return codeDebounce; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormatter", function() { return codeFormatter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeValidateTooltips", function() { return codeValidateTooltips; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFloatingLabelIcon", function() { return codeFloatingLabelIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeHorizontalSize", function() { return codeHorizontalSize; });
-var codeFloatinLabel = "\n<template>\n   <b-row>\n    <b-col md=\"4\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          id=\"floating-label1\"\n          placeholder=\"Label Placeholder\"\n        />\n        <label for=\"floating-label1\">Label-placeholder</label>\n      </div>\n    </b-col>\n    <b-col md=\"4\">\n      <div class=\"form-label-group has-icon-left\">\n        <b-form-input\n          id=\"iconLabelLeft\"\n          placeholder=\"Icon Left, Default Input\"\n        />\n        <div class=\"form-control-position\">\n          <i class=\"bx bx-user\" />\n        </div>\n        <label for=\"iconLabelLeft\">Icon Left, Default Input</label>\n      </div>\n    </b-col>\n    <b-col md=\"4\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          placeholder=\"Disabled-placeholder\"\n          disabled\n        />\n        <label for=\"floating-label-disable\">Disabled-placeholder</label>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormInput, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormInput,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeBasic = "\n<template>\n  <b-row>\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n\n      <!-- basic -->\n      <b-form-group\n        label=\"Basic Input\"\n        label-for=\"basicInput\"\n      >\n        <b-form-input\n          id=\"basicInput\"\n          placeholder=\"Enter Email\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n      <!-- input text with help -->\n      <b-form-group>\n        <label for=\"InputHelp\">Input text with help</label>\n        <small class=\"text-muted\"> eg. <i>someone@example.com</i></small>\n        <b-form-input id=\"InputHelp\" />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n      <!-- disabled input -->\n      <b-form-group\n        label=\"Disabled Input\"\n        label-for=\"disabledInput\"\n      >\n        <b-form-input\n          id=\"disabledInput\"\n          disabled\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- with helper text -->\n      <b-form-group\n        label=\"With Helper Text\"\n        label-for=\"helperInput\"\n        description=\"Find helper text here for given textbox.\"\n      >\n        <b-form-input\n          id=\"helperInput\"\n          placeholder=\"Name\"\n        />\n      </b-form-group>\n    </b-col>\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- readonly input -->\n      <b-form-group\n        label=\"Readonly Input\"\n        label-for=\"readOnlyInput\"\n      >\n        <b-form-input\n          id=\"readOnlyInput\"\n          value=\"You can't update me :P\"\n          readonly\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- static text -->\n      <b-form-group\n        label=\"Readonly Static Text\"\n        label-for=\"plainTextInput\"\n      >\n        <b-form-input\n          id=\"plainTextInput\"\n          plaintext\n          value=\"email@pixinvent.com\"\n        />\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BFormInput, BRow, BCol, BFormGroup} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormGroup,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeDatalist = "\n<template>\n  <b-form-group class=\"mb-0\">\n    <b-form-input list=\"my-list-id\" />\n\n    <datalist id=\"my-list-id\">\n      <option>Manual Option</option>\n      <option\n        v-for=\"size in sizes\"\n        :key=\"size\"\n      >\n        {{ size }}\n      </option>\n    </datalist>\n  </b-form-group>\n</template>\n\n<script>\nimport { BFormInput, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormInput,\n  },\n  data() {\n    return {\n      sizes: ['Small', 'Medium', 'Large', 'Extra Large'],\n    }\n  },\n}\n</script>\n";
-var codeDebounce = "\n<template>\n  <div>\n    <b-form-input\n      v-model=\"value\"\n      type=\"text\"\n      debounce=\"500\"\n    />\n    <b-card-text class=\"mt-1 mb-0\">\n      <strong>Value : </strong><span>{{ value }}</span>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormInput, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BCardText,\n  },\n  data() {\n    return {\n      value: '',\n    }\n  },\n}\n</script>\n";
-var codeSize = "\n<template>\n  <b-row>\n\n    <!-- large -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Large\"\n        label-for=\"largeInput\"\n      >\n        <b-form-input\n          id=\"largeInput\"\n          size=\"lg\"\n          placeholder=\"Large Input\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <!-- default -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Default\"\n        label-for=\"defaultLabel\"\n      >\n        <b-form-input\n          id=\"defaultLabel\"\n          placeholder=\"Normal Input\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <!-- small -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Small\"\n        label-for=\"smallInput\"\n      >\n        <b-form-input\n          id=\"smallInput\"\n          size=\"sm\"\n          placeholder=\"Small Input\"\n        />\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BFormInput, BRow, BCol, BFormGroup} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormGroup,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeStates = "\n<template>\n  <b-row>\n\n    <!-- valid input -->\n    <b-col md=\"6\">\n      <b-form-group\n        label=\"Valid State\"\n        label-for=\"input-valid\"\n      >\n        <b-form-input\n          id=\"input-valid\"\n          :state=\"true\"\n          placeholder=\"Valid\"\n        />\n        <b-form-valid-feedback>\n          This is valid state.\n        </b-form-valid-feedback>\n      </b-form-group>\n    </b-col>\n\n    <!-- invalid input -->\n    <b-col md=\"6\">\n      <b-form-group\n        label=\"Invalid State\"\n        label-for=\"input-invalid\"\n      >\n        <b-form-input\n          id=\"input-invalid\"\n          :state=\"false\"\n          placeholder=\"Invalid\"\n        />\n        <b-form-invalid-feedback>\n          This is invalid state.\n        </b-form-invalid-feedback>\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {\n  BFormInput, BRow, BCol, BFormInvalidFeedback, BFormValidFeedback, BFormGroup,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormInvalidFeedback,\n    BFormValidFeedback,\n    BRow,\n    BFormGroup,\n    BCol,\n  },\n}\n</script>\n";
-var codeFormatter = "\n<template>\n  <div>\n    <b-form-group\n      label=\"Text input with formatter (on input)\"\n      label-for=\"input-formatter\"\n      description=\"We will convert your name to lowercase instantly\"\n    >\n      <b-form-input\n        id=\"input-formatter\"\n        v-model=\"text1\"\n        placeholder=\"Enter your name\"\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n    <b-card-text><strong>Value:</strong> {{ text1 }}</b-card-text>\n\n    <b-form-group\n      label=\"Text input with lazy formatter (on blur)\"\n      label-for=\"input-lazy\"\n      description=\"This one is a little lazy!\"\n    >\n      <b-form-input\n        id=\"input-lazy\"\n        v-model=\"text2\"\n        placeholder=\"Enter your name\"\n        lazy-formatter\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n\n    <b-card-text class=\"mb-0\">\n      <strong>Value:</strong> {{ text2 }}\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormInput, BFormGroup, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BCardText,\n    BFormGroup,\n  },\n  data() {\n    return {\n      text1: '',\n      text2: '',\n    }\n  },\n  methods: {\n    formatter(value) {\n      return value.toLowerCase()\n    },\n  },\n}\n</script>\n";
-var codeValidateTooltips = "\n<template>\n  <b-form novalidate class=\"needs-validation\" @submit.prevent>\n    <b-form-row>\n\n      <!-- valid input  -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-valid1\">Valid Input:</label>\n        <b-form-input\n          id=\"input-valid1\"\n          v-model=\"value1\"\n          :state=\"value1.length > 0\"\n          placeholder=\"Valid input\"\n        />\n        <b-form-valid-feedback\n          tooltip\n        >\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback\n          tooltip\n        >\n          Please provide a valid input.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- invalid input -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-invalid1\">Invalid Input:</label>\n        <b-form-input\n          id=\"input-invalid1\"\n          v-model=\"value2\"\n          :state=\"value2.length > 0\"\n          placeholder=\"Invalid input\"\n        />\n        <b-form-valid-feedback tooltip>\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback\n          tooltip\n        >\n          Please provide a valid input.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- invalid input -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-invalid2\">Invalid Input:</label>\n        <b-form-input\n          id=\"input-invalid2\"\n          v-model=\"value3\"\n          :state=\"value3.length > 0\"\n          placeholder=\"Invalid input\"\n        />\n        <b-form-valid-feedback tooltip>\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback tooltip>\n          Please provide a valid city.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- submit button -->\n      <b-col\n        cols=\"12\"\n      >\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n        >\n          Submit\n        </b-button>\n      </b-col>\n    </b-form-row>\n  </b-form>\n</template>\n\n<script>\nimport { BFormInput, BCol, BForm, BFormRow, BFormValidFeedback, BFormInvalidFeedback, BButton} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BFormInput,\n    BForm,\n    BButton,\n    BFormRow,\n    BFormValidFeedback,\n    BFormInvalidFeedback,\n    BCol,\n  },\n  directives: {\n    Ripple,\n  },\n  data() {\n    return {\n      value1: 'John',\n      value2: 'Doe',\n      value3: '',\n    }\n  },\n}\n</script>\n";
-var codeFloatingLabelIcon = "\n<template>\n  <b-row>\n    <b-col md=\"6\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          id=\"floating-label1\"\n          placeholder=\"Label Placeholder\"\n        />\n        <label for=\"floating-label1\">Label-placeholder</label>\n      </div>\n    </b-col>\n    <b-col md=\"6\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          placeholder=\"Disabled-placeholder\"\n          disabled\n        />\n        <label for=\"floating-label-disable\">Disabled-placeholder</label>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {\n  BFormInput, BRow, BCol\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeHorizontalSize = "\n<template>\n  <div>\n     <!-- large label  -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label-size=\"lg\"\n      label=\"Large\"\n      label-for=\"input-lg\"\n    >\n      <b-form-input\n        id=\"input-lg\"\n        size=\"lg\"\n        placeholder=\"Large Input\"\n      />\n    </b-form-group>\n\n    <!-- default label -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label=\"Default\"\n      label-for=\"input-default\"\n    >\n      <b-form-input\n        id=\"input-default\"\n        placeholder=\"Normal Input\"\n      />\n    </b-form-group>\n\n    <!-- small label -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label-size=\"sm\"\n      label=\"Small\"\n      label-for=\"input-sm\"\n    >\n      <b-form-input\n        id=\"input-sm\"\n        size=\"sm\"\n        placeholder=\"Small Input\"\n      />\n    </b-form-group>\n  </div>\n</template>\n\n<script>\nimport { BFormGroup, BFormInput } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormInput,\n  },\n}\n</script>\n";
+/* harmony import */ var _TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabJustified.vue?vue&type=template&id=352938ba& */ "./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba&");
+/* harmony import */ var _TabJustified_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabJustified.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabJustified_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabJustified.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabJustified_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabJustified.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabJustified_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabJustified.vue?vue&type=template&id=352938ba& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabJustified.vue?vue&type=template&id=352938ba&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabJustified_vue_vue_type_template_id_352938ba___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabLazy.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabLazy.vue ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabLazy.vue?vue&type=template&id=7634b720& */ "./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720&");
+/* harmony import */ var _TabLazy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabLazy.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabLazy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabLazy.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabLazy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabLazy.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabLazy_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720& ***!
+  \******************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabLazy.vue?vue&type=template&id=7634b720& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabLazy.vue?vue&type=template&id=7634b720&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabLazy_vue_vue_type_template_id_7634b720___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabPosition.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabPosition.vue ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabPosition.vue?vue&type=template&id=4ffd3055& */ "./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055&");
+/* harmony import */ var _TabPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabPosition.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabPosition.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabPosition.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabPosition_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055& ***!
+  \**********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabPosition.vue?vue&type=template&id=4ffd3055& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabPosition.vue?vue&type=template&id=4ffd3055&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabPosition_vue_vue_type_template_id_4ffd3055___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabProgrammatically.vue":
+/*!***********************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabProgrammatically.vue ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TabProgrammatically.vue?vue&type=template&id=9a6a51cc& */ "./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc&");
+/* harmony import */ var _TabProgrammatically_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TabProgrammatically.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TabProgrammatically_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/tab/TabProgrammatically.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabProgrammatically_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabProgrammatically.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TabProgrammatically_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc& ***!
+  \******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./TabProgrammatically.vue?vue&type=template&id=9a6a51cc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/tab/TabProgrammatically.vue?vue&type=template&id=9a6a51cc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TabProgrammatically_vue_vue_type_template_id_9a6a51cc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/tab/code.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/src/views/components/tab/code.js ***!
+  \*******************************************************/
+/*! exports provided: codeDefault, codeAlignment, codeFill, codeJustified, codeLazy, codeDynamic, codeIcon, codeProgrammatically, codePosition */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDefault", function() { return codeDefault; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeAlignment", function() { return codeAlignment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFill", function() { return codeFill; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeJustified", function() { return codeJustified; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeLazy", function() { return codeLazy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDynamic", function() { return codeDynamic; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeIcon", function() { return codeIcon; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeProgrammatically", function() { return codeProgrammatically; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codePosition", function() { return codePosition; });
+var codeDefault = "\n<template>\n  <b-tabs>\n    <b-tab title=\"Home\">\n      <b-card-text>\n        Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan carrot cake. Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon biscuit gummi bears. Pudding candy canes sugar plum cookie chocolate cake powder croissant.\n      </b-card-text>\n      <b-card-text>\n        Carrot cake tiramisu danish candy cake muffin croissant tart dessert. Tiramisu caramels candy canes chocolate cake sweet roll liquorice icing cupcake. Candy cookie sweet roll bear claw sweet roll.\n      </b-card-text>\n    </b-tab>\n    <b-tab\n      active\n      title=\"Service\"\n    >\n      <b-card-text>\n        Biscuit macaroon sugar plum sesame snaps oat cake halvah fruitcake pudding cotton candy. Cheesecake tart wafer souffl\xE9. Chocolate marzipan donut pie souffl\xE9 drag\xE9e cheesecake. Gummi bears dessert croissant chocolate jujubes fruitcake. Pie cupcake halvah.\n      </b-card-text>\n      <b-card-text>Tiramisu carrot cake marzipan sugar plum powder marzipan sugar plum bonbon powder. Macaroon jujubes ice cream sugar plum lollipop wafer caramels. Cheesecake chocolate tart cake gingerbread fruitcake cake candy jelly-o. Candy cookie lollipop. Wafer lemon drops chocolate cake gummi bears.</b-card-text>\n    </b-tab>\n    <b-tab\n      title=\"Disabled\"\n      disabled\n    >\n      <b-card-text>\n        Carrot cake drag\xE9e chocolate.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Account\">\n      <b-card-text>\n        Chocolate croissant cupcake croissant jelly donut. Cheesecake toffee apple pie chocolate bar biscuit tart croissant. Lemon drops danish cookie. Oat cake macaroon icing tart lollipop cookie sweet bear claw.\n      </b-card-text>\n      <b-card-text>\n        Carrot cake drag\xE9e chocolate. Lemon drops ice cream wafer gummies drag\xE9e. Chocolate bar liquorice cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder tootsie roll cake.\n      </b-card-text>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BTabs,\n    BCardText,\n    BTab,\n  },\n}\n</script>\n";
+var codeAlignment = "\n<template>\n  <!-- left align -->\n  <h6>Left</h6>\n  <div class=\"mb-3\">\n    <b-tabs align=\"left\">\n      <b-tab title=\"Home\" />\n      <b-tab\n        active\n        title=\"Service\"\n      />\n      <b-tab title=\"Account\" />\n    </b-tabs>\n  </div>\n\n  <!-- center align -->\n  <h6>\n    Center\n  </h6>\n  <div class=\"mb-3\">\n    <b-tabs align=\"center\">\n      <b-tab\n        title=\"Home\"\n        active\n      />\n      <b-tab title=\"Service\" />\n      <b-tab title=\"Account\" />\n    </b-tabs>\n  </div>\n\n  <!-- right align -->\n  <h5>Right</h5>\n  <b-tabs align=\"right\">\n    <b-tab title=\"Home\" />\n    <b-tab title=\"Service\" />\n    <b-tab\n      active\n      title=\"Account\"\n    />\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BTabs,\n    BTab,\n  },\n}\n</script>\n";
+var codeFill = "\n<template>\n  <b-tabs content-class=\"pt-1\" fill>\n    <b-tab\n      title=\"Home\"\n    >\n      <b-card-text>Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry.</b-card-text>\n      <b-card-text>Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.</b-card-text>\n    </b-tab>\n    <b-tab\n      active\n      title=\"Profile\"\n    >\n      <b-card-text>\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      </b-card-text>\n      <b-card-text>\n        Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Messages\">\n      <b-card-text>\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry. Oat cake lemon drops gingerbread dessert caramels.Lollipop croissant caramels jelly-o bonbon. Marshmallow tiramisu carrot cake pudding bonbon icing.\n      </b-card-text>\n      <b-card-text>\n        Sugar plum wafer lollipop. Tiramisu danish apple pie powder cookie. Macaroon marzipan toffee carrot cake biscuit cake drag\xE9e souffl\xE9. Donut danish cookie sweet topping halvah carrot cake chocolate bonbon.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Settings\">\n      <b-card-text>\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      </b-card-text>\n      <b-card-text>\n        Drag\xE9e jelly-o pie halvah pudding bear claw. Carrot cake pie toffee pastry candy canes. Ice cream tiramisu chocolate bar apple pie jujubes croissant toffee. Sweet roll chocolate bar pastry macaroon jelly-o. Jujubes pudding lemon drops dessert cake. Pudding cupcake chupa chups brownie.\n      </b-card-text>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BTabs,\n    BTab,\n    BCardText,\n  },\n}\n</script>\n";
+var codeJustified = "\n<template>\n  <b-tabs content-class=\"mt-2\" justified>\n    <b-tab title=\"Home\">\n      <b-card-text>\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry.Danish fruitcake bonbon bear claw gummi bears apple pie. Chocolate sweet topping fruitcake cake.\n      </b-card-text>\n      <b-card-text>\n        Drag\xE9e jelly-o pie halvah pudding bear claw. Carrot cake pie toffee pastry candy canes. Ice cream tiramisu chocolate bar apple pie jujubes croissant toffee. Sweet roll chocolate bar pastry macaroon jelly-o. Jujubes pudding lemon drops dessert cake. Pudding cupcake chupa chups brownie.\n      </b-card-text>\n    </b-tab>\n    <b-tab\n      active\n      title=\"Profile\"\n    >\n      <b-card-text>\n        Chocolate cake icing tiramisu liquorice toffee donut sweet roll cake. Cupcake dessert icing drag\xE9e dessert. Liquorice jujubes cake tart pie donut. Cotton candy candy canes lollipop liquorice chocolate marzipan muffin pie liquorice.\n      </b-card-text>\n      <b-card-text>\n        Sesame snaps chupa chups jelly-o candy croissant pastry. Lollipop pudding biscuit. Sweet roll candy canes tootsie roll halvah jujubes gummi bears toffee cheesecake. Topping macaroon marshmallow caramels. Pastry caramels pastry.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Messages\">\n      <b-card-text>\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      </b-card-text>\n      <b-card-text>\n        Chocolate cake icing tiramisu liquorice toffee donut sweet roll cake. Cupcake dessert icing drag\xE9e dessert. Liquorice jujubes cake tart pie donut. Cotton candy candy canes lollipop liquorice chocolate marzipan muffin pie liquorice.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Settings\">\n      <b-card-text>\n        Biscuit powder jelly beans. Lollipop candy canes croissant icing chocolate cake. Cake fruitcake powder pudding pastry.I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie.\n      </b-card-text>\n      <b-card-text>\n        Tootsie roll oat cake I love bear claw I love caramels caramels halvah chocolate bar. Cotton candy gummi bears pudding pie apple pie cookie. Cheesecake jujubes lemon drops danish dessert I love caramels powder.\n      </b-card-text>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardText,\n    BTabs,\n    BTab,\n  },\n}\n</script>\n";
+var codeLazy = "\n<template>\n  <b-tabs content-class=\"mt-1\">\n    <!-- This tabs content will always be mounted -->\n    <b-tab title=\"Regular tab\">\n      <b-alert\n        variant=\"info\"\n        show\n        class=\"mb-0\"\n      >\n        <div class=\"alert-body\">\n          I'm always mounted\n        </div>\n      </b-alert>\n    </b-tab>\n\n    <!-- This tabs content will not be mounted until the tab is shown -->\n    <!-- and will be un-mounted when hidden -->\n    <b-tab\n      title=\"Lazy tab\"\n      lazy\n    >\n      <b-alert\n        variant=\"info\"\n        show\n        class=\"mb-0\"\n      >\n        <div class=\"alert-body\">\n          I'm lazy mounted!\n        </div>\n      </b-alert>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab, BAlert} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BTabs,\n    BTab,\n    BAlert,\n  },\n}\n</script>\n";
+var codeDynamic = "\n<template>\n  <b-tabs>\n      <!-- Render Tabs, supply a unique `key` to each tab -->\n      <b-tab\n        v-for=\"i in tabs\"\n        :key=\"'dyn-tab-' + i\"\n        :title=\"'Tab ' + i\"\n      >\n        Tab contents {{ i }}\n        <b-button\n          size=\"sm\"\n          variant=\"danger\"\n          class=\"float-right\"\n          @click=\"closeTab(i)\"\n        >\n          Close tab\n        </b-button>\n      </b-tab>\n\n      <!-- New Tab Button (Using tabs-end slot) -->\n      <template #tabs-end>\n        <b-nav-item\n          role=\"presentation\"\n          @click.prevent=\"newTab\"\n        >\n          <b>+</b>\n        </b-nav-item>\n      </template>\n\n      <!-- Render this if no tabs -->\n      <template #empty>\n        <div class=\"text-center text-muted\">\n          There are no open tabs<br>\n          Open a new tab using the <b>+</b> button above.\n        </div>\n      </template>\n    </b-tabs>\n</template>\n\n<script>\nimport {\n  BTabs, BTab, BNavItem, BButton,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BTabs,\n    BTab,\n    BNavItem,\n    BButton,\n  },\n  data() {\n    return {\n      tabs: [1],\n      tabCounter: 1,\n    }\n  },\n   methods: {\n    closeTab(x) {\n      for (let i = 0; i < this.tabs.length; i += 1) {\n        if (this.tabs[i] === x) {\n          this.tabs.splice(i, 1)\n        }\n      }\n    },\n    newTab() {\n      this.tabs.push((this.tabCounter += 1))\n    },\n  },\n}\n</script>\n";
+var codeIcon = "\n<template>\n  <b-tabs>\n    <b-tab>\n      <template #title>\n        <feather-icon icon=\"HomeIcon\" />\n        <span>Home</span>\n      </template>\n\n      <b-card-text>\n        Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan carrot cake. Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon biscuit gummi bears. Pudding candy canes sugar plum cookie chocolate cake powder croissant.\n      </b-card-text>\n      <b-card-text>\n        Carrot cake tiramisu danish candy cake muffin croissant tart dessert. Tiramisu caramels candy canes chocolate cake sweet roll liquorice icing cupcake. Candy cookie sweet roll bear claw sweet roll\n      </b-card-text>\n    </b-tab>\n    <b-tab active>\n      <template #title>\n        <feather-icon icon=\"ToolIcon\" />\n        <span>Services</span>\n      </template>\n\n      <b-card-text>\n        Muffin cupcake candy chocolate cake gummi bears fruitcake donut dessert pie. Wafer toffee bonbon drag\xE9e. Jujubes cotton candy gummies chupa chups. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n      </b-card-text>\n      <b-card-text>\n        Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer. Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n      </b-card-text>\n    </b-tab>\n    <b-tab disabled>\n      <template #title>\n        <feather-icon icon=\"EyeOffIcon\" />\n        <span>Disabled</span>\n      </template>\n\n      <b-card-text>\n        Halvah dessert fruitcake toffee oat cake tart oat cake topping jelly beans. Pudding sweet pie pastry lemon drops jujubes danish pie gingerbread. Liquorice powder wafer.\n      </b-card-text>\n    </b-tab>\n    <b-tab>\n      <template #title>\n        <feather-icon icon=\"UserIcon\" />\n        <span>Account</span>\n      </template>\n\n      <b-card-text>\n        Chocolate croissant cupcake croissant jelly donut. Cheesecake toffee apple pie chocolate bar biscuit tart croissant. Lemon drops danish cookie. Oat cake macaroon icing tart lollipop cookie sweet bear claw.\n      </b-card-text>\n      <b-card-text>\n        Carrot cake drag\xE9e chocolate. Lemon drops ice cream wafer gummies drag\xE9e. Chocolate bar liquorice cheesecake cookie chupa chups marshmallow oat cake biscuit. Dessert toffee fruitcake ice cream powder tootsie roll cake.\n      </b-card-text>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardText,\n    BTabs,\n    BTab,\n  },\n}\n</script>\n";
+var codeProgrammatically = "\n<template>\n  <!-- Tabs with card integration -->\n  <b-tabs v-model=\"tabIndex\">\n    <b-tab title=\"General\">\n      <b-card-text>\n        Cookie cheesecake gummi bears. Topping apple pie chupa chups topping souffl\xE9 chocolate bar sesame snaps fruitcake sweet. Danish donut brownie wafer. Jelly beans apple pie wafer danish pastry lollipop biscuit marshmallow\n      </b-card-text>\n      <b-card-text>\n        Pie powder sweet cotton candy topping pie. Chocolate gummi bears tootsie roll gingerbread. Jujubes pie bonbon chocolate cake drag\xE9e macaroon candy.\n      </b-card-text>\n    </b-tab>\n    <b-tab title=\"Edit profile\">\n      <b-card-text>I'm the second tab</b-card-text>\n      <b-card class=\"border mb-0\">\n        Apple pie jelly sugar plum cupcake biscuit danish cheesecake danish pastry. Cheesecake lemon  pastry marzipan. Wafer bear claw chocolate bar souffl\xE9 gummies sugar plum macaroon brownie.\n      </b-card>\n    </b-tab>\n    <b-tab\n      title=\"Premium Plan\"\n      disabled\n    >\n      Sibzamini!\n    </b-tab>\n    <b-tab title=\"Info\">\n      <b-card-text>\n        I'm the last tab\n      </b-card-text>\n      <b-card-text>\n        Lemon drops icing chocolate bar icing cheesecake sesame snaps tootsie roll. Bonbon carrot cake biscuit. Apple pie topping jujubes candy gingerbread souffl\xE9 chocolate bar. Jelly lollipop candy canes. Lemon drops marshmallow pastry. Carrot cake lollipop cookie cotton candy drag\xE9e liquorice.\n      </b-card-text>\n    </b-tab>\n  </b-tabs>\n\n  <!-- Control buttons-->\n  <div class=\"text-center\">\n    <b-button-group class=\"mt-1\">\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n        @click=\"tabIndex--\"\n      >\n        Previous\n      </b-button>\n      <b-button\n        v-ripple.400=\"'rgba(113, 102, 240, 0.15)'\"\n        variant=\"outline-primary\"\n        @click=\"tabIndex++\"\n      >\n        Next\n      </b-button>\n    </b-button-group>\n\n    <b-card-text>\n      <small>Current Tab: {{ tabIndex }}</small>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BButtonGroup, BButton, BCard, BTab, BTabs} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BButtonGroup,\n    BButton,\n    BCard,\n    BTab,\n    BTabs,\n  },\n  data: () => ({\n    tabIndex: 1,\n  }),\n}\n</script>\n";
+var codePosition = "\n<template>\n  <b-tabs>\n    <!-- top position -->\n    <b-tab title=\"Top\">\n      <b-tabs content-class=\"mt-2\">\n        <b-tab title=\"Tab 1\">\n          <b-card-text>\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          </b-card-text>\n        </b-tab>\n        <b-tab\n          active\n          title=\"Tab 2\"\n        >\n          <b-card-text>\n            Sugar plum tootsie roll biscuit caramels. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Pudding caramels pastry powder cake souffl\xE9 wafer caramels. Jelly-o pie cupcake.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 2\">\n          <b-card-text>\n            Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut.\n          </b-card-text>\n        </b-tab>\n      </b-tabs>\n    </b-tab>\n\n    <!-- right position -->\n    <b-tab title=\"Right\">\n      <b-tabs\n        vertical\n        end\n        nav-class=\"nav-right\"\n        nav-wrapper-class=\"nav-vertical\"\n      >\n        <b-tab\n          active\n          title=\"Tab 1\"\n        >\n          <b-card-text>\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          </b-card-text>\n          <b-card-text>\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 2\">\n          <b-card-text>\n            Sugar plum tootsie roll biscuit caramels. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Pudding caramels pastry powder cake souffl\xE9 wafer caramels. Jelly-o pie cupcake.\n          </b-card-text>\n          <b-card-text>\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 3\">\n          <b-card-text>\n            Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n          </b-card-text>\n          <b-card-text>\n            Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n          </b-card-text>\n        </b-tab>\n      </b-tabs>\n    </b-tab>\n\n    <!-- bottom position -->\n    <b-tab title=\"Bottom\">\n      <b-tabs end>\n        <b-tab\n          title=\"Tab 1\"\n          active\n        >\n          <b-card-text>\n            Pudding candy canes sugar plum cookie chocolate cake powder croissant. Carrot cake tiramisu danish candy\n            cake muffin croissant tart dessert.\n          </b-card-text>\n          <b-card-text>\n            Tiramisu caramels candy canes chocolate cake sweet roll liquorice\n            icing cupcake.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 2\">\n          <b-card-text>\n            Candy canes donut chupa chups candy canes lemon drops oat cake wafer. Cotton candy candy canes marzipan\n            carrot cake. Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n          </b-card-text>\n          <b-card-text>\n            Sesame snaps lemon drops candy marzipan donut brownie tootsie roll. Icing croissant bonbon\n            biscuit gummi bears.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 3\">\n          <b-card-text>\n            Carrot cake drag\xE9e chocolate. Lemon drops ice cream wafer gummies drag\xE9e. Chocolate bar liquorice\n            cheesecake cookie chupa chups marshmallow oat cake biscuit.\n          </b-card-text>\n          <b-card-text>\n            Dessert toffee fruitcake ice cream powder tootsie roll cake.\n          </b-card-text>\n        </b-tab>\n      </b-tabs>\n    </b-tab>\n\n    <!-- left position -->\n    <b-tab\n      active\n      title=\"Left\"\n    >\n      <b-tabs\n        vertical\n        nav-wrapper-class=\"nav-vertical\"\n      >\n        <b-tab\n          active\n          title=\"Tab 1\"\n        >\n          <b-card-text>\n            Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Gummies cupcake croissant.\n          </b-card-text>\n          <b-card-text>\n            Sweet chocolate muffin fruitcake gummies jujubes pie lollipop. Brownie marshmallow caramels gingerbread jelly beans chocolate bar oat cake wafer.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 2\">\n          <b-card-text>\n            Sugar plum tootsie roll biscuit caramels. Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Pudding caramels pastry powder cake souffl\xE9 wafer caramels. Jelly-o pie cupcake.\n          </b-card-text>\n          <b-card-text>\n            Chocolate bar danish icing sweet apple pie jelly-o carrot cake cookie cake.\n          </b-card-text>\n        </b-tab>\n        <b-tab title=\"Tab 3\">\n          <b-card-text>\n            Sweet fruitcake cheesecake biscuit cotton candy. Cookie powder marshmallow donut. Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.\n          </b-card-text>\n          <b-card-text>\n            Candy cookie sweet roll bear claw sweet roll. Cake tiramisu cotton candy gingerbread cheesecake toffee cake. Cookie liquorice dessert candy canes jelly.\n          </b-card-text>\n        </b-tab>\n      </b-tabs>\n    </b-tab>\n  </b-tabs>\n</template>\n\n<script>\nimport { BTabs, BTab, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardText,\n    BTabs,\n    BTab,\n  },\n}\n</script>\n";
 
 /***/ })
 

@@ -167,20 +167,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.filter.js */ "./node_modules/core-js/modules/es.array.filter.js");
-/* harmony import */ var core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _Gestion_Maestro_Implemento_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Gestion/Maestro/Implemento.vue */ "./resources/js/src/views/Gestion/Maestro/Implemento.vue");
-
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _Gestion_Maestro_Implemento_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Gestion/Maestro/Implemento.vue */ "./resources/js/src/views/Gestion/Maestro/Implemento.vue");
+//
 //
 //
 //
@@ -198,39 +196,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    'implemento-transporte': _Gestion_Maestro_Implemento_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
+    'implemento-ssoma': _Gestion_Maestro_Implemento_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   data: function data() {
     return {
-      entidad: 0,
-      area: 0,
-      nentidad: '',
-      narea: '',
-      entidades: [],
-      areas: []
+      entidad: 409,
+      area: 3,
+      nentidad: 'PERSONA',
+      narea: 'SSOMA'
     };
-  },
-  created: function created() {
-    var _this = this;
-
-    //entidades 
-    this.$http.get('/LiberAPP/Dato/Select/ENTIDAD/GENERAL').then(function (res) {
-      _this.entidades = res.data.filter(function (entidad) {
-        return entidad.valorDat == 'VEHICULO';
-      });
-    })["catch"](function (error) {
-      _this.Toast(true, 'danger', 'Entidades', 'Error al cargar los registros: ' + error);
-    }); //Areas 
-
-    this.$http.get('/LiberAPP/Area/Select').then(function (res) {
-      _this.areas = res.data.filter(function (area) {
-        return area.nombreAre == 'OPERACIONES';
-      });
-    })["catch"](function (error) {
-      _this.Toast(true, 'danger', 'Areas', 'Error al cargar los registros: ' + error);
-    });
   }
 });
 
@@ -363,10 +339,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2&":
-/*!****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2& ***!
-  \****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -384,17 +360,15 @@ var render = function() {
       _c(
         "b-col",
         [
-          _vm.entidades[0] !== undefined && _vm.areas[0] !== undefined
-            ? _c("implemento-transporte", {
-                attrs: {
-                  vista_entidad: _vm.entidades[0].idDato.valueOf(),
-                  vista_area: _vm.areas[0].idArea.valueOf(),
-                  vista_nentidad: _vm.entidades[0].valorDat,
-                  vista_narea: _vm.areas[0].nombreAre,
-                  vista_implemento: "DOCUMENTO"
-                }
-              })
-            : _vm._e()
+          _c("implemento-ssoma", {
+            attrs: {
+              vista_entidad: _vm.entidad,
+              vista_area: _vm.area,
+              vista_nentidad: _vm.nentidad,
+              vista_narea: _vm.narea,
+              vista_implemento: "EPP"
+            }
+          })
         ],
         1
       )
@@ -562,17 +536,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue":
-/*!***************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue ***!
-  \***************************************************************************/
+/***/ "./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue":
+/*!******************************************************************!*\
+  !*** ./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue ***!
+  \******************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DocumentoTransporte.vue?vue&type=template&id=0ff261f2& */ "./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2&");
-/* harmony import */ var _DocumentoTransporte_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DocumentoTransporte.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js&");
+/* harmony import */ var _ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImplementoSsoma.vue?vue&type=template&id=5b2ea7de& */ "./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de&");
+/* harmony import */ var _ImplementoSsoma_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImplementoSsoma.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -582,9 +556,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DocumentoTransporte_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ImplementoSsoma_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -594,38 +568,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue"
+component.options.__file = "resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************/
+/***/ "./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DocumentoTransporte_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DocumentoTransporte.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DocumentoTransporte_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImplementoSsoma_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImplementoSsoma.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImplementoSsoma_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2& ***!
-  \**********************************************************************************************************/
+/***/ "./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de& ***!
+  \*************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./DocumentoTransporte.vue?vue&type=template&id=0ff261f2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/DocumentoTransporte.vue?vue&type=template&id=0ff261f2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ImplementoSsoma.vue?vue&type=template&id=5b2ea7de& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Maestro/ImplementoSsoma.vue?vue&type=template&id=5b2ea7de&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DocumentoTransporte_vue_vue_type_template_id_0ff261f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImplementoSsoma_vue_vue_type_template_id_5b2ea7de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

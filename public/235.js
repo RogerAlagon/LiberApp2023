@@ -1,17 +1,665 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[235],{
 
-/***/ "./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/vue-autosuggest/dist/vue-autosuggest.esm.js ***!
-  \******************************************************************/
-/*! exports provided: default, VueAutosuggest, DefaultSection */
+/***/ "./node_modules/vue-clickaway/index.js":
+/*!*********************************************!*\
+  !*** ./node_modules/vue-clickaway/index.js ***!
+  \*********************************************/
+/*! exports provided: version, directive, mixin */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VueAutosuggest", function() { return VueAutosuggest; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultSection", function() { return DefaultSection; });
-var DefaultSection={name:"default-section",props:{section:{type:Object,required:!0},currentIndex:{type:[Number,String],required:!1,default:1/0},renderSuggestion:{type:Function,required:!1},normalizeItemFunction:{type:Function,required:!0},componentAttrPrefix:{type:String,required:!0},componentAttrIdAutosuggest:{type:String,required:!0}},data:function(){return{_currentIndex:this.currentIndex}},computed:{list:function(){var t=this.section,e=t.limit,n=t.data;return n.length<e&&(e=n.length),n.slice(0,e)}},methods:{getItemIndex:function(t){return this.section.start_index+t},getItemByIndex:function(t){return this.section.data[t]},onMouseEnter:function(t){var e=parseInt(t.currentTarget.getAttribute("data-suggestion-index"));this._currentIndex=e,this.$emit("updateCurrentIndex",e)},onMouseLeave:function(){this.$emit("updateCurrentIndex",null)}},render:function(t){var e=this,n=this.componentAttrPrefix,s={beforeSection:this.$scopedSlots["before-section-"+this.section.name],afterSectionDefault:this.$scopedSlots["after-section"],afterSectionNamed:this.$scopedSlots["after-section-"+this.section.name]},i=n+"__results-before "+n+"__results-before--"+this.section.name,r=s.beforeSection&&s.beforeSection({section:this.section,className:i})||[];return t("ul",{attrs:{role:"listbox","aria-labelledby":this.section.label&&this.componentAttrIdAutosuggest+"-"+this.section.label},class:this.section.ulClass},[r[0]&&r[0]||this.section.label&&t("li",{class:i,id:this.componentAttrIdAutosuggest+"-"+this.section.label},this.section.label)||"",this.list.map(function(s,i){var r,o=e.normalizeItemFunction(e.section.name,e.section.type,e.section.label,e.section.liClass,s),u=e.getItemIndex(i),l=e._currentIndex===u||parseInt(e.currentIndex)===u;return t("li",{attrs:Object.assign({},{role:"option","data-suggestion-index":u,"data-section-name":o.name,id:n+"__results-item--"+u},o.liAttributes),key:u,class:Object.assign((r={},r[n+"__results-item--highlighted"]=l,r[n+"__results-item"]=!0,r),o.liClass),on:{mouseenter:e.onMouseEnter,mouseleave:e.onMouseLeave}},[e.renderSuggestion?e.renderSuggestion(o):e.$scopedSlots.default&&e.$scopedSlots.default({_key:i,suggestion:o})])}),s.afterSectionDefault&&s.afterSectionDefault({section:this.section,className:n+"__results-after "+n+"__results-after--"+this.section.name}),s.afterSectionNamed&&s.afterSectionNamed({section:this.section,className:n+"__results_after "+n+"__results-after--"+this.section.name})])}};function hasClass(t,e){return!!t.className.match(new RegExp("(\\s|^)"+e+"(\\s|$)"))}function addClass(t,e){hasClass(t,e)||(t.className+=" "+e)}function removeClass(t,e){t.classList&&t.classList.remove(e)}var INDEX_IS_FOCUSED_ON_INPUT=-1,defaultSectionConfig={name:"default",type:"default-section"},VueAutosuggest={render:function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{attrs:{id:t.componentAttrIdAutosuggest}},[t._t("before-input"),n("div",{attrs:{role:"combobox","aria-expanded":t.isOpen?"true":"false","aria-haspopup":"listbox","aria-owns":t.componentAttrIdAutosuggest+"-"+t.componentAttrPrefix+"__results"}},[n("input",t._g(t._b({class:[t.isOpen?t.componentAttrPrefix+"__input--open":"",t.internal_inputProps.class],attrs:{type:t.internal_inputProps.type,autocomplete:t.internal_inputProps.autocomplete,"aria-autocomplete":"list","aria-activedescendant":t.isOpen&&null!==t.currentIndex?t.componentAttrPrefix+"__results-item--"+t.currentIndex:"","aria-controls":t.componentAttrIdAutosuggest+"-"+t.componentAttrPrefix+"__results"},domProps:{value:t.internalValue},on:{input:t.inputHandler,keydown:t.handleKeyStroke}},"input",t.internal_inputProps,!1),t.listeners))]),t._t("after-input"),t._v(" "),n("div",{class:t._componentAttrClassAutosuggestResultsContainer,attrs:{id:t.componentAttrIdAutosuggest+"-"+t.componentAttrPrefix+"__results"}},[t.isOpen?n("div",{class:t._componentAttrClassAutosuggestResults,attrs:{"aria-labelledby":t.componentAttrIdAutosuggest}},[t._t("before-suggestions"),t._v(" "),t._l(t.computedSections,function(e,s){return n(e.type,{key:t.getSectionRef(""+e.name+s),ref:t.getSectionRef(""+e.name+s),refInFor:!0,tag:"component",attrs:{"current-index":t.currentIndex,"normalize-item-function":t.normalizeItem,"render-suggestion":t.renderSuggestion,section:e,"component-attr-prefix":t.componentAttrPrefix,"component-attr-id-autosuggest":t.componentAttrIdAutosuggest},on:{updateCurrentIndex:t.updateCurrentIndex},scopedSlots:t._u([{key:"before-section-"+(e.name||e.label),fn:function(n){var s=n.section,i=n.className;return[t._t("before-section-"+(e.name||e.label),null,{section:s,className:i})]}},{key:"default",fn:function(e){var n=e.suggestion,s=e._key;return[t._t("default",[t._v(" "+t._s(n.item)+" ")],{suggestion:n,index:s})]}},{key:"after-section-"+(e.name||e.label),fn:function(n){var s=n.section;return[t._t("after-section-"+(e.name||e.label),null,{section:s})]}},{key:"after-section",fn:function(e){var n=e.section;return[t._t("after-section",null,{section:n})]}}])})}),t._v(" "),t._t("after-suggestions")],2):t._e(),t._v(" "),t._t("after-suggestions-container")],2)],2)},staticRenderFns:[],name:"Autosuggest",components:{DefaultSection:DefaultSection},props:{value:{type:String,default:null},inputProps:{type:Object,required:!0},limit:{type:Number,required:!1,default:1/0},suggestions:{type:Array,required:!0},renderSuggestion:{type:Function,required:!1,default:null},getSuggestionValue:{type:Function,required:!1,default:function(t){var e=t.item;return"object"==typeof e&&e.hasOwnProperty("name")?e.name:e}},shouldRenderSuggestions:{type:Function,required:!1,default:function(t,e){return t>0&&!e}},sectionConfigs:{type:Object,required:!1,default:function(){return{default:{onSelected:null}}}},onSelected:{type:Function,required:!1,default:null},componentAttrIdAutosuggest:{type:String,required:!1,default:"autosuggest"},componentAttrClassAutosuggestResultsContainer:{type:String,required:!1,default:null},componentAttrClassAutosuggestResults:{type:String,required:!1,default:null},componentAttrPrefix:{type:String,required:!1,default:"autosuggest"}},data:function(){return{internalValue:null,searchInputOriginal:null,currentIndex:null,currentItem:null,loading:!1,didSelectFromOptions:!1,defaultInputProps:{type:"text",autocomplete:"off"},clientXMouseDownInitial:null}},computed:{internal_inputProps:function(){return Object.assign({},this.defaultInputProps,this.inputProps)},listeners:function(){var t=this;return Object.assign({},this.$listeners,{input:function(t){},click:function(){t.loading=!1,t.$listeners.click&&t.$listeners.click(t.currentItem),t.$nextTick(function(){t.ensureItemVisible(t.currentItem,t.currentIndex)})},selected:function(){t.currentItem&&t.sectionConfigs[t.currentItem.name]&&t.sectionConfigs[t.currentItem.name].onSelected?t.sectionConfigs[t.currentItem.name].onSelected(t.currentItem,t.searchInputOriginal):t.sectionConfigs.default.onSelected?t.sectionConfigs.default.onSelected(null,t.searchInputOriginal):t.$listeners.selected&&t.$emit("selected",t.currentItem,t.currentIndex),t.setChangeItem(null)}})},isOpen:function(){return this.shouldRenderSuggestions(this.totalResults,this.loading)},computedSections:function(){var t=this,e=0;return this.suggestions.map(function(n){if(n.data){var s,i,r,o,u=n.name?n.name:defaultSectionConfig.name,l=null;t.sectionConfigs[u]&&(s=t.sectionConfigs[u].limit,r=t.sectionConfigs[u].type,i=t.sectionConfigs[u].label,o=t.sectionConfigs[u].ulClass,l=t.sectionConfigs[u].liClass),r=r||defaultSectionConfig.type,s=(s=s||t.limit)||1/0,s=n.data.length<s?n.data.length:s;var a={name:u,label:i=i||n.label,type:r,limit:s,data:n.data,start_index:e,end_index:e+s-1,ulClass:o,liClass:l};return e+=s,a}})},totalResults:function(){return this.computedSections.reduce(function(t,e){if(!e)return t;var n=e.limit,s=e.data;return t+(s.length>=n?n:s.length)},0)},_componentAttrClassAutosuggestResultsContainer:function(){return this.componentAttrClassAutosuggestResultsContainer||this.componentAttrPrefix+"__results-container"},_componentAttrClassAutosuggestResults:function(){return this.componentAttrClassAutosuggestResults||this.componentAttrPrefix+"__results"}},watch:{value:{handler:function(t){this.internalValue=t},immediate:!0},isOpen:{handler:function(t,e){t!==e&&this.$emit(t?"opened":"closed")},immediate:!0}},created:function(){this.loading=!0},mounted:function(){document.addEventListener("mouseup",this.onDocumentMouseUp),document.addEventListener("mousedown",this.onDocumentMouseDown)},beforeDestroy:function(){document.removeEventListener("mouseup",this.onDocumentMouseUp),document.removeEventListener("mousedown",this.onDocumentMouseDown)},methods:{inputHandler:function(t){var e=t.target.value;this.$emit("input",e),this.internalValue=e,this.didSelectFromOptions||(this.searchInputOriginal=e,this.currentIndex=null)},getSectionRef:function(t){return"computed_section_"+t},getItemByIndex:function(t){var e=!1;if(null===t)return e;for(var n=0;n<this.computedSections.length;n++)if(t>=this.computedSections[n].start_index&&t<=this.computedSections[n].end_index){var s=t-this.computedSections[n].start_index,i=this.computedSections[n].name,r=this.$refs[this.getSectionRef(""+i+n)][0];if(r){e=this.normalizeItem(this.computedSections[n].name,this.computedSections[n].type,r.section.label,r.section.liClass,r.getItemByIndex(s));break}}return e},handleKeyStroke:function(t){var e=this,n=t.keyCode;if(!([16,9,17,18,91,93].indexOf(n)>-1)){var s=!this.isOpen;if(this.loading=!1,this.didSelectFromOptions=!1,this.isOpen)switch(n){case 40:case 38:if(t.preventDefault(),38===n&&null===this.currentIndex)break;var i=40===n?1:-1,r=Math.max((parseInt(this.currentIndex)||0)+(s?0:i),INDEX_IS_FOCUSED_ON_INPUT);this.setCurrentIndex(r,this.totalResults),this.didSelectFromOptions=!0,this.totalResults>0&&this.currentIndex>=0?(this.setChangeItem(this.getItemByIndex(this.currentIndex)),this.didSelectFromOptions=!0):this.currentIndex===INDEX_IS_FOCUSED_ON_INPUT&&(this.setChangeItem(null),this.internalValue=this.searchInputOriginal,t.preventDefault()),this.$nextTick(function(){e.ensureItemVisible(e.currentItem,e.currentIndex)});break;case 13:t.preventDefault(),this.totalResults>0&&this.currentIndex>=0&&(this.setChangeItem(this.getItemByIndex(this.currentIndex),!0),this.didSelectFromOptions=!0),this.loading=!0,this.listeners.selected(this.didSelectFromOptions);break;case 27:this.loading=!0,this.currentIndex=null,this.internalValue=this.searchInputOriginal,this.$emit("input",this.searchInputOriginal),t.preventDefault()}}},setChangeItem:function(t,e){if(void 0===e&&(e=!1),null!==this.currentIndex&&t){if(t){this.currentItem=t,this.$emit("item-changed",t,this.currentIndex);var n=this.getSuggestionValue(t);this.internalValue=n,e&&(this.searchInputOriginal=n),this.ensureItemVisible(t,this.currentIndex)}}else this.currentItem=null,this.$emit("item-changed",null,null)},normalizeItem:function(t,e,n,s,i){return{name:t,type:e,label:n,liClass:i.liClass||s,item:i}},ensureItemVisible:function(t,e,n){var s=this.$el.querySelector(n||"."+this._componentAttrClassAutosuggestResults);if(s){var i=s.querySelector("#"+this.componentAttrPrefix+"__results-item--"+e);if(i){var r=s.clientHeight,o=s.scrollTop,u=i.clientHeight,l=i.offsetTop;u+l>=o+r?s.scrollTop=u+l-r:l<o&&o>0&&(s.scrollTop=l)}}},updateCurrentIndex:function(t){this.setCurrentIndex(t,-1,!0)},clickedOnScrollbar:function(t,e){var n=this.$el.querySelector("."+this._componentAttrClassAutosuggestResults),s=n&&n.clientWidth<=e+17&&e+17<=n.clientWidth+34;return"DIV"===t.target.tagName&&n&&s||!1},onDocumentMouseDown:function(t){var e=t.target.getBoundingClientRect?t.target.getBoundingClientRect():0;this.clientXMouseDownInitial=t.clientX-e.left},onDocumentMouseUp:function(t){if(!this.$el.contains(t.target))return this.loading=!0,void(this.currentIndex=null);"INPUT"===t.target.tagName||this.clickedOnScrollbar(t,this.clientXMouseDownInitial)||(this.loading=!0,this.didSelectFromOptions=!0,this.setChangeItem(this.getItemByIndex(this.currentIndex),!0),this.listeners.selected(!0))},setCurrentIndex:function(t,e,n){void 0===e&&(e=-1),void 0===n&&(n=!1);var s=t;n||(null===this.currentIndex||t>=e)&&(s=0);this.currentIndex=s;var i=this.$el.querySelector("#"+this.componentAttrPrefix+"__results-item--"+this.currentIndex),r=this.componentAttrPrefix+"__results-item--highlighted";this.$el.querySelector("."+r)&&removeClass(this.$el.querySelector("."+r),r),i&&addClass(i,r)}}},VueAutosuggestPlugin={install:function(t){t.component("vue-autosuggest-default-section",DefaultSection),t.component("vue-autosuggest",VueAutosuggest)}};"undefined"!=typeof window&&window.Vue&&window.Vue.use(VueAutosuggestPlugin);/* harmony default export */ __webpack_exports__["default"] = (VueAutosuggestPlugin);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "version", function() { return version; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "directive", function() { return directive; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mixin", function() { return mixin; });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var version = '2.2.2';
+
+var compatible = (/^2\./).test(vue__WEBPACK_IMPORTED_MODULE_0___default.a.version);
+if (!compatible) {
+  vue__WEBPACK_IMPORTED_MODULE_0___default.a.util.warn('VueClickaway ' + version + ' only supports Vue 2.x, and does not support Vue ' + vue__WEBPACK_IMPORTED_MODULE_0___default.a.version);
+}
+
+
+
+// @SECTION: implementation
+
+var HANDLER = '_vue_clickaway_handler';
+
+function bind(el, binding, vnode) {
+  unbind(el);
+
+  var vm = vnode.context;
+
+  var callback = binding.value;
+  if (typeof callback !== 'function') {
+    if (true) {
+      vue__WEBPACK_IMPORTED_MODULE_0___default.a.util.warn(
+        'v-' + binding.name + '="' +
+        binding.expression + '" expects a function value, ' +
+        'got ' + callback
+      );
+    }
+    return;
+  }
+
+  // @NOTE: Vue binds directives in microtasks, while UI events are dispatched
+  //        in macrotasks. This causes the listener to be set up before
+  //        the "origin" click event (the event that lead to the binding of
+  //        the directive) arrives at the document root. To work around that,
+  //        we ignore events until the end of the "initial" macrotask.
+  // @REFERENCE: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
+  // @REFERENCE: https://github.com/simplesmiler/vue-clickaway/issues/8
+  var initialMacrotaskEnded = false;
+  setTimeout(function() {
+    initialMacrotaskEnded = true;
+  }, 0);
+
+  el[HANDLER] = function(ev) {
+    // @NOTE: this test used to be just `el.containts`, but working with path is better,
+    //        because it tests whether the element was there at the time of
+    //        the click, not whether it is there now, that the event has arrived
+    //        to the top.
+    // @NOTE: `.path` is non-standard, the standard way is `.composedPath()`
+    var path = ev.path || (ev.composedPath ? ev.composedPath() : undefined);
+    if (initialMacrotaskEnded && (path ? path.indexOf(el) < 0 : !el.contains(ev.target))) {
+      return callback.call(vm, ev);
+    }
+  };
+
+  document.documentElement.addEventListener('click', el[HANDLER], false);
+}
+
+function unbind(el) {
+  document.documentElement.removeEventListener('click', el[HANDLER], false);
+  delete el[HANDLER];
+}
+
+var directive = {
+  bind: bind,
+  update: function(el, binding) {
+    if (binding.value === binding.oldValue) return;
+    bind(el, binding);
+  },
+  unbind: unbind,
+};
+
+var mixin = {
+  directives: { onClickaway: directive },
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-context/src/js/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/vue-context/src/js/index.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vue_context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vue-context */ "./node_modules/vue-context/src/js/vue-context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _vue_context__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-context/src/js/normalize-slot.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/vue-context/src/js/normalize-slot.js ***!
+  \***********************************************************/
+/*! exports provided: normalizeSlot */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "normalizeSlot", function() { return normalizeSlot; });
+const normalizeSlot = (name, scope = {}, $scopedSlots = {}, $slots = {}) => {
+    // Note: in Vue 2.6.x, all named slots are also scoped slots
+    const slot = $scopedSlots[name] || $slots[name];
+
+    return typeof slot === 'function' ? slot(scope) : slot;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-context/src/js/utils.js":
+/*!**************************************************!*\
+  !*** ./node_modules/vue-context/src/js/utils.js ***!
+  \**************************************************/
+/*! exports provided: isArray, keyCodes, eventOn, eventOff, filterVisible, getBCR, selectAll, setAttr, parentElementByClassName */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isArray", function() { return isArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyCodes", function() { return keyCodes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "eventOn", function() { return eventOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "eventOff", function() { return eventOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filterVisible", function() { return filterVisible; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBCR", function() { return getBCR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectAll", function() { return selectAll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setAttr", function() { return setAttr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parentElementByClassName", function() { return parentElementByClassName; });
+if (! Array.from) {
+    Array.from = object => {
+        'use strict';
+
+        return [].slice.call(object);
+    };
+}
+
+if (! Array.isArray) {
+    Array.isArray = arg => Object.prototype.toString.call(arg) === '[object Array]';
+}
+
+// --- Constants ---
+const arrayFrom = Array.from;
+
+const isArray = Array.isArray;
+
+const keyCodes = {
+    ESC: 27,
+    LEFT: 37,
+    UP: 38,
+    RIGHT: 39,
+    DOWN: 40
+};
+
+// --- Dom Utils ---
+
+// Returns true if the parent element contains the child element
+const contains = (parent, child) => {
+    if (! parent || typeof parent.contains !== 'function') {
+        return false;
+    }
+
+    return parent.contains(child);
+};
+
+// Attach an event listener to an element
+const eventOn = (el, eventName, handler) => {
+    if (el && el.addEventListener) {
+        el.addEventListener(eventName, handler);
+    }
+};
+
+// Remove an event listener from an element
+const eventOff = (el, eventName, handler) => {
+    if (el && el.removeEventListener) {
+        el.removeEventListener(eventName, handler);
+    }
+};
+
+// Filter visible elements
+const filterVisible = elements => (elements || []).filter(isVisible);
+
+// Return the Bounding Client Rect of an element
+// Returns `null` if not an element
+const getBCR = el => (isElement(el) ? el.getBoundingClientRect() : null);
+
+// Determine if an element is an HTML element
+const isElement = el => Boolean(el && el.nodeType === Node.ELEMENT_NODE);
+
+// Determine if an HTML element is visible - Faster than CSS check
+const isVisible = el => {
+    if (! isElement(el) || ! contains(document.body, el)) {
+        return false;
+    }
+
+    if (el.style.display === 'none') {
+        return false;
+    }
+
+    const bcr = getBCR(el);
+
+    return Boolean(bcr && bcr.height > 0 && bcr.width > 0);
+};
+
+// Select all elements matching a selector. Returns `[]` if none found
+const selectAll = (selector, root) =>
+    arrayFrom((isElement(root) ? root : document).querySelectorAll(selector));
+
+// Set an attribute on an element
+const setAttr = (el, attr, value) => {
+    if (attr && isElement(el)) {
+        el.setAttribute(attr, value);
+    }
+};
+
+const parentElementByClassName = (element, className) => {
+    let parentElement = element.parentElement;
+
+    while (parentElement !== null && !parentElement.classList.contains(className)) {
+        parentElement = parentElement.parentElement;
+    }
+
+    return parentElement;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-context/src/js/vue-context.js":
+/*!********************************************************!*\
+  !*** ./node_modules/vue-context/src/js/vue-context.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_clickaway_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-clickaway/index */ "./node_modules/vue-clickaway/index.js");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./utils */ "./node_modules/vue-context/src/js/utils.js");
+/* harmony import */ var _normalize_slot__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./normalize-slot */ "./node_modules/vue-context/src/js/normalize-slot.js");
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    directives: {
+        onClickaway: vue_clickaway_index__WEBPACK_IMPORTED_MODULE_0__["directive"]
+    },
+
+    props: {
+        closeOnClick: {
+            type: Boolean,
+            default: true
+        },
+        closeOnScroll: {
+            type: Boolean,
+            default: true
+        },
+        lazy: {
+            type: Boolean,
+            default: false
+        },
+        itemSelector: {
+            type: [String, Array],
+            default: () => ['.v-context-item', '.v-context > li > a']
+        },
+        role: {
+            type: String,
+            default: 'menu'
+        },
+        subMenuOffset: {
+            type: Number,
+            default: 10
+        },
+        useScrollHeight: {
+            type: Boolean,
+            default: false
+        },
+        useScrollWidth: {
+            type: Boolean,
+            default: false
+        },
+        heightOffset: {
+            type: Number,
+            default: 25
+        },
+        widthOffset: {
+            type: Number,
+            default: 25
+        },
+        tag: {
+            type: String,
+            default: 'ul'
+        }
+    },
+
+    computed: {
+        style() {
+            return this.show
+                ? { top: `${this.top}px`, left: `${this.left}px` }
+                : null;
+        }
+    },
+
+    data() {
+        return {
+            top: null,
+            left: null,
+            show: false,
+            data: null,
+            localItemSelector: '',
+            activeSubMenu: null
+        };
+    },
+
+    created() {
+        this.localItemSelector = this.mapItemSelector(this.itemSelector);
+    },
+
+    beforeDestroy() {
+        if (this.closeOnScroll) {
+            this.removeScrollEventListener();
+        }
+    },
+
+    methods: {
+        addScrollEventListener() {
+            Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOn"])(window, 'scroll', this.close);
+        },
+
+        addHoverEventListener(element) {
+            element.querySelectorAll('.v-context__sub').forEach(
+                subMenuNode => {
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOn"])(subMenuNode, 'mouseenter', this.openSubMenu);
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOn"])(subMenuNode, 'mouseleave', this.closeSubMenu);
+                }
+            );
+        },
+
+        close() {
+            if (! this.show) {
+                return;
+            }
+
+            // make sure all sub menus are closed
+            while (this.activeSubMenu !== null) {
+                Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(this.activeSubMenu, 'v-context__sub').dispatchEvent(new Event('mouseleave'));
+            }
+
+            this.resetData();
+            this.removeHoverEventListener(this.$el);
+
+            if (this.closeOnScroll) {
+                this.removeScrollEventListener();
+            }
+
+            this.$emit('close');
+        },
+
+        focusItem(index, items) {
+            const el = items.find((el, idx) => idx === index);
+            el && el.focus();
+        },
+
+        focusNext(event, up) {
+            if (! this.show) {
+                return;
+            }
+
+            event.preventDefault();
+            event.stopPropagation();
+
+            this.$nextTick(() => {
+                const items = this.getItems();
+                if (items.length < 1) {
+                    return;
+                }
+
+                let index = items.indexOf(event.target);
+                if (up && index > 0) {
+                    index--;
+                } else if (! up && index < items.length - 1) {
+                    index++;
+                }
+
+                if (index < 0) {
+                    index = 0;
+                }
+
+                this.focusItem(index, items);
+            });
+        },
+
+        getItems() {
+            // if a sub menu is active only return the elements of the sub menu to keep the scope
+            return Object(_utils__WEBPACK_IMPORTED_MODULE_1__["filterVisible"])(Object(_utils__WEBPACK_IMPORTED_MODULE_1__["selectAll"])(this.localItemSelector, this.activeSubMenu || this.$el));
+        },
+
+        mapItemSelector(itemSelector) {
+            if (Object(_utils__WEBPACK_IMPORTED_MODULE_1__["isArray"])(itemSelector)) {
+                itemSelector = itemSelector
+                    .map(selector => `${selector}:not(.disabled):not([disabled])`)
+                    .join(', ');
+            }
+
+            return itemSelector;
+        },
+
+        onClick() {
+            this.close();
+        },
+
+        onKeydown(event) {
+            const key = event.keyCode;
+
+            if (key === _utils__WEBPACK_IMPORTED_MODULE_1__["keyCodes"].ESC) {
+                // Close on esc
+                this.close();
+            } else if (key === _utils__WEBPACK_IMPORTED_MODULE_1__["keyCodes"].DOWN) {
+                // Down arrow
+                this.focusNext(event, false);
+            } else if (key === _utils__WEBPACK_IMPORTED_MODULE_1__["keyCodes"].UP) {
+                // Up arrow
+                this.focusNext(event, true);
+            } else if (key === _utils__WEBPACK_IMPORTED_MODULE_1__["keyCodes"].RIGHT) {
+                // check if a parent element which is associated with a sub menu can be found.
+                const menuContainer = Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(event.target, 'v-context__sub');
+
+                // try to open a sub menu if the sub menu isn't the current sub menu
+                if (menuContainer && menuContainer.getElementsByClassName('v-context')[0] !== this.activeSubMenu) {
+                    menuContainer.dispatchEvent(new Event('mouseenter'));
+                    this.focusNext(event, false);
+                }
+            } else if (key === _utils__WEBPACK_IMPORTED_MODULE_1__["keyCodes"].LEFT) {
+                if (!this.activeSubMenu) {
+                    return;
+                }
+
+                const parentMenu = Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(this.activeSubMenu, 'v-context__sub');
+                parentMenu.dispatchEvent(new Event('mouseleave'));
+
+                const items = this.getItems(),
+                      index = items.indexOf(parentMenu.getElementsByTagName('a')[0]);
+
+                this.focusItem(index, items);
+            }
+        },
+
+        open(event, data) {
+            this.data = data;
+            this.show = true;
+
+            this.$nextTick(() => {
+                [this.top, this.left] = this.positionMenu(event.clientY, event.clientX, this.$el);
+
+                this.$el.focus();
+                this.setItemRoles();
+                this.addHoverEventListener(this.$el);
+
+                if (this.closeOnScroll) {
+                    this.addScrollEventListener();
+                }
+
+                this.$emit('open', event, this.data, this.top, this.left);
+            });
+        },
+
+        openSubMenu(event) {
+            const subMenuElement = this.getSubMenuElementByEvent(event),
+                  parentMenu = Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(subMenuElement.parentElement, 'v-context'),
+                  bcr = Object(_utils__WEBPACK_IMPORTED_MODULE_1__["getBCR"])(event.target);
+
+            // check if another sub menu is open. In this case make sure no other as well as no nested sub menu is open
+            if (this.activeSubMenu !== parentMenu) {
+                while (this.activeSubMenu !== null
+                    && this.activeSubMenu !== parentMenu
+                    && this.activeSubMenu !== subMenuElement
+                ) {
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(this.activeSubMenu, 'v-context__sub')
+                        .dispatchEvent(new Event('mouseleave'));
+                }
+            }
+
+            // first set the display and afterwards execute position calculation for correct element offsets
+            subMenuElement.style.display = 'block';
+
+            let [elementTop, elementLeft] = this.positionMenu(bcr.top, bcr.right - this.subMenuOffset, subMenuElement);
+
+            subMenuElement.style.left = `${elementLeft}px`;
+            subMenuElement.style.top = `${elementTop}px`;
+
+            this.activeSubMenu = subMenuElement;
+        },
+
+        closeSubMenu(event) {
+            const subMenuElement = this.getSubMenuElementByEvent(event),
+                  parentMenu = Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(subMenuElement, 'v-context');
+
+            // if a sub menu is closed and it's not the currently active sub menu (eg. a lowe layered sub menu closed
+            // by a mouseleave event) close all nested sub menus
+            if (this.activeSubMenu !== subMenuElement) {
+                while (this.activeSubMenu !== null && this.activeSubMenu !== subMenuElement) {
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(this.activeSubMenu, 'v-context__sub')
+                        .dispatchEvent(new Event('mouseleave'));
+                }
+            }
+
+            subMenuElement.style.display = 'none';
+
+            // check if a parent menu exists and the parent menu is a sub menu to keep track of the correct sub menu
+            this.activeSubMenu = parentMenu && Object(_utils__WEBPACK_IMPORTED_MODULE_1__["parentElementByClassName"])(parentMenu, 'v-context__sub')
+                ? parentMenu
+                : null;
+        },
+
+        getSubMenuElementByEvent (event) {
+            return event.target.getElementsByTagName('ul')[0];
+        },
+
+        positionMenu(top, left, element) {
+            const elementHeight = this.useScrollHeight ? element.scrollHeight : element.offsetHeight;
+            const largestHeight = window.innerHeight - elementHeight - this.heightOffset;
+
+            const elementWidth = this.useScrollWidth ? element.scrollWidth : element.offsetWidth;
+            const largestWidth = window.innerWidth - elementWidth - this.widthOffset;
+
+            if (top > largestHeight) {
+                top = largestHeight;
+            }
+
+            if (left > largestWidth) {
+                left = largestWidth;
+            }
+
+            return [top, left];
+        },
+
+        removeScrollEventListener() {
+            Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOff"])(window, 'scroll', this.close);
+        },
+
+        removeHoverEventListener(element) {
+            element.querySelectorAll('.v-context__sub').forEach(
+                (subMenuNode) => {
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOff"])(subMenuNode, 'mouseenter', this.openSubMenu);
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["eventOff"])(subMenuNode, 'mouseleave', this.closeSubMenu);
+                }
+            );
+        },
+
+        resetData() {
+            this.top = null;
+            this.left = null;
+            this.data = null;
+            this.show = false;
+        },
+
+        setItemRoles() {
+            // Add role="menuitem" and tabindex="-1" to all items
+            Object(_utils__WEBPACK_IMPORTED_MODULE_1__["selectAll"])(this.localItemSelector, this.$el)
+                .forEach(el => {
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["setAttr"])(el, 'role', 'menuitem');
+                    Object(_utils__WEBPACK_IMPORTED_MODULE_1__["setAttr"])(el, 'tabindex', '-1');
+                });
+        }
+    },
+
+    watch: {
+        closeOnScroll(newValue, oldValue) {
+            if (newValue === oldValue) {
+                return;
+            }
+
+            if (newValue && this.show) {
+                this.addScrollEventListener();
+            } else {
+                this.removeScrollEventListener();
+            }
+        },
+
+        itemSelector(selector, oldValue) {
+            if (selector !== oldValue) {
+                this.localItemSelector = this.mapItemSelector(selector);
+            }
+        }
+    },
+
+    render(h) {
+        if (this.lazy && ! this.show) {
+            return h(false);
+        }
+
+        // Only register the events we need
+        const on = {
+            // `!` modifier for capture
+            '!contextmenu': e => {
+                e.preventDefault();
+            },
+            keydown: this.onKeydown // up, down, esc
+        };
+
+        if (this.closeOnClick) {
+            on.click = this.onClick;
+        }
+
+        // Only register the directives we need
+        const directives = [
+            {
+                name: 'on-clickaway',
+                value: this.close,
+                rawName: 'v-on-clickaway'
+            }
+        ];
+
+        if (! this.lazy) {
+            directives.push({
+                name: 'show',
+                value: this.show,
+                rawName: 'v-show',
+                expression: 'show'
+            });
+        }
+
+        return h(
+            this.tag,
+            {
+                staticClass: 'v-context',
+                style: this.style,
+                attrs: {
+                    tabindex: '-1',
+                    role: this.role,
+                    'aria-hidden': this.lazy ? null : String(! this.show)
+                },
+                on,
+                directives
+            },
+            [Object(_normalize_slot__WEBPACK_IMPORTED_MODULE_2__["normalizeSlot"])('default', { data: this.data }, this.$scopedSlots, this.$slots)]
+        );
+    }
+});
 
 
 /***/ })

@@ -1,34 +1,22 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[91],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormLayoutHorizontal_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutHorizontal.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue");
-/* harmony import */ var _FormLayoutHorizontalIcon_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormLayoutHorizontalIcon.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue");
-/* harmony import */ var _FormLayoutVertical_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormLayoutVertical.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue");
-/* harmony import */ var _FormLayoutVerticalIcon_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormLayoutVerticalIcon.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue");
-/* harmony import */ var _FormLayoutMultipleColumn_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormLayoutMultipleColumn.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue");
-/* harmony import */ var _FormLayoutDatalistHelper_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormLayoutDatalistHelper.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue");
-/* harmony import */ var _FormLayoutFeedbackHelper_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormLayoutFeedbackHelper.vue */ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _FormRadioBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioBasic.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue");
+/* harmony import */ var _FormRadioCustom_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormRadioCustom.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue");
+/* harmony import */ var _FormRadioColor_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormRadioColor.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue");
+/* harmony import */ var _FormRadioContextualStates_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormRadioContextualStates.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue");
+/* harmony import */ var _FormRadioStackInline_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormRadioStackInline.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue");
+/* harmony import */ var _FormRadioOptionsArray_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue");
+/* harmony import */ var _FormRadioFieldNames_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormRadioFieldNames.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue");
 //
 //
 //
@@ -55,22 +43,22 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormLayoutHorizontal: _FormLayoutHorizontal_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormLayoutHorizontalIcon: _FormLayoutHorizontalIcon_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormLayoutVertical: _FormLayoutVertical_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormLayoutVerticalIcon: _FormLayoutVerticalIcon_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormLayoutMultipleColumn: _FormLayoutMultipleColumn_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormLayoutDatalistHelper: _FormLayoutDatalistHelper_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormLayoutFeedbackHelper: _FormLayoutFeedbackHelper_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+    FormRadioBasic: _FormRadioBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    FormRadioCustom: _FormRadioCustom_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    FormRadioColor: _FormRadioColor_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    FormRadioContextualStates: _FormRadioContextualStates_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    FormRadioStackInline: _FormRadioStackInline_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    FormRadioOptionsArray: _FormRadioOptionsArray_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    FormRadioFieldNames: _FormRadioFieldNames_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78,8 +66,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -129,97 +116,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BFormText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormText"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    BFormDatalist: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatalist"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"]
   },
   data: function data() {
     return {
-      options: ['Devloper', 'Manager', 'CEO', 'CTO', 'Full Stack Devloper'],
-      codeHelper: _code__WEBPACK_IMPORTED_MODULE_3__["codeHelper"]
+      codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"],
+      Selected: 'A',
+      Selected1: 'c'
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -227,8 +147,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -294,134 +213,110 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
-    BInputGroupPrepend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupPrepend"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BFormText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormText"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
-    BFormDatalist: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatalist"],
+    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      Selected: 'e',
+      codeColor: _code__WEBPACK_IMPORTED_MODULE_2__["codeColor"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
     BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
     BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"]
   },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
   data: function data() {
     return {
-      options: ['Devloper', 'Manager', 'CEO', 'CTO', 'Full Stack Devloper'],
-      userId: '',
-      occupationID: '',
-      codeFeedbackHelper: _code__WEBPACK_IMPORTED_MODULE_3__["codeFeedbackHelper"]
+      value: null,
+      options: [{
+        text: 'First radio',
+        value: 'first'
+      }, {
+        text: 'Second radio',
+        value: 'second'
+      }, {
+        text: 'Third radio',
+        value: 'third'
+      }],
+      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
     };
   },
   computed: {
-    validation: function validation() {
-      return this.userId.length > 4 && this.userId.length < 13;
-    },
-    validationOccupation: function validationOccupation() {
-      return this.occupationID.length > 1;
-    }
-  },
-  methods: {
-    reset: function reset() {
-      this.userId = '';
-      this.occupationID = '';
+    state: function state() {
+      return Boolean(this.value);
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,8 +324,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -476,92 +370,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"]
   },
   data: function data() {
     return {
-      codeHorizontal: _code__WEBPACK_IMPORTED_MODULE_3__["codeHorizontal"]
+      Selected: 'A',
+      Selected1: 'c',
+      codeCustom: _code__WEBPACK_IMPORTED_MODULE_2__["codeCustom"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -569,8 +401,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -604,124 +435,45 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
-    BInputGroupPrepend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupPrepend"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      codeHorizontalIcon: _code__WEBPACK_IMPORTED_MODULE_3__["codeHorizontalIcon"]
+      selected: 'A',
+      options: [{
+        item: 'A',
+        name: 'Option A'
+      }, {
+        item: 'B',
+        name: 'Option B'
+      }, {
+        item: 'D',
+        name: 'Option C',
+        notEnabled: true
+      }, {
+        item: {
+          d: 1
+        },
+        name: 'Option D'
+      }],
+      codeFieldNames: _code__WEBPACK_IMPORTED_MODULE_2__["codeFieldNames"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -729,8 +481,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -767,118 +518,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"]
   },
   data: function data() {
     return {
-      codeMultipleColumn: _code__WEBPACK_IMPORTED_MODULE_3__["codeMultipleColumn"]
+      selected: 'first',
+      options: [{
+        text: 'Item 1',
+        value: 'first',
+        disabled: false
+      }, {
+        text: 'Item 2',
+        value: 'second',
+        disabled: false
+      }, {
+        html: '<b>Item</b> 3',
+        value: 'third',
+        disabled: true
+      }, {
+        text: 'Item 4',
+        value: 'Item 4',
+        disabled: false
+      }, {
+        text: 'Item 5',
+        value: 'E',
+        disabled: false
+      }],
+      codeArray: _code__WEBPACK_IMPORTED_MODULE_2__["codeArray"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -886,8 +569,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -938,253 +620,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"]
   },
   data: function data() {
     return {
-      codeVertical: _code__WEBPACK_IMPORTED_MODULE_3__["codeVertical"]
+      selected: 'first',
+      options: [{
+        text: 'First radio',
+        value: 'first'
+      }, {
+        text: 'Second radio',
+        value: 'second'
+      }, {
+        text: 'Third radio',
+        value: 'third'
+      }],
+      codeInlineStack: _code__WEBPACK_IMPORTED_MODULE_2__["codeInlineStack"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-layout/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
-    BInputGroupPrepend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupPrepend"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"]
-  },
-  directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  data: function data() {
-    return {
-      codeVerticalIcon: _code__WEBPACK_IMPORTED_MODULE_3__["codeVerticalIcon"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158& ***!
-  \******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1198,39 +667,305 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-row",
-    { staticClass: "match-height" },
     [
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-layout-horizontal")], 1),
-      _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-layout-horizontal-icon")],
-        1
-      ),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-layout-vertical")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-layout-vertical-icon")], 1),
-      _vm._v(" "),
       _c(
         "b-col",
         { attrs: { cols: "12" } },
-        [_c("form-layout-multiple-column")],
+        [
+          _c("form-radio-basic"),
+          _vm._v(" "),
+          _c("form-radio-custom"),
+          _vm._v(" "),
+          _c("form-radio-color"),
+          _vm._v(" "),
+          _c("form-radio-contextual-states"),
+          _vm._v(" "),
+          _c("form-radio-stack-inline"),
+          _vm._v(" "),
+          _c("form-radio-options-array"),
+          _vm._v(" "),
+          _c("form-radio-field-names")
+        ],
         1
-      ),
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Basic Radio Buttons" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeBasic) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _vm._v("\n    You can have "),
+        _c("code", [_vm._v("<b-form-radio>")]),
+        _vm._v(" and "),
+        _c("code", [_vm._v("<b-form-radio-group>")]),
+        _vm._v(
+          " render a browser native-styled radio input by setting the plain prop.\n  "
+        )
+      ]),
       _vm._v(" "),
       _c(
-        "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-layout-datalist-helper")],
+        "div",
+        { staticClass: "demo-inline-spacing" },
+        [
+          _c(
+            "b-form-radio",
+            {
+              attrs: { plain: "", name: "some-radios3", value: "A" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Checked\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: { plain: "", name: "some-radios3", value: "B" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Unchecked\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: {
+                plain: "",
+                name: "some-radios4",
+                value: "c",
+                disabled: ""
+              },
+              model: {
+                value: _vm.Selected1,
+                callback: function($$v) {
+                  _vm.Selected1 = $$v
+                },
+                expression: "Selected1"
+              }
+            },
+            [_vm._v("\n      Checked Disabled\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: {
+                plain: "",
+                name: "some-radios4",
+                value: "d",
+                disabled: ""
+              },
+              model: {
+                value: _vm.Selected1,
+                callback: function($$v) {
+                  _vm.Selected1 = $$v
+                },
+                expression: "Selected1"
+              }
+            },
+            [_vm._v("\n      Unchecked Disabled\n    ")]
+          )
+        ],
         1
-      ),
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Color" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeColor) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("span", [_vm._v("To change the color of the radio use the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v(".custom-control-{value}")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(" for primary, secondary, success, danger, info, warning.")
+        ])
+      ]),
       _vm._v(" "),
       _c(
-        "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-layout-feedback-helper")],
+        "div",
+        { staticClass: "demo-inline-spacing" },
+        [
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-primary",
+              attrs: { name: "some-radio9", value: "e" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Primary (Default)\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-secondary",
+              attrs: { name: "some-radio9", value: "ff" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Secondary\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-success",
+              attrs: { name: "some-radio9", value: "g" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Success\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-danger",
+              attrs: { name: "some-radio9", value: "i" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Danger\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-warning",
+              attrs: { name: "some-radio9", value: "h" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Warning\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              staticClass: "custom-control-info",
+              attrs: { name: "some-radio9", value: "j" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Info\n    ")]
+          )
+        ],
         1
       )
     ],
@@ -1244,10 +979,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec&":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec& ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1262,195 +997,58 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Form text & Datalist helper" },
+      attrs: { title: "Contextual states" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeHelper) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeStates) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("span", [_vm._v("Bootstrap includes validation styles for ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("valid")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" and ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("invalid")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" states on most form controls.")])
+      ]),
+      _vm._v(" "),
       _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
+        "div",
         [
           _c(
-            "b-row",
+            "b-form-radio-group",
+            {
+              staticClass: "demo-inline-spacing",
+              attrs: {
+                options: _vm.options,
+                state: _vm.state,
+                name: "radio-validation"
+              },
+              model: {
+                value: _vm.value,
+                callback: function($$v) {
+                  _vm.value = $$v
+                },
+                expression: "value"
+              }
+            },
             [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Username", "label-for": "h-username" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "h-username", placeholder: "Username" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
+              _c("b-form-invalid-feedback", { attrs: { state: _vm.state } }, [
+                _vm._v("\n        Please select one\n      ")
+              ]),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Email", "label-for": "d-email" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "d-email",
-                          type: "email",
-                          placeholder: "Email"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("b-form-text", [_vm._v("Enter a Valid Email")])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Password", "label-for": "d-password" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "d-password",
-                          type: "password",
-                          placeholder: "Password"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("b-form-text", [
-                        _vm._v("Your password must be 8-20 characters long.")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Occupation",
-                        "label-for": "h-occupation"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "h-occupation",
-                          list: "input-list",
-                          placeholder: "Occupation"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c("b-form-datalist", {
-                        attrs: { id: "input-list", options: _vm.options }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-9",
-                            name: "checkbox-9",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
+              _c("b-form-valid-feedback", { attrs: { state: _vm.state } }, [
+                _vm._v("\n        Thank you\n      ")
+              ])
             ],
             1
           )
@@ -1468,10 +1066,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2&":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2& ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&":
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6& ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1486,304 +1084,90 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Form Feedback helpers" },
+      attrs: { title: "Custom Radio Buttons" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFeedbackHelper) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeCustom) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _vm._v("\n    For cross browser consistency, "),
+        _c("code", [_vm._v("<b-form-radio-group>")]),
+        _vm._v(" and "),
+        _c("code", [_vm._v("<b-form-radio>")]),
+        _vm._v(
+          " uses Bootstrap's custom radio input to replace the browser default radio input.\n  "
+        )
+      ]),
+      _vm._v(" "),
       _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
+        "div",
+        { staticClass: "demo-inline-spacing" },
         [
           _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Username", "label-for": "fh-usename" } },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "UserIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: { id: "fh-usename", placeholder: "Username" }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Email", "label-for": "fh-email" } },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "MailIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "fh-email",
-                              type: "email",
-                              placeholder: "Email"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("b-form-text", { staticClass: "text-danger" }, [
-                        _vm._v("\n            Enter a Valid Email\n          ")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: { label: "Password", "label-for": "fh-password" }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        {
-                          staticClass: "input-group-merge",
-                          class: _vm.validation ? "is-valid" : "is-invalid"
-                        },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "LockIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "fh-password",
-                              type: "password",
-                              state: _vm.validation,
-                              placeholder: "Password"
-                            },
-                            model: {
-                              value: _vm.userId,
-                              callback: function($$v) {
-                                _vm.userId = $$v
-                              },
-                              expression: "userId"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-form-invalid-feedback",
-                        { attrs: { state: _vm.validation } },
-                        [
-                          _vm._v(
-                            "\n            Your password must be 8-20 characters long.\n          "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-form-valid-feedback",
-                        { attrs: { state: _vm.validation } },
-                        [_vm._v("\n            Looks Good.\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Occupation" } },
-                    [
-                      _c(
-                        "b-input-group",
-                        {
-                          staticClass: "input-group-merge",
-                          class: _vm.validationOccupation
-                            ? "is-valid"
-                            : "is-invalid"
-                        },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "LockIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              list: "input-list",
-                              placeholder: "Occupation",
-                              state: _vm.validationOccupation
-                            },
-                            model: {
-                              value: _vm.occupationID,
-                              callback: function($$v) {
-                                _vm.occupationID = $$v
-                              },
-                              expression: "occupationID"
-                            }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("b-form-datalist", {
-                        attrs: { id: "input-list", options: _vm.options }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-8",
-                            name: "checkbox-8",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" },
-                      on: { click: _vm.reset }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
-            ],
-            1
+            "b-form-radio",
+            {
+              attrs: { name: "some-radios", value: "A" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Checked\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: { name: "some-radios", value: "B" },
+              model: {
+                value: _vm.Selected,
+                callback: function($$v) {
+                  _vm.Selected = $$v
+                },
+                expression: "Selected"
+              }
+            },
+            [_vm._v("\n      Unchecked\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: { name: "some-radios2", value: "c", disabled: "" },
+              model: {
+                value: _vm.Selected1,
+                callback: function($$v) {
+                  _vm.Selected1 = $$v
+                },
+                expression: "Selected1"
+              }
+            },
+            [_vm._v("\n      Checked Disabled\n    ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-form-radio",
+            {
+              attrs: { name: "some-radios2", value: "d", disabled: "" },
+              model: {
+                value: _vm.Selected1,
+                callback: function($$v) {
+                  _vm.Selected1 = $$v
+                },
+                expression: "Selected1"
+              }
+            },
+            [_vm._v("\n      Unchecked Disabled\n    ")]
           )
         ],
         1
@@ -1799,10 +1183,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298&":
-/*!****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298& ***!
-  \****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1817,211 +1201,67 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Horizontal Form" },
+      attrs: { title: "Changing the option field names" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeHorizontal) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeFieldNames) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
-        [
-          _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "First Name",
-                        "label-for": "h-first-name",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "h-first-name", placeholder: "First Name" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Email",
-                        "label-for": "h-email",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "h-email",
-                          type: "email",
-                          placeholder: "Email"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Mobile",
-                        "label-for": "h-number",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "h-number",
-                          type: "number",
-                          placeholder: "Mobile"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Password",
-                        "label-for": "h-password",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "h-password",
-                          type: "password",
-                          placeholder: "Password"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "8", "offset-md": "4" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-2",
-                            name: "checkbox-2",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { "offset-md": "4" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
-            ],
-            1
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("span", [
+          _vm._v(
+            "If you want to customize the field property names (for example using "
           )
-        ],
-        1
-      )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("name")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" field for display ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("text")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(") you can easily change them by setting the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("text-field, html-field, value-field,")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("and")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("disabled-field")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " props to a string that contains the property name you would like to use:"
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("b-form-radio-group", {
+        staticClass: "demo-inline-spacing",
+        attrs: {
+          options: _vm.options,
+          "value-field": "item",
+          "text-field": "name",
+          "disabled-field": "notEnabled"
+        },
+        model: {
+          value: _vm.selected,
+          callback: function($$v) {
+            _vm.selected = $$v
+          },
+          expression: "selected"
+        }
+      }),
+      _vm._v(" "),
+      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
+        _vm._v("\n    Selected: "),
+        _c("strong", [_vm._v(_vm._s(_vm.selected))])
+      ])
     ],
     1
   )
@@ -2033,10 +1273,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1&":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1& ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&":
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2051,286 +1291,67 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Horizontal Form With Icons" },
+      attrs: { title: "Radio group options array" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeHorizontalIcon) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeArray) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("code", [_vm._v("options")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(" can be an array of strings or objects. Available fields: ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("value")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" The selected value which will be set on ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("v-model")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(", ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("disabled")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" Disables item for selection, ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("text")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" Display text, or ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("html")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" Display basic inline html")])
+      ]),
+      _vm._v(" "),
+      _c("b-form-radio-group", {
+        staticClass: "demo-inline-spacing mb-1",
+        attrs: {
+          options: _vm.options,
+          "value-field": "value",
+          "text-field": "text",
+          "disabled-field": "disabled"
         },
-        [
-          _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "First Name",
-                        "label-for": "hi-first-name",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "UserIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "hi-first-name",
-                              placeholder: "First Name"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Email",
-                        "label-for": "hi-email",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "MailIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "hi-email",
-                              type: "email",
-                              placeholder: "Email"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Mobile",
-                        "label-for": "hi-number",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "SmartphoneIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "hi-number",
-                              type: "number",
-                              placeholder: "Mobile"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "Password",
-                        "label-for": "hi-password",
-                        "label-cols-md": "4"
-                      }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "LockIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "hi-password",
-                              type: "password",
-                              placeholder: "Password"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "8", "offset-md": "4" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-1",
-                            name: "checkbox-1",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { "offset-md": "4" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+        model: {
+          value: _vm.selected,
+          callback: function($$v) {
+            _vm.selected = $$v
+          },
+          expression: "selected"
+        }
+      }),
+      _vm._v(" "),
+      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
+        _vm._v("\n    Selected: "),
+        _c("strong", [_vm._v(_vm._s(_vm.selected))])
+      ])
     ],
     1
   )
@@ -2342,10 +1363,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c&":
-/*!********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c& ***!
-  \********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&":
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55& ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2360,740 +1381,98 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Multiple Column" },
+      attrs: { title: "Inline or stacked radios" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeMultipleColumn) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeInlineStack) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
+      _c("b-card-text", [
+        _c("span", [_vm._v("By default ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-radio-group>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" generates inline radio inputs, while ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-radio>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" generates stacked radios. Set the prop ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("stacked")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" on ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-radio-group>")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " to make the radios appear one over the other, or when using radios not in a group, set the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("inline")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop on ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("b-form-radio")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" to true to render them inline.")])
+      ]),
+      _vm._v(" "),
       _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
+        "div",
         [
           _c(
-            "b-row",
+            "b-form-group",
+            { attrs: { label: "Inline radios (default)" } },
             [
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "First Name",
-                        "label-for": "mc-first-name"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "mc-first-name",
-                          placeholder: "First Name"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: { label: "Last Name", "label-for": "mc-last-name" }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "mc-last-name", placeholder: "Last Name" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "City", "label-for": "mc-city" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "mc-city", placeholder: "City" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Country", "label-for": "mc-country" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "mc-country", placeholder: "Country" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Company", "label-for": "mc-company" } },
-                    [
-                      _c(
-                        "div",
-                        { staticClass: "form-label-group" },
-                        [
-                          _c("b-form-input", {
-                            attrs: { id: "mc-company", placeholder: "Company" }
-                          })
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { md: "6" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { "label-for": "mc-email", label: "Email" } },
-                    [
-                      _c(
-                        "div",
-                        { staticClass: "form-label-group" },
-                        [
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "mc-email",
-                              type: "email",
-                              placeholder: "Email"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-10",
-                            name: "checkbox-10",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
+              _c("b-form-radio-group", {
+                staticClass: "demo-inline-spacing",
+                attrs: { options: _vm.options, name: "radio-inline" },
+                model: {
+                  value: _vm.selected,
+                  callback: function($$v) {
+                    _vm.selected = $$v
+                  },
+                  expression: "selected"
+                }
+              })
             ],
             1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c&":
-/*!**************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c& ***!
-  \**************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Vertical Form" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeVertical) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
-        [
+          ),
+          _vm._v(" "),
           _c(
-            "b-row",
+            "b-form-group",
+            { attrs: { label: "Stacked radios" } },
             [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "First Name",
-                        "label-for": "v-first-name"
-                      }
-                    },
-                    [
-                      _c("b-form-input", {
-                        attrs: { id: "v-first-name", placeholder: "First Name" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Email", "label-for": "v-email" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "v-email",
-                          type: "email",
-                          placeholder: "Email"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Mobile", "label-for": "v-mobile" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "v-mobile",
-                          type: "number",
-                          placeholder: "Mobile"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Password", "label-for": "v-password" } },
-                    [
-                      _c("b-form-input", {
-                        attrs: {
-                          id: "v-password",
-                          type: "password",
-                          placeholder: "Password"
-                        }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-3",
-                            name: "checkbox-3",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
+              _c("b-form-radio-group", {
+                attrs: {
+                  options: _vm.options,
+                  name: "radios-stacked",
+                  stacked: ""
+                },
+                model: {
+                  value: _vm.selected,
+                  callback: function($$v) {
+                    _vm.selected = $$v
+                  },
+                  expression: "selected"
+                }
+              })
             ],
             1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa&":
-/*!******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa& ***!
-  \******************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Vertical Form With Icons" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeVerticalIcon) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c(
-        "b-form",
-        {
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-            }
-          }
-        },
-        [
-          _c(
-            "b-row",
-            [
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: {
-                        label: "First Name",
-                        "label-for": "vi-first-name"
-                      }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "UserIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "vi-first-name",
-                              placeholder: "First Name"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Email", "label-for": "vi-email" } },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "MailIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "vi-email",
-                              type: "email",
-                              placeholder: "Email"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    { attrs: { label: "Mobile", "label-for": "vi-mobile" } },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "SmartphoneIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "vi-mobile",
-                              type: "number",
-                              placeholder: "Mobile"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    {
-                      attrs: { label: "Password", "label-for": "vi-password" }
-                    },
-                    [
-                      _c(
-                        "b-input-group",
-                        { staticClass: "input-group-merge" },
-                        [
-                          _c(
-                            "b-input-group-prepend",
-                            { attrs: { "is-text": "" } },
-                            [
-                              _c("feather-icon", {
-                                attrs: { icon: "LockIcon" }
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-form-input", {
-                            attrs: {
-                              id: "vi-password",
-                              type: "password",
-                              placeholder: "Password"
-                            }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-form-group",
-                    [
-                      _c(
-                        "b-form-checkbox",
-                        {
-                          attrs: {
-                            id: "checkbox-4",
-                            name: "checkbox-4",
-                            value: "Remember_me"
-                          }
-                        },
-                        [_vm._v("\n            Remember me\n          ")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "12" } },
-                [
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(255, 255, 255, 0.15)",
-                          expression: "'rgba(255, 255, 255, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      staticClass: "mr-1",
-                      attrs: { type: "submit", variant: "primary" }
-                    },
-                    [_vm._v("\n          Submit\n        ")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "b-button",
-                    {
-                      directives: [
-                        {
-                          name: "ripple",
-                          rawName: "v-ripple.400",
-                          value: "rgba(186, 191, 199, 0.15)",
-                          expression: "'rgba(186, 191, 199, 0.15)'",
-                          modifiers: { "400": true }
-                        }
-                      ],
-                      attrs: { type: "reset", variant: "outline-secondary" }
-                    },
-                    [_vm._v("\n          Reset\n        ")]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
+          ),
+          _vm._v(" "),
+          _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
+            _vm._v("\n      Selected: "),
+            _c("strong", [_vm._v(_vm._s(_vm.selected))])
+          ])
         ],
         1
       )
@@ -3123,18 +1502,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayout.vue":
-/*!*****************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayout.vue ***!
-  \*****************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayout.vue?vue&type=template&id=9e603158& */ "./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158&");
-/* harmony import */ var _FormLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayout.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadio.vue?vue&type=template&id=2b8c6dfc& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&");
+/* harmony import */ var _FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadio.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3143,9 +1522,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3155,55 +1534,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayout.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadio.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayout.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayout_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadio.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158& ***!
-  \************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc& ***!
+  \***********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayout.vue?vue&type=template&id=9e603158& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayout.vue?vue&type=template&id=9e603158&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadio.vue?vue&type=template&id=2b8c6dfc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayout_vue_vue_type_template_id_9e603158___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue ***!
-  \*******************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue ***!
+  \*********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec& */ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec&");
-/* harmony import */ var _FormLayoutDatalistHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutDatalistHelper.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&");
+/* harmony import */ var _FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3212,9 +1591,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutDatalistHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3224,193 +1603,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutDatalistHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutDatalistHelper.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutDatalistHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec& ***!
-  \**************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutDatalistHelper.vue?vue&type=template&id=0e455eec&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutDatalistHelper_vue_vue_type_template_id_0e455eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2& */ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2&");
-/* harmony import */ var _FormLayoutFeedbackHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutFeedbackHelper.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutFeedbackHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutFeedbackHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutFeedbackHelper.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutFeedbackHelper_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2& ***!
-  \**************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutFeedbackHelper.vue?vue&type=template&id=c66fcef2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutFeedbackHelper_vue_vue_type_template_id_c66fcef2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue":
-/*!***************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutHorizontal.vue?vue&type=template&id=1523d298& */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298&");
-/* harmony import */ var _FormLayoutHorizontal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutHorizontal.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutHorizontal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutHorizontal.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontal_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298&":
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutHorizontal.vue?vue&type=template&id=1523d298& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontal.vue?vue&type=template&id=1523d298&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontal_vue_vue_type_template_id_1523d298___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue ***!
-  \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1& */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1&");
-/* harmony import */ var _FormLayoutHorizontalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutHorizontalIcon.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& ***!
+  \****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue ***!
+  \*********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioColor.vue?vue&type=template&id=67ff5b77& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&");
+/* harmony import */ var _FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioColor.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3419,9 +1660,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutHorizontalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3431,55 +1672,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutHorizontalIcon.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioColor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77& ***!
+  \****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutHorizontalIcon.vue?vue&type=template&id=614a8eb1&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioColor.vue?vue&type=template&id=67ff5b77& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutHorizontalIcon_vue_vue_type_template_id_614a8eb1___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue ***!
-  \*******************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c& */ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c&");
-/* harmony import */ var _FormLayoutMultipleColumn_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutMultipleColumn.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioContextualStates.vue?vue&type=template&id=b4a80562& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&");
+/* harmony import */ var _FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioContextualStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3488,9 +1729,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutMultipleColumn_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3500,55 +1741,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutMultipleColumn_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutMultipleColumn.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutMultipleColumn_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioContextualStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562& ***!
+  \***************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutMultipleColumn.vue?vue&type=template&id=4c3bde0c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioContextualStates.vue?vue&type=template&id=b4a80562& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutMultipleColumn_vue_vue_type_template_id_4c3bde0c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue":
-/*!*************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue ***!
-  \*************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutVertical.vue?vue&type=template&id=8fcf082c& */ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c&");
-/* harmony import */ var _FormLayoutVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutVertical.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioCustom.vue?vue&type=template&id=2132cbe6& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&");
+/* harmony import */ var _FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioCustom.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3557,9 +1798,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3569,55 +1810,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutVertical.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutVertical.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioCustom.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c& ***!
-  \********************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6& ***!
+  \*****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutVertical.vue?vue&type=template&id=8fcf082c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVertical.vue?vue&type=template&id=8fcf082c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioCustom.vue?vue&type=template&id=2132cbe6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVertical_vue_vue_type_template_id_8fcf082c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue ***!
-  \*****************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue ***!
+  \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa& */ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa&");
-/* harmony import */ var _FormLayoutVerticalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormLayoutVerticalIcon.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioFieldNames.vue?vue&type=template&id=188b8eec& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&");
+/* harmony import */ var _FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioFieldNames.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -3626,9 +1867,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormLayoutVerticalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3638,66 +1879,206 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVerticalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutVerticalIcon.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVerticalIcon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioFieldNames.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa&":
-/*!************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa& ***!
-  \************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec& ***!
+  \*********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-layout/FormLayoutVerticalIcon.vue?vue&type=template&id=877381fa&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioFieldNames.vue?vue&type=template&id=188b8eec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormLayoutVerticalIcon_vue_vue_type_template_id_877381fa___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-layout/code.js":
-/*!**********************************************************!*\
-  !*** ./resources/js/src/views/forms/form-layout/code.js ***!
-  \**********************************************************/
-/*! exports provided: codeFeedbackHelper, codeHelper, codeHorizontal, codeHorizontalIcon, codeMultipleColumn, codeVertical, codeVerticalIcon */
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue ***!
+  \****************************************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFeedbackHelper", function() { return codeFeedbackHelper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeHelper", function() { return codeHelper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeHorizontal", function() { return codeHorizontal; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeHorizontalIcon", function() { return codeHorizontalIcon; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeMultipleColumn", function() { return codeMultipleColumn; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVertical", function() { return codeVertical; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVerticalIcon", function() { return codeVerticalIcon; });
-var codeFeedbackHelper = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n      <!-- username -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Username\"\n          label-for=\"fh-usename\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"UserIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"fh-usename\"\n              placeholder=\"Username\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n\n      <!-- email -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"fh-email\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"MailIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"fh-email\"\n              type=\"email\"\n              placeholder=\"Email\"\n            />\n          </b-input-group>\n          <b-form-text class=\"text-danger\">\n            Enter a Valid Email\n          </b-form-text>\n        </b-form-group>\n      </b-col>\n\n      <!-- password -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"fh-password\"\n        >\n          <b-input-group\n            class=\"input-group-merge\"\n            :class=\"validation ? 'is-valid' : 'is-invalid'\"\n          >\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"LockIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"fh-password\"\n              v-model=\"userId\"\n              type=\"password\"\n              :state=\"validation\"\n              placeholder=\"Password\"\n            />\n          </b-input-group>\n          <b-form-invalid-feedback :state=\"validation\">\n            Your password must be 8-20 characters long.\n          </b-form-invalid-feedback>\n          <b-form-valid-feedback :state=\"validation\">\n            Looks Good.\n          </b-form-valid-feedback>\n        </b-form-group>\n      </b-col>\n\n      <!-- occupation -->\n      <b-col cols=\"12\">\n        <b-form-group label=\"Occupation\">\n          <b-input-group\n            class=\"input-group-merge\"\n            :class=\"validationOccupation ? 'is-valid' : 'is-invalid'\"\n          >\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"LockIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              v-model=\"occupationID\"\n              list=\"input-list\"\n              placeholder=\"Occupation\"\n              :state=\"validationOccupation\"\n            />\n          </b-input-group>\n          <b-form-datalist\n            id=\"input-list\"\n            :options=\"options\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- checkbox -->\n      <b-col cols=\"12\">\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-8\"\n            name=\"checkbox-8\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n          @click=\"reset\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n  </b-form>\n</template>\n\n<script>\nimport {\n  BRow,\n  BCol,\n  BFormGroup,\n  BFormInput,\n  BFormCheckbox,\n  BForm,\n  BButton,\n  BFormText,\n  BFormDatalist,\n  BFormInvalidFeedback,\n  BInputGroup,\n  BInputGroupPrepend,\n  BFormValidFeedback,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BInputGroup,\n    BInputGroupPrepend,\n    BFormInput,\n    BFormCheckbox,\n    BForm,\n    BFormText,\n    BButton,\n    BFormDatalist,\n    BFormInvalidFeedback,\n    BFormValidFeedback,\n  },\n directives: {\n    Ripple,\n  },\n  data() {\n    return {\n      options: ['Devloper', 'Manager', 'CEO', 'CTO', 'Full Stack Devloper'],\n      userId: '',\n      occupationID: '',\n    }\n  },\n  computed: {\n    validation() {\n      return this.userId.length > 4 && this.userId.length < 13\n    },\n    validationOccupation() {\n      return this.occupationID.length > 1\n    },\n  },\n  methods: {\n    reset() {\n      this.userId = ''\n      this.occupationID = ''\n    },\n  },\n}\n</script>\n";
-var codeHelper = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n\n      <!-- username -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Username\"\n          label-for=\"h-username\"\n        >\n          <b-form-input\n            id=\"h-username\"\n            placeholder=\"Username\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- email -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"d-email\"\n        >\n          <b-form-input\n            id=\"d-email\"\n            type=\"email\"\n            placeholder=\"Email\"\n          />\n          <b-form-text>Enter a Valid Email</b-form-text>\n        </b-form-group>\n      </b-col>\n\n      <!-- password -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"d-password\"\n        >\n          <b-form-input\n            id=\"d-password\"\n            type=\"password\"\n            placeholder=\"Password\"\n          />\n          <b-form-text>Your password must be 8-20 characters long.</b-form-text>\n        </b-form-group>\n      </b-col>\n\n      <!-- occupation -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Occupation\"\n          label-for=\"h-occupation\"\n        >\n          <b-form-input\n            id=\"h-occupation\"\n            list=\"input-list\"\n            placeholder=\"Occupation\"\n          />\n          <b-form-datalist\n            id=\"input-list\"\n            :options=\"options\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- checkbox -->\n      <b-col cols=\"12\">\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-9\"\n            name=\"checkbox-9\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n  </b-form>\n</template>\n\n<script>\nimport {\n  BRow,\n  BCol,\n  BFormGroup,\n  BFormInput,\n  BFormCheckbox,\n  BForm,\n  BButton,\n  BFormText,\n  BFormDatalist,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BForm,\n    BFormText,\n    BButton,\n    BFormDatalist,\n  },\n   directives: {\n    Ripple,\n  },\n  data() {\n    return {\n      options: ['Devloper', 'Manager', 'CEO', 'CTO', 'Full Stack Devloper'],\n    }\n  },\n}\n</script>\n";
-var codeHorizontal = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"First Name\"\n          label-for=\"h-first-name\"\n          label-cols-md=\"4\"\n        >\n          <b-form-input\n            id=\"h-first-name\"\n            placeholder=\"First Name\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"h-email\"\n          label-cols-md=\"4\"\n        >\n          <b-form-input\n            id=\"h-email\"\n            type=\"email\"\n            placeholder=\"Email\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Mobile\"\n          label-for=\"h-number\"\n          label-cols-md=\"4\"\n        >\n          <b-form-input\n            id=\"h-number\"\n            type=\"number\"\n            placeholder=\"Mobile\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"h-password\"\n          label-cols-md=\"4\"\n        >\n          <b-form-input\n            id=\"h-password\"\n            type=\"password\"\n            placeholder=\"Password\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col\n        md=\"8\"\n        offset-md=\"4\"\n      >\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-2\"\n            name=\"checkbox-2\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col offset-md=\"4\">\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n\n  </b-form>\n</template>\n\n<script>\nimport {\n  BRow, BCol, BFormGroup, BFormInput, BFormCheckbox, BForm, BButton,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BForm,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeHorizontalIcon = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"First Name\"\n          label-for=\"hi-first-name\"\n          label-cols-md=\"4\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"UserIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"hi-first-name\"\n              placeholder=\"First Name\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"hi-email\"\n          label-cols-md=\"4\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"MailIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"hi-email\"\n              type=\"email\"\n              placeholder=\"Email\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Mobile\"\n          label-for=\"hi-number\"\n          label-cols-md=\"4\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"SmartphoneIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"hi-number\"\n              type=\"number\"\n              placeholder=\"Mobile\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"hi-password\"\n          label-cols-md=\"4\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"LockIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"hi-password\"\n              type=\"password\"\n              placeholder=\"Password\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n      <b-col\n        md=\"8\"\n        offset-md=\"4\"\n      >\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-1\"\n            name=\"checkbox-1\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col offset-md=\"4\">\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n\n  </b-form>\n</template>\n\n<script>\nimport {\n  BFormGroup, BFormInput, BFormCheckbox, BForm, BButton, BInputGroup, BInputGroupPrepend, BRow, BCol,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BInputGroup,\n    BInputGroupPrepend,\n    BForm,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeMultipleColumn = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n      <b-col md=\"6\">\n        <b-form-group\n          label=\"First Name\"\n          label-for=\"mc-first-name\"\n        >\n          <b-form-input\n            id=\"mc-first-name\"\n            placeholder=\"First Name\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-group\n          label=\"Last Name\"\n          label-for=\"mc-last-name\"\n        >\n          <b-form-input\n            id=\"mc-last-name\"\n            placeholder=\"Last Name\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-group\n          label=\"City\"\n          label-for=\"mc-city\"\n        >\n          <b-form-input\n            id=\"mc-city\"\n            placeholder=\"City\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-group\n          label=\"Country\"\n          label-for=\"mc-country\"\n        >\n          <b-form-input\n            id=\"mc-country\"\n            placeholder=\"Country\"\n          />\n        </b-form-group>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-group\n          label=\"Company\"\n          label-for=\"mc-company\"\n        >\n          <div class=\"form-label-group\">\n            <b-form-input\n              id=\"mc-company\"\n              placeholder=\"Company\"\n            />\n          </div>\n        </b-form-group>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-group\n          label-for=\"mc-email\"\n          label=\"Email\"\n        >\n          <div class=\"form-label-group\">\n            <b-form-input\n              id=\"mc-email\"\n              type=\"email\"\n              placeholder=\"Email\"\n            />\n          </div>\n        </b-form-group>\n      </b-col>\n\n      <b-col cols=\"12\">\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-10\"\n            name=\"checkbox-10\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col>\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n  </b-form>\n</template>\n\n\n<script>\nimport {\n  BRow, BCol, BFormGroup, BFormInput, BFormCheckbox, BForm, BButton,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BForm,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeVertical = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n\n      <!-- first name -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"First Name\"\n          label-for=\"v-first-name\"\n        >\n          <b-form-input\n            id=\"v-first-name\"\n            placeholder=\"First Name\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- email -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"v-email\"\n        >\n          <b-form-input\n            id=\"v-email\"\n            type=\"email\"\n            placeholder=\"Email\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- mobile -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Mobile\"\n          label-for=\"v-mobile\"\n        >\n          <b-form-input\n            id=\"v-mobile\"\n            type=\"number\"\n            placeholder=\"Mobile\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- password -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"v-password\"\n        >\n          <b-form-input\n            id=\"v-password\"\n            type=\"password\"\n            placeholder=\"Password\"\n          />\n        </b-form-group>\n      </b-col>\n\n      <!-- checkbox -->\n      <b-col cols=\"12\">\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-3\"\n            name=\"checkbox-3\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- submit and reset -->\n      <b-col cols=\"12\">\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n  </b-form>\n</template>\n\n<script>\nimport {\n  BRow, BCol, BFormGroup, BFormInput, BFormCheckbox, BForm, BButton,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BForm,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
-var codeVerticalIcon = "\n<template>\n  <b-form @submit.prevent>\n    <b-row>\n\n      <!-- first name -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"First Name\"\n          label-for=\"vi-first-name\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"UserIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"vi-first-name\"\n              placeholder=\"First Name\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n\n      <!-- email -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Email\"\n          label-for=\"vi-email\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"MailIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"vi-email\"\n              type=\"email\"\n              placeholder=\"Email\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n\n      <!-- mobile -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Mobile\"\n          label-for=\"vi-mobile\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"SmartphoneIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"vi-mobile\"\n              type=\"number\"\n              placeholder=\"Mobile\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n\n      <!-- password -->\n      <b-col cols=\"12\">\n        <b-form-group\n          label=\"Password\"\n          label-for=\"vi-password\"\n        >\n          <b-input-group class=\"input-group-merge\">\n            <b-input-group-prepend is-text>\n              <feather-icon icon=\"LockIcon\" />\n            </b-input-group-prepend>\n            <b-form-input\n              id=\"vi-password\"\n              type=\"password\"\n              placeholder=\"Password\"\n            />\n          </b-input-group>\n        </b-form-group>\n      </b-col>\n\n      <!-- checkbox -->\n      <b-col cols=\"12\">\n        <b-form-group>\n          <b-form-checkbox\n            id=\"checkbox-4\"\n            name=\"checkbox-4\"\n            value=\"Remember_me\"\n          >\n            Remember me\n          </b-form-checkbox>\n        </b-form-group>\n      </b-col>\n\n      <!-- reset and submit -->\n      <b-col cols=\"12\">\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n          class=\"mr-1\"\n        >\n          Submit\n        </b-button>\n        <b-button\n          v-ripple.400=\"'rgba(186, 191, 199, 0.15)'\"\n          type=\"reset\"\n          variant=\"outline-secondary\"\n        >\n          Reset\n        </b-button>\n      </b-col>\n    </b-row>\n  </b-form>\n</template>\n\n<script>\nimport {\n  BRow, BCol, BFormGroup, BFormInput, BFormCheckbox, BForm, BButton, BInputGroup, BInputGroupPrepend,\n} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BFormGroup,\n    BFormInput,\n    BFormCheckbox,\n    BInputGroup,\n    BInputGroupPrepend,\n    BForm,\n    BButton,\n  },\n  directives: {\n    Ripple,\n  },\n}\n</script>\n";
+/* harmony import */ var _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue?vue&type=template&id=6642f612& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&");
+/* harmony import */ var _FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioOptionsArray.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612& ***!
+  \***********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioOptionsArray.vue?vue&type=template&id=6642f612& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioStackInline.vue?vue&type=template&id=034f2b55& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&");
+/* harmony import */ var _FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioStackInline.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioStackInline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55& ***!
+  \**********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioStackInline.vue?vue&type=template&id=034f2b55& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-radio/code.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-radio/code.js ***!
+  \**********************************************************************/
+/*! exports provided: codeBasic, codeColor, codeCustom, codeSize, codeStates, codeInlineStack, codeArray, codeFieldNames */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeColor", function() { return codeColor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustom", function() { return codeCustom; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInlineStack", function() { return codeInlineStack; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeArray", function() { return codeArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFieldNames", function() { return codeFieldNames; });
+var codeBasic = "\n<template>\n   <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      plain\n      name=\"some-radios3\"\n      value=\"A\"\n    >\n      Checked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      plain\n      name=\"some-radios3\"\n      value=\"B\"\n    >\n      Unchecked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      plain\n      name=\"some-radios4\"\n      value=\"c\"\n      disabled\n    >\n      Checked Disabled\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      plain\n      name=\"some-radios4\"\n      value=\"d\"\n      disabled\n    >\n      Unchecked Disabled\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'A',\n      Selected1: 'c',\n    }\n  },\n}\n</script>\n";
+var codeColor = "\n<template>\n  <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"e\"\n      class=\"custom-control-primary\"\n    >\n      Primary (Default)\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"ff\"\n      class=\"custom-control-secondary\"\n    >\n      Secondary\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"g\"\n      class=\"custom-control-success\"\n    >\n      Success\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"i\"\n      class=\"custom-control-danger\"\n    >\n      Danger\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"h\"\n      class=\"custom-control-warning\"\n    >\n      Warning\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"j\"\n      class=\"custom-control-info\"\n    >\n      Info\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'e',\n    }\n  },\n}\n</script>\n";
+var codeCustom = "\n<template>\n   <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radios\"\n      value=\"A\"\n    >\n      Checked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radios\"\n      value=\"B\"\n    >\n      Unchecked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      name=\"some-radios2\"\n      value=\"c\"\n      disabled\n    >\n      Checked Disabled\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      name=\"some-radios2\"\n      value=\"d\"\n      disabled\n    >\n      Unchecked Disabled\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'A',\n      Selected1: 'c',\n    }\n  },\n}\n</script>\n";
+var codeSize = "\n<template>\n  <div>\n  <h1>Custom radio button sizes</h1>\n    <ul class=\"list-unstyled mb-0\">\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          size=\"sm\"\n        >\n          small\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio name=\"radio-size\">\n          Default\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          size=\"lg\"\n        >\n          Large\n        </b-form-radio>\n      </li>\n    </ul>\n    <h1>Vuexy radio button sizes</h1>\n    <ul class=\"list-unstyled mb-0\">\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          plain\n          class=\"vs-radio-con\"\n        >\n          <span class=\"vs-radio vs-radio-sm\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">small</span>\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          plain\n          class=\"vs-radio-con\"\n          name=\"radio-size\"\n        >\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">Default</span>\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          plain\n          class=\"vs-radio-con\"\n        >\n          <span class=\"vs-radio vs-radio-lg\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">Large</span>\n        </b-form-radio>\n      </li>\n    </ul>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadio,\n  },\n}\n</script>\n";
+var codeStates = "\n<template>\n  <div>\n    <b-form-radio-group\n      v-model=\"value\"\n      :options=\"options\"\n      :state=\"state\"\n      class=\"demo-inline-spacing\"\n      name=\"radio-validation\"\n    >\n      <b-form-invalid-feedback :state=\"state\">\n        Please select one\n      </b-form-invalid-feedback>\n      <b-form-valid-feedback :state=\"state\">\n        Thank you\n      </b-form-valid-feedback>\n    </b-form-radio-group>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup, BFormInvalidFeedback, BFormValidFeedback } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n    BFormInvalidFeedback,\n    BFormValidFeedback,\n  },\n  data() {\n    return {\n      value: null,\n      options: [\n        { text: 'First radio', value: 'first' },\n        { text: 'Second radio', value: 'second' },\n        { text: 'Third radio', value: 'third' },\n      ],\n    }\n  },\n  computed: {\n    state() {\n      return Boolean(this.value)\n    },\n  },\n}\n</script>\n";
+var codeInlineStack = "\n<template>\n  <div>\n    <b-form-group label=\"Inline radios (default)\">\n      <b-form-radio-group\n        v-model=\"selected\"\n        :options=\"options\"\n        class=\"demo-inline-spacing\"\n        name=\"radio-inline\"\n      />\n    </b-form-group>\n\n    <b-form-group label=\"Stacked radios\">\n      <b-form-radio-group\n        v-model=\"selected\"\n        :options=\"options\"\n        name=\"radios-stacked\"\n        stacked\n      />\n    </b-form-group>\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n    BFormGroup,\n  },\n  data() {\n    return {\n      selected: 'first',\n      options: [\n        { text: 'First radio', value: 'first' },\n        { text: 'Second radio', value: 'second' },\n        { text: 'Third radio', value: 'third' },\n      ],\n    }\n  },\n}\n</script>\n";
+var codeArray = "\n<template>\n  <div>\n     <b-form-radio-group\n      v-model=\"selected\"\n      :options=\"options\"\n      class=\"demo-inline-spacing mb-1\"\n      value-field=\"value\"\n      text-field=\"text\"\n      disabled-field=\"disabled\"\n    />\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n\n<script>\nimport { BFormRadioGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n  },\n  data() {\n    return {\n      selected: 'first',\n      options: [\n        { text: 'Item 1', value: 'first', disabled: false },\n        { text: 'Item 2', value: 'second', disabled: false },\n        { html: '<b>Item</b> 3', value: 'third', disabled: true },\n        { text: 'Item 4', value: 'Item 4', disabled: false },\n        { text: 'Item 5', value: 'E', disabled: false },\n      ],\n    }\n  },\n}\n</script>\n";
+var codeFieldNames = "\n<template>\n  <div>\n    <b-form-radio-group\n      v-model=\"selected\"\n      :options=\"options\"\n      value-field=\"item\"\n      text-field=\"name\"\n      disabled-field=\"notEnabled\"\n      class=\"demo-inline-spacing\"\n    />\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n  },\n  data() {\n    return {\n      selected: 'A',\n      options: [\n        { item: 'A', name: 'Option A' },\n        { item: 'B', name: 'Option B' },\n        { item: 'D', name: 'Option C', notEnabled: true },\n        { item: { d: 1 }, name: 'Option D' },\n      ],\n    }\n  },\n}\n</script>\n";
 
 /***/ })
 

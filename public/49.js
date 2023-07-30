@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[49],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -10,19 +10,19 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormSpinbuttonBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonBasic.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue");
-/* harmony import */ var _FormSpinbuttonMinMax_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormSpinbuttonMinMax.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue");
-/* harmony import */ var _FormSpinbuttonStep_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormSpinbuttonStep.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue");
-/* harmony import */ var _FormSpinbuttonWrap_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormSpinbuttonWrap.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue");
-/* harmony import */ var _FormSpinbuttonSize_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormSpinbuttonSize.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue");
-/* harmony import */ var _FormSpinbuttonInline_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormSpinbuttonInline.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue");
-/* harmony import */ var _FormSpinbuttonVertical_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormSpinbuttonVertical.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue");
-/* harmony import */ var _FormSpinbuttonLocale_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormSpinbuttonLocale.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue");
-/* harmony import */ var _FormSpinbuttonDisabledReadonly_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormSpinbuttonDisabledReadonly.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue");
-/* harmony import */ var _FormSpinbuttonWidth_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./FormSpinbuttonWidth.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue");
-/* harmony import */ var _FormSpinbuttonValidation_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./FormSpinbuttonValidation.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue");
-/* harmony import */ var _FormSpinbuttonFormater_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./FormSpinbuttonFormater.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue");
-/* harmony import */ var _FormSpinbuttonSlots_vue__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./FormSpinbuttonSlots.vue */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue");
+/* harmony import */ var _FormDatepickerBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerBasic.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue");
+/* harmony import */ var _FormDatepickerState_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormDatepickerState.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue");
+/* harmony import */ var _FormDatepickerMinMax_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormDatepickerMinMax.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue");
+/* harmony import */ var _FormDatepickerDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormDatepickerDisableDate.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue");
+/* harmony import */ var _FormDatepickerValidation_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormDatepickerValidation.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue");
+/* harmony import */ var _FormDatepickerVariant_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormDatepickerVariant.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue");
+/* harmony import */ var _FormDatepickerSize_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormDatepickerSize.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue");
+/* harmony import */ var _FormDatepickerPlaceholder_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormDatepickerPlaceholder.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue");
+/* harmony import */ var _FormDatepickerOptional_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormDatepickerOptional.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue");
+/* harmony import */ var _FormDatepickerButtonOnly_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./FormDatepickerButtonOnly.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue");
+/* harmony import */ var _FormDatepickerString_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./FormDatepickerString.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue");
+/* harmony import */ var _FormDatepickerFullWidth_vue__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./FormDatepickerFullWidth.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue");
+/* harmony import */ var _FormDatepickerInternationalization_vue__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./FormDatepickerInternationalization.vue */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue");
 //
 //
 //
@@ -85,27 +85,27 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormSpinbuttonBasic: _FormSpinbuttonBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormSpinbuttonMinMax: _FormSpinbuttonMinMax_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormSpinbuttonStep: _FormSpinbuttonStep_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormSpinbuttonWrap: _FormSpinbuttonWrap_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormSpinbuttonSize: _FormSpinbuttonSize_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormSpinbuttonInline: _FormSpinbuttonInline_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormSpinbuttonVertical: _FormSpinbuttonVertical_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    FormSpinbuttonLocale: _FormSpinbuttonLocale_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    FormSpinbuttonDisabledReadonly: _FormSpinbuttonDisabledReadonly_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    FormSpinbuttonWidth: _FormSpinbuttonWidth_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
-    FormSpinbuttonValidation: _FormSpinbuttonValidation_vue__WEBPACK_IMPORTED_MODULE_11__["default"],
-    FormSpinbuttonFormater: _FormSpinbuttonFormater_vue__WEBPACK_IMPORTED_MODULE_12__["default"],
-    FormSpinbuttonSlots: _FormSpinbuttonSlots_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
+    FormDatepickerBasic: _FormDatepickerBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    FormDatepickerState: _FormDatepickerState_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    FormDatepickerMinMax: _FormDatepickerMinMax_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    FormDatepickerDisableDate: _FormDatepickerDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    FormDatepickerValidation: _FormDatepickerValidation_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    FormDatepickerVariant: _FormDatepickerVariant_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    FormDatepickerSize: _FormDatepickerSize_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    FormDatepickerPlaceholder: _FormDatepickerPlaceholder_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    FormDatepickerOptional: _FormDatepickerOptional_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
+    FormDatepickerButtonOnly: _FormDatepickerButtonOnly_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
+    FormDatepickerString: _FormDatepickerString_vue__WEBPACK_IMPORTED_MODULE_11__["default"],
+    FormDatepickerFullWidth: _FormDatepickerFullWidth_vue__WEBPACK_IMPORTED_MODULE_12__["default"],
+    FormDatepickerInternationalization: _FormDatepickerInternationalization_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -114,18 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
 //
 //
 //
@@ -157,14 +146,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BAlert"]
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
-      value: 50,
+      value: '',
       codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"]
     };
   }
@@ -172,10 +160,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -183,7 +171,11 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
 //
 //
 //
@@ -237,25 +229,400 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"],
+    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
+    BInputGroupAppend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupAppend"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"]
   },
   data: function data() {
     return {
-      value: 50,
-      codeDisabledReadonly: _code__WEBPACK_IMPORTED_MODULE_2__["codeDisabledReadonly"]
+      value: '',
+      formatted: '',
+      selected: '',
+      codeButtonOnly: _code__WEBPACK_IMPORTED_MODULE_2__["codeButtonOnly"]
+    };
+  },
+  methods: {
+    onContext: function onContext(ctx) {
+      // The date formatted in the locale, or the `label-no-date-selected` string
+      this.formatted = ctx.selectedFormatted; // The following will be an empty string until a valid date is entered
+
+      this.selected = ctx.selectedYMD;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeDisableDate: _code__WEBPACK_IMPORTED_MODULE_2__["codeDisableDate"]
+    };
+  },
+  methods: {
+    dateDisabled: function dateDisabled(ymd, date) {
+      // Disable weekends (Sunday = `0`, Saturday = `6`) and
+      // disable days that fall on the 13th of the month
+      var weekday = date.getDay();
+      var day = date.getDate(); // Return `true` if the date should be disabled
+
+      return weekday === 0 || weekday === 6 || day === 13;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeFullWith: _code__WEBPACK_IMPORTED_MODULE_2__["codeFullWith"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"],
+    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      locale: 'en-US',
+      showDecadeNav: false,
+      hideHeader: false,
+      codeInternationalization: _code__WEBPACK_IMPORTED_MODULE_2__["codeInternationalization"],
+      locales: [{
+        value: 'en-US',
+        text: 'English US (en-US)'
+      }, {
+        value: 'de',
+        text: 'German (de)'
+      }, {
+        value: 'ar-EG',
+        text: 'Arabic Egyptian (ar-EG)'
+      }, {
+        value: 'zh',
+        text: 'Chinese (zh)'
+      }],
+      weekday: 0,
+      weekdays: [{
+        value: 0,
+        text: 'Sunday'
+      }, {
+        value: 1,
+        text: 'Monday'
+      }, {
+        value: 6,
+        text: 'Saturday'
+      }],
+      labels: {
+        de: {
+          labelPrevDecade: 'Vorheriges Jahrzehnt',
+          labelPrevYear: 'Vorheriges Jahr',
+          labelPrevMonth: 'Vorheriger Monat',
+          labelCurrentMonth: 'Aktueller Monat',
+          labelNextMonth: 'Nächster Monat',
+          labelNextYear: 'Nächstes Jahr',
+          labelNextDecade: 'Nächstes Jahrzehnt',
+          labelToday: 'Heute',
+          labelSelected: 'Ausgewähltes Datum',
+          labelNoDateSelected: 'Kein Datum gewählt',
+          labelCalendar: 'Kalender',
+          labelNav: 'Kalendernavigation',
+          labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren'
+        },
+        'ar-EG': {
+          labelPrevDecade: 'العقد السابق',
+          labelPrevYear: 'العام السابق',
+          labelPrevMonth: 'الشهر السابق',
+          labelCurrentMonth: 'الشهر الحالي',
+          labelNextMonth: 'الشهر المقبل',
+          labelNextYear: 'العام المقبل',
+          labelNextDecade: 'العقد القادم',
+          labelToday: 'اليوم',
+          labelSelected: 'التاريخ المحدد',
+          labelNoDateSelected: 'لم يتم اختيار تاريخ',
+          labelCalendar: 'التقويم',
+          labelNav: 'الملاحة التقويم',
+          labelHelp: 'استخدم مفاتيح المؤشر للتنقل في التواريخ'
+        },
+        zh: {
+          labelPrevDecade: '过去十年',
+          labelPrevYear: '上一年',
+          labelPrevMonth: '上个月',
+          labelCurrentMonth: '当前月份',
+          labelNextMonth: '下个月',
+          labelNextYear: '明年',
+          labelNextDecade: '下一个十年',
+          labelToday: '今天',
+          labelSelected: '选定日期',
+          labelNoDateSelected: '未选择日期',
+          labelCalendar: '日历',
+          labelNav: '日历导航',
+          labelHelp: '使用光标键浏览日期'
+        }
+      }
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
+  },
+  data: function data() {
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // 15th two months prior
+
+    var minDate = new Date(today);
+    minDate.setMonth(minDate.getMonth() - 2);
+    minDate.setDate(15); // 15th in two months
+
+    var maxDate = new Date(today);
+    maxDate.setMonth(maxDate.getMonth() + 2);
+    maxDate.setDate(15);
+    return {
+      value: '',
+      min: minDate,
+      max: maxDate,
+      codeMinMax: _code__WEBPACK_IMPORTED_MODULE_2__["codeMinMax"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -264,9 +631,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
 //
 //
 //
@@ -301,184 +666,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  data: function data() {
-    return {
-      value: 0,
-      days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-      codeFormater: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormater"]
-    };
-  },
-  methods: {
-    dayFormatter: function dayFormatter(value) {
-      return this.days[value];
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"]
-  },
-  data: function data() {
-    return {
-      value: 50,
-      codeInline: _code__WEBPACK_IMPORTED_MODULE_2__["codeInline"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
-      value: 0,
-      locale: 'fr-CA',
-      locales: [{
-        value: 'en',
-        text: 'English'
-      }, {
-        value: 'de',
-        text: 'German'
-      }, {
-        value: 'fr-CA',
-        text: 'French (Canadian)'
-      }, {
-        value: 'fa',
-        text: 'Persian'
-      }, {
-        value: 'ar-EG',
-        text: 'Arabic (Egyptian)'
-      }],
-      codeLocale: _code__WEBPACK_IMPORTED_MODULE_2__["codeLocale"]
+      codeOptional: _code__WEBPACK_IMPORTED_MODULE_2__["codeOptional"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -486,11 +690,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
 //
 //
 //
@@ -521,23 +721,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
-      value: 5,
-      codeMinMax: _code__WEBPACK_IMPORTED_MODULE_2__["codeMinMax"]
+      codePlaceholder: _code__WEBPACK_IMPORTED_MODULE_2__["codePlaceholder"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -546,10 +745,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
 //
 //
 //
@@ -599,9 +795,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
@@ -612,9 +808,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -623,18 +819,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
 //
 //
 //
@@ -684,33 +869,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"]
   },
   data: function data() {
     return {
-      value: 50,
-      codeSlots: _code__WEBPACK_IMPORTED_MODULE_2__["codeSlots"],
-      day: 0,
-      days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+      state: 'disabled',
+      codeState: _code__WEBPACK_IMPORTED_MODULE_2__["codeState"]
     };
   },
-  methods: {
-    dayFormatter: function dayFormatter(value) {
-      return this.days[value];
+  computed: {
+    disabled: function disabled() {
+      return this.state === 'disabled';
+    },
+    readonly: function readonly() {
+      return this.state === 'readonly';
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -718,7 +905,16 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -752,23 +948,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
-      value1: 50,
-      codeStep: _code__WEBPACK_IMPORTED_MODULE_2__["codeStep"]
+      codeString: _code__WEBPACK_IMPORTED_MODULE_2__["codeString"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -777,7 +972,12 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
 //
 //
 //
@@ -807,13 +1007,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"]
   },
   data: function data() {
     return {
-      value: 50,
       codeValidation: _code__WEBPACK_IMPORTED_MODULE_2__["codeValidation"]
     };
   }
@@ -821,10 +1020,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -832,7 +1031,75 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-datepicker/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -857,162 +1124,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: 50,
-      codeVertical: _code__WEBPACK_IMPORTED_MODULE_2__["codeVertical"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"]
+    BFormDatepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormDatepicker"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
   },
   data: function data() {
     return {
-      value: 0,
-      codeWidth: _code__WEBPACK_IMPORTED_MODULE_2__["codeWidth"]
+      codeVariant: _code__WEBPACK_IMPORTED_MODULE_2__["codeVariant"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BFormSpinbutton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSpinbutton"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeWrap: _code__WEBPACK_IMPORTED_MODULE_2__["codeWrap"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268&":
 /*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268& ***!
   \***************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1029,41 +1158,61 @@ var render = function() {
     "b-row",
     { staticClass: "match-height" },
     [
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-basic")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-size")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-min-max")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-step")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-wrap")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-vertical")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-locale")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-width")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-inline")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-basic")], 1),
       _vm._v(" "),
       _c(
         "b-col",
         { attrs: { lg: "6" } },
-        [_c("form-spinbutton-validation")],
+        [_c("form-datepicker-placeholder")],
         1
       ),
       _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-spinbutton-formater")], 1),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-min-max")], 1),
       _vm._v(" "),
       _c(
         "b-col",
         { attrs: { lg: "6" } },
-        [_c("form-spinbutton-disabled-readonly")],
+        [_c("form-datepicker-disable-date")],
         1
       ),
       _vm._v(" "),
-      _c("b-col", { attrs: { cols: "12" } }, [_c("form-spinbutton-slots")], 1)
+      _c(
+        "b-col",
+        { attrs: { lg: "6" } },
+        [_c("form-datepicker-validation")],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-state")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { lg: "12" } }, [_c("form-datepicker-variant")], 1),
+      _vm._v(" "),
+      _c(
+        "b-col",
+        { attrs: { lg: "6" } },
+        [_c("form-datepicker-button-only")],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-string")], 1),
+      _vm._v(" "),
+      _c(
+        "b-col",
+        { attrs: { lg: "6" } },
+        [_c("form-datepicker-full-width")],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-optional")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { lg: "6" } }, [_c("form-datepicker-size")], 1),
+      _vm._v(" "),
+      _c(
+        "b-col",
+        { attrs: { lg: "6" } },
+        [_c("form-datepicker-internationalization")],
+        1
+      )
     ],
     1
   )
@@ -1075,9 +1224,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2&":
 /*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2& ***!
   \********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1093,7 +1242,7 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Basic Spinbutton" },
+      attrs: { title: "Basic Datepicker" },
       scopedSlots: _vm._u([
         {
           key: "code",
@@ -1106,158 +1255,32 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _vm._v(
-          "\n    Spin buttons allow for incrementing or decrementing a numerical value within a range of a minimum and maximum number, with optional step value.\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "mt-2" },
-        [
-          _c("label", { attrs: { for: "demo-sb" } }, [_vm._v("Spin Button")]),
-          _vm._v(" "),
-          _c("b-form-spinbutton", {
-            attrs: { id: "demo-sb", min: "1", max: "100" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          }),
-          _vm._v(" "),
-          _c("b-card-text", { staticClass: "mt-1" }, [
-            _vm._v("\n      Value: " + _vm._s(_vm.value) + "\n    ")
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-alert",
-            { staticClass: "mb-0", attrs: { show: "", variant: "success" } },
-            [
-              _c("div", { staticClass: "alert-body" }, [
-                _vm._v(
-                  "\n        The ArrowUp and ArrowDown keys can be used to increment or decrement the value.\n      "
-                )
-              ])
-            ]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Disabled and readonly states" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [
-              _vm._v("\n    " + _vm._s(_vm.codeDisabledReadonly) + "\n  ")
-            ]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Setting the prop ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled")]),
+        _c("code", [_vm._v("<b-form-datepicker>")]),
         _vm._v(" "),
         _c("span", [
           _vm._v(
-            " places the component in a disabled, non-interactive state. The "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("readonly")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop places the component in a readonly state (focusable, but the value cannot be changed by the user).\n    "
+            "\n      is a BootstrapVue custom date picker input form control, which provides full WAI-ARIA compliance and\n      internationalization support.\n    "
           )
         ])
       ]),
       _vm._v(" "),
-      _c(
-        "b-row",
-        [
-          _c(
-            "b-col",
-            { staticClass: "mb-2", attrs: { md: "6" } },
-            [
-              _c("label", { attrs: { for: "sb-disabled" } }, [
-                _vm._v("Disabled spin button")
-              ]),
-              _vm._v(" "),
-              _c("b-form-spinbutton", {
-                attrs: { id: "sb-disabled", disabled: "" },
-                model: {
-                  value: _vm.value,
-                  callback: function($$v) {
-                    _vm.value = $$v
-                  },
-                  expression: "value"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-2", attrs: { md: "6" } },
-            [
-              _c("label", { attrs: { for: "sb-readonly" } }, [
-                _vm._v("Readonly spin button")
-              ]),
-              _vm._v(" "),
-              _c("b-form-spinbutton", {
-                attrs: { id: "sb-readonly", readonly: "" },
-                model: {
-                  value: _vm.value,
-                  callback: function($$v) {
-                    _vm.value = $$v
-                  },
-                  expression: "value"
-                }
-              })
-            ],
-            1
-          )
-        ],
-        1
-      )
+      _c("label", { attrs: { for: "example-datepicker" } }, [
+        _vm._v("Choose a date")
+      ]),
+      _vm._v(" "),
+      _c("b-form-datepicker", {
+        staticClass: "mb-1",
+        attrs: { id: "example-datepicker" },
+        model: {
+          value: _vm.value,
+          callback: function($$v) {
+            _vm.value = $$v
+          },
+          expression: "value"
+        }
+      }),
+      _vm._v(" "),
+      _c("span", [_vm._v("Value: '" + _vm._s(_vm.value) + "'")])
     ],
     1
   )
@@ -1269,10 +1292,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60&":
-/*!***********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea&":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1287,12 +1310,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Spinbutton with Formater" },
+      attrs: { title: "Button only mode" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFormater) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeButtonOnly) + "\n  ")]
           },
           proxy: true
         }
@@ -1300,27 +1323,34 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("To provide a formatter function, set the prop ")]),
+        _c("code", [_vm._v("button-only")]),
         _vm._v(" "),
-        _c("code", [_vm._v("formatter-fn")]),
+        _c("span", [
+          _vm._v(
+            "\n      prop to render the datepicker as a dropdown button. The formatted date label will be rendered with the class\n    "
+          )
+        ]),
         _vm._v(" "),
-        _c("span", [_vm._v(" to a method reference.")])
+        _c("code", [_vm._v("sr-only")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" (available only to screen readers).")])
+      ]),
+      _vm._v(" "),
+      _c("label", { attrs: { for: "example-input" } }, [
+        _vm._v("Choose a date")
       ]),
       _vm._v(" "),
       _c(
-        "div",
+        "b-input-group",
+        { staticClass: "mb-1" },
         [
-          _c("label", { attrs: { for: "sb-days" } }, [
-            _vm._v("Spin button with formatter")
-          ]),
-          _vm._v(" "),
-          _c("b-form-spinbutton", {
+          _c("b-form-input", {
             attrs: {
-              id: "sb-days",
-              "formatter-fn": _vm.dayFormatter,
-              min: "0",
-              max: "6",
-              wrap: ""
+              id: "example-input",
+              type: "text",
+              placeholder: "YYYY-MM-DD",
+              autocomplete: "off",
+              "show-decade-nav": ""
             },
             model: {
               value: _vm.value,
@@ -1331,12 +1361,44 @@ var render = function() {
             }
           }),
           _vm._v(" "),
-          _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-            _vm._v("\n      Value: " + _vm._s(_vm.value) + "\n    ")
-          ])
+          _c(
+            "b-input-group-append",
+            [
+              _c("b-form-datepicker", {
+                attrs: {
+                  "show-decade-nav": "",
+                  "button-only": "",
+                  "button-variant": "outline-primary",
+                  right: "",
+                  size: "sm",
+                  locale: "en-US",
+                  "aria-controls": "example-input"
+                },
+                on: { context: _vm.onContext },
+                model: {
+                  value: _vm.value,
+                  callback: function($$v) {
+                    _vm.value = $$v
+                  },
+                  expression: "value"
+                }
+              })
+            ],
+            1
+          )
         ],
         1
-      )
+      ),
+      _vm._v(" "),
+      _c("b-card-text", { staticClass: "mb-1" }, [
+        _vm._v("\n    Value: '" + _vm._s(_vm.value) + "'\n  ")
+      ]),
+      _vm._v(" "),
+      _c("b-card-text", { staticClass: "mb-1" }, [
+        _vm._v("\n    Selected: '" + _vm._s(_vm.selected) + "'\n  ")
+      ]),
+      _vm._v(" "),
+      _c("span", [_vm._v("Formatted: '" + _vm._s(_vm.formatted) + "'")])
     ],
     1
   )
@@ -1348,10 +1410,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c&":
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1366,12 +1428,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Inline" },
+      attrs: { title: "Disable dates" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeInline) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeDisableDate) + "\n  ")]
           },
           proxy: true
         }
@@ -1381,198 +1443,17 @@ var render = function() {
       _c("b-card-text", [
         _c("span", [
           _vm._v(
-            "The spin button will automatically adjust it's width to fit the displayed value. Use the prop "
+            "If you need to disable specific dates within the date picker, specify a function reference to the "
           )
         ]),
         _vm._v(" "),
-        _c("code", [_vm._v("inline")])
+        _c("code", [_vm._v("date-disabled-fn")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop.")])
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c("label", { staticClass: "mr-1", attrs: { for: "sb-inline" } }, [
-            _vm._v("Inline spin button")
-          ]),
-          _vm._v(" "),
-          _c("b-form-spinbutton", {
-            attrs: { id: "sb-inline", inline: "" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          })
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Locale" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeLocale) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("By default ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-spinbutton>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      will format the displayed number in the users browser default locale. You can change the localized formatting by\n      specifying a locale (or array of locales) via the\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("locale")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("\n      prop.\n    ")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c("label", { attrs: { for: "sb-locales" } }, [_vm._v("Locale")]),
-          _vm._v(" "),
-          _c("b-form-select", {
-            attrs: { id: "sb-locales", options: _vm.locales },
-            model: {
-              value: _vm.locale,
-              callback: function($$v) {
-                _vm.locale = $$v
-              },
-              expression: "locale"
-            }
-          }),
-          _vm._v(" "),
-          _c("label", { staticClass: "mt-2", attrs: { for: "sb-local" } }, [
-            _vm._v("Spin button with locale")
-          ]),
-          _vm._v(" "),
-          _c("b-form-spinbutton", {
-            attrs: {
-              id: "sb-locale",
-              locale: _vm.locale,
-              min: "0",
-              max: "10",
-              step: "0.125"
-            },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          }),
-          _vm._v(" "),
-          _c("b-card-text", { staticClass: "mt-1" }, [
-            _vm._v("\n      Value: " + _vm._s(_vm.value) + "\n    ")
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Min and Max" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeMinMax) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Spinbuttons have a default range from")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("1")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" to")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("100")]),
-        _vm._v(", which can be changed by setting the\n    "),
-        _c("code", [_vm._v("min")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("max")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" props.")])
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "sb-maxmin" } }, [
-        _vm._v("Spin button with min 0 and max 10")
-      ]),
-      _vm._v(" "),
-      _c("b-form-spinbutton", {
-        attrs: { id: "sb-maxmin", min: "0", max: "10" },
+      _c("b-form-datepicker", {
+        attrs: { "date-disabled-fn": _vm.dateDisabled, locale: "en" },
         model: {
           value: _vm.value,
           callback: function($$v) {
@@ -1592,9 +1473,468 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Full width calendar dropdown" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeFullWith) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v("To create a full width calendar dropdown simply set the ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("menu-class")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop to ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("'w-100'")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" and set the calendar-width prop to '100%':")])
+      ]),
+      _vm._v(" "),
+      _c("label", { attrs: { for: "datepicker-full-width" } }, [
+        _vm._v("Choose a date")
+      ]),
+      _vm._v(" "),
+      _c("b-form-datepicker", {
+        attrs: {
+          id: "datepicker-full-width",
+          "menu-class": "w-100",
+          "calendar-width": "100%"
+        },
+        model: {
+          value: _vm.value,
+          callback: function($$v) {
+            _vm.value = $$v
+          },
+          expression: "value"
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Internationalization" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [
+              _vm._v("\n    " + _vm._s(_vm.codeInternationalization) + "\n  ")
+            ]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("By default ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-datepicker>")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " will use the browser's default locale, but you can specify the locale (or locales) to use via the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("locale")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("prop.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        [
+          _c("label", { attrs: { for: "example-locales" } }, [
+            _vm._v("Locale:")
+          ]),
+          _vm._v(" "),
+          _c("b-form-select", {
+            staticClass: "mb-1",
+            attrs: { id: "example-locales", options: _vm.locales },
+            model: {
+              value: _vm.locale,
+              callback: function($$v) {
+                _vm.locale = $$v
+              },
+              expression: "locale"
+            }
+          }),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "example-weekdays" } }, [
+            _vm._v("Start weekday:")
+          ]),
+          _vm._v(" "),
+          _c("b-form-select", {
+            staticClass: "mb-1",
+            attrs: { id: "example-weekdays", options: _vm.weekdays },
+            model: {
+              value: _vm.weekday,
+              callback: function($$v) {
+                _vm.weekday = $$v
+              },
+              expression: "weekday"
+            }
+          }),
+          _vm._v(" "),
+          _c(
+            "div",
+            [
+              _c(
+                "b-form-checkbox",
+                {
+                  staticClass: "my-1",
+                  attrs: { switch: "", inline: "" },
+                  model: {
+                    value: _vm.showDecadeNav,
+                    callback: function($$v) {
+                      _vm.showDecadeNav = $$v
+                    },
+                    expression: "showDecadeNav"
+                  }
+                },
+                [_vm._v("\n        Show decade navigation buttons\n      ")]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-form-checkbox",
+                {
+                  staticClass: "my-1",
+                  attrs: { switch: "", inline: "" },
+                  model: {
+                    value: _vm.hideHeader,
+                    callback: function($$v) {
+                      _vm.hideHeader = $$v
+                    },
+                    expression: "hideHeader"
+                  }
+                },
+                [_vm._v("\n        Hide calendar header\n      ")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "example-i18n-picker" } }, [
+            _vm._v("Date picker:")
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-form-datepicker",
+            _vm._b(
+              {
+                staticClass: "mb-1",
+                attrs: {
+                  id: "example-i18n-picker",
+                  locale: _vm.locale,
+                  "start-weekday": _vm.weekday,
+                  "show-decade-nav": _vm.showDecadeNav,
+                  "hide-header": _vm.hideHeader
+                },
+                model: {
+                  value: _vm.value,
+                  callback: function($$v) {
+                    _vm.value = $$v
+                  },
+                  expression: "value"
+                }
+              },
+              "b-form-datepicker",
+              _vm.labels[_vm.locale] || {},
+              false
+            )
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Minimum and maximum dates" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeMinMax) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("Restrict the calendar range via the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("min")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" and ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("max")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(" props. The props accept a date string in the format of ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("YYYY-MM-DD")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" or a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object.")])
+      ]),
+      _vm._v(" "),
+      _c("b-form-datepicker", {
+        attrs: { min: _vm.min, max: _vm.max, locale: "en" },
+        model: {
+          value: _vm.value,
+          callback: function($$v) {
+            _vm.value = $$v
+          },
+          expression: "value"
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68&":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Optional controls" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeOptional) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "Add optional control buttons to the bottom of the calendar popup via the props "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("today-button")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(",")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("reset-button")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" and ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("close-button")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(".")])
+      ]),
+      _vm._v(" "),
+      _c("label", { attrs: { for: "datepicker-buttons" } }, [
+        _vm._v("Date picker with optional footer buttons")
+      ]),
+      _vm._v(" "),
+      _c("b-form-datepicker", {
+        attrs: {
+          id: "datepicker-buttons",
+          "today-button": "",
+          "reset-button": "",
+          "close-button": "",
+          locale: "en",
+          "menu-class": "w-100",
+          "calendar-width": "100%"
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7&":
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Placeholder & Initial Open Date" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codePlaceholder) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "Add custom placeholder text to the control, when no date is selected, via the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("placeholder")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop. ")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v("You can change this behaviour by specifying a date via the ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("initial-date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop.")])
+      ]),
+      _vm._v(" "),
+      _c("label", { attrs: { for: "datepicker-placeholder" } }, [
+        _vm._v("Date picker with placeholder")
+      ]),
+      _vm._v(" "),
+      _c("b-form-datepicker", {
+        attrs: {
+          id: "datepicker-placeholder",
+          placeholder: "Choose a date",
+          local: "en",
+          "initial-date": "2020-06-16"
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d&":
 /*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d& ***!
   \*******************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1610,7 +1950,7 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Size" },
+      attrs: { title: "Control sizing" },
       scopedSlots: _vm._u([
         {
           key: "code",
@@ -1623,55 +1963,65 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("As with other form controls, ")]),
+        _c("span", [_vm._v("Fancy a smaller or larger ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("<b-form-spinbutton>")]),
+        _c("code", [_vm._v("<b-form-datepicker>")]),
         _vm._v(" "),
-        _c("span", [
-          _vm._v(" supports small and large sizing via setting the ")
-        ]),
+        _c("span", [_vm._v("control? Set the ")]),
         _vm._v(" "),
         _c("code", [_vm._v("size")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" prop to either ")]),
+        _c("span", [_vm._v(" prop to ")]),
         _vm._v(" "),
         _c("code", [_vm._v("'sm'")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
+        _c("span", [_vm._v(" for a smaller form control, or ")]),
         _vm._v(" "),
         _c("code", [_vm._v("'lg'")]),
         _vm._v(" "),
-        _c("span", [_vm._v(", respectively.")])
+        _c("span", [
+          _vm._v(
+            " for a larger form form control. Note this does not affect the size of the popup calendar dialog."
+          )
+        ])
       ]),
       _vm._v(" "),
       _c(
         "div",
         [
-          _c("label", { attrs: { for: "sb-small" } }, [
-            _vm._v("Spin button - Small size")
+          _c("label", { attrs: { for: "datepicker-sm" } }, [
+            _vm._v("Small date picker")
           ]),
           _vm._v(" "),
-          _c("b-form-spinbutton", {
-            staticClass: "mb-1",
-            attrs: { id: "sb-small", size: "sm", placeholder: "--" }
+          _c("b-form-datepicker", {
+            staticClass: "mb-2",
+            attrs: {
+              id: "datepicker-sm",
+              size: "sm",
+              local: "en",
+              "today-variant": "danger"
+            }
           }),
           _vm._v(" "),
-          _c("label", { attrs: { for: "sb-default" } }, [
-            _vm._v("Spin button - Default size")
+          _c("label", { attrs: { for: "datepicker-default" } }, [
+            _vm._v("Default date picker")
           ]),
           _vm._v(" "),
-          _c("b-form-spinbutton", {
-            staticClass: "mb-1",
-            attrs: { id: "sb-default", placeholder: "--" }
+          _c("b-form-datepicker", {
+            staticClass: "mb-2",
+            attrs: {
+              id: "datepicker-default",
+              local: "en",
+              "today-variant": "danger"
+            }
           }),
           _vm._v(" "),
-          _c("label", { attrs: { for: "sb-large" } }, [
-            _vm._v("Spin button - Large size")
+          _c("label", { attrs: { for: "datepicker-lg" } }, [
+            _vm._v("Large date picker")
           ]),
           _vm._v(" "),
-          _c("b-form-spinbutton", {
-            staticClass: "mb-1",
-            attrs: { id: "sb-large", size: "lg", placeholder: "--" }
+          _c("b-form-datepicker", {
+            attrs: { id: "datepicker-lg", size: "lg", local: "en" }
           })
         ],
         1
@@ -1687,9 +2037,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5&":
 /*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5& ***!
   \********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1705,12 +2055,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Slot" },
+      attrs: { title: "Disabled and readonly states" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSlots) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeState) + "\n  ")]
           },
           proxy: true
         }
@@ -1718,105 +2068,66 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("Spin buttons provides two slots ")]),
+        _c("code", [_vm._v("Setting the ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("increment")]),
+        _c("code", [_vm._v("disabled")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
+        _c("span", [_vm._v(" prop will remove all interactivity of the ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("decrement")])
+        _c("code", [_vm._v("<b-form-datepicker>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" component. Setting the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("readonly")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop will disable selecting a date.")])
       ]),
       _vm._v(" "),
       _c(
-        "b-row",
+        "div",
         [
           _c(
-            "b-col",
-            { attrs: { md: "6" } },
+            "b-form-group",
+            { attrs: { label: "Select date picker interactive state" } },
             [
-              _c("b-form-spinbutton", {
-                staticClass: "mb-md-0 mb-2",
-                attrs: { min: "1", max: "100" },
-                scopedSlots: _vm._u([
-                  {
-                    key: "increment",
-                    fn: function() {
-                      return [
-                        _c("feather-icon", { attrs: { icon: "ChevronUpIcon" } })
-                      ]
+              _c(
+                "b-form-radio-group",
+                {
+                  attrs: { "aria-controls": "ex-disabled-readonly" },
+                  model: {
+                    value: _vm.state,
+                    callback: function($$v) {
+                      _vm.state = $$v
                     },
-                    proxy: true
-                  },
-                  {
-                    key: "decrement",
-                    fn: function() {
-                      return [
-                        _c("feather-icon", {
-                          attrs: { icon: "ChevronDownIcon" }
-                        })
-                      ]
-                    },
-                    proxy: true
+                    expression: "state"
                   }
-                ]),
-                model: {
-                  value: _vm.value,
-                  callback: function($$v) {
-                    _vm.value = $$v
-                  },
-                  expression: "value"
-                }
-              })
+                },
+                [
+                  _c("b-form-radio", { attrs: { value: "disabled" } }, [
+                    _vm._v("\n          Disabled\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-radio", { attrs: { value: "readonly" } }, [
+                    _vm._v("\n          Readonly\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-radio", { attrs: { value: "normal" } }, [
+                    _vm._v("\n          Normal\n        ")
+                  ])
+                ],
+                1
+              )
             ],
             1
           ),
           _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
-            [
-              _c("b-form-spinbutton", {
-                attrs: {
-                  min: "0",
-                  max: "6",
-                  wrap: "",
-                  "formatter-fn": _vm.dayFormatter
-                },
-                scopedSlots: _vm._u([
-                  {
-                    key: "increment",
-                    fn: function() {
-                      return [
-                        _c("feather-icon", {
-                          attrs: { icon: "ChevronRightIcon" }
-                        })
-                      ]
-                    },
-                    proxy: true
-                  },
-                  {
-                    key: "decrement",
-                    fn: function() {
-                      return [
-                        _c("feather-icon", {
-                          attrs: { icon: "ChevronLeftIcon" }
-                        })
-                      ]
-                    },
-                    proxy: true
-                  }
-                ]),
-                model: {
-                  value: _vm.day,
-                  callback: function($$v) {
-                    _vm.day = $$v
-                  },
-                  expression: "day"
-                }
-              })
-            ],
-            1
-          )
+          _c("b-form-datepicker", {
+            attrs: {
+              id: "ex-disabled-readonly",
+              disabled: _vm.disabled,
+              readonly: _vm.readonly
+            }
+          })
         ],
         1
       )
@@ -1831,10 +2142,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1849,12 +2160,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Step" },
+      attrs: { title: "Date string format" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeStep) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeString) + "\n  ")]
           },
           proxy: true
         }
@@ -1862,41 +2173,65 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("The default step increment is ")]),
+        _c("span", [
+          _vm._v(
+            "To change format options of the displayed date text inside the component, e.g. in the header or placeholder,\n      set the\n    "
+          )
+        ]),
         _vm._v(" "),
-        _c("code", [_vm._v("1")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", and can be changed via the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("step")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("prop (decimal values allowed).")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("When ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("step")]),
+        _c("code", [_vm._v("date-format-options")]),
         _vm._v(" "),
         _c("span", [
           _vm._v(
-            " is set, the value will always be a multiple of the step size plus the minimum value."
+            " prop to an object containing the requested format properties for the"
           )
-        ])
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Intl.DateTimeFormat")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object.")])
       ]),
       _vm._v(" "),
-      _c("label", { attrs: { for: "sb-step" } }, [
-        _vm._v("Spin button with step of 0.25")
-      ]),
-      _vm._v(" "),
-      _c("b-form-spinbutton", {
-        attrs: { id: "sb-step", step: "0.25" },
-        model: {
-          value: _vm.value1,
-          callback: function($$v) {
-            _vm.value1 = $$v
-          },
-          expression: "value1"
-        }
-      })
+      _c(
+        "div",
+        [
+          _c("label", { attrs: { for: "datepicker-dateformat1" } }, [
+            _vm._v("Custom date format")
+          ]),
+          _vm._v(" "),
+          _c("b-form-datepicker", {
+            attrs: {
+              id: "datepicker-dateformat1",
+              "date-format-options": {
+                year: "numeric",
+                month: "short",
+                day: "2-digit",
+                weekday: "short"
+              },
+              locale: "en"
+            }
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            { staticClass: "mt-2", attrs: { for: "datepicker-dateformat2" } },
+            [_vm._v("Short date format")]
+          ),
+          _vm._v(" "),
+          _c("b-form-datepicker", {
+            attrs: {
+              id: "datepicker-dateformat2",
+              "date-format-options": {
+                year: "numeric",
+                month: "numeric",
+                day: "numeric"
+              },
+              locale: "en"
+            }
+          })
+        ],
+        1
+      )
     ],
     1
   )
@@ -1908,9 +2243,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436&":
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436& ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1939,205 +2274,35 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("When you default to a ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("null")]),
+        _c("code", [_vm._v("<b-form-datepicker>")]),
         _vm._v(" "),
         _c("span", [
-          _vm._v(
-            " value, and the user has not selected a value, you can use the "
-          )
+          _vm._v(" supports invalid and valid styling via the boolean ")
         ]),
         _vm._v(" "),
         _c("code", [_vm._v("state")]),
         _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " prop to apply one of the contextual validation styles to the component."
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("b-form-spinbutton", {
-        attrs: { id: "sb-inline", state: Boolean(_vm.value >= 50) },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c&":
-/*!***********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Vertical" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeVertical) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _vm._v("Spinbuttons can be oriented in vertical mode:")
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "sb-vertical" } }, [
-        _vm._v("Vertical spin button")
-      ]),
-      _c("br"),
-      _vm._v(" "),
-      _c("b-form-spinbutton", {
-        attrs: { id: "sb-vertical", vertical: "" },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a&":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a& ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Width" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeWidth) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("The control (when not ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("vertical")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("inline")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            ") will expand to the maximum width of the parent container You can control width via utility classes such as\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("w-50, w-75, w-100")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", or use styles to set the width.")])
+        _c("span", [_vm._v(" prop.")])
       ]),
       _vm._v(" "),
       _c(
-        "b-form-group",
+        "div",
         [
-          _c("b-form-spinbutton", {
-            staticClass: "w-100",
-            attrs: { min: "0", max: "10", step: "0.125" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-form-group",
-        [
-          _c("b-form-spinbutton", {
-            staticClass: "w-75",
-            attrs: { min: "0", max: "10", step: "0.125" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-form-group",
-        [
-          _c("b-form-spinbutton", {
-            staticClass: "w-50",
-            attrs: { min: "0", max: "10", step: "0.125" },
-            model: {
-              value: _vm.value,
-              callback: function($$v) {
-                _vm.value = $$v
-              },
-              expression: "value"
-            }
+          _c("label", { attrs: { for: "datepicker-invalid" } }, [
+            _vm._v("Choose a date (invalid style)")
+          ]),
+          _vm._v(" "),
+          _c("b-form-datepicker", {
+            staticClass: "mb-2",
+            attrs: { id: "datepicker-invalid", state: false }
+          }),
+          _vm._v(" "),
+          _c("label", { attrs: { for: "datepicker-valid" } }, [
+            _vm._v("Choose a date (valid style)")
+          ]),
+          _vm._v(" "),
+          _c("b-form-datepicker", {
+            attrs: { id: "datepicker-valid", state: true }
           })
         ],
         1
@@ -2153,10 +2318,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e&":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2171,12 +2336,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Number wrapping" },
+      attrs: { title: "Variants" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeWrap) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeVariant) + "\n  ")]
           },
           proxy: true
         }
@@ -2185,33 +2350,129 @@ var render = function() {
     [
       _c("b-card-text", [
         _c("span", [
+          _vm._v("The selected date button (background color) defaults to the ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("'primary'")]),
+        _vm._v(" "),
+        _c("span", [
           _vm._v(
-            "To allow the spin button to wrap from max to min when incrementing (or min to max when decrementing), set the\n    "
+            " theme variant. You can change this to any of the Bootstrap v4 theme variant colors: "
           )
         ]),
         _vm._v(" "),
-        _c("code", [_vm._v("wrap")]),
+        _c("code", [
+          _vm._v("'secondary', 'success', 'danger', 'warning', 'info',")
+        ]),
         _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
+        _c("span", [_vm._v(" etc, via the ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("true")]),
+        _c("code", [_vm._v("selected-variant")]),
         _vm._v(" "),
-        _c("span", [_vm._v(".")])
+        _c("span", [_vm._v(" prop.")])
       ]),
       _vm._v(" "),
-      _c("label", { attrs: { for: "sb-wrap" } }, [
-        _vm._v("Wrapping value spin button")
-      ]),
-      _vm._v(" "),
-      _c("b-form-spinbutton", {
-        attrs: {
-          id: "sb-wrap",
-          wrap: "",
-          min: "1",
-          max: "25",
-          placeholder: "--"
-        }
-      })
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Primary Variant",
+                  "selected-variant": "primary"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Secondary Variant",
+                  "selected-variant": "secondary"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Success Variant",
+                  "selected-variant": "success"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Warning Variant",
+                  "selected-variant": "warning"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Danger Variant",
+                  "selected-variant": "danger"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", lg: "4" } },
+            [
+              _c("b-form-datepicker", {
+                staticClass: "mb-1",
+                attrs: {
+                  local: "en",
+                  placeholder: "Info Variant",
+                  "selected-variant": "info"
+                }
+              })
+            ],
+            1
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -2238,17 +2499,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue":
 /*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue ***!
   \**************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbutton.vue?vue&type=template&id=4f8a77cc& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc&");
-/* harmony import */ var _FormSpinbutton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbutton.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepicker.vue?vue&type=template&id=ed292268& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268&");
+/* harmony import */ var _FormDatepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepicker.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2258,9 +2519,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbutton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2270,54 +2531,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbutton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbutton.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbutton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepicker.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268&":
 /*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268& ***!
   \*********************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbutton.vue?vue&type=template&id=4f8a77cc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbutton.vue?vue&type=template&id=4f8a77cc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepicker.vue?vue&type=template&id=ed292268& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepicker.vue?vue&type=template&id=ed292268&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbutton_vue_vue_type_template_id_4f8a77cc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepicker_vue_vue_type_template_id_ed292268___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue":
 /*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue ***!
   \*******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c&");
-/* harmony import */ var _FormSpinbuttonBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerBasic.vue?vue&type=template&id=6516a3f2& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2&");
+/* harmony import */ var _FormDatepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2327,9 +2588,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2339,606 +2600,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2&":
 /*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2& ***!
   \**************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonBasic.vue?vue&type=template&id=14158a1c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerBasic.vue?vue&type=template&id=6516a3f2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerBasic.vue?vue&type=template&id=6516a3f2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonBasic_vue_vue_type_template_id_14158a1c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue":
-/*!******************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue ***!
-  \******************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c&");
-/* harmony import */ var _FormSpinbuttonDisabledReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonDisabledReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonDisabledReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonDisabledReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c&":
-/*!*************************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c& ***!
-  \*************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonDisabledReadonly.vue?vue&type=template&id=bc1b746c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonDisabledReadonly_vue_vue_type_template_id_bc1b746c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerBasic_vue_vue_type_template_id_6516a3f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue ***!
-  \**********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60&");
-/* harmony import */ var _FormSpinbuttonFormater_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonFormater.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonFormater_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonFormater_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonFormater.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonFormater_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60&":
-/*!*****************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60& ***!
-  \*****************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonFormater.vue?vue&type=template&id=e295ae60&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonFormater_vue_vue_type_template_id_e295ae60___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05&");
-/* harmony import */ var _FormSpinbuttonInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonInline.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonInline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05& ***!
-  \***************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonInline.vue?vue&type=template&id=3cb14b05&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonInline_vue_vue_type_template_id_3cb14b05___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46&");
-/* harmony import */ var _FormSpinbuttonLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonLocale.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonLocale.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonLocale_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46& ***!
-  \***************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonLocale.vue?vue&type=template&id=5c4bee46&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonLocale_vue_vue_type_template_id_5c4bee46___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e&");
-/* harmony import */ var _FormSpinbuttonMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonMinMax.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonMinMax.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e& ***!
-  \***************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonMinMax.vue?vue&type=template&id=19f1819e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonMinMax_vue_vue_type_template_id_19f1819e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d&");
-/* harmony import */ var _FormSpinbuttonSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSize.vue?vue&type=template&id=6f2b196d&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSize_vue_vue_type_template_id_6f2b196d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue ***!
-  \*******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e&");
-/* harmony import */ var _FormSpinbuttonSlots_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonSlots.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonSlots_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSlots_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonSlots.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSlots_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e& ***!
-  \**************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonSlots.vue?vue&type=template&id=f5893d0e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonSlots_vue_vue_type_template_id_f5893d0e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonStep.vue?vue&type=template&id=dc563a90& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90&");
-/* harmony import */ var _FormSpinbuttonStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonStep.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonStep.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonStep_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonStep.vue?vue&type=template&id=dc563a90& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonStep.vue?vue&type=template&id=dc563a90&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonStep_vue_vue_type_template_id_dc563a90___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue":
 /*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue ***!
   \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonValidation.vue?vue&type=template&id=69809236& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236&");
-/* harmony import */ var _FormSpinbuttonValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonValidation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea&");
+/* harmony import */ var _FormDatepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerButtonOnly.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2948,9 +2657,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2960,54 +2669,330 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonValidation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerButtonOnly.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea&":
 /*!*******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea& ***!
   \*******************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonValidation.vue?vue&type=template&id=69809236& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonValidation.vue?vue&type=template&id=69809236&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerButtonOnly.vue?vue&type=template&id=7cf32cea&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonValidation_vue_vue_type_template_id_69809236___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerButtonOnly_vue_vue_type_template_id_7cf32cea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerDisableDate.vue?vue&type=template&id=a569650c& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c&");
+/* harmony import */ var _FormDatepickerDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerDisableDate.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerDisableDate.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c&":
+/*!********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c& ***!
+  \********************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerDisableDate.vue?vue&type=template&id=a569650c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerDisableDate.vue?vue&type=template&id=a569650c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerDisableDate_vue_vue_type_template_id_a569650c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb&");
+/* harmony import */ var _FormDatepickerFullWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerFullWidth.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerFullWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerFullWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerFullWidth.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerFullWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb& ***!
+  \******************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerFullWidth.vue?vue&type=template&id=52f3e9bb&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerFullWidth_vue_vue_type_template_id_52f3e9bb___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002&");
+/* harmony import */ var _FormDatepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerInternationalization.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerInternationalization.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002&":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002& ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerInternationalization.vue?vue&type=template&id=0c85f002&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerInternationalization_vue_vue_type_template_id_0c85f002___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4&");
+/* harmony import */ var _FormDatepickerMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerMinMax.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerMinMax.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerMinMax_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4&":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4& ***!
+  \***************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerMinMax.vue?vue&type=template&id=e2058ec4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerMinMax_vue_vue_type_template_id_e2058ec4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue":
 /*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue ***!
   \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c&");
-/* harmony import */ var _FormSpinbuttonVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonVertical.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerOptional.vue?vue&type=template&id=69d22b68& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68&");
+/* harmony import */ var _FormDatepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerOptional.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -3017,9 +3002,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3029,54 +3014,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonVertical.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonVertical_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerOptional.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68&":
 /*!*****************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68& ***!
   \*****************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonVertical.vue?vue&type=template&id=0951d73c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerOptional.vue?vue&type=template&id=69d22b68& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerOptional.vue?vue&type=template&id=69d22b68&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonVertical_vue_vue_type_template_id_0951d73c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerOptional_vue_vue_type_template_id_69d22b68___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue ***!
-  \*******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonWidth.vue?vue&type=template&id=582a088a& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a&");
-/* harmony import */ var _FormSpinbuttonWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonWidth.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7&");
+/* harmony import */ var _FormDatepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerPlaceholder.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -3086,9 +3071,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3098,54 +3083,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonWidth.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerPlaceholder.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a& ***!
-  \**************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7&":
+/*!********************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7& ***!
+  \********************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonWidth.vue?vue&type=template&id=582a088a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWidth.vue?vue&type=template&id=582a088a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerPlaceholder.vue?vue&type=template&id=4c8f59b7&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWidth_vue_vue_type_template_id_582a088a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerPlaceholder_vue_vue_type_template_id_4c8f59b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue":
 /*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue ***!
   \******************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594&");
-/* harmony import */ var _FormSpinbuttonWrap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormSpinbuttonWrap.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerSize.vue?vue&type=template&id=51b8906d& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d&");
+/* harmony import */ var _FormDatepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -3155,9 +3140,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormSpinbuttonWrap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormDatepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -3167,78 +3152,354 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWrap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonWrap.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWrap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594&":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d&":
 /*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d& ***!
   \*************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-spinbutton/FormSpinbuttonWrap.vue?vue&type=template&id=7e8c8594&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerSize.vue?vue&type=template&id=51b8906d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerSize.vue?vue&type=template&id=51b8906d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormSpinbuttonWrap_vue_vue_type_template_id_7e8c8594___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerSize_vue_vue_type_template_id_51b8906d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-spinbutton/code.js":
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerState.vue?vue&type=template&id=4e09aad5& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5&");
+/* harmony import */ var _FormDatepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerState.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerState.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5& ***!
+  \**************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerState.vue?vue&type=template&id=4e09aad5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerState.vue?vue&type=template&id=4e09aad5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerState_vue_vue_type_template_id_4e09aad5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerString.vue?vue&type=template&id=2599437d& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d&");
+/* harmony import */ var _FormDatepickerString_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerString.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerString_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerString_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerString.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerString_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d&":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d& ***!
+  \***************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerString.vue?vue&type=template&id=2599437d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerString.vue?vue&type=template&id=2599437d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerString_vue_vue_type_template_id_2599437d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerValidation.vue?vue&type=template&id=54d02436& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436&");
+/* harmony import */ var _FormDatepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerValidation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerValidation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436&":
+/*!*******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436& ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerValidation.vue?vue&type=template&id=54d02436& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerValidation.vue?vue&type=template&id=54d02436&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerValidation_vue_vue_type_template_id_54d02436___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e&");
+/* harmony import */ var _FormDatepickerVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormDatepickerVariant.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormDatepickerVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerVariant.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e&":
+/*!****************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e& ***!
+  \****************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-datepicker/FormDatepickerVariant.vue?vue&type=template&id=ea76fc6e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormDatepickerVariant_vue_vue_type_template_id_ea76fc6e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-datepicker/code.js":
 /*!***************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-spinbutton/code.js ***!
+  !*** ./resources/js/src/views/forms/form-element/form-datepicker/code.js ***!
   \***************************************************************************/
-/*! exports provided: codeBasic, codeDisabledReadonly, codeInline, codeLocale, codeMinMax, codeSize, codeVertical, codeWrap, codeWidth, codeValidation, codeStep, codeFormater, codeSlots */
+/*! exports provided: codeBasic, codeButtonOnly, codeDisableDate, codeInternationalization, codeOptional, codePlaceholder, codeMinMax, codeSize, codeState, codeString, codeValidation, codeVariant, codeFullWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDisabledReadonly", function() { return codeDisabledReadonly; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInline", function() { return codeInline; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeLocale", function() { return codeLocale; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeButtonOnly", function() { return codeButtonOnly; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDisableDate", function() { return codeDisableDate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInternationalization", function() { return codeInternationalization; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeOptional", function() { return codeOptional; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codePlaceholder", function() { return codePlaceholder; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeMinMax", function() { return codeMinMax; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVertical", function() { return codeVertical; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeWrap", function() { return codeWrap; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeWidth", function() { return codeWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeState", function() { return codeState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeString", function() { return codeString; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeValidation", function() { return codeValidation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStep", function() { return codeStep; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormater", function() { return codeFormater; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSlots", function() { return codeSlots; });
-var codeBasic = "\n<template>\n  <div>\n    <label for=\"demo-sb\">Spin Button</label>\n    <b-form-spinbutton\n      id=\"demo-sb\"\n      v-model=\"value\"\n      min=\"1\"\n      max=\"100\"\n    />\n    <p class=\"mt-1\">\n      Value: {{ value }}\n    </p>\n    <b-alert\n      class=\"mb-0\"\n      show\n      variant=\"success\"\n    >\n      <div class=\"alert-body\">\n        <span>The </span>\n        <code>ArrowUp</code>\n        <span> and </span>\n        <code>ArrowDown</code>\n        <span> keys can be used to increment or decrement the value.</span>\n      </div>\n    </b-alert>\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton, BAlert } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n    BAlert,\n  },\n  data: () => ({\n    value: 50,\n    codeBasic,\n  }),\n}\n</script>\n";
-var codeDisabledReadonly = "\n<template>\n  <b-row>\n    <b-col\n      md=\"6\"\n      class=\"mb-2\"\n    >\n      <label for=\"sb-disabled\">Disabled spin button</label>\n      <b-form-spinbutton\n        id=\"sb-disabled\"\n        v-model=\"value\"\n        disabled\n      />\n    </b-col>\n    <b-col\n      md=\"6\"\n      class=\"mb-2\"\n    >\n      <label\n        for=\"sb-readonly\"\n        class=\"\"\n      >Readonly spin button</label>\n      <b-form-spinbutton\n        id=\"sb-readonly\"\n        v-model=\"value\"\n        readonly\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormSpinbutton, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n    BRow,\n    BCol,\n  },\n  data: () => ({\n    value: 50,\n    codeDisabledReadonly,\n  }),\n}\n</script>\n";
-var codeInline = "\n<template>\n  <div>\n    <label\n      for=\"sb-inline\"\n      class=\"mr-1\"\n    >Inline spin button</label>\n    <b-form-spinbutton\n      id=\"sb-inline\"\n      v-model=\"value\"\n      inline\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value: 50,\n  }),\n}\n</script>\n";
-var codeLocale = "\n<template>\n  <div>\n    <label for=\"sb-locales\">Locale</label>\n    <b-form-select\n      id=\"sb-locales\"\n      v-model=\"locale\"\n      :options=\"locales\"\n    />\n    <label\n      for=\"sb-local\"\n      class=\"mt-2\"\n    >Spin button with locale</label>\n    <b-form-spinbutton\n      id=\"sb-locale\"\n      v-model=\"value\"\n      :locale=\"locale\"\n      min=\"0\"\n      max=\"10\"\n      step=\"0.125\"\n    />\n    <p class=\"mt-1\">\n      Value: {{ value }}\n    </p>\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton, BFormSelect } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n    BFormSelect,\n  },\n  data: () => ({\n    value: 0,\n    locale: 'fr-CA',\n    locales: [\n      { value: 'en', text: 'English' },\n      { value: 'de', text: 'German' },\n      { value: 'fr-CA', text: 'French (Canadian)' },\n      { value: 'fa', text: 'Persian' },\n      { value: 'ar-EG', text: 'Arabic (Egyptian)' },\n    ],\n  }),\n}\n</script>\n";
-var codeMinMax = "\n<template>\n  <div>\n    <label for=\"sb-maxmin\">Spin button with min 0 and max 10</label>\n    <b-form-spinbutton\n      id=\"sb-maxmin\"\n      v-model=\"value\"\n      min=\"0\"\n      max=\"10\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value: 50,\n  }),\n}\n</script>\n";
-var codeSize = "\n<template>\n  <div>\n    <div>\n      <label for=\"sb-small\">Spin button - Small size</label>\n      <b-form-spinbutton\n        id=\"sb-small\"\n        size=\"sm\"\n        placeholder=\"--\"\n        class=\"mb-1\"\n      />\n\n      <label for=\"sb-default\">Spin button - Default size</label>\n      <b-form-spinbutton\n        id=\"sb-default\"\n        placeholder=\"--\"\n        class=\"mb-1\"\n      />\n\n      <label for=\"sb-large\">Spin button - Large size</label>\n      <b-form-spinbutton\n        id=\"sb-large\"\n        size=\"lg\"\n        placeholder=\"--\"\n        class=\"mb-1\"\n      />\n    </div>\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n}\n</script>\n";
-var codeVertical = "\n<template>\n  <div>\n    <label for=\"sb-vertical\">Vertical spin button</label><br>\n    <b-form-spinbutton\n      id=\"sb-vertical\"\n      v-model=\"value\"\n      vertical\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value: 50,\n  }),\n}\n</script>\n";
-var codeWrap = "\n<template>\n  <div>\n    <label for=\"sb-wrap\">Wrapping value spin button</label>\n    <b-form-spinbutton\n      id=\"sb-wrap\"\n      wrap\n      min=\"1\"\n      max=\"25\"\n      placeholder=\"--\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n}\n</script>\n";
-var codeWidth = "\n<template>\n  <div>\n    <b-form-group>\n      <b-form-spinbutton\n        v-model=\"value\"\n        min=\"0\"\n        max=\"10\"\n        step=\"0.125\"\n        class=\"w-100\"\n      />\n    </b-form-group>\n    <b-form-group>\n      <b-form-spinbutton\n        v-model=\"value\"\n        min=\"0\"\n        max=\"10\"\n        step=\"0.125\"\n        class=\"w-75\"\n      />\n    </b-form-group>\n    <b-form-group>\n      <b-form-spinbutton\n        v-model=\"value\"\n        min=\"0\"\n        max=\"10\"\n        step=\"0.125\"\n        class=\"w-50\"\n      />\n    </b-form-group>\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n    BFormGroup,\n  },\n  data: () => ({\n    value: 0,\n  }),\n}\n</script>\n";
-var codeValidation = "\n<template>\n  <div>\n    <b-form-spinbutton\n      id=\"sb-inline\"\n      v-model=\"value\"\n      :state=\"Boolean(value >= 50)\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value: 50,\n  }),\n}\n</script>\n";
-var codeStep = "\n<template>\n  <div>\n    <label for=\"sb-step\">Spin button with step of 0.25</label>\n    <b-form-spinbutton\n      id=\"sb-step\"\n      v-model=\"value1\"\n      step=\"0.25\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value1: 50,\n  }),\n}\n</script>\n";
-var codeFormater = "\n<template>\n  <div>\n    <label\n      for=\"sb-days\"\n      class=\"mt-2\"\n    >Spin button with formatter</label>\n    <b-form-spinbutton\n      id=\"sb-days\"\n      v-model=\"value\"\n      :formatter-fn=\"dayFormatter\"\n      min=\"0\"\n      max=\"6\"\n      wrap\n    />\n    <p class=\"mt-1 mb-0\">\n      Value: {{ value }}\n    </p>\n  </div>\n</template>\n\n<script>\nimport { BFormSpinbutton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n  },\n  data: () => ({\n    value: 0,\n    days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],\n  }),\n  methods: {\n    dayFormatter(value) {\n      return this.days[value]\n    },\n  },\n}\n</script>\n";
-var codeSlots = "\n<template>\n  <b-card-code\n    title=\"Basic Spinbutton\"\n  >\n    <b-row>\n      <b-col md=\"6\">\n        <b-form-spinbutton\n          v-model=\"value\"\n          class=\"mb-md-0 mb-2\"\n          min=\"1\"\n          max=\"100\"\n        >\n          <template #increment>\n            <feather-icon icon=\"ChevronUpIcon\" />\n          </template>\n          <template #decrement>\n            <feather-icon icon=\"ChevronDownIcon\" />\n          </template>\n        </b-form-spinbutton>\n      </b-col>\n      <b-col md=\"6\">\n        <b-form-spinbutton\n          v-model=\"day\"\n          min=\"0\"\n          max=\"6\"\n          wrap\n          :formatter-fn=\"dayFormatter\"\n        >\n          <template #increment>\n            <feather-icon icon=\"ChevronRightIcon\" />\n          </template>\n          <template #decrement>\n            <feather-icon icon=\"ChevronLeftIcon\" />\n          </template>\n        </b-form-spinbutton>\n      </b-col>\n    </b-row>\n  </b-card-code>\n</template>\n\n<script>\nimport BCardCode from '@core/components/b-card-code'\nimport { BFormSpinbutton, BRow, BCol } from 'bootstrap-vue'\nimport { codeBasic } from './code'\n\nexport default {\n  components: {\n    BFormSpinbutton,\n    BCardCode,\n    BRow,\n    BCol,\n  },\n  data: () => ({\n    value: 50,\n    codeBasic,\n    day: 0,\n    days: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],\n  }),\n  methods: {\n    dayFormatter(value) {\n      return this.days[value]\n    },\n  },\n}\n</script>\n";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVariant", function() { return codeVariant; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFullWith", function() { return codeFullWith; });
+var codeBasic = "\n<template>\n  <div>\n    <label for=\"example-datepicker\">Choose a date</label>\n    <b-form-datepicker\n      id=\"example-datepicker\"\n      v-model=\"value\"\n      class=\"mb-1\"\n    />\n    <p>Value: '{{ value }}'</p>\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n  data: () => ({\n    value: '',    codeBasic,    codeBasic,\n  }),\n}\n</script>\n";
+var codeButtonOnly = "\n<template>\n  <div>\n    <label for=\"example-input\">Choose a date</label>\n    <b-input-group class=\"mb-1\">\n      <b-form-input\n        id=\"example-input\"\n        v-model=\"value\"\n        type=\"text\"\n        placeholder=\"YYYY-MM-DD\"\n        autocomplete=\"off\"\n        show-decade-nav\n      />\n      <b-input-group-append>\n        <b-form-datepicker\n          v-model=\"value\"\n          show-decade-nav\n          button-only\n          right\n          locale=\"en-US\"\n          aria-controls=\"example-input\"\n          @context=\"onContext\"\n        />\n      </b-input-group-append>\n    </b-input-group>\n    <p class=\"mb-1\">\n      Value: '{{ value }}'\n    </p>\n    <p class=\"mb-1\">\n      Selected: '{{ selected }}'\n    </p>\n    <p>Formatted: '{{ formatted }}'</p>\n  </div>\n</template>\n\n<script>\nimport {BFormDatepicker, BInputGroup, BInputGroupAppend, BFormInput} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormDatepicker,\n    BInputGroup,\n    BInputGroupAppend,\n    BFormInput,\n  },\n  data: () => ({\n    value: '',\n    formatted: '',\n    selected: '',\n  }),\n  methods: {\n    onContext(ctx) {\n      // The date formatted in the locale, or the `label-no - date - selected` string\n      this.formatted = ctx.selectedFormatted\n      // The following will be an empty string until a valid date is entered\n      this.selected = ctx.selectedYMD\n    },\n  },\n}\n</script>\n";
+var codeDisableDate = "\n<template>\n  <div>\n    <b-form-datepicker\n      v-model=\"value\"\n      :date-disabled-fn=\"dateDisabled\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormDatepicker,\n  },\n  data: () => ({\n    value: '',\n  }),\n  methods: {\n    dateDisabled(ymd, date) {\n      // Disable weekends (Sunday = `0`, Saturday = `6`) and\n      // disable days that fall on the 13th of the month\n      const weekday = date.getDay()\n      const day = date.getDate()\n      // Return `true` if the date should be disabled\n      return weekday === 0 || weekday === 6 || day === 13\n    },\n  },\n}\n</script>\n";
+var codeInternationalization = "\n<template>\n  <div>\n    <label for=\"example-locales\">Locale:</label>\n    <b-form-select\n      id=\"example-locales\"\n      v-model=\"locale\"\n      :options=\"locales\"\n      class=\"mb-1\"\n    />\n\n    <label for=\"example-weekdays\">Start weekday:</label>\n    <b-form-select\n      id=\"example-weekdays\"\n      v-model=\"weekday\"\n      :options=\"weekdays\"\n      class=\"mb-1\"\n    />\n\n    <div class=\"d-flex align-items-center\">\n      <b-form-checkbox\n        v-model=\"showDecadeNav\"\n        switch\n        inline\n        class=\"my-1\"\n      />\n      <label class=\"mr-1\">Show decade navigation buttons</label>\n      <b-form-checkbox\n        v-model=\"hideHeader\"\n        switch\n        inline\n        class=\"my-1\"\n      />\n      <label>Hide calendar header</label>\n    </div>\n\n    <label for=\"example-i18n-picker\">Date picker:</label>\n    <b-form-datepicker\n      id=\"example-i18n-picker\"\n      v-model=\"value\"\n      v-bind=\"labels[locale] || {}\"\n      :locale=\"locale\"\n      :start-weekday=\"weekday\"\n      :show-decade-nav=\"showDecadeNav\"\n      :hide-header=\"hideHeader\"\n      class=\"mb-1\"\n    />\n    <p>\n      Value: <b>'{{ value }}'</b>\n    </p>\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker, BFormSelect, BFormCheckbox } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n    BFormSelect,\n    BFormCheckbox,\n  },\n  data: () => ({\n    value: '',\n    locale: 'en-US',\n    showDecadeNav: false,\n    hideHeader: false,\n    locales: [\n      { value: 'en-US', text: 'English US (en-US)' },\n      { value: 'de', text: 'German (de)' },\n      { value: 'ar-EG', text: 'Arabic Egyptian (ar-EG)' },\n      { value: 'zh', text: 'Chinese (zh)' },\n    ],\n    weekday: 0,\n    weekdays: [\n      { value: 0, text: 'Sunday' },\n      { value: 1, text: 'Monday' },\n      { value: 6, text: 'Saturday' },\n    ],\n    labels: {\n      de: {\n        labelPrevDecade: 'Vorheriges Jahrzehnt',\n        labelPrevYear: 'Vorheriges Jahr',\n        labelPrevMonth: 'Vorheriger Monat',\n        labelCurrentMonth: 'Aktueller Monat',\n        labelNextMonth: 'N\xE4chster Monat',\n        labelNextYear: 'N\xE4chstes Jahr',\n        labelNextDecade: 'N\xE4chstes Jahrzehnt',\n        labelToday: 'Heute',\n        labelSelected: 'Ausgew\xE4hltes Datum',\n        labelNoDateSelected: 'Kein Datum gew\xE4hlt',\n        labelCalendar: 'Kalender',\n        labelNav: 'Kalendernavigation',\n        labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren',\n      },\n      'ar-EG': {\n        labelPrevDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelCurrentMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u062D\u0627\u0644\u064A',\n        labelNextMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0642\u0627\u062F\u0645',\n        labelToday: '\u0627\u0644\u064A\u0648\u0645',\n        labelSelected: '\u0627\u0644\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0645\u062D\u062F\u062F',\n        labelNoDateSelected: '\u0644\u0645 \u064A\u062A\u0645 \u0627\u062E\u062A\u064A\u0627\u0631 \u062A\u0627\u0631\u064A\u062E',\n        labelCalendar: '\u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelNav: '\u0627\u0644\u0645\u0644\u0627\u062D\u0629 \u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelHelp: '\u0627\u0633\u062A\u062E\u062F\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0624\u0634\u0631 \u0644\u0644\u062A\u0646\u0642\u0644 \u0641\u064A \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E',\n      },\n      zh: {\n        labelPrevDecade: '\u8FC7\u53BB\u5341\u5E74',\n        labelPrevYear: '\u4E0A\u4E00\u5E74',\n        labelPrevMonth: '\u4E0A\u4E2A\u6708',\n        labelCurrentMonth: '\u5F53\u524D\u6708\u4EFD',\n        labelNextMonth: '\u4E0B\u4E2A\u6708',\n        labelNextYear: '\u660E\u5E74',\n        labelNextDecade: '\u4E0B\u4E00\u4E2A\u5341\u5E74',\n        labelToday: '\u4ECA\u5929',\n        labelSelected: '\u9009\u5B9A\u65E5\u671F',\n        labelNoDateSelected: '\u672A\u9009\u62E9\u65E5\u671F',\n        labelCalendar: '\u65E5\u5386',\n        labelNav: '\u65E5\u5386\u5BFC\u822A',\n        labelHelp: '\u4F7F\u7528\u5149\u6807\u952E\u6D4F\u89C8\u65E5\u671F',\n      },\n    },\n  }),\n}\n</script>\n";
+var codeOptional = "\n<template>\n  <div>\n    <label for=\"datepicker-buttons\">Date picker with optional footer buttons</label>\n    <b-form-datepicker\n      id=\"datepicker-buttons\"\n      today-button\n      reset-button\n      close-button\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n}\n</script>\n";
+var codePlaceholder = "\n<template>\n  <div>\n    <label for=\"datepicker-placeholder\">Date picker with placeholder</label>\n    <b-form-datepicker\n      id=\"datepicker-placeholder\"\n      placeholder=\"Choose a date\"\n      local=\"en\"\n      initial-date=\"2020-06-16\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n}\n</script>\n";
+var codeMinMax = "\n<template>\n  <div>\n    <b-form-datepicker\n      v-model=\"value\"\n      :min=\"min\"\n      :max=\"max\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n  data() {\n    const now = new Date()\n    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())\n    // 15th two months prior\n    const minDate = new Date(today)\n    minDate.setMonth(minDate.getMonth() - 2)\n    minDate.setDate(15)\n    // 15th in two months\n    const maxDate = new Date(today)\n    maxDate.setMonth(maxDate.getMonth() + 2)\n    maxDate.setDate(15)\n\n    return {\n      value: '',\n      min: minDate,\n      max: maxDate,\n    }\n  },\n}\n</script>\n";
+var codeSize = "\n<template>\n  <div>\n    <label for=\"datepicker-sm\">Small date picker</label>\n    <b-form-datepicker\n      id=\"datepicker-sm\"\n      size=\"sm\"\n      local=\"en\"\n      class=\"mb-2\"\n      today-variant=\"danger\"\n    />\n    <label for=\"datepicker-default\">Default date picker</label>\n    <b-form-datepicker\n      id=\"datepicker-default\"\n      local=\"en\"\n      class=\"mb-2\"\n      today-variant=\"danger\"\n    />\n    <label for=\"datepicker-lg\">Large date picker</label>\n    <b-form-datepicker\n      id=\"datepicker-lg\"\n      size=\"lg\"\n      local=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n}\n</script>\n";
+var codeState = "\n<template>\n   <div>\n    <b-form-group label=\"Select date picker interactive state\">\n      <b-form-radio-group\n        v-model=\"state\"\n        plain\n        class=\"vs-radio-con\"\n        aria-controls=\"ex-disabled-readonly\"\n      >\n        <b-form-radio value=\"disabled\">\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-2\">Disabled</span>\n        </b-form-radio>\n        <b-form-radio value=\"readonly\">\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-2\">Readonly</span>\n        </b-form-radio>\n        <b-form-radio value=\"normal\">\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-2\">Normal</span>\n        </b-form-radio>\n      </b-form-radio-group>\n    </b-form-group>\n    <b-form-datepicker\n      id=\"ex-disabled-readonly\"\n      :disabled=\"disabled\"\n      :readonly=\"readonly\"\n    />\n  </div>\n</template>\n\n<script>\nimport {\n  BFormDatepicker, BFormGroup, BFormRadio, BFormRadioGroup,\n} from 'bootstrap-vue'\n\n\nexport default {\n  components: {\n    BFormDatepicker,\n    BFormGroup,\n    BFormRadio,\n    BFormRadioGroup,\n  },\n  data: () => ({\n    state: 'disabled',\n  }),\n  computed: {\n    disabled() {\n      return this.state === 'disabled'\n    },\n    readonly() {\n      return this.state === 'readonly'\n    },\n  },\n}\n</script>\n";
+var codeString = "\n<template>\n  <div>\n    <label for=\"datepicker-dateformat1\">Custom date format</label>\n    <b-form-datepicker\n      id=\"datepicker-dateformat1\"\n      :date-format-options=\"{ year: 'numeric', month: 'short', day: '2-digit', weekday: 'short' }\"\n      locale=\"en\"\n    />\n\n    <label\n      class=\"mt-2\"\n      for=\"datepicker-dateformat2\"\n    >Short date format</label>\n    <b-form-datepicker\n      id=\"datepicker-dateformat2\"\n      :date-format-options=\"{ year: 'numeric', month: 'numeric', day: 'numeric' }\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n}\n</script>\n";
+var codeValidation = "\n<template>\n  <div>\n    <label for=\"datepicker-invalid\">Choose a date (invalid style)</label>\n    <b-form-datepicker\n      id=\"datepicker-invalid\"\n      :state=\"false\"\n      class=\"mb-2\"\n    />\n    <label for=\"datepicker-valid\">Choose a date (valid style)</label>\n    <b-form-datepicker\n      id=\"datepicker-valid\"\n      :state=\"true\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n}\n</script>\n";
+var codeVariant = "\n<template>\n  <b-row>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Primary Variant\"\n        class=\"mb-1\"\n        selected-variant=\"primary\"\n      />\n    </b-col>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Secondary Variant\"\n        class=\"mb-1\"\n        selected-variant=\"secondary\"\n      />\n    </b-col>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Success Variant\"\n        class=\"mb-1\"\n        selected-variant=\"success\"\n      />\n    </b-col>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Warning Variant\"\n        class=\"mb-1\"\n        selected-variant=\"warning\"\n      />\n    </b-col>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Danger Variant\"\n        class=\"mb-1\"\n        selected-variant=\"danger\"\n      />\n    </b-col>\n    <b-col md=\"4\">\n      <b-form-datepicker\n        local=\"en\"\n        placeholder=\"Info Variant\"\n        class=\"mb-1\"\n        selected-variant=\"info\"\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormDatepicker, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeFullWith = "\n<template>\n  <div>\n    <label for=\"datepicker-full-width\">Choose a date</label>\n      <b-form-datepicker\n        id=\"datepicker-full-width\"\n        v-model=\"value\"\n        menu-class=\"w-100\"\n        calendar-width=\"100%\"\n        class=\"mb-2\"\n      />\n  </div>\n</template>\n\n<script>\nimport { BFormDatepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormDatepicker,\n  },\n  data: () => ({\n    value: '',\n  }),\n}\n</script>\n";
 
 /***/ })
 

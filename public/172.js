@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[172],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -31,6 +31,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var _components;
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -151,12 +162,9 @@ var _components;
   },
   data: function data() {
     return {
-      recursoPer: false,
-      jefeareaPer: false,
-
       /**************************** elementos de ux ****************************/
       dir: false,
-      pageLength: 10,
+      pageLength: 5,
       searchTerm: '',
       tabIndex: 1,
       userData: JSON.parse(localStorage.getItem('userData')),
@@ -169,10 +177,14 @@ var _components;
         hidden: true
       }, {
         label: 'ID',
-        field: 'idPermiso'
+        field: 'idPermiso',
+        hidden: true
       }, {
         label: 'Jefe Area',
         field: 'jefeareaPer'
+      }, {
+        label: 'Recursos H.',
+        field: 'recursoPer'
       }, {
         label: 'Trabajador',
         field: 'trabajadorPer'
@@ -202,45 +214,30 @@ var _components;
         field: 'destinoPer'
       }, {
         label: 'Motivo',
-        field: 'motivo'
+        field: 'motivoPer'
       }, {
         label: 'Observación',
         field: 'observacionPer'
       }],
-
-      /**************************** modal ****************************/
-      headerBgVariant: 'dark',
-      headerTextVariant: 'success',
-      headerTitleVariant: 'NUEVO ABASTECIMIENTO',
-      headerTitleVariantD: 'DESCRIPCION ABASTECIMIENTO',
-      bodyBgVariant: 'light',
-      bodyTextVariant: 'success',
-      footerBgVariant: 'dark',
-      footerTextVariant: 'dark',
-      showModal: false,
       showLoading: false,
-      boton: false,
 
       /**************************** entorno ****************************/
       papeletas: [],
-      aprobacion: [],
-      usuarioIn: '',
-      papeleta: {
-        trabajadorPer: "",
-        idPermiso: "",
-        fechaPer: "",
-        estadoPer: "",
-        finicioPer: "",
-        ffinPer: "",
-        destinoPer: "",
-        hinicioPer: "",
-        hfinPer: "",
-        motivoPer: "",
-        hdiferenciaPer: "",
-        observacionPer: "",
-        jefeareaPer: "",
-        recursoPer: ""
-      }
+      ypersonas: [],
+      montos: [],
+      estados: [{
+        value: 'APROBADO',
+        text: 'APROBADO EL'
+      }, {
+        value: 'ANULADO',
+        text: 'ANULADO EL'
+      }, {
+        value: 'SOLICITADO',
+        text: 'SOLICITADO EL'
+      }],
+      yfinicio: '',
+      yffin: '',
+      estado: ""
     };
   },
   methods: {
@@ -258,107 +255,53 @@ var _components;
         appendToast: prm_append
       });
     },
-    CambiarEstado: function CambiarEstado(prm_id, prm_estado, responsable) {
-      if (responsable == 'jefe' && this.userData.id != '731' && this.userData.id != '744') {
-        var uestado = {
-          idPermiso: prm_id,
-          jefeareaPer: prm_estado
-        };
-        this.aprobacion.push(uestado);
-      }
-
-      if (responsable == 'recurso' && this.userData.id == '744') {
-        var uestado = {
-          idPermiso: prm_id,
-          recursoPer: prm_estado
-        };
-        this.aprobacion.push(uestado);
-      }
-
-      if (responsable == 'recurso' && this.userData.id == '731') {
-        var uestado = {
-          idPermiso: prm_id,
-          recursoPer: prm_estado
-        };
-        this.aprobacion.push(uestado);
-      }
-    },
-    Procesar: function Procesar() {
+    Listar: function Listar() {
       var _this = this;
 
       this.showLoading = true;
-      var jsonJefearea = JSON.stringify(this.aprobacion);
-      console.log('aprobación:: ', jsonJefearea);
-      this.$http.post('/LiberAPP/Persona/Papeleta/Jefe/Procesar', {
-        aprobacionP: jsonJefearea
-      }).then(function (res) {
-        _this.Toast(true, 'primary', 'Procesar Aprobación', 'Procesado Correctamente');
-
-        _this.showModal = false;
+      this.$http.get('/LiberAPP/Persona/Papeleta/Listar/' + this.userData.id + '/persona/' + this.estado + '/' + this.yfinicio + '/' + this.yffin).then(function (res) {
         _this.showLoading = false;
-
-        _this.Papeletas();
+        _this.papeletas = res.data;
+        console.log('persona:: ', res.data);
       })["catch"](function (error) {
-        _this.Toast(true, 'danger', 'Procesar Aprobación', 'Error al actualizar la solicitud: ' + error);
+        _this.Toast(true, 'danger', 'Viáticos', 'Error al cargar los registros: ' + error);
 
         _this.showLoading = false;
-      });
-    },
-    Editar: function Editar(prm_detalle) {
-      this.headerTextVariant = 'primary';
-      this.headerTitleVariant = 'EDITAR PAPELETA';
-      this.boton = true;
-      this.papeleta = prm_detalle; //console.log( 'this.papeleta:: ', this.papeleta )
-
-      console.log('papeletas2:: ', this.aprobacion);
-    },
-    Actualizar: function Actualizar() {
-      this.showLoading = true;
-      var jsonPapeleta = JSON.stringify(this.papeleta);
-      console.log('update papeleta:: ', jsonPapeleta);
-    },
-    Papeletas: function Papeletas() {
-      var _this2 = this;
-
-      this.$http.get('/LiberAPP/Persona/Papeleta/' + this.userData.id + '/aprobacion').then(function (res) {
-        _this2.papeletas = res.data;
-      })["catch"](function (error) {
-        _this2.Toast(true, 'danger', 'Cargando Papeletas', 'Error al cargar los registros: ' + error);
-
-        _this2.showLoading = false;
       });
     }
   },
   computed: {
     direction: function direction() {
       if (_store_index__WEBPACK_IMPORTED_MODULE_9__["default"].state.appConfig.isRTL) {
+        // eslint-disable-next-line vue/no-side-effects-in-computed-properties
         this.dir = true;
         return this.dir;
-      }
+      } // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+
 
       this.dir = false;
       return this.dir;
     }
   },
   created: function created() {
-    var _this3 = this;
+    var _this2 = this;
 
-    this.$http.get('/LiberAPP/Persona/Papeleta/' + this.userData.id + '/aprobacion').then(function (res) {
-      _this3.papeletas = res.data;
+    this.$http.get('/LiberAPP/Persona/Select').then(function (res) {
+      _this2.ypersonas = res.data;
     })["catch"](function (error) {
-      _this3.Toast(true, 'danger', 'Cargando Papeletas', 'Error al cargar los registros: ' + error);
+      _this2.Toast(true, 'danger', 'Cargando Personas', 'Error al cargar los registros: ' + error);
 
-      _this3.showLoading = false;
+      _this2.showLoading = false;
     });
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -375,15 +318,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Aprobacion.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ReporteP.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -405,10 +348,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b&":
-/*!***********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b& ***!
-  \***********************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -429,7 +372,91 @@ var render = function() {
           _c(
             "b-row",
             [
-              _c("b-col", { attrs: { md: "6", xl: "3" } }, [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Buscar por:" } },
+                    [
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-select", {
+                            attrs: { options: _vm.estados },
+                            model: {
+                              value: _vm.estado,
+                              callback: function($$v) {
+                                _vm.estado = $$v
+                              },
+                              expression: "estado"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c("h6", [_vm._v("Desde:")]),
+                  _vm._v(" "),
+                  _c("flat-pickr", {
+                    staticClass: "form-control",
+                    model: {
+                      value: _vm.yfinicio,
+                      callback: function($$v) {
+                        _vm.yfinicio = $$v
+                      },
+                      expression: "yfinicio"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "3" } },
+                [
+                  _c("h6", [_vm._v("Hasta:")]),
+                  _vm._v(" "),
+                  _c("flat-pickr", {
+                    staticClass: "form-control",
+                    attrs: { config: { minDate: _vm.yfinicio } },
+                    model: {
+                      value: _vm.yffin,
+                      callback: function($$v) {
+                        _vm.yffin = $$v
+                      },
+                      expression: "yffin"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("b-col", { attrs: { md: "6", xl: "2" } }, [
                 _c(
                   "div",
                   { staticClass: "demo-inline-spacing" },
@@ -437,17 +464,26 @@ var render = function() {
                     _c(
                       "b-button",
                       {
-                        attrs: { block: "", variant: "success" },
-                        on: { click: _vm.Procesar }
+                        attrs: {
+                          variant: "success",
+                          disabled: _vm.showLoading
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.Listar()
+                          }
+                        }
                       },
                       [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "ArrowDownIcon" }
-                        }),
+                        !_vm.showLoading
+                          ? _c("feather-icon", {
+                              staticClass: "mr-50",
+                              attrs: { icon: "ArrowDownIcon" }
+                            })
+                          : _c("b-spinner", { attrs: { small: "" } }),
                         _vm._v(" "),
                         _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Procesar Papeletas")
+                          _vm._v("Listar")
                         ])
                       ],
                       1
@@ -458,8 +494,66 @@ var render = function() {
               ])
             ],
             1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card",
+        [
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { staticClass: "text-left", attrs: { md: "9", xl: "9" } },
+                [_c("h4", [_vm._v(" HISTORIAL DE SOLICITUD DE PAPELETAS")])]
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { staticClass: "text-left", attrs: { md: "3", xl: "3" } },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "custom-search d-flex justify-content-end" },
+                    [
+                      _c("b-form-group", [
+                        _c(
+                          "div",
+                          { staticClass: "d-flex align-items-center" },
+                          [
+                            _c("label", { staticClass: "mr-1" }, [
+                              _vm._v("Buscar:")
+                            ]),
+                            _vm._v(" "),
+                            _c("b-form-input", {
+                              staticClass: "d-inline-block",
+                              attrs: {
+                                placeholder: "Ingrese texto a buscar",
+                                type: "text"
+                              },
+                              model: {
+                                value: _vm.searchTerm,
+                                callback: function($$v) {
+                                  _vm.searchTerm = $$v
+                                },
+                                expression: "searchTerm"
+                              }
+                            })
+                          ],
+                          1
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                ]
+              )
+            ],
+            1
           ),
-          _vm._v(" "),
           _c("br"),
           _vm._v(" "),
           _c("vue-good-table", {
@@ -472,7 +566,6 @@ var render = function() {
                 externalQuery: _vm.searchTerm
               },
               "select-options": {
-                enabled: true,
                 selectOnCheckboxOnly: true,
                 selectionInfoClass: "custom-class",
                 selectionText: "rows selected",
@@ -492,68 +585,24 @@ var render = function() {
                           "span",
                           [
                             props.row.jefeareaPer == null
-                              ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "secondary", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.jefeareaPer = "true"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.jefeareaPer,
-                                          "jefe"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [
-                                    _vm._v(
-                                      "SIN ACCION\n                        "
-                                    )
-                                  ]
-                                )
+                              ? _c("b-badge", [_vm._v("SIN ACCION")])
                               : _vm._e(),
                             _vm._v(" "),
                             props.row.jefeareaPer == "0" ||
                             props.row.jefeareaPer == "true"
                               ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "success", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.jefeareaPer = "false"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.jefeareaPer,
-                                          "jefe"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("APROBADO\n                        ")]
+                                  "b-badge",
+                                  { attrs: { variant: "success" } },
+                                  [_vm._v("APROBADO")]
                                 )
                               : _vm._e(),
                             _vm._v(" "),
                             props.row.jefeareaPer == "1" ||
                             props.row.jefeareaPer == "false"
                               ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "danger", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.jefeareaPer = "true"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.jefeareaPer,
-                                          "jefe"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("ANULADO\n                        ")]
+                                  "b-badge",
+                                  { attrs: { variant: "danger" } },
+                                  [_vm._v("ANULADO")]
                                 )
                               : _vm._e()
                           ],
@@ -564,68 +613,24 @@ var render = function() {
                           "span",
                           [
                             props.row.recursoPer == null
-                              ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "secondary", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.recursoPer = "true"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.recursoPer,
-                                          "recurso"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [
-                                    _vm._v(
-                                      "SIN ACCION\n                        "
-                                    )
-                                  ]
-                                )
+                              ? _c("b-badge", [_vm._v("SIN ACCION")])
                               : _vm._e(),
                             _vm._v(" "),
                             props.row.recursoPer == "0" ||
                             props.row.recursoPer == "true"
                               ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "success", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.recursoPer = "false"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.recursoPer,
-                                          "recurso"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("APROBADO\n                        ")]
+                                  "b-badge",
+                                  { attrs: { variant: "success" } },
+                                  [_vm._v("APROBADO")]
                                 )
                               : _vm._e(),
                             _vm._v(" "),
                             props.row.recursoPer == "1" ||
                             props.row.recursoPer == "false"
                               ? _c(
-                                  "b-button",
-                                  {
-                                    attrs: { variant: "danger", size: "sm" },
-                                    on: {
-                                      click: function($event) {
-                                        props.row.recursoPer = "true"
-                                        _vm.CambiarEstado(
-                                          props.row.idPermiso,
-                                          props.row.recursoPer,
-                                          "recurso"
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("ANULADO\n                        ")]
+                                  "b-badge",
+                                  { attrs: { variant: "danger" } },
+                                  [_vm._v("ANULADO")]
                                 )
                               : _vm._e()
                           ],
@@ -633,9 +638,9 @@ var render = function() {
                         )
                       : _c("span", [
                           _vm._v(
-                            "\n                    " +
+                            "\r\n                " +
                               _vm._s(props.formattedRow[props.column.field]) +
-                              "\n                "
+                              "\r\n            "
                           )
                         ])
                   ]
@@ -672,18 +677,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue":
-/*!**********************************************************************!*\
-  !*** ./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue ***!
-  \**********************************************************************/
+/***/ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/views/Asistencia/Reporte/ReporteP.vue ***!
+  \****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Aprobacion.vue?vue&type=template&id=0098b70b& */ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b&");
-/* harmony import */ var _Aprobacion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Aprobacion.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Aprobacion.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ReporteP.vue?vue&type=template&id=18390178& */ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178&");
+/* harmony import */ var _ReporteP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ReporteP.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ReporteP.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -694,9 +699,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _Aprobacion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ReporteP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -706,54 +711,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue"
+component.options.__file = "resources/js/src/views/Asistencia/Reporte/ReporteP.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************/
+/***/ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Aprobacion.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ReporteP.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss& ***!
-  \********************************************************************************************************/
+/***/ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss& ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Aprobacion.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ReporteP.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178& ***!
+  \***********************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Aprobacion.vue?vue&type=template&id=0098b70b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Transaccion/Aprobacion.vue?vue&type=template&id=0098b70b&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ReporteP.vue?vue&type=template&id=18390178& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Asistencia/Reporte/ReporteP.vue?vue&type=template&id=18390178&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Aprobacion_vue_vue_type_template_id_0098b70b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReporteP_vue_vue_type_template_id_18390178___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

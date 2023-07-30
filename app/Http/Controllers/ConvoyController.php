@@ -14,6 +14,7 @@ use App\Dato;
 use App\Monto;
 use App\Recorrido;
 use App\Guia;
+use App\Eventualidad;
 use DB;
 /*use PDF;
 use Dompdf\Dompdf;
@@ -179,6 +180,118 @@ class ConvoyController extends Controller
         return $arr_convoys;
     }
 
+      //Listar Serviios en ruta 
+      public function ListarServioActivo( $cuenta, $f_inicio, $f_fin ) 
+      {
+          $arr_convoys = Convoy::select('convoy.*','origenRut','destinoRut','cliente.nombreExt as clienteExt','remitente.nombreExt as remitenteExt','destinatario.nombreExt as destinatarioExt','partida.valorDat as partidaCon','llegada.valorDat as llegadaCon','ruta.Grupo_idDato'/*,'convoy.Cuenta_idDato'*/,'alimentacionRut')
+              ->join('ruta','ruta.idRuta','=','convoy.Ruta_idRuta')
+              ->join('externo as cliente','cliente.idExterno','=','convoy.Cliente_idExterno')
+              ->join('externo as remitente','remitente.idExterno','=','convoy.Remitente_idExterno')
+              ->join('externo as destinatario','destinatario.idExterno','=','convoy.Destinatario_idExterno')
+              ->join('dato as partida','partida.idDato','=','convoy.Partida_idDato')
+              ->join('dato as llegada','llegada.idDato','=','convoy.Llegada_idDato')
+              ->where('convoy.finicioCon','>=', $f_inicio)
+              ->where('convoy.finicioCon','<=', $f_fin)
+              ->where('ruta.Grupo_idDato','=', $cuenta)
+              ->whereIn('estadoCon', ['RUTA'])
+              ->get();
+  
+          $ids = [];
+          $servicios = [];
+          $recorridos = [];
+          $montos = [];
+          //eventualidades 
+          $ids_servicios = [];
+          $eventualidades = [];
+          $placaVeh = [];
+          $acople = [];
+          $operador = [];
+          $escoltaUnd = []; 
+          $escolta = [];
+  
+          foreach ($arr_convoys as $llave => $uconvoy)
+          {
+              $ids[] = $uconvoy->idConvoy;
+              $servicios["s".$uconvoy->idConvoy] = [];
+              $recorridos["r".$uconvoy->idConvoy] = [];
+              $montos["m".$uconvoy->idConvoy] = [];
+              $eventualidades["e".$uconvoy->idConvoy] = [];
+  
+              //VERIFICAR QUE EL CONVOY APAREZCA COMO QUE ESTA POR SALIR SI EN CASO ESTA PROGRAMADO PERO AÚN NO HA SALIDO
+              $inicio = $uconvoy->finicioCon;
+              $ahora = date("Y-m-d H:i:s");
+  
+              if($ahora < $inicio && $uconvoy->estadoCon == "RUTA")
+              {
+                  $arr_convoys[$llave]["estadoCon"] = "POR SALIR";
+              }
+          }
+  
+          /*****************************************************************************************************************/
+          $arr_servicios = Servicio::select(DB::raw('CONCAT(paternoPer, " ",maternoPer, " ", nombrePer) AS trabajadorPer'),'vehiculo.placaVeh','vehiculo.ejeVeh as vejeVeh','acople.placaVeh as acopleVeh','acople.ejeVeh as aejeVeh','idServicio','Persona_idPersona','Vehiculo_idVehiculo','Acople_idVehiculo','Convoy_idConvoy','cargaSer','Guia_idGuia','valorDat as tipoVeh','escoltaSer','estadoSer','ubicacionSer')
+              ->join('vehiculo','vehiculo.idVehiculo','=','servicio.Vehiculo_idVehiculo')
+              ->leftJoin('vehiculo as acople','acople.idVehiculo','=','servicio.Acople_idVehiculo')
+              ->join('persona','persona.idPersona','=','servicio.Persona_idPersona')
+              ->join('dato','vehiculo.Tipo_idDato','=','dato.idDato')
+              ->whereIn('Convoy_idConvoy',$ids)
+              ->where('estadoSer','<>','ANULADO')
+              ->where('estadoSer','<>','FACTURADO')
+              ->where('estadoSer','<>','PAGADO')
+              ->where('estadoSer','<>','REEMPLAZADO')
+              ->orderBy('escoltaSer','DESC')
+              ->get();
+      
+          foreach ($arr_servicios as $uservicio)
+          {
+              $ids_servicios[] = $uservicio->idServicio;
+              $servicios["s".$uservicio->Convoy_idConvoy][] = $uservicio;
+              $placaVeh["p".$uservicio->idServicio] = $uservicio->placaVeh;
+              $acople["a".$uservicio->idServicio] = $uservicio->acopleVeh !== null ? $uservicio->acopleVeh:'';
+              $operador["o".$uservicio->idServicio] = $uservicio->trabajadorPer;    
+              
+              if ( $uservicio->escoltaSer == 1) 
+              {
+                  $escoltaUnd["u".$uservicio->Convoy_idConvoy] = $uservicio->placaVeh;
+                  $escolta["es".$uservicio->Convoy_idConvoy] = $uservicio->trabajadorPer;
+              }
+          }
+          
+          $arr_eventualidad = Eventualidad::select('idEventualidad','nombreEve as evento','Evento_idEvento','valorDat as ciudad','Ciudad_idDato','finicioEvt','hinicioEvt',
+                                                   'ffinEvt','hfinEvt','activoEvt','tipoEvt','Servicio_idServicio','Convoy_idConvoy')
+              ->join('dato','dato.idDato','=','eventualidad.Ciudad_idDato')
+              ->join('evento','evento.idEvento','=','eventualidad.Evento_idEvento')
+              ->join('servicio','servicio.idServicio','=','eventualidad.Servicio_idServicio')
+              ->whereIn('Servicio_idServicio',$ids_servicios)
+              ->where('activoEvt', 1)
+              ->get();
+  
+          foreach ( $arr_eventualidad as $ueventualidad ) 
+          {
+              $ueventualidad->placaVeh = $placaVeh["p".$ueventualidad->Servicio_idServicio];
+              $ueventualidad->acopleVeh = $acople["a".$ueventualidad->Servicio_idServicio];
+              $ueventualidad->trabajadorPer = $operador["o".$ueventualidad->Servicio_idServicio];
+              $eventualidades["e".$ueventualidad->Convoy_idConvoy][] = $ueventualidad;
+          }
+  
+          foreach ($arr_convoys as $llave => $uconvoy)
+          {
+              $finicioCon = $arr_convoys[$llave]->finicioCon;
+              $fterminoCon = $arr_convoys[$llave]->fterminoCon;
+              $hfinicioCon = explode(" ", $finicioCon);
+              $hfterminoCon = explode(" ", $fterminoCon);
+  
+              $arr_convoys[$llave]->hfinicioCon = $hfinicioCon[1];
+              $arr_convoys[$llave]->hfterminoCon = $hfterminoCon[1];
+              $arr_convoys[$llave]->escoltaUnd = isset($escoltaUnd["u".$uconvoy->idConvoy]) ? $escoltaUnd["u".$uconvoy->idConvoy]:'';
+              $arr_convoys[$llave]->escolta = isset($escolta["es".$uconvoy->idConvoy]) ? $escolta["es".$uconvoy->idConvoy]:'';
+              $arr_convoys[$llave]["servicios"] = $servicios["s".$uconvoy->idConvoy];
+              $arr_convoys[$llave]["recorridos"] = $recorridos["r".$uconvoy->idConvoy];
+              $arr_convoys[$llave]["eventualidades"] = $eventualidades["e".$uconvoy->idConvoy];
+          }
+  
+          return $arr_convoys;
+      }
+      
     public function ListarSelect()
     {
         $arr_servicios = Servicio::select('idServicio','codigoSer')

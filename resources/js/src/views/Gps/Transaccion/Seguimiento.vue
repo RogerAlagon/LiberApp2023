@@ -272,220 +272,19 @@
             <div class="card-title text-center">
                 <h5 class="text-primary mt-2"><b>{{ convoy.convoy +': TRANSPORTE DE ' + convoy.carga }}</b>
                 </h5>
-                <b-badge class="badge-glow">{{ estadoCarga }}</b-badge>
             </div>
             <hr>
             <div class="card-body">
-                <app-timeline>
-                    <app-timeline-item icon="AwardIcon" variant="success">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Inicio Servicio">
-                                    <b-form-datepicker class="form-control" v-model="convoy.finicioservicioCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Inicio Servicio">
-                                    <cleave v-model="convoy.hinicioservicioCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                    <app-timeline-item icon="InfoIcon" variant="info">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Inicio Carga">
-                                    <b-form-datepicker class="form-control" v-model="convoy.finiciocargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Inicio Carga">
-                                    <cleave v-model="convoy.hiniciocargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>  
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Fin Carga">
-                                    <b-form-datepicker class="form-control" v-model="convoy.ffincargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Fin Carga">
-                                    <cleave v-model="convoy.hfincargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>    
-                        </b-row>
-                    </app-timeline-item>
-                    <app-timeline-item icon="ClockIcon" variant="warning">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Llegada Remitente">
-                                    <b-form-datepicker class="form-control" v-model="convoy.fdestinoCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Llegada">
-                                    <cleave v-model="convoy.hfdestinoCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                    <app-timeline-item icon="UserIcon">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Descarga">
-                                    <b-form-datepicker class="form-control" v-model="convoy.finiciodescargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Descarga">
-                                    <cleave v-model="convoy.hiniciodescargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>   
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Fin Descarga">
-                                    <b-form-datepicker class="form-control" v-model="convoy.ffindescargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Fin Descarga">
-                                    <cleave v-model="convoy.hdescargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                    <app-timeline-item variant="warning">
-                        <div class="d-flex flex-sm-row flex-column justify-content-between align-items-start">
-                            <div class="mb-1 mb-sm-0">
-                                <span class="text-bold mb-50">Agregar Llegada Remitente</span>
-                                <div>
-                                    <b-button variant="outline-warning" class="btn-icon rounded-circle btn-sm" @click="agregarCarga()">
-                                        <feather-icon icon="ClockIcon" />
-                                    </b-button>
-                                    <b-button variant="gradient-warning" class="btn-icon rounded-circle">
-                                        {{ intermedio_carga.length }}
-                                    </b-button>
-                                </div>
-                            </div>
-                        </div>
-                    </app-timeline-item>
-                    <app-timeline-item variant="primary">
-                        <div class="d-flex flex-sm-row flex-column justify-content-between align-items-start">
-                            <div class="mb-1 mb-sm-0">
-                                <span class="text-bold mb-50">Agregar Descarga</span>
-                                <div>
-                                    <b-button variant="outline-primary" class="btn-icon rounded-circle btn-sm" @click="agregarDescarga()">
-                                        <feather-icon icon="UserIcon" />
-                                    </b-button>
-                                    <b-button variant="gradient-primary" class="btn-icon rounded-circle">
-                                        {{ intermedio_descarga.length }}
-                                    </b-button>
-                                </div>
-                            </div>
-                        </div>
-                    </app-timeline-item>
-                    <!--------------------------------- AGREGAR CARGA -------------------------------------------->
-                    <app-timeline-item icon="InfoIcon" variant="info" v-if="intermedio_carga.length > 0 " v-for="( ucarga, indice) in intermedio_carga" :key="convoy.idConvoy+indice">
-                        <hr style="border-top: 2px solid #00cfe8;">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Inicio Carga">
-                                    <b-form-datepicker class="form-control" v-model="ucarga.finiciocargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Inicio Carga">
-                                    <cleave v-model="ucarga.hiniciocargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>  
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Fin Carga">
-                                    <b-form-datepicker class="form-control" v-model="ucarga.ffincargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Fin Carga">
-                                    <cleave v-model="ucarga.hfincargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>    
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Eliminar Carga">
-                                    <b-button variant="gradient-danger" class="btn-icon rounded-circle" @click="eliminarCarga( indice )">
-                                        <feather-icon icon="TrashIcon" />
-                                    </b-button>
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                    <!--------------------------------- AGREGAR DESCARGA ------------------------------------------>
-                    <app-timeline-item icon="UserIcon" v-if="intermedio_descarga !== null" v-for="( udescarga, indice ) in intermedio_descarga" :key="convoy.idConvoy+indice">
-                        <hr style="border-top: 2px solid #7367f0;">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Descarga">
-                                    <b-form-datepicker class="form-control" v-model="udescarga.finiciodescargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Descarga">
-                                    <cleave v-model="udescarga.hiniciodescagaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>   
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Fin Descarga">
-                                    <b-form-datepicker class="form-control" v-model="udescarga.ffindescargaCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Fin Descarga">
-                                    <cleave v-model="udescarga.hfindescargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Eliminar Descarga">
-                                    <b-button variant="gradient-danger" class="btn-icon rounded-circle" @click="eliminarDescarga( indice )">
-                                        <feather-icon icon="TrashIcon" />
-                                    </b-button>
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                    <!---------------------------------------------------------------------------------------------->
-                    <app-timeline-item icon="AwardIcon" variant="success">
-                        <b-row>
-                            <b-col md="6" xl="4">
-                                <b-form-group label="Fecha Fin Servicio">
-                                    <b-form-datepicker class="form-control" v-model="convoy.fterminoCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
-                                    </b-form-datepicker>
-                                </b-form-group>
-                            </b-col>
-                            <b-col md="3" xl="3">
-                                <b-form-group label="Hora Fin Servicio">
-                                    <cleave v-model="convoy.hfterminoCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m']}" placeholder="hh:mm" />
-                                </b-form-group>
-                            </b-col>
-                        </b-row>
-                    </app-timeline-item>
-                </app-timeline>
-                <!--<b-row>
+                <b-row>
                     <b-col md="4" xl="4">
                         <b-form-group label="Fecha Inicio Servicio">
-                            <b-form-datepicker class="form-control" v-model="convoy.finicioservicioCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
+                            <b-form-datepicker class="form-control" v-model="convoy.finicioCon" :date-format-options="{ year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }" locale="es" new=date() placeholder="YYYY-MM-DD">
                             </b-form-datepicker>
                         </b-form-group>
                     </b-col>
                     <b-col md="4" xl="4">
                         <b-form-group label="Hora Inicio Servicio">
-                            <cleave v-model="convoy.hfinicioservicioCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m','s']}" placeholder="hh:mm:ss" />
+                            <cleave v-model="convoy.hfinicioCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m','s']}" placeholder="hh:mm:ss" />
                         </b-form-group>
                     </b-col>
                     <b-col md="4" xl="4">
@@ -521,8 +320,8 @@
                             <cleave v-model="convoy.hfindescargaCon" class="form-control" :raw="false" :options="{ time:true, timePattern:['h','m','s']}" placeholder="hh:mm:ss" />
                         </b-form-group>
                     </b-col>
-                </b-row>-->
-                <!--<h5 class="text-success">
+                </b-row>
+                <h5 class="text-success">
                     <feather-icon icon="TruckIcon" />
                     <span><b>Servicios</b></span>
                 </h5>
@@ -537,10 +336,10 @@
                         <dl class="row" v-for="( uservicio, indice ) in convoy.servicios">
                             <dd class="col-sm-1 text-center"> 
                                 <h2 class="text-success" v-if="uservicio.escoltaSer == 1" size="md">
-                                    <feather-icon icon="UserCheckIcon" style="width: 30px !important; height: 30px !important;"/>
+                                    <feather-icon icon="UserCheckIcon"/>
                                 </h2>
-                                <h2 class="text-warning" v-else>
-                                    <feather-icon icon="TruckIcon" style="width: 30px !important; height: 30px !important;"/>
+                                <h2 class="text-warning" v-else size="md">
+                                    <feather-icon icon="TruckIcon"/>
                                 </h2>
                             </dd>
                             <dt class="col-sm-3 text-center" style="white-space: nowrap;">
@@ -552,7 +351,7 @@
                             </dd>
                         </dl>
                     </b-col>
-                </b-row>-->
+                </b-row>
             </div>
         </div>
         <!---------------------------------- modal acciones -------------------------------->
@@ -631,8 +430,6 @@ export default {
         AppTimeline,
         AppTimelineItem,
         BFormDatepicker,
-        AppTimeline,
-        AppTimelineItem,
     },
     directives: { 
         Ripple,
@@ -734,8 +531,6 @@ export default {
             grupos: [],
             convoy: [],
             eventualidades: [],
-            intermedio_carga: [], 
-            intermedio_descarga: [],
             popoverShow: false,
             idCuenta: [], 
             fechaIni: '', 
@@ -765,9 +560,6 @@ export default {
                 tipoEvt:'',
             }, 
             contador_eventualidad: 0,
-            idIntermedioCarga: 0, 
-            idIntermedioDescarga: 200,
-            estadoCarga: 'RUTA CARGA',
         }
     }, 
     methods: { 
@@ -944,7 +736,7 @@ export default {
                             });
                             estado.addEventListener('click', function() {
                                 modal_estado.show(); 
-                                funciones.cargarEstados( arrayConvoy );
+                                funciones.cargarConvoy( arrayConvoy );
                             });
                             ver_eventos.addEventListener('click', function() { 
                                 modal_eventos_lista.show();
@@ -1132,6 +924,7 @@ export default {
                 console.log(e);
             })
         },
+
         buscarConvoy( ) 
         {
             console.log('idCuenta:: ' + this.idCuenta.idDato + ' FechaIni:: ' + this.fechaIni + ' FechaFin:: ' + this.fechaFin );
@@ -1156,21 +949,16 @@ export default {
                             cantidadCon: this.arr_servicios.escoltaUnd !== '' ? this.arr_servicios[i].servicios.length - 1 : this.arr_servicios[i].length,
                             cantidadEsc: this.arr_servicios.escolta !== '' ? 1 : 1,
                             escolta: this.arr_servicios[i].escolta,
-                            finicioservicioCon: this.arr_servicios[i].finicioservicioCon,
-                            hinicioservicioCon: this.arr_servicios[i].hinicioservicioCon,
-                            finiciocargaCon: this.arr_servicios[i].finiciocargaCon,
-                            hiniciocargaCon: this.arr_servicios[i].hiniciocargaCon,
+                            finicioCon: this.arr_servicios[i].finicioCon,
+                            hfinicioCon: this.arr_servicios[i].hfinicioCon,
+                            fterminoCon: this.arr_servicios[i].fterminoCon,
+                            hfterminoCon: this.arr_servicios[i].hfterminoCon,
                             ffincargaCon: this.arr_servicios[i].ffincargaCon,
                             hfincargaCon: this.arr_servicios[i].hfincargaCon, 
                             fdestinoCon: this.arr_servicios[i].fdestinoCon,
                             hfdestinoCon: this.arr_servicios[i].hfdestinoCon,
-                            finiciodescargaCon: this.arr_servicios[i].finiciodescargaCon,
-                            hiniciodescargaCon: this.arr_servicios[i].hiniciodescargaCon,
                             ffindescargaCon: this.arr_servicios[i].ffindescargaCon,
-                            hdescargaCon: this.arr_servicios[i].hdescargaCon,
-                            fterminoCon: this.arr_servicios[i].fterminoCon_,
-                            hfterminoCon: this.arr_servicios[i].hfterminoCon,
-                            intermediocargaCon: this.arr_servicios[i].intermediocargaCon,
+                            hfindescargaCon: this.arr_servicios[i].hfindescargaCon,
                             servicios: [],
                             eventualidades: [],
                         }); 
@@ -1212,7 +1000,6 @@ export default {
                                         lng: Number( coordenadas[1] ), 
                                         convoy: 'Convoy ' + this.arr_servicios[i].idConvoy,
                                         idServicio: this.arr_servicios[i].servicios[s].idServicio,
-                                        idtracklogVeh: this.arr_servicios[i].servicios[s].idtracklogVeh,
                                         placaVeh: this.arr_servicios[i].servicios[s].placaVeh,
                                         acopleVeh: this.arr_servicios[i].servicios[s].acopleVeh,
                                         escoltaSer: this.arr_servicios[i].servicios[s].escoltaSer,
@@ -1252,58 +1039,6 @@ export default {
             this.contador_eventualidad = array_convoy.eventualidades.length;
             this.cantidadEventos( array_convoy );
             console.log( 'array_convoy:: ', array_convoy );
-        },
-        cargarEstados( array_convoy ) 
-        {
-            this.convoy = array_convoy;
-            this.contador_eventualidad = array_convoy.eventualidades.length;
-            this.cantidadEventos( array_convoy );
-            var intermedio = array_convoy.intermediocargaCon.split("/");
-            var fechaCarga = intermedio[0].split("&");
-            
-            var uintermedio_carga = {
-                idIntermedioCarga: 0, 
-                finiciocargaCon: '', 
-                hiniciocargaCon: '', 
-                ffincargaCon: '', 
-                hfincargaCon: '',
-                estadoCarga: '',
-            };
-            var temporal = [];
-            for ( var i = 0; i < intermedio.length; i++) 
-            {
-                var fechaCarga_ = intermedio[i].split("&")
-                //var separarFecha = fechaCarga_[i].split(",");
-                console.log('fechaCarga:: ', fechaCarga_);
-                for ( var j = 0; j < fechaCarga_.length; j++) 
-                {
-                    var salida = fechaCarga_[j].split(",");
-                    temporal.push(salida[i]);
-
-                }
-
-               
-                /*for ( var j = 0; j < fechaCarga_.length; j++) 
-                {
-                    var salida = fechaCarga_[j].split(",");
-                    console.log('salida:: ', salida);
-                    if ( salida[0] == 'RUTA CARGANDO') 
-                    {
-                        uintermedio_carga.finiciocargaCon = salida[1];
-                        uintermedio_carga.hiniciocargaCon = salida[2];
-                    }/*
-                    /*if ( salida[0] == 'RUTA DESCARGA')
-                    {
-                        uintermedio_carga.ffincargaCon = salida[1];
-                        uintermedio_carga.hfincargaCon = salida[2];
-                    }*/
-                //}
-                //this.intermedio_carga.push(uintermedio_carga);
-            }
-            console.log( 'array_estados:: ', intermedio);
-            console.log('temporal :: ', temporal)
-
-
         },
         cargarServicios( array_convoy ) 
         {
@@ -1438,59 +1173,14 @@ export default {
         listarEventos( convoy ) {
             this.eventualidades = convoy;
         },
-        agregarCarga() {
-            this.idIntermedioCarga++;
-            var uintermedio_carga = {
-                idIntermedioCarga: this.idIntermedioCarga, 
-                finiciocargaCon: '', 
-                hiniciocargaCon: '', 
-                ffincargaCon: '', 
-                hfincargaCon: '',
-                estadoCarga: '',
-            };
-            this.intermedio_carga.push( uintermedio_carga );
-            console.log( 'intermedio_carga:: ', this.intermedio_carga );
-        }, 
-        agregarDescarga() { 
-            this.idIntermedioDescarga++;
-            var uintermedio_descarga = {
-                idIntermedioDescarga: this.idIntermedioDescarga, 
-                finiciodescargaCon: '', 
-                hiniciodescagaCon: '', 
-                ffindescargaCon: '', 
-                hfindescargaCon: '',
-                estadoCarga: '',
-            }; 
-            this.intermedio_descarga.push( uintermedio_descarga );
-            console.log( 'intermedio_descarga:: ', this.intermedio_descarga );
-        },
-        eliminarCarga( indice ) { 
-
-            this.$bvModal.msgBoxConfirm('¿Esta seguro de eliminar Fechas de Carga?', {
-                cancelVariant: 'outline-secondary',
-            }).then(value => {
-                this.boxOne = value
-                if ( this.boxOne === true ) { this.intermedio_carga.splice( indice, 1)};
-            })
-            console.log('eliminar carga:: ', this.intermedio_carga);
-        }, 
-        eliminarDescarga( indice ) { 
-            this.$bvModal.msgBoxConfirm('¿Esta seguro de eliminar el Fechas de Descarga?', {
-                cancelVariant: 'outline-secondary',
-            }).then(value => {
-                this.boxOne = value
-                if ( this.boxOne === true ) { this.intermedio_descarga.splice( indice, 1)};
-            })
-            console.log('eliminar descarga:: ', this.intermedio_descarga);
-        },
         actualizarSeguimiento() { 
             
-            /*if ( this.convoy.finicioservicioCon == null || this.convoy.finicioservicioCon == "" )
+            if ( this.convoy.finicioCon == null || this.convoy.finicioCon == "" )
             {
                 this.Toast(true,'warning','Estado','Seleccione Fecha de Inicio');
                 return;
             }
-            if ( this.convoy.hfinicioservicioCon == null || this.convoy.hfinicioservicioCon == "" )
+            if ( this.convoy.hfinicioCon == null || this.convoy.hfinicioCon == "" )
             {
                 this.Toast(true,'warning','Estado','Ingrese Hora Inicio de Servicio');
                 return;
@@ -1500,61 +1190,7 @@ export default {
                 this.Toast(true,'warning','Estado','Seleccione Fecha Fin Carga');
                 return;
             }
-            if ( this.convoy.hfincargaCon == null || this.convoy.hfincargaCon == "" )
-            {
-                this.Toast(true,'warning','Estado','Ingrese Hora Fin Carga');
-                return;
-            }
-            if ( this.convoy.fdestinoCon == null || this.convoy.fdestinoCon == "" )
-            {
-                this.Toast(true,'warning','Estado','Seleccione Fecha Llegada Destino');
-                return;
-            }
-            if ( this.convoy.hfdestinoCon == null || this.convoy.hfdestinoCon == "" )
-            {
-                this.Toast(true,'warning','Estado','Ingrese Hora Llegada Destino');
-                return;
-            }
-            if ( this.convoy.ffindescargaCon == null || this.convoy.ffindescargaCon == "" )
-            {
-                this.Toast(true,'warning','Estado','Seleccione Fecha Fin Descarga');
-                return;
-            }
-            if ( this.convoy.hfindescargaCon == null || this.convoy.hfindescargaCon == "" )
-            {
-                this.Toast(true,'warning','Estado','Ingrese Hora Fin Descarga');
-                return;
-            }*/
 
-            var jsonSeguimiento = JSON.stringify( this.convoy );
-            var jsonIntermedioCarga = JSON.stringify( this.intermedio_carga );
-            var jsonIntermedioDescarga = JSON.stringify( this.intermedio_descarga );
-            //console.log( 'jsonSeguimiento:: ', jsonSeguimiento );
-            /*for ( var i = 0; i < this.intermedio_carga.length; i++) 
-            {
-                if ( this.intermedio_carga[i]['finiciocargaCon'] !== '') 
-                {
-                    estado = 'RUTA CARGANDO'; 
-                }
-                console.log('carga:: ', this.intermedio_carga[i]['ffincargaCon']);
-            }
-
-            return;*/
-            this.showLoadingES = true; 
-            this.$http.post('/LiberApp/Seguimiento/Actualizar', 
-            {
-                convoy: jsonSeguimiento,
-                carga: jsonIntermedioCarga, 
-                descarga: jsonIntermedioDescarga,
-            }).then( res => { 
-                this.Toast(true,'success','Seguimiento','Actualizado Correctamente');
-                this.showModalES = false;
-                this.showLoadingES = false;
-            }).catch( error => { 
-                this.Toast( true, 'danger','Actulizar Seguimiento','Error al actualizar registro: ' + error );
-                this.showModalES = false;
-                this.showLoadingES = false;
-            })
         }
     },
     computed: { 

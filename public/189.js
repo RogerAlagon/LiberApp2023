@@ -1,131 +1,34 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[189],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
-/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
-/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
-/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
-/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
-/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! vue-cleave-component */ "./node_modules/vue-cleave-component/dist/vue-cleave.min.js");
-/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(vue_cleave_component__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! cleave.js/dist/addons/cleave-phone.us */ "./node_modules/cleave.js/dist/addons/cleave-phone.us.js");
-/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_11__);
-
+/* harmony import */ var _Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-form-wizard */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.js");
+/* harmony import */ var vue_form_wizard__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-form-wizard/dist/vue-form-wizard.min.css */ "./node_modules/vue-form-wizard/dist/vue-form-wizard.min.css");
+/* harmony import */ var vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_form_wizard_dist_vue_form_wizard_min_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
+/* harmony import */ var vue_good_table__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-good-table */ "./node_modules/vue-good-table/dist/vue-good-table.esm.js");
+/* harmony import */ var _store_index__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/store/index */ "./resources/js/src/store/index.js");
+/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! vue-cleave-component */ "./node_modules/vue-cleave-component/dist/vue-cleave.min.js");
+/* harmony import */ var vue_cleave_component__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(vue_cleave_component__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! cleave.js/dist/addons/cleave-phone.us */ "./node_modules/cleave.js/dist/addons/cleave-phone.us.js");
+/* harmony import */ var cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(cleave_js_dist_addons_cleave_phone_us__WEBPACK_IMPORTED_MODULE_10__);
 
 
 var _components;
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -284,58 +187,68 @@ var _components;
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: (_components = {
-    BButtonToolbar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButtonToolbar"],
-    BToast: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BToast"],
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_2__["default"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCol"],
-    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BImg"],
-    BSpinner: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BSpinner"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormInput"],
-    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormCheckbox"],
-    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BForm"],
-    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButton"],
-    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BButtonGroup"],
-    VueGoodTable: vue_good_table__WEBPACK_IMPORTED_MODULE_8__["VueGoodTable"],
-    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BAvatar"],
-    BBadge: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BBadge"],
-    BPagination: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BPagination"],
-    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormSelect"],
-    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BAlert"],
-    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BDropdown"],
-    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BDropdownItem"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardText"],
-    BOverlay: bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BOverlay"],
-    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_6___default.a
-  }, Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BFormCheckbox", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BFormCheckbox"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BCardBody", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardBody"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "FormWizard", vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__["FormWizard"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "TabContent", vue_form_wizard__WEBPACK_IMPORTED_MODULE_3__["TabContent"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BInputGroup", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BInputGroup"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BInputGroupPrepend", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BInputGroupPrepend"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BTabs", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BTabs"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BTab", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BTab"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "Cleave", vue_cleave_component__WEBPACK_IMPORTED_MODULE_10___default.a), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BCardText", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCardText"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_components, "BCard", bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["BCard"]), _components),
+    BToast: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BToast"],
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__["default"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCol"],
+    BImg: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BImg"],
+    BSpinner: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BSpinner"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormGroup"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormInput"],
+    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormCheckbox"],
+    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BForm"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BButton"],
+    BButtonGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BButtonGroup"],
+    VueGoodTable: vue_good_table__WEBPACK_IMPORTED_MODULE_7__["VueGoodTable"],
+    BAvatar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BAvatar"],
+    BBadge: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BBadge"],
+    BPagination: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BPagination"],
+    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormSelect"],
+    BAlert: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BAlert"],
+    BDropdown: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BDropdown"],
+    BDropdownItem: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BDropdownItem"],
+    BCard: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCard"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCardText"],
+    BLink: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BLink"],
+    BOverlay: bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BOverlay"],
+    vSelect: vue_select__WEBPACK_IMPORTED_MODULE_5___default.a
+  }, Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BFormCheckbox", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormCheckbox"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BCardBody", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BCardBody"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BInputGroup", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BInputGroup"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BInputGroupPrepend", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BInputGroupPrepend"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BTabs", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BTabs"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BTab", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BTab"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BFormSpinbutton", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormSpinbutton"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BFormDatepicker", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormDatepicker"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "BFormTimepicker", bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["BFormTimepicker"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_components, "Cleave", vue_cleave_component__WEBPACK_IMPORTED_MODULE_9___default.a), _components),
   directives: {
-    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_7__["default"]
+    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_6__["default"]
   },
   data: function data() {
-    return {
+    var _ref;
+
+    return _ref = {
       /**************************** elementos de ux ****************************/
       dir: false,
-      pageLength: 10,
+      pageLength: 5,
       searchTerm: '',
       tabIndex: 1,
 
       /**************************** tabla ****************************/
-      tcolumnas: [{
-        label: '',
+      columns: [{
+        label: 'ID',
+        field: 'idKilometraje'
+      }, {
+        label: 'Acciones',
         field: 'acciones'
       }, {
-        label: 'ID',
-        field: 'idDato'
+        label: 'Kilometraje',
+        field: 'kilometrajeKil'
       }, {
-        label: 'Valor',
-        field: 'valorDat'
-      }],
+        label: 'Fecha',
+        field: 'fechaKil'
+      }
+      /*{ label: 'Fec. Rendición', field: 'frendicionMon'},
+      { label: 'Monto', field: 'totalMon'},
+      { label: 'Detalle', field: 'detalleMon'}*/
+      ],
 
       /**************************** modal ****************************/
       headerBgVariant: 'dark',
       headerTextVariant: 'success',
-      headerTitleVariant: 'NUEVO',
+      headerTitleVariant: 'NUEVO KILOMETRAJE',
       bodyBgVariant: 'light',
       bodyTextVariant: 'success',
       footerBgVariant: 'dark',
@@ -345,33 +258,34 @@ var _components;
       boton: false,
 
       /**************************** entorno ****************************/
-      tabla: [],
-      tipos: [],
-      marcas: [],
-      grupos: [],
-      cargas: [],
-      unidades: [],
-      ubicaciones: [],
-      direcciones: [],
-      titulo: "",
-      opcion: 0,
-      plantilla: {
-        idDato: 0,
-        valorDat: ""
-      },
-
-      /**************************** formulario ****************************/
-      general: {
-        idDato: 0,
-        valorDat: ""
-      },
-
-      /******************************** variables *********************/
-      datos: {
-        tipoDat: "",
-        grupoDat: ""
+      yvehiculos: [],
+      kilometrajes: [],
+      status: false,
+      estados: [{
+        value: 'APLICADO',
+        text: 'ENTREGADO'
+      }, {
+        value: 'RENDIDO',
+        text: 'RENDIDO'
+      }, {
+        value: 'REASIGNADO',
+        text: 'DESCONTADO'
+      }],
+      montos: [],
+      yvehiculo: {},
+      estado: "",
+      seleccionado: {
+        estado: "",
+        vehiculo: "",
+        id: 0
       }
-    };
+    }, Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "showLoading", false), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "kilometraje", {
+      //idKilometraje: 0,
+      kilometrajeKil: "",
+      horometrajeKil: "",
+      fechaKil: "",
+      Vehiculo_idVehiculo: 0
+    }), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, "terminado", false), _ref;
   },
   methods: {
     Toast: function Toast() {
@@ -388,295 +302,113 @@ var _components;
         appendToast: prm_append
       });
     },
-    Nuevo: function Nuevo() {
-      this.headerTextVariant = 'success';
-      this.boton = false;
-      this.headerTitleVariant = "NUEVO";
-      this.general = Object.assign({}, this.plantilla);
-    },
-    Cambiar: function Cambiar(prm_valor) {
-      switch (prm_valor) {
-        case "tvehiculo":
-          this.tabla = this.tipos;
-          this.titulo = "Tipos de Vehículo";
-          this.datos = {
-            tipoDat: 'TIPO',
-            grupoDat: 'VEHICULO'
-          };
-          this.opcion = 1;
-          break;
-
-        case "marca":
-          this.tabla = this.marcas;
-          this.titulo = "Marcas";
-          this.datos = {
-            tipoDat: 'MARCA',
-            grupoDat: 'VEHICULO'
-          };
-          this.opcion = 2; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-
-        case "modelo":
-          this.tabla = this.modelos;
-          this.titulo = "Modelos";
-          this.datos = {
-            tipoDat: 'MODELO',
-            grupoDat: 'VEHICULO'
-          };
-          this.opcion = 3; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-
-        case "carga":
-          this.tabla = this.cargas;
-          this.titulo = "Tipos de Carga";
-          this.datos = {
-            tipoDat: 'CARGA',
-            grupoDat: 'TRANSPORTE'
-          };
-          this.opcion = 4; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-
-        case "unidad":
-          this.tabla = this.unidades;
-          this.titulo = "Unidades de Medida";
-          this.datos = {
-            tipoDat: 'UNIDAD',
-            grupoDat: 'TRANSPORTE'
-          };
-          this.opcion = 5; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-
-        case "ubicacion":
-          this.tabla = this.ubicaciones;
-          this.titulo = "Ubicaciones";
-          this.datos = {
-            tipoDat: 'UBICACION',
-            grupoDat: 'TRANSPORTE'
-          };
-          this.opcion = 6; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-
-        case "direccion":
-          this.tabla = this.direcciones;
-          this.titulo = "Direcciones";
-          this.datos = {
-            tipoDat: 'DIRECCION',
-            grupoDat: 'TRANSPORTE'
-          };
-          this.opcion = 7; //this.tcolumnas[2] = { label: 'Marca', field: 'valorDat'};
-
-          break;
-      }
-    },
-    Editar: function Editar(prm_general) {
-      this.headerTextVariant = 'primary';
-      this.headerTitleVariant = "EDITAR";
-      this.boton = true;
-      this.general = prm_general;
-    },
-    Guardar: function Guardar() {
+    Listar: function Listar() {
       var _this = this;
 
       this.showLoading = true;
-      var jsonGeneral = JSON.stringify(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, this.general), this.datos));
-      this.$http.post('/LiberAPP/General/Guardar', {
-        general: jsonGeneral
-      }).then(function (res) {
-        _this.Toast(true, 'success', 'Agregar Tipo', 'Guardado Correctamente');
-
-        _this.showModal = false;
+      this.$http.get('/LiberAPP/Kilometraje/Historial/' + this.yvehiculo.idVehiculo).then(function (res) {
         _this.showLoading = false;
+        _this.kilometrajes = res.data; //this.seleccionado.estado = this.estado;
 
-        switch (_this.opcion) {
-          case 1:
-            _this.Tipos();
-
-            break;
-
-          case 2:
-            _this.Marcas();
-
-            break;
-
-          case 3:
-            _this.Modelos();
-
-            break;
-
-          case 4:
-            _this.Cargas();
-
-            break;
-
-          case 5:
-            _this.Unidades();
-
-            break;
-
-          case 6:
-            _this.Ubicaciones();
-
-            break;
-
-          case 7:
-            _this.Direcciones();
-
-            break;
-        }
+        _this.seleccionado.vehiculo = _this.yvehiculo.placaVeh;
+        _this.seleccionado.id = _this.yvehiculo.idVehiculo;
+        _this.status = true;
       })["catch"](function (error) {
-        _this.Toast(true, 'danger', 'Agregar Tipo', 'Error al guardar el registro: ' + error);
+        _this.Toast(true, 'danger', 'Kilometraje', 'Error al cargar los registros: ' + error);
 
         _this.showLoading = false;
+        _this.status = false;
       });
     },
-    Actualizar: function Actualizar() {
+    Eliminar: function Eliminar(prm_fila) {
       var _this2 = this;
 
       this.showLoading = true;
-      var jsonGeneral = JSON.stringify(this.general);
-      this.$http.post('/LiberAPP/General/Actualizar', {
-        general: jsonGeneral
-      }).then(function (res) {
-        _this2.Toast(true, 'primary', 'Actualizar Tipo', 'Actualizado Correctamente');
+      this.boxOne = '';
+      this.$bvModal.msgBoxConfirm('¿Esta seguro de eliminar el registro?', {
+        cancelVariant: 'outline-secondary'
+      }).then(function (value) {
+        _this2.boxOne = value;
 
-        _this2.showModal = false;
-        _this2.showLoading = false;
+        if (_this2.boxOne === true) {
+          _this2.$http.post('/LiberAPP/Kilometraje/Desactivar', {
+            idKilometraje: prm_fila
+          }).then(function (res) {
+            _this2.Toast(true, 'primary', 'Kilometraje', 'Kilometraje eliminado Correctamente');
 
-        switch (_this2.opcion) {
-          case 1:
-            _this2.Tipos();
+            _this2.showModal = false;
+            _this2.showLoading = false;
 
-            break;
+            _this2.Listar();
+          })["catch"](function (error) {
+            _this2.Toast(true, 'danger', 'Kilometraje', 'Error al eliminar el Kilometraje: ' + error);
 
-          case 2:
-            _this2.Marcas();
-
-            break;
-
-          case 3:
-            _this2.Modelos();
-
-            break;
-
-          case 4:
-            _this2.Cargas();
-
-            break;
-
-          case 5:
-            _this2.Unidades();
-
-            break;
-
-          case 6:
-            _this2.Ubicaciones();
-
-            break;
-
-          case 7:
-            _this2.Direcciones();
-
-            break;
-        }
-      })["catch"](function (error) {
-        _this2.Toast(true, 'danger', 'Actualizar Tipo', 'Error al actualizar el registro: ' + error);
-
-        _this2.showLoading = false;
+            _this2.showLoading = false;
+          });
+        } else _this2.showLoading = false;
       });
     },
-    Tipos: function Tipos() {
+    Nuevo: function Nuevo() {
+      var fecha = new Date();
+      var dia = fecha.getDate();
+      if (dia < 10) dia = "0" + dia;
+      var mes = fecha.getMonth() + 1;
+      if (mes < 10) mes = "0" + mes;
+      this.kilometraje.kilometrajeKil = "";
+      this.kilometraje.horometrajeKil = "";
+      this.kilometraje.fechaKil = fecha.getFullYear() + "-" + mes + "-" + dia;
+      this.kilometraje.Vehiculo_idVehiculo = this.seleccionado.id;
+    },
+    Guardar: function Guardar() {
       var _this3 = this;
 
-      this.$http.get('/LiberAPP/Dato/Select/TIPO/VEHICULO').then(function (res) {
-        _this3.tipos = res.data;
-        _this3.tabla = _this3.tipos;
+      this.showLoading = true;
+
+      if (this.kilometraje.kilometrajeKil == "") {
+        this.showLoading = false;
+        this.Toast(true, 'warning', 'Agregar Kilometraje', 'Debe Ingresar un Kilometraje Válido');
+        return;
+      }
+
+      var jsonKilometraje = JSON.stringify(this.kilometraje);
+      this.$http.post('/LiberAPP/Kilometraje/GuardarUnidad', {
+        kilometraje: jsonKilometraje
+      }).then(function (res) {
+        _this3.Toast(true, 'primary', 'Guardar Kilometraje', 'Guardado Correctamente');
+
+        _this3.showModal = false;
+        _this3.showLoading = false;
+
+        _this3.Listar();
       })["catch"](function (error) {
-        _this3.Toast(true, 'danger', 'Tipo', 'Error al cargar los registros: ' + error);
+        _this3.Toast(true, 'danger', 'Actualizar Tramo', 'Error al actualizar el registro: ' + error);
 
         _this3.showLoading = false;
       });
-    },
-    Marcas: function Marcas() {
-      var _this4 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/MARCA/VEHICULO').then(function (res) {
-        _this4.marcas = res.data;
-        _this4.tabla = _this4.marcas;
-      })["catch"](function (error) {
-        _this4.Toast(true, 'danger', 'Marca', 'Error al cargar los registros: ' + error);
-
-        _this4.showLoading = false;
-      });
-    },
-    Modelos: function Modelos() {
-      var _this5 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/MODELO/VEHICULO').then(function (res) {
-        _this5.modelos = res.data;
-        _this5.tabla = _this5.modelos;
-      })["catch"](function (error) {
-        _this5.Toast(true, 'danger', 'Modelo', 'Error al cargar los registros: ' + error);
-
-        _this5.showLoading = false;
-      });
-    },
-    Cargas: function Cargas() {
-      var _this6 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/CARGA/TRANSPORTE').then(function (res) {
-        _this6.cargas = res.data;
-        _this6.tabla = _this6.cargas;
-      })["catch"](function (error) {
-        _this6.Toast(true, 'danger', 'Carga', 'Error al cargar los registros: ' + error);
-
-        _this6.showLoading = false;
-      });
-    },
-    Unidades: function Unidades() {
-      var _this7 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/UNIDAD/TRANSPORTE').then(function (res) {
-        _this7.unidades = res.data;
-        _this7.tabla = _this7.unidades;
-      })["catch"](function (error) {
-        _this7.Toast(true, 'danger', 'Unidad', 'Error al cargar los registros: ' + error);
-
-        _this7.showLoading = false;
-      });
-    },
-    Ubicaciones: function Ubicaciones() {
-      var _this8 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/UBICACION/TRANSPORTE').then(function (res) {
-        _this8.ubicaciones = res.data;
-        _this8.tabla = _this8.ubicaciones;
-      })["catch"](function (error) {
-        _this8.Toast(true, 'danger', 'Ubicacion', 'Error al cargar los registros: ' + error);
-
-        _this8.showLoading = false;
-      });
-    },
-    Direcciones: function Direcciones() {
-      var _this9 = this;
-
-      this.$http.get('/LiberAPP/Dato/Select/DIRECCION/TRANSPORTE').then(function (res) {
-        _this9.direcciones = res.data;
-        _this9.tabla = _this9.direcciones;
-      })["catch"](function (error) {
-        _this9.Toast(true, 'danger', 'Direccion', 'Error al cargar los registros: ' + error);
-
-        _this9.showLoading = false;
-      });
     }
+    /*Editar(prm_monto)
+    {
+        this.boton = true;
+        //Asignando el valor
+        this.monto = Object.assign({}, prm_monto);
+        if(this.monto.estadoMon != "APLICADO")
+            this.terminado = true;
+        else
+            this.terminado = false;
+    },*/
+
   },
   computed: {
+    /* statusVariant() {
+       const statusColor = {
+         Aprobado      : 'light-sucess',
+         Noaprobado    : 'light-danger',
+         Pendiente     : 'light-info',
+       }
+         return status => statusColor[status]
+     },*/
     direction: function direction() {
-      if (_store_index__WEBPACK_IMPORTED_MODULE_9__["default"].state.appConfig.isRTL) {
+      if (_store_index__WEBPACK_IMPORTED_MODULE_8__["default"].state.appConfig.isRTL) {
         // eslint-disable-next-line vue/no-side-effects-in-computed-properties
         this.dir = true;
         return this.dir;
@@ -688,90 +420,24 @@ var _components;
     }
   },
   created: function created() {
-    var _this10 = this;
+    var _this4 = this;
 
-    this.$http.get('/LiberAPP/Dato/Select/TIPO/VEHICULO').then(function (res) {
-      _this10.tipos = res.data;
-      /******/
-
-      _this10.tabla = _this10.tipos;
-      _this10.titulo = "Tipos de Vehículo";
-      _this10.datos = {
-        tipoDat: 'TIPO',
-        grupoDat: 'VEHICULO'
-      };
-      _this10.opcion = 1;
-      /******/
+    this.$http.get('/LiberAPP/Vehiculo/Select').then(function (res) {
+      _this4.yvehiculos = res.data;
     })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Tipo', 'Error al cargar los registros: ' + error);
+      _this4.Toast(true, 'danger', 'Cargando Personas', 'Error al cargar los registros: ' + error);
 
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/MARCA/VEHICULO').then(function (res) {
-      _this10.marcas = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Marca', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/MODELO/VEHICULO').then(function (res) {
-      _this10.modelos = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Modelo', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/CARGA/TRANSPORTE').then(function (res) {
-      _this10.cargas = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Carga', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/UNIDAD/TRANSPORTE').then(function (res) {
-      _this10.unidades = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Unidad', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/UBICACION/TRANSPORTE').then(function (res) {
-      _this10.ubicaciones = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Ubicacion', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-    this.$http.get('/LiberAPP/Dato/Select/DIRECCION/TRANSPORTE').then(function (res) {
-      _this10.direcciones = res.data;
-    })["catch"](function (error) {
-      _this10.Toast(true, 'danger', 'Direccion', 'Error al cargar los registros: ' + error);
-
-      _this10.showLoading = false;
-    });
-  },
-  mounted: function mounted() {
-    this.Tipos();
-  },
-  Tipos: function Tipos() {
-    var _this11 = this;
-
-    this.$http.get('/LiberAPP/Dato/Select/TIPO/TRANSPORTE').then(function (res) {
-      _this11.tipos = res.data;
-    })["catch"](function (error) {
-      _this11.Toast(true, 'danger', 'Tipo', 'Error al cargar los registros: ' + error);
-
-      _this11.showLoading = false;
+      _this4.showLoading = false;
     });
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -786,15 +452,15 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/sass-loader/dist/cjs.js??ref--11-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./General.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&");
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Kilometrajeh.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -816,10 +482,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f&":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f& ***!
-  \****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4&":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4& ***!
+  \************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -838,867 +504,469 @@ var render = function() {
         "b-card",
         [
           _c(
-            "b-tabs",
-            { attrs: { "content-class": "pt-1", fill: "" } },
+            "b-row",
             [
               _c(
-                "b-tab",
-                {
-                  attrs: { active: "", title: "Tipo" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("tvehiculo")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", {
-                            attrs: { icon: "CodesandboxIcon" }
-                          }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Tipo de Vehículo")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
+                "b-col",
+                { attrs: { md: "12", xl: "7" } },
                 [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("TIPOS DE VEHÍCULO")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nuevo Tipo de Vehículo")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Marca" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("marca")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", { attrs: { icon: "SlackIcon" } }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Marca")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("MARCAS")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nueva Marca")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Modelo" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("modelo")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", {
-                            attrs: { icon: "CodepenIcon" }
-                          }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Modelo")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("MODELOS")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nuevo Modelo")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Carga" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("carga")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", { attrs: { icon: "TruckIcon" } }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Tipo de Carga")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("TIPOS DE CARGA")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nuevo Tipo de Carga")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Unidad" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("unidad")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", {
-                            attrs: { icon: "UnderlineIcon" }
-                          }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Unidad")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("UNIDADES DE MEDIDA")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nueva Unidad de Medida")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Ubicacion" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("ubicacion")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", { attrs: { icon: "MapPinIcon" } }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Ubicacion")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("UBICACIONES")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nueva Ubicación")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              ),
-              _vm._v(" "),
-              _c(
-                "b-tab",
-                {
-                  attrs: { title: "Direccion" },
-                  on: {
-                    click: function($event) {
-                      return _vm.Cambiar("direccion")
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "title",
-                      fn: function() {
-                        return [
-                          _c("feather-icon", { attrs: { icon: "TargetIcon" } }),
-                          _vm._v(" "),
-                          _c("span", [_vm._v("Direcciones")])
-                        ]
-                      },
-                      proxy: true
-                    }
-                  ])
-                },
-                [
-                  _vm._v(" "),
-                  _c("b-card-text", { staticClass: "text-center" }, [
-                    _c("h3", { staticClass: "text-primary" }, [
-                      _vm._v("DIRECCIONES")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  [
-                    _c(
-                      "b-button",
-                      {
-                        directives: [
-                          {
-                            name: "b-modal",
-                            rawName: "v-b-modal.modal-formulario",
-                            modifiers: { "modal-formulario": true }
-                          }
-                        ],
-                        attrs: { variant: "success" },
-                        on: { click: _vm.Nuevo }
-                      },
-                      [
-                        _c("feather-icon", {
-                          staticClass: "mr-50",
-                          attrs: { icon: "PlusIcon" }
-                        }),
-                        _vm._v(" "),
-                        _c("span", { staticClass: "align-middle" }, [
-                          _vm._v("Nueva Direccion")
-                        ])
-                      ],
-                      1
-                    )
-                  ]
-                ],
-                2
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          [
-            _c(
-              "div",
-              [
-                _c("br"),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "custom-search d-flex justify-content-end" },
-                  [
-                    _c("b-form-group", [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Vehiculo" } },
+                    [
                       _c(
-                        "div",
-                        { staticClass: "d-flex align-items-end" },
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
                         [
-                          _c("label", { staticClass: "mr-1" }, [
-                            _vm._v("Buscar:")
-                          ]),
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
                           _vm._v(" "),
-                          _c("b-form-input", {
-                            staticClass: "d-inline-block",
+                          _c("v-select", {
+                            staticStyle: { flex: "1" },
                             attrs: {
-                              placeholder: "Ingrese texto a buscar",
-                              type: "text"
+                              label: "placaVeh",
+                              options: _vm.yvehiculos
                             },
                             model: {
-                              value: _vm.searchTerm,
+                              value: _vm.yvehiculo,
                               callback: function($$v) {
-                                _vm.searchTerm = $$v
+                                _vm.yvehiculo = $$v
                               },
-                              expression: "searchTerm"
+                              expression: "yvehiculo"
                             }
                           })
                         ],
                         1
                       )
-                    ])
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("vue-good-table", {
-                  attrs: {
-                    columns: _vm.tcolumnas,
-                    rows: _vm.tabla,
-                    rtl: _vm.direction,
-                    "search-options": {
-                      enabled: true,
-                      externalQuery: _vm.searchTerm
-                    },
-                    "pagination-options": {
-                      enabled: true,
-                      perPage: _vm.pageLength
-                    }
-                  },
-                  scopedSlots: _vm._u([
-                    {
-                      key: "table-row",
-                      fn: function(props) {
-                        return [
-                          props.column.field === "acciones"
-                            ? _c(
-                                "span",
-                                [
-                                  _c(
-                                    "b-button",
-                                    {
-                                      directives: [
-                                        {
-                                          name: "b-modal",
-                                          rawName: "v-b-modal.modal-formulario",
-                                          modifiers: {
-                                            "modal-formulario": true
-                                          }
-                                        }
-                                      ],
-                                      staticClass: "btn-icon rounded-circle",
-                                      attrs: { variant: "primary" },
-                                      on: {
-                                        click: function($event) {
-                                          return _vm.Editar(props.formattedRow)
-                                        }
-                                      }
-                                    },
-                                    [
-                                      _c("feather-icon", {
-                                        attrs: { icon: "Edit2Icon" }
-                                      })
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                            : _c("span", [
-                                _vm._v(
-                                  "\r\n                    " +
-                                    _vm._s(
-                                      props.formattedRow[props.column.field]
-                                    ) +
-                                    "\r\n                "
-                                )
-                              ])
-                        ]
-                      }
-                    },
-                    {
-                      key: "pagination-bottom",
-                      fn: function(props) {
-                        return [
-                          _c(
-                            "div",
-                            {
-                              staticClass:
-                                "d-flex justify-content-between flex-wrap"
-                            },
-                            [
-                              _c(
-                                "div",
-                                {
-                                  staticClass:
-                                    "d-flex align-items-center mb-0 mt-1"
-                                },
-                                [
-                                  _c("span", { staticClass: "text-nowrap" }, [
-                                    _vm._v(
-                                      "\r\n                                " +
-                                        _vm._s(_vm.$t("message.pagelength")) +
-                                        "\r\n                            "
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("b-form-select", {
-                                    staticClass: "mx-1",
-                                    attrs: { options: ["3", "5", "10"] },
-                                    on: {
-                                      input: function(value) {
-                                        return props.perPageChanged({
-                                          currentPerPage: value
-                                        })
-                                      }
-                                    },
-                                    model: {
-                                      value: _vm.pageLength,
-                                      callback: function($$v) {
-                                        _vm.pageLength = $$v
-                                      },
-                                      expression: "pageLength"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", { staticClass: "text-nowrap" }, [
-                                    _vm._v(
-                                      "  " +
-                                        _vm._s(_vm.$t("message.of")) +
-                                        " " +
-                                        _vm._s(props.total) +
-                                        " " +
-                                        _vm._s(_vm.$t("message.pageText2")) +
-                                        " "
-                                    )
-                                  ])
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "div",
-                                [
-                                  _c("b-pagination", {
-                                    staticClass: "mt-1 mb-0",
-                                    attrs: {
-                                      value: 1,
-                                      "total-rows": props.total,
-                                      "per-page": _vm.pageLength,
-                                      "first-number": "",
-                                      "last-number": "",
-                                      align: "right",
-                                      "prev-class": "prev-item",
-                                      "next-class": "next-item"
-                                    },
-                                    on: {
-                                      input: function(value) {
-                                        return props.pageChanged({
-                                          currentPage: value
-                                        })
-                                      }
-                                    },
-                                    scopedSlots: _vm._u(
-                                      [
-                                        {
-                                          key: "prev-text",
-                                          fn: function() {
-                                            return [
-                                              _c("feather-icon", {
-                                                attrs: {
-                                                  icon: "ChevronLeftIcon",
-                                                  size: "18"
-                                                }
-                                              })
-                                            ]
-                                          },
-                                          proxy: true
-                                        },
-                                        {
-                                          key: "next-text",
-                                          fn: function() {
-                                            return [
-                                              _c("feather-icon", {
-                                                attrs: {
-                                                  icon: "ChevronRightIcon",
-                                                  size: "18"
-                                                }
-                                              })
-                                            ]
-                                          },
-                                          proxy: true
-                                        }
-                                      ],
-                                      null,
-                                      true
-                                    )
-                                  })
-                                ],
-                                1
-                              )
-                            ]
-                          )
-                        ]
-                      }
-                    }
-                  ])
-                }),
-                _vm._v(" "),
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("b-col", { attrs: { md: "6", xl: "2" } }, [
                 _c(
-                  "b-modal",
-                  {
-                    attrs: {
-                      id: "modal-formulario",
-                      "header-bg-variant": _vm.headerBgVariant,
-                      "header-text-variant": _vm.headerTextVariant,
-                      title: _vm.headerTitleVariant,
-                      "footer-bg-variant": _vm.footerBgVariant,
-                      "footer-text-variant": _vm.footerTextVariant,
-                      centered: "",
-                      "no-close-on-backdrop": "",
-                      "title-tag": "div",
-                      "cancel-title": "Cancelar",
-                      "ok-title": "Guardar",
-                      size: "lg",
-                      "cancel-variant": "secondary",
-                      "ok-variant": "success"
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "modal-footer",
-                        fn: function() {
-                          return [
-                            _c(
-                              "div",
-                              {
-                                staticClass:
-                                  "w-100 d-flex justify-content-between"
-                              },
-                              [
-                                _c(
-                                  "b-button",
-                                  {
-                                    attrs: {
-                                      variant: "secondary",
-                                      size: "sm",
-                                      disabled: _vm.showLoading
-                                    },
-                                    on: {
-                                      click: function($event) {
-                                        _vm.showModal = false
-                                      }
-                                    }
-                                  },
-                                  [
-                                    !_vm.showLoading
-                                      ? _c("feather-icon", {
-                                          staticClass: "mr-50",
-                                          attrs: { icon: "XIcon" }
-                                        })
-                                      : _c("b-spinner", {
-                                          attrs: { small: "" }
-                                        }),
-                                    _vm._v(" "),
-                                    _c(
-                                      "span",
-                                      { staticClass: "align-middle" },
-                                      [_vm._v("Cancelar")]
-                                    )
-                                  ],
-                                  1
-                                ),
-                                _vm._v(" "),
-                                !_vm.boton
-                                  ? _c(
-                                      "b-button",
-                                      {
-                                        attrs: {
-                                          variant: "success",
-                                          size: "sm",
-                                          disabled: _vm.showLoading
-                                        },
-                                        on: { click: _vm.Guardar }
-                                      },
-                                      [
-                                        !_vm.showLoading
-                                          ? _c("feather-icon", {
-                                              staticClass: "mr-50",
-                                              attrs: { icon: "CheckIcon" }
-                                            })
-                                          : _c("b-spinner", {
-                                              attrs: { small: "" }
-                                            }),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          { staticClass: "align-middle" },
-                                          [_vm._v("Guardar")]
-                                        )
-                                      ],
-                                      1
-                                    )
-                                  : _c(
-                                      "b-button",
-                                      {
-                                        attrs: {
-                                          variant: "primary",
-                                          size: "sm",
-                                          disabled: _vm.showLoading
-                                        },
-                                        on: { click: _vm.Actualizar }
-                                      },
-                                      [
-                                        !_vm.showLoading
-                                          ? _c("feather-icon", {
-                                              staticClass: "mr-50",
-                                              attrs: { icon: "CheckIcon" }
-                                            })
-                                          : _c("b-spinner", {
-                                              attrs: { small: "" }
-                                            }),
-                                        _vm._v(" "),
-                                        _c(
-                                          "span",
-                                          { staticClass: "align-middle" },
-                                          [_vm._v("Actualizar")]
-                                        )
-                                      ],
-                                      1
-                                    )
-                              ],
-                              1
-                            )
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ]),
-                    model: {
-                      value: _vm.showModal,
-                      callback: function($$v) {
-                        _vm.showModal = $$v
-                      },
-                      expression: "showModal"
-                    }
-                  },
+                  "div",
+                  { staticClass: "demo-inline-spacing" },
                   [
                     _c(
-                      "b-row",
+                      "b-button",
+                      {
+                        attrs: {
+                          variant: "success",
+                          disabled: _vm.showLoading
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.Listar()
+                          }
+                        }
+                      },
                       [
+                        !_vm.showLoading
+                          ? _c("feather-icon", {
+                              staticClass: "mr-50",
+                              attrs: { icon: "ArrowDownIcon" }
+                            })
+                          : _c("b-spinner", { attrs: { small: "" } }),
+                        _vm._v(" "),
+                        _c("span", { staticClass: "align-middle" }, [
+                          _vm._v("Listar")
+                        ])
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm.kilometrajes.length > 0 || _vm.status == true
+        ? _c(
+            "b-card",
+            [
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { staticClass: "text-left", attrs: { md: "6", xl: "6" } },
+                    [
+                      _c("h4", { staticClass: "text-primary" }, [
+                        _vm._v(
+                          "ÚLTIMOS 30 KILOMETRAJES - " +
+                            _vm._s(_vm.seleccionado.vehiculo)
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("b-col", { attrs: { md: "12", xl: "12" } }, [
+                    _c("span", [
+                      _vm._v(
+                        "\r\n                    Revisar los kilometrajes incoherentes de arriba hacia abajo para cuadrar de forma óptima\r\n                "
+                      )
+                    ])
+                  ])
+                ],
+                1
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "table",
+                {
+                  staticClass:
+                    "table table-condensed table-bordered table-hover text-center"
+                },
+                [
+                  _c("thead", [
+                    _c("tr", [
+                      _c("th", [_vm._v("Acciones")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("ID")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("Kilometraje")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("Fecha")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("KM. x Día")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("Fuente")]),
+                      _vm._v(" "),
+                      _c("th", [_vm._v("Registrado Por")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "tbody",
+                    _vm._l(_vm.kilometrajes, function(ukilometraje, indice) {
+                      return _c("tr", [
                         _c(
-                          "b-col",
-                          { attrs: { md: "12", xl: "12" } },
+                          "td",
                           [
                             _c(
-                              "b-form-group",
-                              { attrs: { label: "Ingrese Valor" } },
-                              [
-                                _c("b-form-input", {
-                                  model: {
-                                    value: _vm.general.valorDat,
-                                    callback: function($$v) {
-                                      _vm.$set(_vm.general, "valorDat", $$v)
-                                    },
-                                    expression: "general.valorDat"
+                              "b-button",
+                              {
+                                staticClass: "btn-icon rounded-circle",
+                                attrs: { variant: "danger" },
+                                on: {
+                                  click: function($event) {
+                                    return _vm.Eliminar(
+                                      ukilometraje.idKilometraje
+                                    )
                                   }
+                                }
+                              },
+                              [
+                                _c("feather-icon", {
+                                  attrs: { icon: "Trash2Icon" }
                                 })
                               ],
                               1
                             )
                           ],
                           1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _vm._v(" "),
-                    _c("b-overlay", {
-                      attrs: { show: _vm.showLoading, "no-wrap": "" }
-                    })
-                  ],
-                  1
-                )
-              ],
-              1
-            )
-          ]
+                        ),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ukilometraje.idKilometraje))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ukilometraje.kilometrajeKil))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ukilometraje.fechaKil))]),
+                        _vm._v(" "),
+                        ukilometraje.error
+                          ? _c("td", { staticClass: "bg-danger text-light" }, [
+                              _vm._v(_vm._s(ukilometraje.variacion))
+                            ])
+                          : _c("td", [_vm._v(_vm._s(ukilometraje.variacion))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ukilometraje.tipoKil))]),
+                        _vm._v(" "),
+                        _c("td", [_vm._v(_vm._s(ukilometraje.nombreUsu))])
+                      ])
+                    }),
+                    0
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        : _c(
+            "b-card",
+            [
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { staticClass: "text-left", attrs: { md: "12", xl: "12" } },
+                    [
+                      _c("h5", { staticClass: "text-warning" }, [
+                        _vm._v("NO HAY REGISTROS ENCONTRADOS")
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+      _vm._v(" "),
+      _c(
+        "b-modal",
+        {
+          attrs: {
+            id: "modal-formulario",
+            "header-bg-variant": _vm.headerBgVariant,
+            "header-text-variant": _vm.headerTextVariant,
+            title: _vm.headerTitleVariant,
+            "footer-bg-variant": _vm.footerBgVariant,
+            "footer-text-variant": _vm.footerTextVariant,
+            centered: "",
+            "no-close-on-backdrop": "",
+            "title-tag": "div",
+            "cancel-title": "Cancelar",
+            "ok-title": "Guardar",
+            size: "lg",
+            "cancel-variant": "secondary",
+            "ok-variant": "success"
+          },
+          scopedSlots: _vm._u([
+            {
+              key: "modal-footer",
+              fn: function() {
+                return [
+                  _c(
+                    "div",
+                    { staticClass: "w-100 d-flex justify-content-between" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            variant: "secondary",
+                            size: "sm",
+                            disabled: _vm.showLoading
+                          },
+                          on: {
+                            click: function($event) {
+                              _vm.showModal = false
+                            }
+                          }
+                        },
+                        [
+                          !_vm.showLoading
+                            ? _c("feather-icon", {
+                                staticClass: "mr-50",
+                                attrs: { icon: "XIcon" }
+                              })
+                            : _c("b-spinner", { attrs: { small: "" } }),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "align-middle" }, [
+                            _vm._v("Cancelar")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            variant: "success",
+                            size: "sm",
+                            disabled: _vm.showLoading
+                          },
+                          on: { click: _vm.Guardar }
+                        },
+                        [
+                          !_vm.showLoading
+                            ? _c("feather-icon", {
+                                staticClass: "mr-50",
+                                attrs: { icon: "CheckIcon" }
+                              })
+                            : _c("b-spinner", { attrs: { small: "" } }),
+                          _vm._v(" "),
+                          _c("span", { staticClass: "align-middle" }, [
+                            _vm._v("Guardar")
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ]
+              },
+              proxy: true
+            }
+          ]),
+          model: {
+            value: _vm.showModal,
+            callback: function($$v) {
+              _vm.showModal = $$v
+            },
+            expression: "showModal"
+          }
+        },
+        [
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "6" } },
+                [
+                  _c("h6", [_vm._v("Fecha:")]),
+                  _vm._v(" "),
+                  _c("b-form-datepicker", {
+                    staticClass: "form-control",
+                    attrs: {
+                      "date-format-options": {
+                        year: "numeric",
+                        month: "numeric",
+                        day: "numeric"
+                      },
+                      locale: "en",
+                      new: "date()"
+                    },
+                    model: {
+                      value: _vm.kilometraje.fechaKil,
+                      callback: function($$v) {
+                        _vm.$set(_vm.kilometraje, "fechaKil", $$v)
+                      },
+                      expression: "kilometraje.fechaKil"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "6" } },
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Kilometraje" } },
+                    [
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("cleave", {
+                            staticClass: "form-control",
+                            attrs: {
+                              raw: false,
+                              options: {
+                                numeral: true,
+                                numeralThousandsGroupStyle: "none"
+                              }
+                            },
+                            model: {
+                              value: _vm.kilometraje.kilometrajeKil,
+                              callback: function($$v) {
+                                _vm.$set(_vm.kilometraje, "kilometrajeKil", $$v)
+                              },
+                              expression: "kilometraje.kilometrajeKil"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { md: "6", xl: "6" } },
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Horometraje" } },
+                    [
+                      _c(
+                        "b-input-group",
+                        { staticClass: "input-group-merge" },
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            { attrs: { "is-text": "" } },
+                            [
+                              _c("feather-icon", {
+                                attrs: { icon: "FastForwardIcon" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("cleave", {
+                            staticClass: "form-control",
+                            attrs: {
+                              raw: false,
+                              options: {
+                                numeral: true,
+                                numeralThousandsGroupStyle: "none"
+                              }
+                            },
+                            model: {
+                              value: _vm.kilometraje.horometrajeKil,
+                              callback: function($$v) {
+                                _vm.$set(_vm.kilometraje, "horometrajeKil", $$v)
+                              },
+                              expression: "kilometraje.horometrajeKil"
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _vm._v(" "),
+          _c("b-overlay", { attrs: { show: _vm.showLoading, "no-wrap": "" } })
         ],
-        2
+        1
       )
     ],
     1
@@ -1726,18 +994,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/General.vue":
-/*!***************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/General.vue ***!
-  \***************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue":
+/*!***********************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue ***!
+  \***********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./General.vue?vue&type=template&id=3acb963f& */ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f&");
-/* harmony import */ var _General_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./General.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./General.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Kilometrajeh.vue?vue&type=template&id=73f329b4& */ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4&");
+/* harmony import */ var _Kilometrajeh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Kilometrajeh.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Kilometrajeh.vue?vue&type=style&index=0&lang=scss& */ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1748,9 +1016,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _General_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Kilometrajeh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1760,54 +1028,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Transporte/Maestro/General.vue"
+component.options.__file = "resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./General.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Kilometrajeh.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss& ***!
-  \*************************************************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss& ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./General.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=style&index=0&lang=scss&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader/dist/cjs.js!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--7-2!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../../../../node_modules/sass-loader/dist/cjs.js??ref--11-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Kilometrajeh.vue?vue&type=style&index=0&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=style&index=0&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_sass_loader_dist_cjs_js_ref_11_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f& ***!
-  \**********************************************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4& ***!
+  \******************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./General.vue?vue&type=template&id=3acb963f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Transporte/Maestro/General.vue?vue&type=template&id=3acb963f&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Kilometrajeh.vue?vue&type=template&id=73f329b4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Kilometrajeh.vue?vue&type=template&id=73f329b4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_General_vue_vue_type_template_id_3acb963f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Kilometrajeh_vue_vue_type_template_id_73f329b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

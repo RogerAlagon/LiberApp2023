@@ -1,26 +1,46 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[57],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormTextAreaDefault_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaDefault.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue");
-/* harmony import */ var _FormTextAreaRows_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormTextAreaRows.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue");
-/* harmony import */ var _FormTextAreaFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormTextAreaFloatingLabel.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue");
-/* harmony import */ var _FormTextAreaStates_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormTextAreaStates.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue");
-/* harmony import */ var _FormTextAreaSize_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormTextAreaSize.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue");
-/* harmony import */ var _FormTextAreaDisableResize_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormTextAreaDisableResize.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue");
-/* harmony import */ var _FormTextAreaAutoHeight_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormTextAreaAutoHeight.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue");
-/* harmony import */ var _FormTextAreaFormatter_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormTextAreaFormatter.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue");
-/* harmony import */ var _FormTextAreaReadonly_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormTextAreaReadonly.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue");
-/* harmony import */ var _FormTextAreaDebounce_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./FormTextAreaDebounce.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue");
-/* harmony import */ var _FormTextAreaCounter_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./FormTextAreaCounter.vue */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue");
+/* harmony import */ var _CalendarBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBasic.vue */ "./resources/js/src/views/components/calendar/CalendarBasic.vue");
+/* harmony import */ var _CalendarDisableReadonlyStates_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue");
+/* harmony import */ var _CalendarMinMaxRange_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue");
+/* harmony import */ var _CalendarDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CalendarDisableDate.vue */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue");
+/* harmony import */ var _CalendarVariant_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CalendarVariant.vue */ "./resources/js/src/views/components/calendar/CalendarVariant.vue");
+/* harmony import */ var _CalendarWidth_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./CalendarWidth.vue */ "./resources/js/src/views/components/calendar/CalendarWidth.vue");
+/* harmony import */ var _CalendarStringFormat_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CalendarStringFormat.vue */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue");
+/* harmony import */ var _CalendarBorderPadding_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CalendarBorderPadding.vue */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue");
+/* harmony import */ var _CalendarSlot_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CalendarSlot.vue */ "./resources/js/src/views/components/calendar/CalendarSlot.vue");
+/* harmony import */ var _CalendarCustomClass_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./CalendarCustomClass.vue */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue");
+/* harmony import */ var _CalendarInternationalization_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./CalendarInternationalization.vue */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -55,26 +75,26 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormTextAreaDefault: _FormTextAreaDefault_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormTextAreaRows: _FormTextAreaRows_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormTextAreaFloatingLabel: _FormTextAreaFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormTextAreaStates: _FormTextAreaStates_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormTextAreaSize: _FormTextAreaSize_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormTextAreaDisableResize: _FormTextAreaDisableResize_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormTextAreaAutoHeight: _FormTextAreaAutoHeight_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    FormatterTextArea: _FormTextAreaFormatter_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    FormTextAreaReadonly: _FormTextAreaReadonly_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    FormTextAreaDebounce: _FormTextAreaDebounce_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
-    FormTextAreaCounter: _FormTextAreaCounter_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
+    CalendarBasic: _CalendarBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    CalendarDisableReadonlyStates: _CalendarDisableReadonlyStates_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    CalendarMinMaxRange: _CalendarMinMaxRange_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    CalendarDisableDate: _CalendarDisableDate_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    CalendarVariant: _CalendarVariant_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    CalendarWidth: _CalendarWidth_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    CalendarStringFormat: _CalendarStringFormat_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    CalendarBorderPadding: _CalendarBorderPadding_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    CalendarSlot: _CalendarSlot_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
+    CalendarCustomClass: _CalendarCustomClass_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
+    CalendarInternationalization: _CalendarInternationalization_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82,7 +102,13 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
+/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
+/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js");
+/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prismjs__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prismjs/themes/prism-tomorrow.css */ "./node_modules/prismjs/themes/prism-tomorrow.css");
+/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
 //
 //
 //
@@ -127,415 +153,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
-  },
-  data: function data() {
-    return {
-      codeAutoHeight: _code__WEBPACK_IMPORTED_MODULE_2__["codeAutoHeight"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"]
+    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default.a
   },
   data: function data() {
     return {
       value: '',
-      maxChar: 20,
-      codeCounter: _code__WEBPACK_IMPORTED_MODULE_2__["codeCounter"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      codeDebounce: _code__WEBPACK_IMPORTED_MODULE_2__["codeDebounce"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"]
-  },
-  data: function data() {
-    return {
-      codeDefault: _code__WEBPACK_IMPORTED_MODULE_2__["codeDefault"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeDisableResize: _code__WEBPACK_IMPORTED_MODULE_2__["codeDisableResize"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"]
-  },
-  data: function data() {
-    return {
-      codeFloatingLabel: _code__WEBPACK_IMPORTED_MODULE_2__["codeFloatingLabel"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"]
-  },
-  data: function data() {
-    return {
-      text1: '',
-      text2: '',
-      codeFormatter: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormatter"]
+      context: null,
+      codeBasic: _code__WEBPACK_IMPORTED_MODULE_5__["codeBasic"]
     };
   },
   methods: {
-    formatter: function formatter(value) {
-      return value.toLowerCase();
+    onContext: function onContext(ctx) {
+      this.context = ctx;
     }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -543,16 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
 //
 //
 //
@@ -579,23 +222,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      text: "This is some text.\nIt is read only and doesn't look like an input.",
-      codeReadonly: _code__WEBPACK_IMPORTED_MODULE_2__["codeReadonly"]
+      codeBorderPadding: _code__WEBPACK_IMPORTED_MODULE_2__["codeBorderPadding"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -603,94 +245,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeRows: _code__WEBPACK_IMPORTED_MODULE_2__["codeRows"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
 //
 //
 //
@@ -732,24 +287,639 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeCustomClass: _code__WEBPACK_IMPORTED_MODULE_2__["codeCustomClass"]
+    };
+  },
+  methods: {
+    dateClass: function dateClass(ymd, date) {
+      var day = date.getDate();
+      return day >= 10 && day <= 20 ? 'table-primary' : '';
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeDisableDate: _code__WEBPACK_IMPORTED_MODULE_2__["codeDisableDate"]
+    };
+  },
+  methods: {
+    dateDisabled: function dateDisabled(ymd, date) {
+      // Disable weekends (Sunday = `0`, Saturday = `6`) and
+      // disable days that fall on the 13th of the month
+      var weekday = date.getDay();
+      var day = date.getDate(); // Return `true` if the date should be disabled
+
+      return weekday === 0 || weekday === 6 || day === 13;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
+    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      state: 'disabled',
+      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
+    };
+  },
+  computed: {
+    disabled: function disabled() {
+      return this.state === 'disabled';
+    },
+    readonly: function readonly() {
+      return this.state === 'readonly';
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-prism-component */ "./node_modules/vue-prism-component/dist/vue-prism-component.common.js");
+/* harmony import */ var vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_prism_component__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js");
+/* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prismjs__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prismjs/themes/prism-tomorrow.css */ "./node_modules/prismjs/themes/prism-tomorrow.css");
+/* harmony import */ var prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prismjs_themes_prism_tomorrow_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
+    BFormCheckbox: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormCheckbox"],
+    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
+    Prism: vue_prism_component__WEBPACK_IMPORTED_MODULE_2___default.a
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeInternationalization: _code__WEBPACK_IMPORTED_MODULE_5__["codeInternationalization"],
+      context: null,
+      showDecadeNav: false,
+      hideHeader: false,
+      locale: 'en-US',
+      locales: [{
+        value: 'en-US',
+        text: 'English US (en-US)'
+      }, {
+        value: 'de',
+        text: 'German (de)'
+      }, {
+        value: 'ar-EG',
+        text: 'Arabic Egyptian (ar-EG)'
+      }, {
+        value: 'zh',
+        text: 'Chinese (zh)'
+      }],
+      weekday: 0,
+      weekdays: [{
+        value: 0,
+        text: 'Sunday'
+      }, {
+        value: 1,
+        text: 'Monday'
+      }, {
+        value: 6,
+        text: 'Saturday'
+      }],
+      labels: {
+        de: {
+          labelPrevDecade: 'Vorheriges Jahrzehnt',
+          labelPrevYear: 'Vorheriges Jahr',
+          labelPrevMonth: 'Vorheriger Monat',
+          labelCurrentMonth: 'Aktueller Monat',
+          labelNextMonth: 'Nächster Monat',
+          labelNextYear: 'Nächstes Jahr',
+          labelNextDecade: 'Nächstes Jahrzehnt',
+          labelToday: 'Heute',
+          labelSelected: 'Ausgewähltes Datum',
+          labelNoDateSelected: 'Kein Datum gewählt',
+          labelCalendar: 'Kalender',
+          labelNav: 'Kalendernavigation',
+          labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren'
+        },
+        'ar-EG': {
+          labelPrevDecade: 'العقد السابق',
+          labelPrevYear: 'العام السابق',
+          labelPrevMonth: 'الشهر السابق',
+          labelCurrentMonth: 'الشهر الحالي',
+          labelNextMonth: 'الشهر المقبل',
+          labelNextYear: 'العام المقبل',
+          labelNextDecade: 'العقد القادم',
+          labelToday: 'اليوم',
+          labelSelected: 'التاريخ المحدد',
+          labelNoDateSelected: 'لم يتم اختيار تاريخ',
+          labelCalendar: 'التقويم',
+          labelNav: 'الملاحة التقويم',
+          labelHelp: 'استخدم مفاتيح المؤشر للتنقل في التواريخ'
+        },
+        zh: {
+          labelPrevDecade: '过去十年',
+          labelPrevYear: '上一年',
+          labelPrevMonth: '上个月',
+          labelCurrentMonth: '当前月份',
+          labelNextMonth: '下个月',
+          labelNextYear: '明年',
+          labelNextDecade: '下一个十年',
+          labelToday: '今天',
+          labelSelected: '选定日期',
+          labelNoDateSelected: '未选择日期',
+          labelCalendar: '日历',
+          labelNav: '日历导航',
+          labelHelp: '使用光标键浏览日期'
+        }
+      }
+    };
+  },
+  methods: {
+    onContext: function onContext(ctx) {
+      this.context = ctx;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // 15th two months prior
+
+    var minDate = new Date(today);
+    minDate.setMonth(minDate.getMonth() - 2);
+    minDate.setDate(15); // 15th in two months
+
+    var maxDate = new Date(today);
+    maxDate.setMonth(maxDate.getMonth() + 2);
+    maxDate.setDate(15);
+    return {
+      value: '',
+      codeMinMaxRange: _code__WEBPACK_IMPORTED_MODULE_2__["codeMinMaxRange"],
+      min: minDate,
+      max: maxDate
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      value: null,
+      codeSlot: _code__WEBPACK_IMPORTED_MODULE_2__["codeSlot"]
+    };
+  },
+  methods: {
+    setToday: function setToday() {
+      var now = new Date();
+      this.value = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    },
+    clearDate: function clearDate() {
+      this.value = '';
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
   },
   data: function data() {
     return {
-      codeSize: _code__WEBPACK_IMPORTED_MODULE_2__["codeSize"]
+      codeFormat: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormat"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -757,7 +927,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-textarea/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
 //
 //
 //
@@ -788,23 +959,83 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTextarea: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTextarea"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      text: '',
-      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
+      codeVariant: _code__WEBPACK_IMPORTED_MODULE_2__["codeVariant"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec&":
-/*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec& ***!
-  \***********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/calendar/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCalendar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCalendar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      codeWidth: _code__WEBPACK_IMPORTED_MODULE_2__["codeWidth"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -819,34 +1050,32 @@ var render = function() {
   return _c(
     "b-row",
     [
+      _c("b-col", { attrs: { cols: "12" } }, [_c("calendar-basic")], 1),
+      _vm._v(" "),
       _c(
         "b-col",
-        { attrs: { cols: "12" } },
-        [
-          _c("form-text-area-default"),
-          _vm._v(" "),
-          _c("form-text-area-rows"),
-          _vm._v(" "),
-          _c("form-text-area-floating-label"),
-          _vm._v(" "),
-          _c("form-text-area-states"),
-          _vm._v(" "),
-          _c("form-text-area-size"),
-          _vm._v(" "),
-          _c("form-text-area-disable-resize"),
-          _vm._v(" "),
-          _c("form-text-area-auto-height"),
-          _vm._v(" "),
-          _c("formatter-text-area"),
-          _vm._v(" "),
-          _c("form-text-area-readonly"),
-          _vm._v(" "),
-          _c("form-text-area-debounce"),
-          _vm._v(" "),
-          _c("form-text-area-counter")
-        ],
+        { attrs: { md: "6" } },
+        [_c("calendar-disable-readonly-states")],
         1
-      )
+      ),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-disable-date")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-min-max-range")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-variant")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-width")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-border-padding")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("calendar-string-format")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-slot")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("calendar-custom-class")], 1),
+      _vm._v(" "),
+      _c("b-col", [_c("calendar-internationalization")], 1)
     ],
     1
   )
@@ -858,10 +1087,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -876,834 +1105,222 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Auto height" },
+      attrs: { title: "Calendar" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeAutoHeight) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeBasic) + "\n  ")]
           },
           proxy: true
         }
       ])
     },
     [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v("To set the initial minimum height (in rows), set the")
-        ]),
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("span", [_vm._v("BootstrapVue's custom ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("rows")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " prop to the desired number of lines (or leave it at the default of "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("2")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "), And then set maximum rows that the text area will grow to (before showing a scrollbar) by setting the\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("max-rows")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("prop to the maximum number of lines of text.")])
-      ]),
-      _vm._v(" "),
-      _c("b-card-text", [
-        _c("span", [_vm._v("To make the height ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("sticky")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" (i.e. never shrink), set the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("no-auto-shrink")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("true")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(". The ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("no-auto-shrink")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" props has no effect if ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("max-rows")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" is not set or is equal to or less than rows.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        [
-          _c(
-            "b-col",
-            { attrs: { xl: "6", cols: "12" } },
-            [
-              _c("label", { attrs: { for: "textarea-auto-height" } }, [
-                _vm._v("Auto height:")
-              ]),
-              _vm._v(" "),
-              _c("b-form-textarea", {
-                staticClass: "mb-1 mb-xl-0",
-                attrs: {
-                  id: "textarea-auto-height",
-                  placeholder: "Auto height textarea",
-                  rows: "3",
-                  "max-rows": "8"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { xl: "6", cols: "12" } },
-            [
-              _c("label", { attrs: { for: "textarea-no-auto-shrink" } }, [
-                _vm._v("No auto-shrink:")
-              ]),
-              _vm._v(" "),
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-no-auto-shrink",
-                  placeholder: "Auto height (no-shrink) textarea",
-                  rows: "3",
-                  "max-rows": "8",
-                  "no-auto-shrink": ""
-                }
-              })
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0&":
-/*!******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0& ***!
-  \******************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Counter" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeCounter) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _vm._v(
-          "\n    There are times when we need the user to only enter a certain number of characters for it, we have the property\n    counter, the value is a number and determines the maximum.\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c("b-form-textarea", {
-        staticClass: "char-textarea",
-        class: _vm.value.length >= _vm.maxChar ? "text-danger" : "",
-        attrs: {
-          placeholder: "Counter",
-          rows: "3",
-          state: _vm.value.length <= _vm.maxChar
-        },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      }),
-      _vm._v(" "),
-      _c(
-        "small",
-        {
-          staticClass: "textarea-counter-value float-right",
-          class: _vm.value.length >= _vm.maxChar ? "bg-danger" : ""
-        },
-        [
-          _c("span", { staticClass: "char-count" }, [
-            _vm._v(_vm._s(_vm.value.length))
-          ]),
-          _vm._v(" / " + _vm._s(_vm.maxChar) + "\n  ")
-        ]
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Debounce support" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDebounce) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("To enable debouncing, set the prop ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("debounce")]),
+        _c("code", [_vm._v("<b-calendar>")]),
         _vm._v(" "),
         _c("span", [
           _vm._v(
-            " to any integer greater than zero. The value is specified in milliseconds. Setting "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("debounce")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("0")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" will disable debouncing.")])
-      ]),
-      _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: { debounce: "500", rows: "3", "max-rows": "5" },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      }),
-      _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-        _vm._v("\n    " + _vm._s(_vm.value) + "\n  ")
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65&":
-/*!******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65& ***!
-  \******************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Default" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDefault) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _vm._v(
-          "\n    Create multi-line text inputs with support for auto height sizing, minimum and maximum number of rows, and\n    contextual states.\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "textarea-default" } }, [_vm._v("Textarea")]),
-      _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: { id: "textarea-default", placeholder: "Textarea", rows: "3" }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940&":
-/*!************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940& ***!
-  \************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Disable resize handle" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeDisableResize) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "\n      Some web browsers will allow the user to re-size the height of the textarea. To disable this feature, set the\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("no-resize")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("true")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(".")])
-      ]),
-      _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: {
-          id: "textarea-no-resize",
-          placeholder: "Fixed height textarea",
-          rows: "3",
-          "no-resize": ""
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732&":
-/*!************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732& ***!
-  \************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Floating Label" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFloatingLabel) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Use ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v(".form-label-group")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" to add a Floating Label with Textarea.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "form-label-group mt-2 mb-0" },
-        [
-          _c("b-form-textarea", {
-            attrs: {
-              id: "textarea",
-              rows: "3",
-              placeholder: "Label in Textarea"
-            }
-          }),
-          _vm._v(" "),
-          _c("label", { attrs: { for: "label-textarea" } }, [
-            _vm._v("Label in Textarea")
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e&":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e& ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Formatter support" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFormatter) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("code", [_vm._v("<b-form-textarea>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "optionally supports formatting by passing a function reference to the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("formatter")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: "Textarea with formatter (on input)",
-                "label-for": "textarea-formatter",
-                description: "We will convert your text to lowercase instantly"
-              }
-            },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-formatter",
-                  placeholder: "Enter your text",
-                  formatter: _vm.formatter
-                },
-                model: {
-                  value: _vm.text1,
-                  callback: function($$v) {
-                    _vm.text1 = $$v
-                  },
-                  expression: "text1"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-card-text", [
-            _c("strong", [_vm._v("Value:")]),
-            _vm._v(" " + _vm._s(_vm.text1))
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-form-group",
-            {
-              attrs: {
-                label: "Textarea with lazy formatter (on blur)",
-                "label-for": "textarea-lazy",
-                description: "This one is a little lazy!"
-              }
-            },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-lazy",
-                  placeholder: "Enter your text",
-                  "lazy-formatter": "",
-                  formatter: _vm.formatter
-                },
-                model: {
-                  value: _vm.text2,
-                  callback: function($$v) {
-                    _vm.text2 = $$v
-                  },
-                  expression: "text2"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-card-text", [
-            _c("strong", [_vm._v("Value:")]),
-            _vm._v(" " + _vm._s(_vm.text2))
-          ])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Readonly plain text" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeReadonly) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("If you want to have ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-textarea readonly>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" elements in your form styled as plain text, set the ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("plaintext")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop (no need to set ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("readonly")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      as it will be set automatically) to remove the default form field styling and preserve the correct text size,\n      margin, padding and height.\n    "
+            "\n      component generates a WAI-ARIA compliant calendar style date selection widget, which can be used to control\n      other components, or can be used to create customized date picker inputs.\n    "
           )
         ])
       ]),
       _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: { id: "textarea-plaintext", readonly: "", value: _vm.text }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Displayed rows" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeRows) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("To set the height of ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-textarea>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", set the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("rows")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " prop to the desired number of rows. If no value is provided to rows, then it will default to 2."
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: { id: "textarea-rows", placeholder: "Tall textarea", rows: "8" }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Control sizing" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSize) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Set text height using the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("size")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("sm")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("lg")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" for small or large respectively.")])
-      ]),
-      _vm._v(" "),
       _c(
         "b-row",
+        { staticClass: "text-center" },
         [
-          _c("b-col", { attrs: { sm: "2" } }, [
+          _c(
+            "b-col",
+            { staticClass: "mt-1", attrs: { md: "6" } },
+            [
+              _c("b-calendar", {
+                attrs: { locale: "en-US" },
+                on: { context: _vm.onContext },
+                model: {
+                  value: _vm.value,
+                  callback: function($$v) {
+                    _vm.value = $$v
+                  },
+                  expression: "value"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-col", { attrs: { md: "6" } }, [
             _c(
-              "label",
-              { staticClass: "text-nowrap", attrs: { for: "textarea-small" } },
-              [_vm._v("Small:")]
+              "div",
+              { staticClass: "mt-1" },
+              [
+                _c(
+                  "prism",
+                  {
+                    staticClass: "rounded mb-0",
+                    attrs: { language: "javascript" }
+                  },
+                  [
+                    _vm._v(
+                      "\n          Context: " +
+                        _vm._s(_vm.context) +
+                        "\n        "
+                    )
+                  ]
+                )
+              ],
+              1
             )
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { sm: "10" } },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-small",
-                  size: "sm",
-                  placeholder: "Small textarea"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-col", { attrs: { sm: "2" } }, [
-            _c(
-              "label",
-              {
-                staticClass: "text-nowrap",
-                attrs: { for: "textarea-default" }
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Calendar Border & padding" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeBorderPadding) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _vm._v(
+          "\n    Fancy a calendar with a border with padding? Use Bootstrap's border and padding utility classes to add borders and\n    padding:\n  "
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "d-flex align-items-center justify-content-center" },
+        [
+          _c("b-calendar", {
+            staticClass: "border rounded p-2",
+            attrs: { locale: "en" }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Adding CSS classes to specific dates" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeCustomClass) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v("If you need to highlight a specific date or dates, set the ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("date-info-fn")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "\n      prop to a reference to a function that returns a CSS class string (or array of strings) to apply to the date's\n      cell. The function is passed two arguments:\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("ymd")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" The date as a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("YYYY-MM-DD")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" string, ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" The date as a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "d-flex align-items-center justify-content-center" },
+        [
+          _c("b-calendar", {
+            attrs: { "date-info-fn": _vm.dateClass, locale: "en" },
+            model: {
+              value: _vm.value,
+              callback: function($$v) {
+                _vm.value = $$v
               },
-              [_vm._v("Default:")]
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { sm: "10" } },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-default",
-                  placeholder: "Default textarea"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-col", { attrs: { sm: "2" } }, [
-            _c(
-              "label",
-              { staticClass: "text-nowrap", attrs: { for: "textarea-large" } },
-              [_vm._v("Large:")]
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { staticClass: "mb-1", attrs: { sm: "10" } },
-            [
-              _c("b-form-textarea", {
-                attrs: {
-                  id: "textarea-large",
-                  size: "lg",
-                  placeholder: "Large textarea"
-                }
-              })
-            ],
-            1
-          )
+              expression: "value"
+            }
+          })
         ],
         1
       )
@@ -1718,10 +1335,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1736,7 +1353,93 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Contextual states" },
+      attrs: { title: "Disabling dates" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeDisableDate) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "If you need to disable specific dates within the calendar, specify a function reference to the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("date-disabled-fn")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop. The function is passed two arguments: ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("ymd")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" The date as a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("YYYY-MM-DD")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" string, ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" The date as a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "d-flex align-items-center justify-content-center" },
+        [
+          _c("b-calendar", {
+            attrs: { "date-disabled-fn": _vm.dateDisabled, locale: "en" },
+            model: {
+              value: _vm.value,
+              callback: function($$v) {
+                _vm.value = $$v
+              },
+              expression: "value"
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&":
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Disabled and readonly states" },
       scopedSlots: _vm._u([
         {
           key: "code",
@@ -1749,32 +1452,727 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("Bootstrap includes validation styles for ")]),
+        _c("span", [_vm._v("Setting the ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("valid")]),
+        _c("code", [_vm._v("disabled")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop will remove all interactivity of the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-calendar>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" component.")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" Setting the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("readonly")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop will disable selecting a date.")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "d-flex justify-content-center" }, [
+        _c(
+          "div",
+          [
+            _c(
+              "b-form-group",
+              { attrs: { label: "Select calendar interactive state" } },
+              [
+                _c(
+                  "b-form-radio-group",
+                  {
+                    attrs: { "aria-controls": "ex-disabled-readonly" },
+                    model: {
+                      value: _vm.state,
+                      callback: function($$v) {
+                        _vm.state = $$v
+                      },
+                      expression: "state"
+                    }
+                  },
+                  [
+                    _c("b-form-radio", { attrs: { value: "disabled" } }, [
+                      _vm._v("\n            Disabled\n          ")
+                    ]),
+                    _vm._v(" "),
+                    _c("b-form-radio", { attrs: { value: "readonly" } }, [
+                      _vm._v("\n            Readonly\n          ")
+                    ]),
+                    _vm._v(" "),
+                    _c("b-form-radio", { attrs: { value: "normal" } }, [
+                      _vm._v("\n            Normal\n          ")
+                    ])
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("b-calendar", {
+              attrs: {
+                id: "ex-disabled-readonly",
+                disabled: _vm.disabled,
+                readonly: _vm.readonly
+              }
+            })
+          ],
+          1
+        )
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Internationalization" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [
+              _vm._v("\n    " + _vm._s(_vm.codeInternationalization) + "\n  ")
+            ]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("By default ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-calendar>")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " will use the browser's default locale, but you can specify the locale (or locales) to use via the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("locale")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "\n      prop. The prop accepts either a single locale string, or an array of locale strings (listed in order of\n      preferred locale).\n    "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { cols: "12" } },
+            [
+              _c("label", { attrs: { for: "example-locales" } }, [
+                _vm._v("Locale:")
+              ]),
+              _vm._v(" "),
+              _c("b-form-select", {
+                attrs: { id: "example-locales", options: _vm.locales },
+                model: {
+                  value: _vm.locale,
+                  callback: function($$v) {
+                    _vm.locale = $$v
+                  },
+                  expression: "locale"
+                }
+              }),
+              _vm._v(" "),
+              _c(
+                "label",
+                { staticClass: "mt-2", attrs: { for: "example-weekdays" } },
+                [_vm._v("Start weekday:")]
+              ),
+              _vm._v(" "),
+              _c("b-form-select", {
+                attrs: { id: "example-weekdays", options: _vm.weekdays },
+                model: {
+                  value: _vm.weekday,
+                  callback: function($$v) {
+                    _vm.weekday = $$v
+                  },
+                  expression: "weekday"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "demo-inline-spacing" }, [
+                _c(
+                  "div",
+                  { staticClass: "d-flex align-items-center" },
+                  [
+                    _c(
+                      "b-form-checkbox",
+                      {
+                        attrs: { switch: "", inline: "" },
+                        model: {
+                          value: _vm.showDecadeNav,
+                          callback: function($$v) {
+                            _vm.showDecadeNav = $$v
+                          },
+                          expression: "showDecadeNav"
+                        }
+                      },
+                      [
+                        _vm._v(
+                          "\n            Show decade navigation buttons\n          "
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "d-flex align-items-center" },
+                  [
+                    _c(
+                      "b-form-checkbox",
+                      {
+                        attrs: { switch: "", inline: "" },
+                        model: {
+                          value: _vm.hideHeader,
+                          callback: function($$v) {
+                            _vm.hideHeader = $$v
+                          },
+                          expression: "hideHeader"
+                        }
+                      },
+                      [_vm._v("\n            Hide the date header\n          ")]
+                    )
+                  ],
+                  1
+                )
+              ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { staticClass: "text-center", attrs: { md: "6" } },
+            [
+              _c(
+                "b-calendar",
+                _vm._b(
+                  {
+                    staticClass: "mt-1",
+                    attrs: {
+                      locale: _vm.locale,
+                      "start-weekday": _vm.weekday,
+                      "hide-header": _vm.hideHeader,
+                      "show-decade-nav": _vm.showDecadeNav
+                    },
+                    on: { context: _vm.onContext },
+                    model: {
+                      value: _vm.value,
+                      callback: function($$v) {
+                        _vm.value = $$v
+                      },
+                      expression: "value"
+                    }
+                  },
+                  "b-calendar",
+                  _vm.labels[_vm.locale] || {},
+                  false
+                )
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "prism",
+                {
+                  staticClass: "rounded mt-1 mb-0",
+                  attrs: { language: "javascript" }
+                },
+                [
+                  _vm._v(
+                    "\n        Context: " + _vm._s(_vm.context) + "\n      "
+                  )
+                ]
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Minimum and maximum dates" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeMinMaxRange) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("Restrict the calendar range via the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("min")]),
         _vm._v(" "),
         _c("span", [_vm._v(" and ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("invalid")]),
+        _c("code", [_vm._v("max")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" states on most form controls.")])
+        _c("span", [
+          _vm._v(" props. The props accept a date string in the format of ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("YYYY-MM-DD")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" or a ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Date")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object.")])
       ]),
       _vm._v(" "),
-      _c("b-form-textarea", {
-        attrs: {
-          id: "textarea-state",
-          state: _vm.text.length <= 10,
-          placeholder: "Enter only 10 characters",
-          rows: "3"
-        },
-        model: {
-          value: _vm.text,
-          callback: function($$v) {
-            _vm.text = $$v
+      _c(
+        "div",
+        { staticClass: "d-flex align-items-center justify-content-center" },
+        [
+          _c("b-calendar", {
+            attrs: { min: _vm.min, max: _vm.max, locale: "en" },
+            model: {
+              value: _vm.value,
+              callback: function($$v) {
+                _vm.value = $$v
+              },
+              expression: "value"
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Default slot" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeSlot) + "\n  ")]
           },
-          expression: "text"
+          proxy: true
         }
-      })
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "Provide optional content at the bottom of the calendar interface via the use of default slot. The slot can be\n      used to add buttons such as\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Select Today")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" or ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Reset")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(", etc.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "d-flex align-items-center justify-content-center" },
+        [
+          _c(
+            "b-calendar",
+            {
+              attrs: { "value-as-date": "", locale: "en" },
+              model: {
+                value: _vm.value,
+                callback: function($$v) {
+                  _vm.value = $$v
+                },
+                expression: "value"
+              }
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "d-flex", attrs: { dir: "ltr" } },
+                [
+                  _vm.value
+                    ? _c(
+                        "b-button",
+                        {
+                          attrs: { size: "sm", variant: "outline-secondary" },
+                          on: { click: _vm.clearDate }
+                        },
+                        [_vm._v("\n          Clear date\n        ")]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _c(
+                    "b-button",
+                    {
+                      staticClass: "ml-auto",
+                      attrs: { size: "sm", variant: "outline-primary" },
+                      on: { click: _vm.setToday }
+                    },
+                    [_vm._v("\n          Set Today\n        ")]
+                  )
+                ],
+                1
+              )
+            ]
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8& ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Date string format" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeFormat) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "To change format options of the displayed date text inside the component, e.g. in the header, set the\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("date-format-options")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " prop to an object containing the requested format properties for the "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("Intl.DateTimeFormat")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" object (see also Internationalization).")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        { staticClass: "text-center" },
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c("h6", [_vm._v("Custom date format:")]),
+              _vm._v(" "),
+              _c("b-calendar", {
+                staticClass: "mb-1 mb-md-0",
+                attrs: {
+                  "date-format-options": {
+                    year: "numeric",
+                    month: "short",
+                    day: "2-digit",
+                    weekday: "short"
+                  },
+                  locale: "en"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c("h6", [_vm._v("Short date format:")]),
+              _vm._v(" "),
+              _c("b-calendar", {
+                attrs: {
+                  "date-format-options": {
+                    year: "numeric",
+                    month: "numeric",
+                    day: "numeric"
+                  },
+                  locale: "en"
+                }
+              })
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Calendar Variant" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeVariant) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v("The selected date button (background color) defaults to the ")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("'primary'")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " theme variant. You can change this to any of the Bootstrap v4 theme variant colors: "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [
+          _vm._v("'secondary', 'success', 'danger', 'warning', 'info'")
+        ]),
+        _vm._v(" "),
+        _c("span", [_vm._v(", etc, via the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("selected-variant")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "d-flex justify-content-center" },
+        [
+          _c("b-calendar", {
+            attrs: { "selected-variant": "success", "today-variant": "info" }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Calendar Width" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeWidth) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("To change the width, set the ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("width")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop to any valid CSS width (including units).")])
+      ]),
+      _vm._v(" "),
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "Optionally, make the calendar full width by setting the prop "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("block")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            ", which will make it expand to fit the width of the parent element. The "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("width")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop has no effect when ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("block")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" is set.")])
+      ]),
+      _vm._v(" "),
+      _c("b-calendar", { attrs: { block: "", locale: "en-US" } })
     ],
     1
   )
@@ -1801,18 +2199,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue":
-/*!**********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue ***!
-  \**********************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/Calendar.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/Calendar.vue ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextArea.vue?vue&type=template&id=6f81f9ec& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec&");
-/* harmony import */ var _FormTextArea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextArea.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Calendar.vue?vue&type=template&id=c8fa0140& */ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&");
+/* harmony import */ var _Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Calendar.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1821,9 +2219,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextArea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1833,55 +2231,262 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue"
+component.options.__file = "resources/js/src/views/components/calendar/Calendar.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Calendar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Calendar.vue?vue&type=template&id=c8fa0140& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/Calendar.vue?vue&type=template&id=c8fa0140&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calendar_vue_vue_type_template_id_c8fa0140___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarBasic.vue?vue&type=template&id=80736044& */ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&");
+/* harmony import */ var _CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/calendar/CalendarBasic.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBasic.vue?vue&type=template&id=80736044& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBasic.vue?vue&type=template&id=80736044&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBasic_vue_vue_type_template_id_80736044___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue":
+/*!******************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarBorderPadding.vue?vue&type=template&id=0a469675& */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&");
+/* harmony import */ var _CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarBorderPadding.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/calendar/CalendarBorderPadding.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBorderPadding.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675& ***!
+  \*************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarBorderPadding.vue?vue&type=template&id=0a469675& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarBorderPadding.vue?vue&type=template&id=0a469675&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarBorderPadding_vue_vue_type_template_id_0a469675___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarCustomClass.vue?vue&type=template&id=7255e1b7& */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&");
+/* harmony import */ var _CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarCustomClass.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/calendar/CalendarCustomClass.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarCustomClass.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&":
 /*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7& ***!
   \***********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextArea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextArea.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextArea_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec& ***!
-  \*****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextArea.vue?vue&type=template&id=6f81f9ec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextArea.vue?vue&type=template&id=6f81f9ec&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarCustomClass.vue?vue&type=template&id=7255e1b7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarCustomClass.vue?vue&type=template&id=7255e1b7&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextArea_vue_vue_type_template_id_6f81f9ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarCustomClass_vue_vue_type_template_id_7255e1b7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue ***!
-  \********************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c&");
-/* harmony import */ var _FormTextAreaAutoHeight_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaAutoHeight.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarDisableDate.vue?vue&type=template&id=d2e54f34& */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&");
+/* harmony import */ var _CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarDisableDate.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1890,9 +2495,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaAutoHeight_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1902,55 +2507,124 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarDisableDate.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableDate.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34& ***!
+  \***********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableDate.vue?vue&type=template&id=d2e54f34& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableDate.vue?vue&type=template&id=d2e54f34&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableDate_vue_vue_type_template_id_d2e54f34___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&");
+/* harmony import */ var _CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableReadonlyStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&":
 /*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& ***!
   \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaAutoHeight_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaAutoHeight.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaAutoHeight_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c& ***!
-  \***************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaAutoHeight.vue?vue&type=template&id=368c047c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarDisableReadonlyStates.vue?vue&type=template&id=11e4349c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaAutoHeight_vue_vue_type_template_id_368c047c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarDisableReadonlyStates_vue_vue_type_template_id_11e4349c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue":
-/*!*****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue ***!
-  \*****************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaCounter.vue?vue&type=template&id=1f6436c0& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0&");
-/* harmony import */ var _FormTextAreaCounter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaCounter.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarInternationalization.vue?vue&type=template&id=7fa36e96& */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&");
+/* harmony import */ var _CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarInternationalization.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1959,9 +2633,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaCounter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1971,400 +2645,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarInternationalization.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaCounter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaCounter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaCounter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarInternationalization.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0&":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0& ***!
-  \************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaCounter.vue?vue&type=template&id=1f6436c0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaCounter.vue?vue&type=template&id=1f6436c0&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaCounter_vue_vue_type_template_id_1f6436c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue ***!
-  \******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856&");
-/* harmony import */ var _FormTextAreaDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaDebounce.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDebounce.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDebounce.vue?vue&type=template&id=1f6d6856&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDebounce_vue_vue_type_template_id_1f6d6856___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue":
-/*!*****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue ***!
-  \*****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaDefault.vue?vue&type=template&id=44d6ba65& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65&");
-/* harmony import */ var _FormTextAreaDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaDefault.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDefault.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDefault_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65&":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65& ***!
-  \************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDefault.vue?vue&type=template&id=44d6ba65& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDefault.vue?vue&type=template&id=44d6ba65&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDefault_vue_vue_type_template_id_44d6ba65___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaDisableResize.vue?vue&type=template&id=120e5940& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940&");
-/* harmony import */ var _FormTextAreaDisableResize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaDisableResize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaDisableResize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDisableResize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDisableResize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDisableResize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940&":
-/*!******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940& ***!
-  \******************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaDisableResize.vue?vue&type=template&id=120e5940& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaDisableResize.vue?vue&type=template&id=120e5940&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaDisableResize_vue_vue_type_template_id_120e5940___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732&");
-/* harmony import */ var _FormTextAreaFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaFloatingLabel.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaFloatingLabel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732&":
-/*!******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732& ***!
-  \******************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFloatingLabel.vue?vue&type=template&id=6b83d732&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFloatingLabel_vue_vue_type_template_id_6b83d732___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue ***!
-  \*******************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaFormatter.vue?vue&type=template&id=0964d56e& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e&");
-/* harmony import */ var _FormTextAreaFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaFormatter.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&":
 /*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96& ***!
   \********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaFormatter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e& ***!
-  \**************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaFormatter.vue?vue&type=template&id=0964d56e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaFormatter.vue?vue&type=template&id=0964d56e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarInternationalization.vue?vue&type=template&id=7fa36e96& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarInternationalization.vue?vue&type=template&id=7fa36e96&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaFormatter_vue_vue_type_template_id_0964d56e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarInternationalization_vue_vue_type_template_id_7fa36e96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue ***!
-  \******************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaReadonly.vue?vue&type=template&id=ac16f164& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164&");
-/* harmony import */ var _FormTextAreaReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaReadonly.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&");
+/* harmony import */ var _CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarMinMaxRange.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2373,9 +2702,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2385,55 +2714,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarMinMaxRange.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaReadonly.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaReadonly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarMinMaxRange.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164& ***!
-  \*************************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& ***!
+  \***********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaReadonly.vue?vue&type=template&id=ac16f164& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaReadonly.vue?vue&type=template&id=ac16f164&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarMinMaxRange.vue?vue&type=template&id=8f5f044a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaReadonly_vue_vue_type_template_id_ac16f164___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarMinMaxRange_vue_vue_type_template_id_8f5f044a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue":
+/*!*********************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue ***!
+  \*********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaRows.vue?vue&type=template&id=9300fd36& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36&");
-/* harmony import */ var _FormTextAreaRows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaRows.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarSlot.vue?vue&type=template&id=026e7a7e& */ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&");
+/* harmony import */ var _CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarSlot.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2442,9 +2771,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaRows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2454,55 +2783,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarSlot.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaRows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaRows.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaRows_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarSlot.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e& ***!
+  \****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaRows.vue?vue&type=template&id=9300fd36& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaRows.vue?vue&type=template&id=9300fd36&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarSlot.vue?vue&type=template&id=026e7a7e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarSlot.vue?vue&type=template&id=026e7a7e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaRows_vue_vue_type_template_id_9300fd36___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarSlot_vue_vue_type_template_id_026e7a7e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaSize.vue?vue&type=template&id=3556e8e6& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6&");
-/* harmony import */ var _FormTextAreaSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarStringFormat.vue?vue&type=template&id=185696e8& */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&");
+/* harmony import */ var _CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarStringFormat.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2511,9 +2840,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2523,55 +2852,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarStringFormat.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarStringFormat.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&":
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8& ***!
+  \************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaSize.vue?vue&type=template&id=3556e8e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaSize.vue?vue&type=template&id=3556e8e6&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarStringFormat.vue?vue&type=template&id=185696e8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarStringFormat.vue?vue&type=template&id=185696e8&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaSize_vue_vue_type_template_id_3556e8e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarStringFormat_vue_vue_type_template_id_185696e8___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue ***!
-  \****************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue ***!
+  \************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTextAreaStates.vue?vue&type=template&id=d93df7e4& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4&");
-/* harmony import */ var _FormTextAreaStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTextAreaStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarVariant.vue?vue&type=template&id=0f8e3a96& */ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&");
+/* harmony import */ var _CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarVariant.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -2580,9 +2909,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTextAreaStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2592,74 +2921,143 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue"
+component.options.__file = "resources/js/src/views/components/calendar/CalendarVariant.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarVariant.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4& ***!
-  \***********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96& ***!
+  \*******************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTextAreaStates.vue?vue&type=template&id=d93df7e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-textarea/FormTextAreaStates.vue?vue&type=template&id=d93df7e4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarVariant.vue?vue&type=template&id=0f8e3a96& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarVariant.vue?vue&type=template&id=0f8e3a96&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTextAreaStates_vue_vue_type_template_id_d93df7e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarVariant_vue_vue_type_template_id_0f8e3a96___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-textarea/code.js":
-/*!*************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-textarea/code.js ***!
-  \*************************************************************************/
-/*! exports provided: codeAutoHeight, codeDebounce, codeDefault, codeDisableResize, codeFloatingLabel, codeFormatter, codeRows, codeReadonly, codeSize, codeStates, codeCounter */
+/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue ***!
+  \**********************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeAutoHeight", function() { return codeAutoHeight; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDebounce", function() { return codeDebounce; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDefault", function() { return codeDefault; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDisableResize", function() { return codeDisableResize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFloatingLabel", function() { return codeFloatingLabel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormatter", function() { return codeFormatter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeRows", function() { return codeRows; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeReadonly", function() { return codeReadonly; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
+/* harmony import */ var _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalendarWidth.vue?vue&type=template&id=21fb1d76& */ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&");
+/* harmony import */ var _CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CalendarWidth.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/calendar/CalendarWidth.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarWidth.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./CalendarWidth.vue?vue&type=template&id=21fb1d76& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/calendar/CalendarWidth.vue?vue&type=template&id=21fb1d76&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CalendarWidth_vue_vue_type_template_id_21fb1d76___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/calendar/code.js":
+/*!************************************************************!*\
+  !*** ./resources/js/src/views/components/calendar/code.js ***!
+  \************************************************************/
+/*! exports provided: codeBasic, codeStates, codeDisableDate, codeMinMaxRange, codeVariant, codeWidth, codeBorderPadding, codeFormat, codeSlot, codeCustomClass, codeInternationalization */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCounter", function() { return codeCounter; });
-var codeAutoHeight = "\n<template>\n  <b-row>\n    <b-col\n      xl=\"6\"\n      cols=\"12\"\n    >\n      <label for=\"textarea-auto-height\">Auto height:</label>\n      <b-form-textarea\n        id=\"textarea-auto-height\"\n        placeholder=\"Auto height textarea\"\n        rows=\"3\"\n        max-rows=\"8\"\n      />\n    </b-col>\n    <b-col\n      xl=\"6\"\n      cols=\"12\"\n    >\n      <label for=\"textarea-no-auto-shrink\">No auto-shrink:</label>\n      <b-form-textarea\n        id=\"textarea-no-auto-shrink\"\n        placeholder=\"Auto height (no-shrink) textarea\"\n        rows=\"3\"\n        max-rows=\"8\"\n        no-auto-shrink\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormTextarea, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeDebounce = "\n<template>\n  <div>\n    <b-form-textarea\n      v-model=\"value\"\n      debounce=\"500\"\n      rows=\"3\"\n      max-rows=\"5\"\n    />\n    <pre class=\"mt-1\">{{ value }}</pre>\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n  data: () => ({\n    value: '',\n  }),\n}\n</script>\n";
-var codeDefault = "\n<template>\n  <div>\n    <label for=\"textarea-default\">Textarea</label>\n    <b-form-textarea\n      id=\"textarea-default\"\n      placeholder=\"Textarea\"\n      rows=\"3\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardText,\n    BFormTextarea,\n  },\n}\n</script>\n\n";
-var codeDisableResize = "\n<template>\n  <div>\n    <b-form-textarea\n      id=\"textarea-no-resize\"\n      placeholder=\"Fixed height textarea\"\n      rows=\"3\"\n      no-resize\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n}\n</script>\n";
-var codeFloatingLabel = "\n<template>\n  <div class=\"form-label-group\">\n    <b-form-textarea\n      id=\"textarea\"\n      rows=\"3\"\n      placeholder=\"Label in Textarea\"\n    />\n    <label for=\"label-textarea\">Label in Textarea</label>\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n}\n</script>\n";
-var codeFormatter = "\n<template>\n  <div>\n    <b-form-group\n      class=\"mb-0\"\n      label=\"Textarea with formatter (on input)\"\n      label-for=\"textarea-formatter\"\n      description=\"We will convert your text to lowercase instantly\"\n    >\n      <b-form-textarea\n        id=\"textarea-formatter\"\n        v-model=\"text1\"\n        placeholder=\"Enter your text\"\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n    <p><b>Value:</b> {{ text1 }}</p>\n\n    <b-form-group\n      class=\"mb-0\"\n      label=\"Textarea with lazy formatter (on blur)\"\n      label-for=\"textarea-lazy\"\n      description=\"This one is a little lazy!\"\n    >\n      <b-form-textarea\n        id=\"textarea-lazy\"\n        v-model=\"text2\"\n        placeholder=\"Enter your text\"\n        lazy-formatter\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n    <p><b>Value:</b> {{ text2 }}</p>\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n    BFormGroup,\n  },\n  data: () => ({\n    text1: '',\n    text2: '',\n  }),\n  methods: {\n    formatter(value) {\n      return value.toLowerCase()\n    },\n  },\n}\n</script>\n";
-var codeRows = "\n<template>\n  <b-form-textarea\n    id=\"textarea-rows\"\n    placeholder=\"Tall textarea\"\n    rows=\"8\"\n  />\n</template>\n\n<script>\nimport { BFormTextarea} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n}\n</script>\n";
-var codeReadonly = "\n<template>\n  <div>\n    <b-form-textarea\n      id=\"textarea-plaintext\"\n      plaintext\n      :value=\"text\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n  data: () => ({\n    text: \"This is some text.\nIt is read only and doesn't look like an input.\",\n  }),\n}\n</script>\n";
-var codeSize = "\n<template>\n  <b-row>\n    <b-col sm=\"2\">\n      <label\n        for=\"textarea-small\"\n        class=\"text-nowrap\"\n      >Small:</label>\n    </b-col>\n    <b-col\n      sm=\"10\"\n      class=\"mb-1\"\n    >\n      <b-form-textarea\n        id=\"textarea-small\"\n        size=\"sm\"\n        placeholder=\"Small textarea\"\n      />\n    </b-col>\n    <b-col sm=\"2\">\n      <label\n        for=\"textarea-default\"\n        class=\"text-nowrap\"\n      >Default:</label>\n    </b-col>\n    <b-col\n      sm=\"10\"\n      class=\"mb-1\"\n    >\n      <b-form-textarea\n        id=\"textarea-default\"\n        placeholder=\"Default textarea\"\n      />\n    </b-col>\n    <b-col sm=\"2\">\n      <label\n        for=\"textarea-large\"\n        class=\"text-nowrap\"\n      >Large:</label>\n    </b-col>\n    <b-col\n      sm=\"10\"\n      class=\"mb-1\"\n    >\n      <b-form-textarea\n        id=\"textarea-large\"\n        size=\"lg\"\n        placeholder=\"Large textarea\"\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormTextarea, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
-var codeStates = "\n<template>\n  <b-form-textarea\n    id=\"textarea-state\"\n    v-model=\"text\"\n    :state=\"text.length <= 10\"\n    placeholder=\"Enter only 10 characters\"\n    rows=\"3\"\n  />\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n  data() {\n    return {\n      text: '',\n    }\n  },\n}\n</script>\n";
-var codeCounter = "\n<template>\n  <div>\n    <b-form-textarea\n      id=\"textarea-state\"\n      v-model=\"text\"\n      :state=\"text.length <= 10\"\n      placeholder=\"Enter only 10 characters\"\n      rows=\"3\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BFormTextarea } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormTextarea,\n  },\n  data: () => ({\n    value: '',\n    maxChar: 20,\n  }),\n}\n</script>\n";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDisableDate", function() { return codeDisableDate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeMinMaxRange", function() { return codeMinMaxRange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeVariant", function() { return codeVariant; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeWidth", function() { return codeWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBorderPadding", function() { return codeBorderPadding; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormat", function() { return codeFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSlot", function() { return codeSlot; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustomClass", function() { return codeCustomClass; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInternationalization", function() { return codeInternationalization; });
+var codeBasic = "\n<template>\n  <b-row class=\"text-center\">\n    <b-col\n      md=\"6\"\n      class=\"mt-1\"\n    >\n\n      <!-- calendar -->\n      <b-calendar\n        v-model=\"value\"\n        locale=\"en-US\"\n        @context=\"onContext\"\n      />\n    </b-col>\n    <b-col md=\"6\">\n\n      <!-- prism -->\n      <div class=\"mt-1\">\n        <prism\n          language=\"javascript\"\n          class=\"rounded mb-0\"\n        >\n          Context: {{ context }}\n        </prism>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BRow, BCol, BCalendar} from 'bootstrap-vue'\nimport Prism from 'vue-prism-component'\nimport 'prismjs'\nimport 'prismjs/themes/prism-tomorrow.css'\n\nexport default {\n  components: {\n    BRow,\n    BCol,\n    BCalendar,\n    Prism,\n  },\n  data: () => ({\n    value: '',\n    context: null,\n  }),\n  methods: {\n    onContext(ctx) {\n      this.context = ctx\n    },\n  },\n}\n</script>\n";
+var codeStates = "\n<template>\n  <div class=\"d-flex justify-content-center\">\n    <div>\n\n      <!-- checkbox -->\n      <b-form-group label=\"Select calendar interactive state\">\n        <b-form-radio-group\n          v-model=\"state\"\n          aria-controls=\"ex-disabled-readonly\"\n        >\n          <b-form-radio value=\"disabled\">\n            Disabled\n          </b-form-radio>\n          <b-form-radio value=\"readonly\">\n            Readonly\n          </b-form-radio>\n          <b-form-radio value=\"normal\">\n            Normal\n          </b-form-radio>\n        </b-form-radio-group>\n      </b-form-group>\n\n      <!-- calendar -->\n      <b-calendar\n        id=\"ex-disabled-readonly\"\n        :disabled=\"disabled\"\n        :readonly=\"readonly\"\n      />\n    </div>\n  </div>\n</template>\n\n<script>\nimport {BFormGroup, BFormRadioGroup, BFormRadio, BCalendar} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormRadioGroup,\n    BFormRadio,\n    BCalendar,\n  },\n  data: () => ({\n    state: 'disabled',\n  }),\n  computed: {\n    disabled() {\n      return this.state === 'disabled'\n    },\n    readonly() {\n      return this.state === 'readonly'\n    },\n  },\n}\n</script>\n";
+var codeDisableDate = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :date-disabled-fn=\"dateDisabled\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data: () => ({\n    value: '',\n  }),\n  methods: {\n    dateDisabled(ymd, date) {\n      const weekday = date.getDay()\n      const day = date.getDate()\n      return weekday === 0 || weekday === 6 || day === 13\n    },\n  },\n}\n</script>\n";
+var codeMinMaxRange = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :min=\"min\"\n      :max=\"max\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data() {\n    const now = new Date()\n    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())\n    // 15th two months prior\n    const minDate = new Date(today)\n    minDate.setMonth(minDate.getMonth() - 2)\n    minDate.setDate(15)\n    // 15th in two months\n    const maxDate = new Date(today)\n    maxDate.setMonth(maxDate.getMonth() + 2)\n    maxDate.setDate(15)\n\n    return {\n      value: '',\n      min: minDate,\n      max: maxDate,\n    }\n  },\n}\n</script>\n";
+var codeVariant = "\n<template>\n  <div class=\"d-flex justify-content-center\">\n    <b-calendar\n      selected-variant=\"success\"\n      today-variant=\"info\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
+var codeWidth = "\n<template>\n  <b-calendar\n    block\n    locale=\"en-US\"\n  />\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
+var codeBorderPadding = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      class=\"border rounded p-2\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n}\n</script>\n";
+var codeFormat = "\n<template>\n  <b-row class=\"text-center\">\n    <b-col md=\"6\">\n      <h6>Custom date format:</h6>\n      <b-calendar\n        :date-format-options=\"{ year: 'numeric', month: 'short', day: '2-digit', weekday: 'short' }\"\n        locale=\"en\"\n        class=\"mb-1 mb-md-0\"\n      />\n    </b-col>\n    <b-col md=\"6\">\n      <h6>Short date format:</h6>\n      <b-calendar\n        :date-format-options=\"{ year: 'numeric', month: 'numeric', day: 'numeric' }\"\n        locale=\"en\"\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BCalendar, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeSlot = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      value-as-date\n      locale=\"en\"\n    >\n      <div\n        class=\"d-flex\"\n        dir=\"ltr\"\n      >\n        <b-button\n          v-if=\"value\"\n          size=\"sm\"\n          variant=\"outline-secondary\"\n          @click=\"clearDate\"\n        >\n          Clear date\n        </b-button>\n        <b-button\n          size=\"sm\"\n          variant=\"outline-primary\"\n          class=\"ml-auto\"\n          @click=\"setToday\"\n        >\n          Set Today\n        </b-button>\n      </div>\n    </b-calendar>\n  </div>\n</template>\n\n<script>\nimport { BCalendar, BButton } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BButton,\n  },\n  data: () => ({\n    value: null,\n  }),\n  methods: {\n    setToday() {\n      const now = new Date()\n      this.value = new Date(now.getFullYear(), now.getMonth(), now.getDate())\n    },\n    clearDate() {\n      this.value = ''\n    },\n  },\n}\n</script>\n";
+var codeCustomClass = "\n<template>\n  <div class=\"d-flex align-items-center justify-content-center\">\n    <b-calendar\n      v-model=\"value\"\n      :date-info-fn=\"dateClass\"\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BCalendar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n  },\n  data: () => ({\n    value: '',\n  }),\n  methods: {\n    dateClass(ymd, date) {\n      const day = date.getDate()\n      return day >= 10 && day <= 20 ? 'table-info' : ''\n    },\n  },\n}\n</script>\n";
+var codeInternationalization = "\n<template>\n  <b-row>\n    <b-col cols=\"12\">\n\n      <!-- select locale-->\n      <label for=\"example-locales\">Locale:</label>\n      <b-form-select\n        id=\"example-locales\"\n        v-model=\"locale\"\n        :options=\"locales\"\n      />\n\n      <!-- select weekday-->\n      <label\n        for=\"example-weekdays\"\n        class=\"mt-2\"\n      >Start weekday:</label>\n      <b-form-select\n        id=\"example-weekdays\"\n        v-model=\"weekday\"\n        :options=\"weekdays\"\n      />\n\n      <!-- switch -->\n      <div class=\"demo-inline-spacing\">\n        <div class=\"d-flex align-items-center\">\n          <b-form-checkbox\n            v-model=\"showDecadeNav\"\n            switch\n            inline\n          >\n            Show decade navigation buttons\n          </b-form-checkbox>\n        </div>\n\n        <div class=\"d-flex align-items-center\">\n          <b-form-checkbox\n            v-model=\"hideHeader\"\n            switch\n            inline\n          >\n            Hide the date header\n          </b-form-checkbox>\n        </div>\n      </div>\n    </b-col>\n\n    <!-- calendar -->\n    <b-col\n      md=\"6\"\n      class=\"text-center\"\n    >\n      <b-calendar\n        v-model=\"value\"\n        v-bind=\"labels[locale] || {}\"\n        :locale=\"locale\"\n        :start-weekday=\"weekday\"\n        :hide-header=\"hideHeader\"\n        :show-decade-nav=\"showDecadeNav\"\n        class=\"mt-1\"\n        @context=\"onContext\"\n      />\n    </b-col>\n\n    <!-- prism -->\n    <b-col md=\"6\">\n      <prism\n        language=\"javascript\"\n        class=\"rounded mt-1 mb-0\"\n      >\n        Context: {{ context }}\n      </prism>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BCalendar, BRow, BCol, BFormCheckbox, BFormSelect} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCalendar,\n    BRow,\n    BCol,\n    BFormCheckbox,\n    BFormSelect,\n  },\n  data: () => ({\n    value: '',\n    context: null,\n    showDecadeNav: false,\n    hideHeader: false,\n    locale: 'en-US',\n    locales: [\n      { value: 'en-US', text: 'English US (en-US)' },\n      { value: 'de', text: 'German (de)' },\n      { value: 'ar-EG', text: 'Arabic Egyptian (ar-EG)' },\n      { value: 'zh', text: 'Chinese (zh)' },\n    ],\n    weekday: 0,\n    weekdays: [\n      { value: 0, text: 'Sunday' },\n      { value: 1, text: 'Monday' },\n      { value: 6, text: 'Saturday' },\n    ],\n    labels: {\n      de: {\n        labelPrevDecade: 'Vorheriges Jahrzehnt',\n        labelPrevYear: 'Vorheriges Jahr',\n        labelPrevMonth: 'Vorheriger Monat',\n        labelCurrentMonth: 'Aktueller Monat',\n        labelNextMonth: 'N\xE4chster Monat',\n        labelNextYear: 'N\xE4chstes Jahr',\n        labelNextDecade: 'N\xE4chstes Jahrzehnt',\n        labelToday: 'Heute',\n        labelSelected: 'Ausgew\xE4hltes Datum',\n        labelNoDateSelected: 'Kein Datum gew\xE4hlt',\n        labelCalendar: 'Kalender',\n        labelNav: 'Kalendernavigation',\n        labelHelp: 'Mit den Pfeiltasten durch den Kalender navigieren',\n      },\n      'ar-EG': {\n        labelPrevDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelPrevMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0633\u0627\u0628\u0642',\n        labelCurrentMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u062D\u0627\u0644\u064A',\n        labelNextMonth: '\u0627\u0644\u0634\u0647\u0631 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextYear: '\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u0645\u0642\u0628\u0644',\n        labelNextDecade: '\u0627\u0644\u0639\u0642\u062F \u0627\u0644\u0642\u0627\u062F\u0645',\n        labelToday: '\u0627\u0644\u064A\u0648\u0645',\n        labelSelected: '\u0627\u0644\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0645\u062D\u062F\u062F',\n        labelNoDateSelected: '\u0644\u0645 \u064A\u062A\u0645 \u0627\u062E\u062A\u064A\u0627\u0631 \u062A\u0627\u0631\u064A\u062E',\n        labelCalendar: '\u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelNav: '\u0627\u0644\u0645\u0644\u0627\u062D\u0629 \u0627\u0644\u062A\u0642\u0648\u064A\u0645',\n        labelHelp: '\u0627\u0633\u062A\u062E\u062F\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0645\u0624\u0634\u0631 \u0644\u0644\u062A\u0646\u0642\u0644 \u0641\u064A \u0627\u0644\u062A\u0648\u0627\u0631\u064A\u062E',\n      },\n      zh: {\n        labelPrevDecade: '\u8FC7\u53BB\u5341\u5E74',\n        labelPrevYear: '\u4E0A\u4E00\u5E74',\n        labelPrevMonth: '\u4E0A\u4E2A\u6708',\n        labelCurrentMonth: '\u5F53\u524D\u6708\u4EFD',\n        labelNextMonth: '\u4E0B\u4E2A\u6708',\n        labelNextYear: '\u660E\u5E74',\n        labelNextDecade: '\u4E0B\u4E00\u4E2A\u5341\u5E74',\n        labelToday: '\u4ECA\u5929',\n        labelSelected: '\u9009\u5B9A\u65E5\u671F',\n        labelNoDateSelected: '\u672A\u9009\u62E9\u65E5\u671F',\n        labelCalendar: '\u65E5\u5386',\n        labelNav: '\u65E5\u5386\u5BFC\u822A',\n        labelHelp: '\u4F7F\u7528\u5149\u6807\u952E\u6D4F\u89C8\u65E5\u671F',\n      },\n    },\n  }),\n  methods: {\n    onContext(ctx) {\n      this.context = ctx\n    },\n  },\n}\n</script>\n";
 
 /***/ })
 

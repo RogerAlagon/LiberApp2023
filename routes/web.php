@@ -61,6 +61,10 @@ use App\Http\Controllers\ProyectoController;
 //Temporales
 //use App\Http\Controllers\CuentaController;
 use App\Http\Controllers\PGrupoController;
+//Gps
+use App\Http\Controllers\GeocercaController;
+use App\Http\Controllers\EventualidadController;
+use App\Http\Controllers\TrazabilidadController;
 
 
 /*
@@ -263,6 +267,9 @@ use App\Http\Controllers\PGrupoController;
 	//Seguimiento
 	Route::get('LiberAPP/Seguimiento', [SeguimientoController::class, 'Listar']);
 	Route::get('LiberAPP/Seguimiento/Periodo/{fecha}/{tipo}/{cuenta}', [SeguimientoController::class, 'Periodo']);
+	//Seguimiento - Trazabilidad 
+	Route::get('LiberAPP/Convoy/Activo/{cuenta}/{finicio}/{ffin}', [ConvoyController::class, 'ListarServioActivo']);
+
 	//Servicio
 	Route::get('LiberAPP/Servicio/Listar/{cliente}/{finicio}/{ffin}/{estado}', [ServicioController::class, 'Listar']);
 	Route::get('LiberAPP/Servicio/ListarConvoy/{convoy}', [ServicioController::class, 'ListarConvoy']);
@@ -404,6 +411,22 @@ use App\Http\Controllers\PGrupoController;
 	Route::post('LiberAPP/Distribucion/Actualizar',[DistribucionController::class, 'Actualizar']);//Roger
 	Route::post('LiberAPP/Distribucion/ActualizarMaterial',[DistribucionController::class, 'ActualizarM']);//Roger
 	
+	/**************************************************
+	************* GPS / CENTRO DE CONTROL *************
+	**************************************************/
+	Route::get('LiberAPP/Geocerca/Listar/', [GeocercaController::class, 'ListarGeocercas']); //Roger
+	Route::post('LiberAPP/Geocerca/Guardar', [GeocercaController::class, 'Guardar']); //Roger
+	Route::post('LiberAPP/Geocerca/Actualizar', [GeocercaController::class, 'Actualizar']); //Roger
+	Route::post('LiberAPP/Geocerca/Desactivar', [GeocercaController::class , 'Desactivar']);//Roger
+	
+	Route::get('LiberAPP/Evento/Listar', [EventoController::class, 'ListarSelect']); //Roger
+	Route::post('LiberAPP/Evento/Guardar', [EventoController::class, 'Guardar']); //Roger
+	Route::post('LiberAPP/Evento/Actualizar', [EventoController::class, 'Actualizar']); //Roger
+
+	Route::post('LiberAPP/Trazabilidad/Guardar', [TrazabilidadController::class, 'Guardar']);//Roger
+	Route::get('LiberAPP/Eventualidad/Listar/{convoy}', [EventualidadController::class, 'ListarEventualidad']); //Roger
+	Route::post('LiberAPP/Eventualidad/Desactivar', [EventualidadController::class , 'Desactivar']);//Roger
+
 	/**************************************************
 	************* OTROS *************
 	**************************************************/

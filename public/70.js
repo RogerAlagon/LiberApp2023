@@ -1,24 +1,93 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[70],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+  },
+  data: function data() {
+    return {
+      codeFloatinLabel: _code__WEBPACK_IMPORTED_MODULE_2__["codeFloatinLabel"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormTimepickerBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerBasic.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue");
-/* harmony import */ var _FormTimepickerState_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormTimepickerState.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue");
-/* harmony import */ var _FormTimepickerValidation_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormTimepickerValidation.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue");
-/* harmony import */ var _FormTimepickerSecond_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormTimepickerSecond.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue");
-/* harmony import */ var _FormTimepickerSize_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormTimepickerSize.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue");
-/* harmony import */ var _FormTimepickerPlaceholder_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormTimepickerPlaceholder.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue");
-/* harmony import */ var _FormTimepickerOptional_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormTimepickerOptional.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue");
-/* harmony import */ var _FormTimepickerButtonOnly_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormTimepickerButtonOnly.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue");
-/* harmony import */ var _FormTimepickerInternationalization_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormTimepickerInternationalization.vue */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue");
+/* harmony import */ var _FormInputBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputBasic.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue");
+/* harmony import */ var _FormInputSize_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormInputSize.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue");
+/* harmony import */ var _FormInputHorizontalLableSize_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue");
+/* harmony import */ var _FormFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormFloatingLabel.vue */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue");
+/* harmony import */ var _FormInputContextualStates_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormInputContextualStates.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue");
+/* harmony import */ var _FormInputValidateTooltips_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue");
+/* harmony import */ var _FormInputDatalist_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormInputDatalist.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue");
+/* harmony import */ var _FormInputDebounce_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./FormInputDebounce.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue");
+/* harmony import */ var _FormInputFormatter_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./FormInputFormatter.vue */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue");
 //
 //
 //
@@ -65,24 +134,24 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormTimepickerBasic: _FormTimepickerBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormTimepickerState: _FormTimepickerState_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormTimepickerValidation: _FormTimepickerValidation_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormTimepickerSecond: _FormTimepickerSecond_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormTimepickerSize: _FormTimepickerSize_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormTimepickerPlaceholder: _FormTimepickerPlaceholder_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormTimepickerOptional: _FormTimepickerOptional_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
-    FormTimepickerButtonOnly: _FormTimepickerButtonOnly_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    FormTimepickerInternationalization: _FormTimepickerInternationalization_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
+    FormInputBasic: _FormInputBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    FormInputSize: _FormInputSize_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    FormInputHorizontalLableSize: _FormInputHorizontalLableSize_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    FormFloatingLabel: _FormFloatingLabel_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    FormInputContextualStates: _FormInputContextualStates_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    FormInputValidateTooltips: _FormInputValidateTooltips_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    FormInputDatalist: _FormInputDatalist_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    FormInputDebounce: _FormInputDebounce_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
+    FormInputFormatter: _FormInputFormatter_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -90,7 +159,89 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -123,12 +274,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
   },
   data: function data() {
     return {
-      value: '',
       codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"]
     };
   }
@@ -136,404 +288,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BInputGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroup"],
-    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BInputGroupAppend: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BInputGroupAppend"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      codeButtonOnly: _code__WEBPACK_IMPORTED_MODULE_2__["codeButtonOnly"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
-    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    BFormSelect: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormSelect"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      value: '',
-      context: null,
-      locale: 'en-US',
-      codeInternationalization: _code__WEBPACK_IMPORTED_MODULE_2__["codeInternationalization"],
-      locales: [{
-        value: 'en-US',
-        text: 'English US (en-US)'
-      }, {
-        value: 'de',
-        text: 'German (de)'
-      }, {
-        value: 'ar-EG',
-        text: 'Arabic Egyptian (ar-EG)'
-      }, {
-        value: 'zh',
-        text: 'Chinese (zh)'
-      }],
-      labels: {
-        de: {
-          labelHours: 'Stunden',
-          value: '',
-          context: null,
-          locale: 'en-US',
-          codeInternationalization: _code__WEBPACK_IMPORTED_MODULE_2__["codeInternationalization"],
-          locales: [{
-            value: 'en-US',
-            text: 'English US (en-US)'
-          }, {
-            value: 'de',
-            text: 'German (de)'
-          }, {
-            value: 'ar-EG',
-            text: 'Arabic Egyptian (ar-EG)'
-          }, {
-            value: 'zh',
-            text: 'Chinese (zh)'
-          }],
-          labels: {
-            de: {
-              labelHours: 'Stunden',
-              labelMinutes: 'Minuten',
-              labelSeconds: 'Sekunden',
-              labelIncrement: 'Erhöhen',
-              labelDecrement: 'Verringern',
-              labelSelected: 'Ausgewählte Zeit',
-              labelNoTimeSelected: 'Keine Zeit ausgewählt',
-              labelCloseButton: 'Schließen'
-            },
-            'ar-EG': {
-              labelHours: 'ساعات',
-              labelMinutes: 'الدقائق',
-              labelSeconds: 'ثواني',
-              labelAmpm: 'صباحا مساء',
-              labelAm: 'ص',
-              labelPm: 'م',
-              labelIncrement: 'زيادة',
-              labelDecrement: 'إنقاص',
-              labelSelected: 'الوقت المحدد',
-              labelNoTimeSelected: 'لا وقت المختار',
-              labelCloseButton: 'قريب'
-            },
-            zh: {
-              labelHours: '小时',
-              labelMinutes: '分钟',
-              labelSeconds: '秒',
-              labelAmpm: '上午下午',
-              labelAm: '上午',
-              labelPm: '下午',
-              labelIncrement: '增量',
-              labelDecrement: '减量',
-              labelSelected: '选定时间',
-              labelNoTimeSelected: '没有选择时间',
-              labelCloseButton: '关'
-            }
-          },
-          labelMinutes: 'Minuten',
-          labelSeconds: 'Sekunden',
-          labelIncrement: 'Erhöhen',
-          labelDecrement: 'Verringern',
-          labelSelected: 'Ausgewählte Zeit',
-          labelNoTimeSelected: 'Keine Zeit ausgewählt',
-          labelCloseButton: 'Schließen'
-        },
-        'ar-EG': {
-          labelHours: 'ساعات',
-          labelMinutes: 'الدقائق',
-          labelSeconds: 'ثواني',
-          labelAmpm: 'صباحا مساء',
-          labelAm: 'ص',
-          labelPm: 'م',
-          labelIncrement: 'زيادة',
-          labelDecrement: 'إنقاص',
-          labelSelected: 'الوقت المحدد',
-          labelNoTimeSelected: 'لا وقت المختار',
-          labelCloseButton: 'قريب'
-        },
-        zh: {
-          labelHours: '小时',
-          labelMinutes: '分钟',
-          labelSeconds: '秒',
-          labelAmpm: '上午下午',
-          labelAm: '上午',
-          labelPm: '下午',
-          labelIncrement: '增量',
-          labelDecrement: '减量',
-          labelSelected: '选定时间',
-          labelNoTimeSelected: '没有选择时间',
-          labelCloseButton: '关'
-        }
-      }
-    };
-  },
-  methods: {
-    onContext: function onContext(ctx) {
-      this.context = ctx;
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codeOptional: _code__WEBPACK_IMPORTED_MODULE_2__["codeOptional"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      codePlaceholder: _code__WEBPACK_IMPORTED_MODULE_2__["codePlaceholder"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -542,7 +299,33 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -576,23 +359,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
+    BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
   },
   data: function data() {
     return {
-      value: '',
-      codeSecond: _code__WEBPACK_IMPORTED_MODULE_2__["codeSecond"]
+      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -600,7 +387,143 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"]
+  },
+  data: function data() {
+    return {
+      sizes: ['Small', 'Medium', 'Large', 'Extra Large'],
+      codeDatalist: _code__WEBPACK_IMPORTED_MODULE_2__["codeDatalist"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      value: '',
+      codeDebounce: _code__WEBPACK_IMPORTED_MODULE_2__["codeDebounce"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -646,8 +569,205 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"]
+  },
+  data: function data() {
+    return {
+      text1: '',
+      text2: '',
+      codeFormatter: _code__WEBPACK_IMPORTED_MODULE_2__["codeFormatter"]
+    };
+  },
+  methods: {
+    formatter: function formatter(value) {
+      return value.toLowerCase();
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code/BCardCode.vue */ "./resources/js/src/@core/components/b-card-code/BCardCode.vue");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code_BCardCode_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      codeHorizontalSize: _code__WEBPACK_IMPORTED_MODULE_2__["codeHorizontalSize"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
   },
   data: function data() {
     return {
@@ -658,10 +778,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -669,7 +789,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
+/* harmony import */ var vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-ripple-directive */ "./node_modules/vue-ripple-directive/src/ripple.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-input/code.js");
 //
 //
 //
@@ -723,110 +844,187 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
-    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+    BFormInput: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInput"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BForm: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BForm"],
+    BButton: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BButton"],
+    BFormRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRow"],
+    BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"],
+    BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"]
+  },
+  directives: {
+    Ripple: vue_ripple_directive__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   data: function data() {
     return {
-      state: 'disabled',
-      codeState: _code__WEBPACK_IMPORTED_MODULE_2__["codeState"]
+      value1: 'John',
+      value2: 'Doe',
+      value3: '',
+      codeValidateTooltips: _code__WEBPACK_IMPORTED_MODULE_3__["codeValidateTooltips"]
     };
-  },
-  computed: {
-    disabled: function disabled() {
-      return this.state === 'disabled';
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Floating Label Inputs" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeFloatinLabel) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
     },
-    readonly: function readonly() {
-      return this.state === 'readonly';
-    }
-  }
-});
+    [
+      _c("b-card-text", { staticClass: "mb-2" }, [
+        _c("span", [_vm._v("For Flating Label Inputs, need to use ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v(".form-label-group")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" class & add prop ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("disabled")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" for disabled Floating Label Input.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c("b-col", { attrs: { md: "6" } }, [
+            _c(
+              "div",
+              { staticClass: "form-label-group" },
+              [
+                _c("b-form-input", {
+                  attrs: {
+                    id: "floating-label1",
+                    placeholder: "Label Placeholder"
+                  }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "floating-label1" } }, [
+                  _vm._v("Label-placeholder")
+                ])
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("b-col", { attrs: { md: "6" } }, [
+            _c(
+              "div",
+              { staticClass: "form-label-group" },
+              [
+                _c("b-form-input", {
+                  attrs: { placeholder: "Disabled-placeholder", disabled: "" }
+                }),
+                _vm._v(" "),
+                _c("label", { attrs: { for: "floating-label-disable" } }, [
+                  _vm._v("Disabled-placeholder")
+                ])
+              ],
+              1
+            )
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-timepicker/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormTimepicker: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormTimepicker"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
-  },
-  data: function data() {
-    return {
-      selectedTime: '',
-      codeValidation: _code__WEBPACK_IMPORTED_MODULE_2__["codeValidation"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -842,43 +1040,38 @@ var render = function() {
     "b-row",
     { staticClass: "match-height" },
     [
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-timepicker-basic")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("form-input-basic")], 1),
       _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-timepicker-second")], 1),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-timepicker-state")], 1),
+      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-size")], 1),
       _vm._v(" "),
       _c(
         "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-timepicker-validation")],
+        { attrs: { md: "6" } },
+        [_c("form-input-horizontal-lable-size")],
         1
       ),
       _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-timepicker-size")], 1),
-      _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-timepicker-button-only")],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-col",
-        { attrs: { lg: "6" } },
-        [_c("form-timepicker-placeholder")],
-        1
-      ),
-      _vm._v(" "),
-      _c("b-col", { attrs: { lg: "6" } }, [_c("form-timepicker-optional")], 1),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("form-floating-label")], 1),
       _vm._v(" "),
       _c(
         "b-col",
         { attrs: { cols: "12" } },
-        [_c("form-timepicker-internationalization")],
+        [_c("form-input-contextual-states")],
         1
-      )
+      ),
+      _vm._v(" "),
+      _c(
+        "b-col",
+        { attrs: { cols: "12" } },
+        [_c("form-input-validate-tooltips")],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-datalist")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { md: "6" } }, [_c("form-input-debounce")], 1),
+      _vm._v(" "),
+      _c("b-col", { attrs: { cols: "12" } }, [_c("form-input-formatter")], 1)
     ],
     1
   )
@@ -890,10 +1083,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2&":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2& ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4& ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -908,7 +1101,7 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Basic Timepicker" },
+      attrs: { title: "Basic Inputs" },
       scopedSlots: _vm._u([
         {
           key: "code",
@@ -920,136 +1113,116 @@ var render = function() {
       ])
     },
     [
-      _c("b-card-text", [
-        _c("code", [_vm._v("<b-form-timepicker>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      is a BootstrapVue custom time picker input form control, which provides full WAI-ARIA compliance and\n      internationalization support.\n    "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: { locale: "en" },
-        model: {
-          value: _vm.value,
-          callback: function($$v) {
-            _vm.value = $$v
-          },
-          expression: "value"
-        }
-      }),
-      _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-2 mb-0" }, [
-        _vm._v("\n    Value: '" + _vm._s(_vm.value) + "'\n  ")
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec&":
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Button only mode" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeButtonOnly) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "\n      Fancy just a button that launches the timepicker dialog, or want to provide your own optional text input field?\n      Use the\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("button-only")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop to render the timepicker as a dropdown button. The formatted time label will be rendered with the class\n    "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("sr-only")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" (available only to screen readers).")])
-      ]),
-      _vm._v(" "),
       _c(
-        "div",
+        "b-row",
         [
-          _c("label", { attrs: { for: "example-input" } }, [
-            _vm._v("Choose a time")
-          ]),
+          _c(
+            "b-col",
+            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
+            [
+              _c(
+                "b-form-group",
+                { attrs: { label: "Basic Input", "label-for": "basicInput" } },
+                [
+                  _c("b-form-input", {
+                    attrs: { id: "basicInput", placeholder: "Enter Email" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
-            "b-input-group",
-            { staticClass: "mb-1" },
+            "b-col",
+            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
             [
-              _c("b-form-input", {
-                attrs: {
-                  id: "example-input",
-                  type: "text",
-                  placeholder: "HH:mm:ss"
-                },
-                model: {
-                  value: _vm.value,
-                  callback: function($$v) {
-                    _vm.value = $$v
-                  },
-                  expression: "value"
-                }
-              }),
-              _vm._v(" "),
               _c(
-                "b-input-group-append",
+                "b-form-group",
                 [
-                  _c("b-form-timepicker", {
+                  _c("label", { attrs: { for: "InputHelp" } }, [
+                    _vm._v("Input text with help")
+                  ]),
+                  _vm._v(" "),
+                  _c("small", { staticClass: "text-muted" }, [
+                    _vm._v(" eg. "),
+                    _c("i", [_vm._v("someone@example.com")])
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-input", { attrs: { id: "InputHelp" } })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { staticClass: "mb-1", attrs: { md: "6", xl: "4" } },
+            [
+              _c(
+                "b-form-group",
+                {
+                  attrs: {
+                    label: "Disabled Input",
+                    "label-for": "disabledInput"
+                  }
+                },
+                [
+                  _c("b-form-input", {
+                    attrs: { id: "disabledInput", disabled: "" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", xl: "4" } },
+            [
+              _c(
+                "b-form-group",
+                {
+                  attrs: {
+                    label: "With Helper Text",
+                    "label-for": "helperInput",
+                    description: "Find helper text here for given textbox."
+                  }
+                },
+                [
+                  _c("b-form-input", {
+                    attrs: { id: "helperInput", placeholder: "Name" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6", xl: "4" } },
+            [
+              _c(
+                "b-form-group",
+                {
+                  attrs: {
+                    label: "Readonly Input",
+                    "label-for": "readOnlyInput"
+                  }
+                },
+                [
+                  _c("b-form-input", {
                     attrs: {
-                      "button-only": "",
-                      "button-variant": "outline-primary",
-                      right: "",
-                      size: "sm",
-                      "show-seconds": "",
-                      locale: "en",
-                      "aria-controls": "example-input"
-                    },
-                    model: {
-                      value: _vm.value,
-                      callback: function($$v) {
-                        _vm.value = $$v
-                      },
-                      expression: "value"
+                      id: "readOnlyInput",
+                      value: "You can't update me :P",
+                      readonly: ""
                     }
                   })
                 ],
@@ -1059,140 +1232,31 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _c("b-card-text", [_vm._v("Value: '" + _vm._s(_vm.value) + "'")])
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Internationalization" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [
-              _vm._v("\n    " + _vm._s(_vm.codeInternationalization) + "\n  ")
-            ]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("By default ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-timepicker>")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " will use the browser's default locale, but you can specify the locale (or locales) to use via the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("locale")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop. The prop accepts either a single locale string, or an array of locale strings (listed in order of most\n      preferred locale to least prefered).\n    "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        [
           _c(
             "b-col",
-            { staticClass: "mb-3", attrs: { cols: "12" } },
-            [
-              _c("label", { attrs: { for: "example-locales" } }, [
-                _vm._v("Locale:")
-              ]),
-              _vm._v(" "),
-              _c("b-form-select", {
-                attrs: { id: "example-locales", options: _vm.locales },
-                model: {
-                  value: _vm.locale,
-                  callback: function($$v) {
-                    _vm.locale = $$v
-                  },
-                  expression: "locale"
-                }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { md: "6" } },
+            { attrs: { md: "6", xl: "4" } },
             [
               _c(
-                "b-form-timepicker",
-                _vm._b(
-                  {
-                    attrs: { locale: _vm.locale, "show-seconds": "" },
-                    on: { context: _vm.onContext },
-                    model: {
-                      value: _vm.value,
-                      callback: function($$v) {
-                        _vm.value = $$v
-                      },
-                      expression: "value"
+                "b-form-group",
+                {
+                  attrs: {
+                    label: "Readonly Static Text",
+                    "label-for": "plainTextInput"
+                  }
+                },
+                [
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "plainTextInput",
+                      plaintext: "",
+                      value: "email@pixinvent.com"
                     }
-                  },
-                  "b-form-timepicker",
-                  _vm.labels[_vm.locale] || {},
-                  false
-                )
+                  })
+                ],
+                1
               )
             ],
             1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            [
-              _c("b-card-text", [
-                _vm._v("\n        Value: "),
-                _c("b", [_vm._v("'" + _vm._s(_vm.value) + "'")])
-              ]),
-              _vm._v(" "),
-              _c("b-card-text", { staticClass: "mb-0" }, [
-                _vm._v("\n        Context:\n      ")
-              ]),
-              _vm._v(" "),
-              _c("pre", { staticClass: "small" }, [_vm._v(_vm._s(_vm.context))])
-            ],
-            1
           )
         ],
         1
@@ -1208,154 +1272,9 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c&":
-/*!***********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Optional controls" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeOptional) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "Add optional control buttons to the bottom of the calendar popup via the props "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("now-button")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("reset-button")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(". The default close button can be removed via the ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("no-close-button")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop.")])
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-buttons" } }, [
-        _vm._v("Time picker with optional footer buttons")
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: {
-          id: "timepicker-buttons",
-          "now-button": "",
-          "reset-button": "",
-          locale: "en"
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97&":
-/*!**************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Placeholder" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codePlaceholder) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [
-          _vm._v(
-            "Add custom placeholder text to the control, when no date is selected, via the "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("placeholder")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" prop. If a placeholder is not provided, the value of the ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("label-no-time-selected")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop is used.")])
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-placeholder" } }, [
-        _vm._v("Time picker with placeholder")
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: {
-          id: "timepicker-placeholder",
-          placeholder: "Choose a time",
-          local: "en"
-        }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&":
 /*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d& ***!
   \*********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1371,12 +1290,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Enabling of seconds spinbutton" },
+      attrs: { title: "Contextual states" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSecond) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeStates) + "\n  ")]
           },
           proxy: true
         }
@@ -1384,19 +1303,226 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("To enable the section of seconds,set the ")]),
+        _c("span", [_vm._v("Use ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("show-seconds")]),
+        _c("code", [_vm._v("<b-form-valid-feedback>")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
+        _c("span", [_vm._v(" and ")]),
         _vm._v(" "),
-        _c("code", [_vm._v("true")]),
+        _c("code", [_vm._v("<b-form-invalid-feedback>")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" to enable the seconds selection spinbutton.")])
+        _c("span", [_vm._v(" form sub-components for input validation.")])
       ]),
       _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: { "show-seconds": "", locale: "en" },
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-form-group",
+                { attrs: { label: "Valid State", "label-for": "input-valid" } },
+                [
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "input-valid",
+                      state: true,
+                      placeholder: "Valid"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-form-valid-feedback", [
+                    _vm._v("\n          This is valid state.\n        ")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-form-group",
+                {
+                  attrs: {
+                    label: "Invalid State",
+                    "label-for": "input-invalid"
+                  }
+                },
+                [
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "input-invalid",
+                      state: false,
+                      placeholder: "Invalid"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-form-invalid-feedback", [
+                    _vm._v("\n          This is invalid state.\n        ")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Datalist support" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeDatalist) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("Datalists are a native HTML tag ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<datalist>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" that contains a list of ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<option>")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "\n      tags. By assigning an ID to the datalist tag, the list can be references from a text input by adding a\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("list")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" attribute.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-form-group",
+        { staticClass: "mb-0" },
+        [
+          _c("b-form-input", { attrs: { list: "my-list-id" } }),
+          _vm._v(" "),
+          _c(
+            "datalist",
+            { attrs: { id: "my-list-id" } },
+            [
+              _c("option", [_vm._v("Manual Option")]),
+              _vm._v(" "),
+              _vm._l(_vm.sizes, function(size) {
+                return _c("option", { key: size }, [
+                  _vm._v("\n        " + _vm._s(size) + "\n      ")
+                ])
+              })
+            ],
+            2
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a& ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Debounce support" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeDebounce) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("To enable debouncing, set the prop ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("debounce")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " to any integer greater than zero. The value is specified in milliseconds. Setting "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("debounce")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" to ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("0")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" will disable debouncing.")])
+      ]),
+      _vm._v(" "),
+      _c("b-form-input", {
+        attrs: { type: "text", debounce: "500" },
         model: {
           value: _vm.value,
           callback: function($$v) {
@@ -1406,8 +1532,9 @@ var render = function() {
         }
       }),
       _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-2 mb-0" }, [
-        _vm._v("\n    Value: '" + _vm._s(_vm.value) + "'\n  ")
+      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
+        _c("strong", [_vm._v("Value : ")]),
+        _c("span", [_vm._v(_vm._s(_vm.value))])
       ])
     ],
     1
@@ -1420,10 +1547,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6&":
-/*!*******************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980& ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1438,12 +1565,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Control sizing" },
+      attrs: { title: "Formatter support" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeSize) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeFormatter) + "\n  ")]
           },
           proxy: true
         }
@@ -1451,112 +1578,17 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("Fancy a smaller or larger ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-timepicker>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" control? Set the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("size")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("'sm'")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" for a smaller form control, or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("'lg'")]),
+        _c("code", [_vm._v("<b-form-input>")]),
         _vm._v(" "),
         _c("span", [
           _vm._v(
-            "\n      for a larger form form control. Note this does not affect the size of the popup time selection dialog.\n    "
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-sm" } }, [
-        _vm._v("Small time picker")
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        staticClass: "mb-2",
-        attrs: { id: "timepicker-sm", size: "sm", local: "en" }
-      }),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-lg" } }, [
-        _vm._v("Large time picker")
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: { id: "timepicker-lg", size: "lg", local: "en" }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5&":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5& ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Disabled and readonly states" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeState) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", [
-        _c("span", [_vm._v("Setting the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop will remove all interactivity of the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-timepicker>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" component.")])
-      ]),
-      _vm._v(" "),
-      _c("b-card-text", [
-        _c("span", [_vm._v("Setting the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("readonly")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            "\n      prop will disable selecting a time, but will keep the component interactive, allowing for tabbing between\n      spinbuttons. The\n    "
+            " optionally supports formatting by passing a function reference to the "
           )
         ]),
         _vm._v(" "),
-        _c("code", [_vm._v("v-model")]),
+        _c("code", [_vm._v("formatter")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" will not be updated in the readonly state.")])
+        _c("span", [_vm._v(" prop.")])
       ]),
       _vm._v(" "),
       _c(
@@ -1564,45 +1596,189 @@ var render = function() {
         [
           _c(
             "b-form-group",
-            { attrs: { label: "Select time picker interactive state" } },
+            {
+              attrs: {
+                label: "Text input with formatter (on input)",
+                "label-for": "input-formatter",
+                description: "We will convert your name to lowercase instantly"
+              }
+            },
             [
-              _c(
-                "b-form-radio-group",
-                {
-                  attrs: { "aria-controls": "ex-disabled-readonly" },
-                  model: {
-                    value: _vm.state,
-                    callback: function($$v) {
-                      _vm.state = $$v
-                    },
-                    expression: "state"
-                  }
+              _c("b-form-input", {
+                attrs: {
+                  id: "input-formatter",
+                  placeholder: "Enter your name",
+                  formatter: _vm.formatter
                 },
-                [
-                  _c("b-form-radio", { attrs: { value: "disabled" } }, [
-                    _vm._v("\n          Disabled\n        ")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-radio", { attrs: { value: "readonly" } }, [
-                    _vm._v("\n          Readonly\n        ")
-                  ]),
-                  _vm._v(" "),
-                  _c("b-form-radio", { attrs: { value: "normal" } }, [
-                    _vm._v("\n          Normal\n        ")
-                  ])
-                ],
-                1
-              )
+                model: {
+                  value: _vm.text1,
+                  callback: function($$v) {
+                    _vm.text1 = $$v
+                  },
+                  expression: "text1"
+                }
+              })
             ],
             1
           ),
           _vm._v(" "),
-          _c("b-form-timepicker", {
-            attrs: {
-              id: "ex-disabled-readonly",
-              disabled: _vm.disabled,
-              readonly: _vm.readonly
-            }
+          _c("b-card-text", [
+            _c("strong", [_vm._v("Value:")]),
+            _vm._v(" " + _vm._s(_vm.text1))
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-form-group",
+            {
+              attrs: {
+                label: "Text input with lazy formatter (on blur)",
+                "label-for": "input-lazy",
+                description: "This one is a little lazy!"
+              }
+            },
+            [
+              _c("b-form-input", {
+                attrs: {
+                  id: "input-lazy",
+                  placeholder: "Enter your name",
+                  "lazy-formatter": "",
+                  formatter: _vm.formatter
+                },
+                model: {
+                  value: _vm.text2,
+                  callback: function($$v) {
+                    _vm.text2 = $$v
+                  },
+                  expression: "text2"
+                }
+              })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-card-text", { staticClass: "mb-0" }, [
+            _c("strong", [_vm._v("Value:")]),
+            _vm._v(" " + _vm._s(_vm.text2) + "\n    ")
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Horizontal form label sizing" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeHorizontalSize) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "You can control the label text size match the size of your form input(s) via the optional "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("label-size")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" prop. Values can be ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("'sm'")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" or ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("'lg'")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            " for small or large label, respectively. Sizes work for both horizontal and non-horizontal form groups."
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-form-group",
+        {
+          attrs: {
+            "label-cols": "4",
+            "label-cols-lg": "2",
+            "label-size": "lg",
+            label: "Large",
+            "label-for": "input-lg"
+          }
+        },
+        [
+          _c("b-form-input", {
+            attrs: { id: "input-lg", size: "lg", placeholder: "Large Input" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-form-group",
+        {
+          attrs: {
+            "label-cols": "4",
+            "label-cols-lg": "2",
+            label: "Default",
+            "label-for": "input-default"
+          }
+        },
+        [
+          _c("b-form-input", {
+            attrs: { id: "input-default", placeholder: "Normal Input" }
+          })
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-form-group",
+        {
+          attrs: {
+            "label-cols": "4",
+            "label-cols-lg": "2",
+            "label-size": "sm",
+            label: "Small",
+            "label-for": "input-sm"
+          }
+        },
+        [
+          _c("b-form-input", {
+            attrs: { id: "input-sm", size: "sm", placeholder: "Small Input" }
           })
         ],
         1
@@ -1618,10 +1794,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05&":
-/*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1636,12 +1812,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Validation states" },
+      attrs: { title: "Sizing Options" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeValidation) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeSize) + "\n  ")]
           },
           proxy: true
         }
@@ -1649,65 +1825,308 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("code", [_vm._v("<b-form-timepicker>")]),
+        _c("span", [_vm._v("Set heights using the ")]),
         _vm._v(" "),
-        _c("span", [
-          _vm._v(" supports invalid and valid styling via the boolean ")
-        ]),
+        _c("code", [_vm._v("size")]),
         _vm._v(" "),
-        _c("code", [_vm._v("state")]),
+        _c("span", [_vm._v(" prop to ")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" prop. Setting ")]),
+        _c("code", [_vm._v("sm")]),
         _vm._v(" "),
-        _c("code", [_vm._v("state")]),
+        _c("span", [_vm._v(" or ")]),
         _vm._v(" "),
-        _c("span", [_vm._v(" to boolean ")]),
+        _c("code", [_vm._v("lg")]),
         _vm._v(" "),
-        _c("code", [_vm._v("false")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " will style the input as invalid, while setting it to boolean "
+        _c("span", [_vm._v(" for small or large respectively.")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        [
+          _c(
+            "b-row",
+            [
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Large", "label-for": "largeInput" } },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "largeInput",
+                          size: "lg",
+                          placeholder: "Large Input"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: { label: "Default", "label-for": "defaultLabel" }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "defaultLabel",
+                          placeholder: "Normal Input"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Small", "label-for": "smallInput" } },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "smallInput",
+                          size: "sm",
+                          placeholder: "Small Input"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
           )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("true")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" will style it as valid. Setting state to ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("null")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" will not show any validation state styling (the default).")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-invalid" } }, [
-        _vm._v("Choose a time (invalid style)")
-      ]),
-      _vm._v(" "),
-      _c("b-form-timepicker", {
-        staticClass: "mb-2",
-        attrs: {
-          id: "datepicker-invalid",
-          state: _vm.selectedTime.length > 0 ? true : false
-        },
-        model: {
-          value: _vm.selectedTime,
-          callback: function($$v) {
-            _vm.selectedTime = $$v
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Input Validation States with Tootltips" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [
+              _vm._v("\n    " + _vm._s(_vm.codeValidateTooltips) + "\n  ")
+            ]
           },
-          expression: "selectedTime"
+          proxy: true
         }
-      }),
-      _vm._v(" "),
-      _c("label", { attrs: { for: "timepicker-valid" } }, [
-        _vm._v("Choose a time (valid style)")
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("Use ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("tooltip")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" true in ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-valid-feedback>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" and ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-form-invalid-feedback>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" form sub-components.")])
       ]),
       _vm._v(" "),
-      _c("b-form-timepicker", {
-        attrs: { id: "datepicker-valid", state: true }
-      })
+      _c(
+        "b-form",
+        {
+          staticClass: "needs-validation",
+          attrs: { novalidate: "" },
+          on: {
+            submit: function($event) {
+              $event.preventDefault()
+            }
+          }
+        },
+        [
+          _c(
+            "b-form-row",
+            [
+              _c(
+                "b-col",
+                { staticClass: "mb-3", attrs: { md: "4" } },
+                [
+                  _c("label", { attrs: { for: "input-valid1" } }, [
+                    _vm._v("Valid Input:")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "input-valid1",
+                      state: _vm.value1.length > 0,
+                      placeholder: "Valid input"
+                    },
+                    model: {
+                      value: _vm.value1,
+                      callback: function($$v) {
+                        _vm.value1 = $$v
+                      },
+                      expression: "value1"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v("\n          Looks good!\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v(
+                      "\n          Please provide a valid input.\n        "
+                    )
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { staticClass: "mb-3", attrs: { md: "4" } },
+                [
+                  _c("label", { attrs: { for: "input-invalid1" } }, [
+                    _vm._v("Invalid Input:")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "input-invalid1",
+                      state: _vm.value2.length > 0,
+                      placeholder: "Invalid input"
+                    },
+                    model: {
+                      value: _vm.value2,
+                      callback: function($$v) {
+                        _vm.value2 = $$v
+                      },
+                      expression: "value2"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v("\n          Looks good!\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v(
+                      "\n          Please provide a valid input.\n        "
+                    )
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { staticClass: "mb-3", attrs: { md: "4" } },
+                [
+                  _c("label", { attrs: { for: "input-invalid2" } }, [
+                    _vm._v("Invalid Input:")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-input", {
+                    attrs: {
+                      id: "input-invalid2",
+                      state: _vm.value3.length > 0,
+                      placeholder: "Invalid input"
+                    },
+                    model: {
+                      value: _vm.value3,
+                      callback: function($$v) {
+                        _vm.value3 = $$v
+                      },
+                      expression: "value3"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-form-valid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v("\n          Looks good!\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-invalid-feedback", { attrs: { tooltip: "" } }, [
+                    _vm._v("\n          Please provide a valid city.\n        ")
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-col",
+                { attrs: { cols: "12" } },
+                [
+                  _c(
+                    "b-button",
+                    {
+                      directives: [
+                        {
+                          name: "ripple",
+                          rawName: "v-ripple.400",
+                          value: "rgba(255, 255, 255, 0.15)",
+                          expression: "'rgba(255, 255, 255, 0.15)'",
+                          modifiers: { "400": true }
+                        }
+                      ],
+                      attrs: { type: "submit", variant: "primary" }
+                    },
+                    [_vm._v("\n          Submit\n        ")]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
     ],
     1
   )
@@ -1734,17 +2153,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepicker.vue?vue&type=template&id=6fd3c4ec& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec&");
-/* harmony import */ var _FormTimepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepicker.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormFloatingLabel.vue?vue&type=template&id=75f6689e& */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&");
+/* harmony import */ var _FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormFloatingLabel.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1754,9 +2173,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1766,54 +2185,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepicker.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormFloatingLabel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e& ***!
+  \*******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepicker.vue?vue&type=template&id=6fd3c4ec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepicker.vue?vue&type=template&id=6fd3c4ec&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormFloatingLabel.vue?vue&type=template&id=75f6689e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormFloatingLabel.vue?vue&type=template&id=75f6689e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepicker_vue_vue_type_template_id_6fd3c4ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormFloatingLabel_vue_vue_type_template_id_75f6689e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue ***!
-  \*******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerBasic.vue?vue&type=template&id=370f21d2& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2&");
-/* harmony import */ var _FormTimepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInput.vue?vue&type=template&id=b0bfc04c& */ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&");
+/* harmony import */ var _FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInput.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1823,9 +2242,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1835,54 +2254,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInput.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2& ***!
-  \**************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c& ***!
+  \***********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerBasic.vue?vue&type=template&id=370f21d2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerBasic.vue?vue&type=template&id=370f21d2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInput.vue?vue&type=template&id=b0bfc04c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInput.vue?vue&type=template&id=b0bfc04c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerBasic_vue_vue_type_template_id_370f21d2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInput_vue_vue_type_template_id_b0bfc04c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue ***!
-  \************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue ***!
+  \*********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec&");
-/* harmony import */ var _FormTimepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerButtonOnly.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputBasic.vue?vue&type=template&id=290c6ba4& */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&");
+/* harmony import */ var _FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -1892,9 +2311,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1904,261 +2323,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerButtonOnly.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerButtonOnly_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec&":
-/*!*******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec& ***!
-  \*******************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerButtonOnly.vue?vue&type=template&id=1c0349ec&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerButtonOnly_vue_vue_type_template_id_1c0349ec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js& ***!
   \**********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc&");
-/* harmony import */ var _FormTimepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerInternationalization.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerInternationalization.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerInternationalization_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc&":
-/*!*****************************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc& ***!
-  \*****************************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4& ***!
+  \****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerInternationalization.vue?vue&type=template&id=b6f413bc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputBasic.vue?vue&type=template&id=290c6ba4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputBasic.vue?vue&type=template&id=290c6ba4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerInternationalization_vue_vue_type_template_id_b6f413bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue ***!
-  \**********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerOptional.vue?vue&type=template&id=4f57206c& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c&");
-/* harmony import */ var _FormTimepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerOptional.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerOptional.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerOptional_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c&":
-/*!*****************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c& ***!
-  \*****************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerOptional.vue?vue&type=template&id=4f57206c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerOptional.vue?vue&type=template&id=4f57206c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerOptional_vue_vue_type_template_id_4f57206c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputBasic_vue_vue_type_template_id_290c6ba4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue ***!
-  \*************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97&");
-/* harmony import */ var _FormTimepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerPlaceholder.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerPlaceholder.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerPlaceholder_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97&":
-/*!********************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97& ***!
-  \********************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerPlaceholder.vue?vue&type=template&id=78e9ef97&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerPlaceholder_vue_vue_type_template_id_78e9ef97___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue":
 /*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue ***!
   \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerSecond.vue?vue&type=template&id=09b77c80& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80&");
-/* harmony import */ var _FormTimepickerSecond_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerSecond.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputContextualStates.vue?vue&type=template&id=018c332d& */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&");
+/* harmony import */ var _FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputContextualStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2168,9 +2380,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerSecond_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2180,54 +2392,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSecond_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerSecond.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSecond_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputContextualStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80&":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&":
 /*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d& ***!
   \***************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerSecond.vue?vue&type=template&id=09b77c80& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSecond.vue?vue&type=template&id=09b77c80&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputContextualStates.vue?vue&type=template&id=018c332d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputContextualStates.vue?vue&type=template&id=018c332d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSecond_vue_vue_type_template_id_09b77c80___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputContextualStates_vue_vue_type_template_id_018c332d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue ***!
-  \******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerSize.vue?vue&type=template&id=fc6e52e6& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6&");
-/* harmony import */ var _FormTimepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputDatalist.vue?vue&type=template&id=10a1e942& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&");
+/* harmony import */ var _FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputDatalist.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2237,9 +2449,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2249,54 +2461,54 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDatalist.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&":
 /*!*******************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942& ***!
   \*******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6& ***!
-  \*************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerSize.vue?vue&type=template&id=fc6e52e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerSize.vue?vue&type=template&id=fc6e52e6&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDatalist.vue?vue&type=template&id=10a1e942& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDatalist.vue?vue&type=template&id=10a1e942&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerSize_vue_vue_type_template_id_fc6e52e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDatalist_vue_vue_type_template_id_10a1e942___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue":
-/*!*******************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue ***!
-  \*******************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue ***!
+  \************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerState.vue?vue&type=template&id=200228b5& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5&");
-/* harmony import */ var _FormTimepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerState.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputDebounce.vue?vue&type=template&id=33dcb87a& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&");
+/* harmony import */ var _FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputDebounce.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2306,9 +2518,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2318,54 +2530,123 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDebounce.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputDebounce.vue?vue&type=template&id=33dcb87a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputDebounce.vue?vue&type=template&id=33dcb87a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputDebounce_vue_vue_type_template_id_33dcb87a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputFormatter.vue?vue&type=template&id=66b10980& */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&");
+/* harmony import */ var _FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputFormatter.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputFormatter.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&":
 /*!********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980& ***!
   \********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerState.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerState_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5&":
-/*!**************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5& ***!
-  \**************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerState.vue?vue&type=template&id=200228b5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerState.vue?vue&type=template&id=200228b5&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputFormatter.vue?vue&type=template&id=66b10980& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputFormatter.vue?vue&type=template&id=66b10980&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerState_vue_vue_type_template_id_200228b5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputFormatter_vue_vue_type_template_id_66b10980___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue ***!
-  \************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormTimepickerValidation.vue?vue&type=template&id=4aa31c05& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05&");
-/* harmony import */ var _FormTimepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormTimepickerValidation.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&");
+/* harmony import */ var _FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputHorizontalLableSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -2375,9 +2656,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormTimepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -2387,70 +2668,210 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue"
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerValidation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerValidation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputHorizontalLableSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05&":
-/*!*******************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05& ***!
-  \*******************************************************************************************************************************/
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&":
+/*!******************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormTimepickerValidation.vue?vue&type=template&id=4aa31c05& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-timepicker/FormTimepickerValidation.vue?vue&type=template&id=4aa31c05&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputHorizontalLableSize.vue?vue&type=template&id=11847599& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputHorizontalLableSize.vue?vue&type=template&id=11847599&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormTimepickerValidation_vue_vue_type_template_id_4aa31c05___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputHorizontalLableSize_vue_vue_type_template_id_11847599___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-timepicker/code.js":
-/*!***************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-timepicker/code.js ***!
-  \***************************************************************************/
-/*! exports provided: codeBasic, codeButtonOnly, codeInternationalization, codeOptional, codePlaceholder, codeSecond, codeSize, codeState, codeValidation */
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue ***!
+  \********************************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputSize.vue?vue&type=template&id=161beb0a& */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&");
+/* harmony import */ var _FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputSize.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputSize.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputSize.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a& ***!
+  \***************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputSize.vue?vue&type=template&id=161beb0a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputSize.vue?vue&type=template&id=161beb0a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputSize_vue_vue_type_template_id_161beb0a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue?vue&type=template&id=09795500& */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&");
+/* harmony import */ var _FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormInputValidateTooltips.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputValidateTooltips.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&":
+/*!***************************************************************************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500& ***!
+  \***************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormInputValidateTooltips.vue?vue&type=template&id=09795500& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-input/FormInputValidateTooltips.vue?vue&type=template&id=09795500&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormInputValidateTooltips_vue_vue_type_template_id_09795500___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/forms/form-element/form-input/code.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/forms/form-element/form-input/code.js ***!
+  \**********************************************************************/
+/*! exports provided: codeFloatinLabel, codeBasic, codeDatalist, codeDebounce, codeSize, codeStates, codeFormatter, codeValidateTooltips, codeFloatingLabelIcon, codeHorizontalSize */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFloatinLabel", function() { return codeFloatinLabel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeButtonOnly", function() { return codeButtonOnly; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInternationalization", function() { return codeInternationalization; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeOptional", function() { return codeOptional; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codePlaceholder", function() { return codePlaceholder; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSecond", function() { return codeSecond; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDatalist", function() { return codeDatalist; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeDebounce", function() { return codeDebounce; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeState", function() { return codeState; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeValidation", function() { return codeValidation; });
-var codeBasic = "\n<template>\n  <div>\n    <b-form-timepicker v-model='value' locale='en' />\n    <div class='mt-2'>Value: '{{ value }}'</div>\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n  data: () => ({\n    value: '',\n  }),\n}\n</script>\n";
-var codeButtonOnly = "\n<template>\n  <div>\n    <label for='example-input'>Choose a time</label>\n    <b-input-group class='mb-1'>\n      <b-form-input id='example-input' v-model='value' type='text' placeholder='HH:mm:ss' />\n      <b-input-group-append>\n        <b-form-timepicker v-model='value' button-only right show-seconds locale='en' aria-controls='example-input' />\n      </b-input-group-append>\n    </b-input-group>\n    <p>Value: '{{ value }}'</p>\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport {\n  BFormTimepicker, BInputGroup, BFormInput, BInputGroupAppend,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n    BInputGroup,\n    BFormInput,\n    BInputGroupAppend,\n  },\n  data: () => ({\n    value: '',\n  }),\n}\n</script>\n";
-var codeInternationalization = "\n<template>\n  <b-row>\n    <b-col\n      cols=\"12\"\n      class=\"mb-3\"\n    >\n      <label for=\"example-locales\">Locale:</label>\n      <b-form-select\n        id=\"example-locales\"\n        v-model=\"locale\"\n        :options=\"locales\"\n      />\n    </b-col>\n    <b-col md=\"6\">\n      <b-form-timepicker\n        v-model=\"value\"\n        v-bind=\"labels[locale] || {}\"\n        :locale=\"locale\"\n        show-seconds\n        @context=\"onContext\"\n      />\n    </b-col>\n    <b-col>\n      <p>\n        Value: <b>'{{ value }}'</b>\n      </p>\n      <p class=\"mb-0\">\n        Context:\n      </p>\n      <pre class=\"small\">{{ context }}</pre>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport {\n  BFormTimepicker, BRow, BCol, BFormSelect,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n    BRow,\n    BCol,\n    BFormSelect,\n  },\n  data: () => ({\n    value: '',\n    context: null,\n    locale: 'en-US',\n    locales: [\n      { value: 'en-US', text: 'English US (en-US)' },\n      { value: 'de', text: 'German (de)' },\n      { value: 'ar-EG', text: 'Arabic Egyptian (ar-EG)' },\n      { value: 'zh', text: 'Chinese (zh)' },\n    ],\n    labels: {\n      de: {\n        labelHours: 'Stunden',\n        labelMinutes: 'Minuten',\n        labelSeconds: 'Sekunden',\n        labelIncrement: 'Erh\xF6hen',\n        labelDecrement: 'Verringern',\n        labelSelected: 'Ausgew\xE4hlte Zeit',\n        labelNoTimeSelected: 'Keine Zeit ausgew\xE4hlt',\n        labelCloseButton: 'Schlie\xDFen',\n      },\n      'ar-EG': {\n        labelHours: '\u0633\u0627\u0639\u0627\u062A',\n        labelMinutes: '\u0627\u0644\u062F\u0642\u0627\u0626\u0642',\n        labelSeconds: '\u062B\u0648\u0627\u0646\u064A',\n        labelAmpm: '\u0635\u0628\u0627\u062D\u0627 \u0645\u0633\u0627\u0621',\n        labelAm: '\u0635',\n        labelPm: '\u0645',\n        labelIncrement: '\u0632\u064A\u0627\u062F\u0629',\n        labelDecrement: '\u0625\u0646\u0642\u0627\u0635',\n        labelSelected: '\u0627\u0644\u0648\u0642\u062A \u0627\u0644\u0645\u062D\u062F\u062F',\n        labelNoTimeSelected: '\u0644\u0627 \u0648\u0642\u062A \u0627\u0644\u0645\u062E\u062A\u0627\u0631',\n        labelCloseButton: '\u0642\u0631\u064A\u0628',\n      },\n      zh: {\n        labelHours: '\u5C0F\u65F6',\n        labelMinutes: '\u5206\u949F',\n        labelSeconds: '\u79D2',\n        labelAmpm: '\u4E0A\u5348\u4E0B\u5348',\n        labelAm: '\u4E0A\u5348',\n        labelPm: '\u4E0B\u5348',\n        labelIncrement: '\u589E\u91CF',\n        labelDecrement: '\u51CF\u91CF',\n        labelSelected: '\u9009\u5B9A\u65F6\u95F4',\n        labelNoTimeSelected: '\u6CA1\u6709\u9009\u62E9\u65F6\u95F4',\n        labelCloseButton: '\u5173',\n      },\n    },\n  }),\n  methods: {\n    onContext(ctx) {\n      this.context = ctx\n    },\n  },\n}\n</script>\n";
-var codeOptional = "\n<template>\n  <div>\n    <label for=\"timepicker-buttons\">Time picker with optional footer buttons</label>\n    <b-form-timepicker\n      id=\"timepicker-buttons\"\n      now-button\n      reset-button\n      locale=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n}\n</script>\n";
-var codePlaceholder = "\n<template>\n  <div>\n    <label for=\"timepicker-placeholder\">Time picker with placeholder</label>\n    <b-form-timepicker\n      id=\"timepicker-placeholder\"\n      placeholder=\"Choose a time\"\n      local=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n}\n</script>\n";
-var codeSecond = "\n<template>\n  <div>\n    <b-form-timepicker\n      v-model=\"value\"\n      show-seconds\n      locale=\"en\"\n    />\n    <div class=\"mt-2\">\n      Value: '{{ value }}'\n    </div>\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n  data: () => ({\n    value: '',\n  }),\n}\n</script>\n";
-var codeSize = "\n<template>\n  <div>\n    <label for=\"timepicker-sm\">Small time picker</label>\n    <b-form-timepicker\n      id=\"timepicker-sm\"\n      size=\"sm\"\n      local=\"en\"\n      class=\"mb-2\"\n    />\n\n    <label for=\"timepicker-lg\">Large time picker</label>\n    <b-form-timepicker\n      id=\"timepicker-lg\"\n      size=\"lg\"\n      local=\"en\"\n    />\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n}\n</script>\n";
-var codeState = "\n<template>\n  <div>\n    <b-form-group label=\"Select time picker interactive state\">\n      <b-form-radio-group\n        v-model=\"state\"\n        plain\n        class=\"vs-radio-con\"\n        aria-controls=\"ex-disabled-readonly\"\n      >\n        <b-form-radio\n          value=\"disabled\"\n        >\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"vs-label\">Disabled</span>\n        </b-form-radio>\n        <b-form-radio value=\"readonly\">\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"vs-label\">Readonly</span>\n        </b-form-radio>\n        <b-form-radio value=\"normal\">\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"vs-label\">Normal</span>\n        </b-form-radio>\n      </b-form-radio-group>\n    </b-form-group>\n    <b-form-timepicker\n      id=\"ex-disabled-readonly\"\n      :disabled=\"disabled\"\n      :readonly=\"readonly\"\n    />\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport {\n  BFormTimepicker, BFormGroup, BFormRadioGroup, BFormRadio,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n    BFormGroup,\n    BFormRadioGroup,\n    BFormRadio,\n  },\n  data: () => ({\n    state: 'disabled',\n  }),\n  computed: {\n    disabled() {\n      return this.state === 'disabled'\n    },\n    readonly() {\n      return this.state === 'readonly'\n    },\n  },\n}\n</script>\n";
-var codeValidation = "\n<template>\n  <div>\n    <label for=\"timepicker-invalid\">Choose a time (invalid style)</label>\n    <b-form-timepicker\n      id=\"datepicker-invalid\"\n      :state=\"false\"\n      class=\"mb-2\"\n    />\n\n    <label for=\"timepicker-valid\">Choose a time (valid style)</label>\n    <b-form-timepicker\n      id=\"datepicker-valid\"\n      :state=\"true\"\n    />\n  </div>\n</template>\n\n<script>\nimport AppCard from '@core/components/app-card/AppCard.vue'\nimport { BFormTimepicker } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    AppCard,\n    BFormTimepicker,\n  },\n}\n</script>\n";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFormatter", function() { return codeFormatter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeValidateTooltips", function() { return codeValidateTooltips; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFloatingLabelIcon", function() { return codeFloatingLabelIcon; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeHorizontalSize", function() { return codeHorizontalSize; });
+var codeFloatinLabel = "\n<template>\n   <b-row>\n    <b-col md=\"4\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          id=\"floating-label1\"\n          placeholder=\"Label Placeholder\"\n        />\n        <label for=\"floating-label1\">Label-placeholder</label>\n      </div>\n    </b-col>\n    <b-col md=\"4\">\n      <div class=\"form-label-group has-icon-left\">\n        <b-form-input\n          id=\"iconLabelLeft\"\n          placeholder=\"Icon Left, Default Input\"\n        />\n        <div class=\"form-control-position\">\n          <i class=\"bx bx-user\" />\n        </div>\n        <label for=\"iconLabelLeft\">Icon Left, Default Input</label>\n      </div>\n    </b-col>\n    <b-col md=\"4\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          placeholder=\"Disabled-placeholder\"\n          disabled\n        />\n        <label for=\"floating-label-disable\">Disabled-placeholder</label>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport { BFormInput, BRow, BCol } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormInput,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeBasic = "\n<template>\n  <b-row>\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n\n      <!-- basic -->\n      <b-form-group\n        label=\"Basic Input\"\n        label-for=\"basicInput\"\n      >\n        <b-form-input\n          id=\"basicInput\"\n          placeholder=\"Enter Email\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n      <!-- input text with help -->\n      <b-form-group>\n        <label for=\"InputHelp\">Input text with help</label>\n        <small class=\"text-muted\"> eg. <i>someone@example.com</i></small>\n        <b-form-input id=\"InputHelp\" />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n      class=\"mb-1\"\n    >\n      <!-- disabled input -->\n      <b-form-group\n        label=\"Disabled Input\"\n        label-for=\"disabledInput\"\n      >\n        <b-form-input\n          id=\"disabledInput\"\n          disabled\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- with helper text -->\n      <b-form-group\n        label=\"With Helper Text\"\n        label-for=\"helperInput\"\n        description=\"Find helper text here for given textbox.\"\n      >\n        <b-form-input\n          id=\"helperInput\"\n          placeholder=\"Name\"\n        />\n      </b-form-group>\n    </b-col>\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- readonly input -->\n      <b-form-group\n        label=\"Readonly Input\"\n        label-for=\"readOnlyInput\"\n      >\n        <b-form-input\n          id=\"readOnlyInput\"\n          value=\"You can't update me :P\"\n          readonly\n        />\n      </b-form-group>\n    </b-col>\n\n    <b-col\n      md=\"6\"\n      xl=\"4\"\n    >\n      <!-- static text -->\n      <b-form-group\n        label=\"Readonly Static Text\"\n        label-for=\"plainTextInput\"\n      >\n        <b-form-input\n          id=\"plainTextInput\"\n          plaintext\n          value=\"email@pixinvent.com\"\n        />\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BFormInput, BRow, BCol, BFormGroup} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormGroup,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeDatalist = "\n<template>\n  <b-form-group class=\"mb-0\">\n    <b-form-input list=\"my-list-id\" />\n\n    <datalist id=\"my-list-id\">\n      <option>Manual Option</option>\n      <option\n        v-for=\"size in sizes\"\n        :key=\"size\"\n      >\n        {{ size }}\n      </option>\n    </datalist>\n  </b-form-group>\n</template>\n\n<script>\nimport { BFormInput, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormInput,\n  },\n  data() {\n    return {\n      sizes: ['Small', 'Medium', 'Large', 'Extra Large'],\n    }\n  },\n}\n</script>\n";
+var codeDebounce = "\n<template>\n  <div>\n    <b-form-input\n      v-model=\"value\"\n      type=\"text\"\n      debounce=\"500\"\n    />\n    <b-card-text class=\"mt-1 mb-0\">\n      <strong>Value : </strong><span>{{ value }}</span>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormInput, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BCardText,\n  },\n  data() {\n    return {\n      value: '',\n    }\n  },\n}\n</script>\n";
+var codeSize = "\n<template>\n  <b-row>\n\n    <!-- large -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Large\"\n        label-for=\"largeInput\"\n      >\n        <b-form-input\n          id=\"largeInput\"\n          size=\"lg\"\n          placeholder=\"Large Input\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <!-- default -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Default\"\n        label-for=\"defaultLabel\"\n      >\n        <b-form-input\n          id=\"defaultLabel\"\n          placeholder=\"Normal Input\"\n        />\n      </b-form-group>\n    </b-col>\n\n    <!-- small -->\n    <b-col cols=\"12\">\n      <b-form-group\n        label=\"Small\"\n        label-for=\"smallInput\"\n      >\n        <b-form-input\n          id=\"smallInput\"\n          size=\"sm\"\n          placeholder=\"Small Input\"\n        />\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BFormInput, BRow, BCol, BFormGroup} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormGroup,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeStates = "\n<template>\n  <b-row>\n\n    <!-- valid input -->\n    <b-col md=\"6\">\n      <b-form-group\n        label=\"Valid State\"\n        label-for=\"input-valid\"\n      >\n        <b-form-input\n          id=\"input-valid\"\n          :state=\"true\"\n          placeholder=\"Valid\"\n        />\n        <b-form-valid-feedback>\n          This is valid state.\n        </b-form-valid-feedback>\n      </b-form-group>\n    </b-col>\n\n    <!-- invalid input -->\n    <b-col md=\"6\">\n      <b-form-group\n        label=\"Invalid State\"\n        label-for=\"input-invalid\"\n      >\n        <b-form-input\n          id=\"input-invalid\"\n          :state=\"false\"\n          placeholder=\"Invalid\"\n        />\n        <b-form-invalid-feedback>\n          This is invalid state.\n        </b-form-invalid-feedback>\n      </b-form-group>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {\n  BFormInput, BRow, BCol, BFormInvalidFeedback, BFormValidFeedback, BFormGroup,\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BFormInvalidFeedback,\n    BFormValidFeedback,\n    BRow,\n    BFormGroup,\n    BCol,\n  },\n}\n</script>\n";
+var codeFormatter = "\n<template>\n  <div>\n    <b-form-group\n      label=\"Text input with formatter (on input)\"\n      label-for=\"input-formatter\"\n      description=\"We will convert your name to lowercase instantly\"\n    >\n      <b-form-input\n        id=\"input-formatter\"\n        v-model=\"text1\"\n        placeholder=\"Enter your name\"\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n    <b-card-text><strong>Value:</strong> {{ text1 }}</b-card-text>\n\n    <b-form-group\n      label=\"Text input with lazy formatter (on blur)\"\n      label-for=\"input-lazy\"\n      description=\"This one is a little lazy!\"\n    >\n      <b-form-input\n        id=\"input-lazy\"\n        v-model=\"text2\"\n        placeholder=\"Enter your name\"\n        lazy-formatter\n        :formatter=\"formatter\"\n      />\n    </b-form-group>\n\n    <b-card-text class=\"mb-0\">\n      <strong>Value:</strong> {{ text2 }}\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormInput, BFormGroup, BCardText } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BCardText,\n    BFormGroup,\n  },\n  data() {\n    return {\n      text1: '',\n      text2: '',\n    }\n  },\n  methods: {\n    formatter(value) {\n      return value.toLowerCase()\n    },\n  },\n}\n</script>\n";
+var codeValidateTooltips = "\n<template>\n  <b-form novalidate class=\"needs-validation\" @submit.prevent>\n    <b-form-row>\n\n      <!-- valid input  -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-valid1\">Valid Input:</label>\n        <b-form-input\n          id=\"input-valid1\"\n          v-model=\"value1\"\n          :state=\"value1.length > 0\"\n          placeholder=\"Valid input\"\n        />\n        <b-form-valid-feedback\n          tooltip\n        >\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback\n          tooltip\n        >\n          Please provide a valid input.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- invalid input -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-invalid1\">Invalid Input:</label>\n        <b-form-input\n          id=\"input-invalid1\"\n          v-model=\"value2\"\n          :state=\"value2.length > 0\"\n          placeholder=\"Invalid input\"\n        />\n        <b-form-valid-feedback tooltip>\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback\n          tooltip\n        >\n          Please provide a valid input.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- invalid input -->\n      <b-col\n        md=\"4\"\n        class=\"mb-3\"\n      >\n        <label for=\"input-invalid2\">Invalid Input:</label>\n        <b-form-input\n          id=\"input-invalid2\"\n          v-model=\"value3\"\n          :state=\"value3.length > 0\"\n          placeholder=\"Invalid input\"\n        />\n        <b-form-valid-feedback tooltip>\n          Looks good!\n        </b-form-valid-feedback>\n        <b-form-invalid-feedback tooltip>\n          Please provide a valid city.\n        </b-form-invalid-feedback>\n      </b-col>\n\n      <!-- submit button -->\n      <b-col\n        cols=\"12\"\n      >\n        <b-button\n          v-ripple.400=\"'rgba(255, 255, 255, 0.15)'\"\n          type=\"submit\"\n          variant=\"primary\"\n        >\n          Submit\n        </b-button>\n      </b-col>\n    </b-form-row>\n  </b-form>\n</template>\n\n<script>\nimport { BFormInput, BCol, BForm, BFormRow, BFormValidFeedback, BFormInvalidFeedback, BButton} from 'bootstrap-vue'\nimport Ripple from 'vue-ripple-directive'\n\nexport default {\n  components: {\n    BFormInput,\n    BForm,\n    BButton,\n    BFormRow,\n    BFormValidFeedback,\n    BFormInvalidFeedback,\n    BCol,\n  },\n  directives: {\n    Ripple,\n  },\n  data() {\n    return {\n      value1: 'John',\n      value2: 'Doe',\n      value3: '',\n    }\n  },\n}\n</script>\n";
+var codeFloatingLabelIcon = "\n<template>\n  <b-row>\n    <b-col md=\"6\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          id=\"floating-label1\"\n          placeholder=\"Label Placeholder\"\n        />\n        <label for=\"floating-label1\">Label-placeholder</label>\n      </div>\n    </b-col>\n    <b-col md=\"6\">\n      <div class=\"form-label-group\">\n        <b-form-input\n          placeholder=\"Disabled-placeholder\"\n          disabled\n        />\n        <label for=\"floating-label-disable\">Disabled-placeholder</label>\n      </div>\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {\n  BFormInput, BRow, BCol\n} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormInput,\n    BRow,\n    BCol,\n  },\n}\n</script>\n";
+var codeHorizontalSize = "\n<template>\n  <div>\n     <!-- large label  -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label-size=\"lg\"\n      label=\"Large\"\n      label-for=\"input-lg\"\n    >\n      <b-form-input\n        id=\"input-lg\"\n        size=\"lg\"\n        placeholder=\"Large Input\"\n      />\n    </b-form-group>\n\n    <!-- default label -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label=\"Default\"\n      label-for=\"input-default\"\n    >\n      <b-form-input\n        id=\"input-default\"\n        placeholder=\"Normal Input\"\n      />\n    </b-form-group>\n\n    <!-- small label -->\n    <b-form-group\n      label-cols=\"4\"\n      label-cols-lg=\"2\"\n      label-size=\"sm\"\n      label=\"Small\"\n      label-for=\"input-sm\"\n    >\n      <b-form-input\n        id=\"input-sm\"\n        size=\"sm\"\n        placeholder=\"Small Input\"\n      />\n    </b-form-group>\n  </div>\n</template>\n\n<script>\nimport { BFormGroup, BFormInput } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormGroup,\n    BFormInput,\n  },\n}\n</script>\n";
 
 /***/ })
 

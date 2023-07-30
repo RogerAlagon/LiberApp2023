@@ -1,22 +1,22 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[90],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _FormRadioBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioBasic.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue");
-/* harmony import */ var _FormRadioCustom_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormRadioCustom.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue");
-/* harmony import */ var _FormRadioColor_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FormRadioColor.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue");
-/* harmony import */ var _FormRadioContextualStates_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./FormRadioContextualStates.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue");
-/* harmony import */ var _FormRadioStackInline_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./FormRadioStackInline.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue");
-/* harmony import */ var _FormRadioOptionsArray_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue");
-/* harmony import */ var _FormRadioFieldNames_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./FormRadioFieldNames.vue */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue");
+/* harmony import */ var _ProgressBasic_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressBasic.vue */ "./resources/js/src/views/components/progress/ProgressBasic.vue");
+/* harmony import */ var _ProgressColored_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProgressColored.vue */ "./resources/js/src/views/components/progress/ProgressColored.vue");
+/* harmony import */ var _ProgressLabel_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProgressLabel.vue */ "./resources/js/src/views/components/progress/ProgressLabel.vue");
+/* harmony import */ var _ProgressStripped_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ProgressStripped.vue */ "./resources/js/src/views/components/progress/ProgressStripped.vue");
+/* harmony import */ var _ProgressAnimated_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProgressAnimated.vue */ "./resources/js/src/views/components/progress/ProgressAnimated.vue");
+/* harmony import */ var _ProgressMultipleBar_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ProgressMultipleBar.vue */ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue");
+/* harmony import */ var _ProgressLabelCustom_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ProgressLabelCustom.vue */ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue");
 //
 //
 //
@@ -43,22 +43,129 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BCol"],
-    FormRadioBasic: _FormRadioBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
-    FormRadioCustom: _FormRadioCustom_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    FormRadioColor: _FormRadioColor_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    FormRadioContextualStates: _FormRadioContextualStates_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
-    FormRadioStackInline: _FormRadioStackInline_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    FormRadioOptionsArray: _FormRadioOptionsArray_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FormRadioFieldNames: _FormRadioFieldNames_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+    ProgressBasic: _ProgressBasic_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    ProgressColored: _ProgressColored_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    ProgressLabel: _ProgressLabel_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    ProgressAnimated: _ProgressAnimated_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    ProgressStripped: _ProgressStripped_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    ProgressMultipleBar: _ProgressMultipleBar_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    ProgressLabelCustom: _ProgressLabelCustom_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BRow"],
+    BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BCol"],
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_1__["default"],
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BProgress"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_2__["BCardText"]
+  },
+  data: function data() {
+    return {
+      codeAnimated: _code__WEBPACK_IMPORTED_MODULE_3__["codeAnimated"],
+      bars: [{
+        variant: 'primary',
+        value: 75
+      }, {
+        variant: 'secondary',
+        value: 75
+      }, {
+        variant: 'success',
+        value: 75
+      }, {
+        variant: 'info',
+        value: 75
+      }, {
+        variant: 'danger',
+        value: 75
+      }, {
+        variant: 'warning',
+        value: 75
+      }],
+      timer: null
+    };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.timer = setInterval(function () {
+      // eslint-disable-next-line
+      _this.bars.forEach(function (bar) {
+        return bar.value = 25 + Math.random() * 75;
+      });
+    }, 2000);
+  },
+  beforeDestroy: function beforeDestroy() {
+    clearInterval(this.timer);
+    this.timer = null;
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -66,7 +173,17 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -123,23 +240,26 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"]
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"]
   },
   data: function data() {
     return {
-      codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"],
-      Selected: 'A',
-      Selected1: 'c'
+      value: 0,
+      value1: 25,
+      value2: 50,
+      value3: 75,
+      value4: 100,
+      codeBasic: _code__WEBPACK_IMPORTED_MODULE_2__["codeBasic"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -147,14 +267,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
 //
 //
 //
@@ -219,23 +332,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"],
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      Selected: 'e',
-      codeColor: _code__WEBPACK_IMPORTED_MODULE_2__["codeColor"]
+      codeColored: _code__WEBPACK_IMPORTED_MODULE_2__["codeColored"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -243,7 +355,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
 //
 //
 //
@@ -275,56 +387,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
-    BFormInvalidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormInvalidFeedback"],
-    BFormValidFeedback: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormValidFeedback"]
-  },
-  data: function data() {
-    return {
-      value: null,
-      options: [{
-        text: 'First radio',
-        value: 'first'
-      }, {
-        text: 'Second radio',
-        value: 'second'
-      }, {
-        text: 'Third radio',
-        value: 'third'
-      }],
-      codeStates: _code__WEBPACK_IMPORTED_MODULE_2__["codeStates"]
-    };
-  },
-  computed: {
-    state: function state() {
-      return Boolean(this.value);
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -376,104 +438,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormRadio: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadio"]
-  },
-  data: function data() {
-    return {
-      Selected: 'A',
-      Selected1: 'c',
-      codeCustom: _code__WEBPACK_IMPORTED_MODULE_2__["codeCustom"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"],
     BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      selected: 'A',
-      options: [{
-        item: 'A',
-        name: 'Option A'
-      }, {
-        item: 'B',
-        name: 'Option B'
-      }, {
-        item: 'D',
-        name: 'Option C',
-        notEnabled: true
-      }, {
-        item: {
-          d: 1
-        },
-        name: 'Option D'
-      }],
-      codeFieldNames: _code__WEBPACK_IMPORTED_MODULE_2__["codeFieldNames"]
+      codeLabel: _code__WEBPACK_IMPORTED_MODULE_2__["codeLabel"]
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -481,7 +461,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
 //
 //
 //
@@ -492,84 +472,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"]
-  },
-  data: function data() {
-    return {
-      selected: 'first',
-      options: [{
-        text: 'Item 1',
-        value: 'first',
-        disabled: false
-      }, {
-        text: 'Item 2',
-        value: 'second',
-        disabled: false
-      }, {
-        html: '<b>Item</b> 3',
-        value: 'third',
-        disabled: true
-      }, {
-        text: 'Item 4',
-        value: 'Item 4',
-        disabled: false
-      }, {
-        text: 'Item 5',
-        value: 'E',
-        disabled: false
-      }],
-      codeArray: _code__WEBPACK_IMPORTED_MODULE_2__["codeArray"]
-    };
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/forms/form-element/form-radio/code.js");
 //
 //
 //
@@ -626,34 +528,182 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
-    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
-    BFormRadioGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormRadioGroup"],
-    BFormGroup: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BFormGroup"]
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"],
+    BProgressBar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgressBar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
   },
   data: function data() {
     return {
-      selected: 'first',
-      options: [{
-        text: 'First radio',
-        value: 'first'
-      }, {
-        text: 'Second radio',
-        value: 'second'
-      }, {
-        text: 'Third radio',
-        value: 'third'
-      }],
-      codeInlineStack: _code__WEBPACK_IMPORTED_MODULE_2__["codeInlineStack"]
+      codeCustomLabel: _code__WEBPACK_IMPORTED_MODULE_2__["codeCustomLabel"],
+      value: 33.333333333,
+      max: 50
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&":
-/*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc& ***!
-  \*****************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BProgressBar: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgressBar"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"],
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"]
+  },
+  data: function data() {
+    return {
+      values: [15, 50, 10],
+      max: 100,
+      codeMultipleBar: _code__WEBPACK_IMPORTED_MODULE_2__["codeMultipleBar"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @core/components/b-card-code */ "./resources/js/src/@core/components/b-card-code/index.js");
+/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _code__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./code */ "./resources/js/src/views/components/progress/code.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    BCardCode: _core_components_b_card_code__WEBPACK_IMPORTED_MODULE_0__["default"],
+    BProgress: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BProgress"],
+    BCardText: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCardText"]
+  },
+  data: function data() {
+    return {
+      codeStripped: _code__WEBPACK_IMPORTED_MODULE_2__["codeStripped"]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -672,19 +722,19 @@ var render = function() {
         "b-col",
         { attrs: { cols: "12" } },
         [
-          _c("form-radio-basic"),
+          _c("progress-basic"),
           _vm._v(" "),
-          _c("form-radio-custom"),
+          _c("progress-colored"),
           _vm._v(" "),
-          _c("form-radio-color"),
+          _c("progress-label"),
           _vm._v(" "),
-          _c("form-radio-contextual-states"),
+          _c("progress-label-custom"),
           _vm._v(" "),
-          _c("form-radio-stack-inline"),
+          _c("progress-stripped"),
           _vm._v(" "),
-          _c("form-radio-options-array"),
+          _c("progress-multiple-bar"),
           _vm._v(" "),
-          _c("form-radio-field-names")
+          _c("progress-animated")
         ],
         1
       )
@@ -699,10 +749,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -717,7 +767,87 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Basic Radio Buttons" },
+      attrs: { title: "Animated Progress" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeAnimated) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", { staticClass: "mb-0" }, [
+        _c("span", [
+          _vm._v("The striped gradient can also be animated by setting the")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("animated")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("prop.")])
+      ]),
+      _vm._v(" "),
+      _vm._l(_vm.bars, function(bar) {
+        return _c(
+          "b-row",
+          { key: bar.variant },
+          [
+            _c("b-col", { staticClass: "pt-2", attrs: { md: "2" } }, [
+              _vm._v("\n      " + _vm._s(bar.variant) + ":\n    ")
+            ]),
+            _vm._v(" "),
+            _c(
+              "b-col",
+              { staticClass: "pt-md-2", attrs: { md: "10" } },
+              [
+                _c("b-progress", {
+                  key: bar.variant,
+                  class: "progress-bar-" + bar.variant,
+                  attrs: {
+                    animated: "",
+                    value: bar.value,
+                    variant: bar.variant
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        )
+      })
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Basic Progress" },
       scopedSlots: _vm._u([
         {
           key: "code",
@@ -729,310 +859,21 @@ var render = function() {
       ])
     },
     [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _vm._v("\n    You can have "),
-        _c("code", [_vm._v("<b-form-radio>")]),
-        _vm._v(" and "),
-        _c("code", [_vm._v("<b-form-radio-group>")]),
-        _vm._v(
-          " render a browser native-styled radio input by setting the plain prop.\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "demo-inline-spacing" },
-        [
-          _c(
-            "b-form-radio",
-            {
-              attrs: { plain: "", name: "some-radios3", value: "A" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Checked\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: { plain: "", name: "some-radios3", value: "B" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Unchecked\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: {
-                plain: "",
-                name: "some-radios4",
-                value: "c",
-                disabled: ""
-              },
-              model: {
-                value: _vm.Selected1,
-                callback: function($$v) {
-                  _vm.Selected1 = $$v
-                },
-                expression: "Selected1"
-              }
-            },
-            [_vm._v("\n      Checked Disabled\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: {
-                plain: "",
-                name: "some-radios4",
-                value: "d",
-                disabled: ""
-              },
-              model: {
-                value: _vm.Selected1,
-                callback: function($$v) {
-                  _vm.Selected1 = $$v
-                },
-                expression: "Selected1"
-              }
-            },
-            [_vm._v("\n      Unchecked Disabled\n    ")]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&":
-/*!**********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77& ***!
-  \**********************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Color" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeColor) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _c("span", [_vm._v("To change the color of the radio use the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v(".custom-control-{value}")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" for primary, secondary, success, danger, info, warning.")
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "demo-inline-spacing" },
-        [
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-primary",
-              attrs: { name: "some-radio9", value: "e" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Primary (Default)\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-secondary",
-              attrs: { name: "some-radio9", value: "ff" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Secondary\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-success",
-              attrs: { name: "some-radio9", value: "g" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Success\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-danger",
-              attrs: { name: "some-radio9", value: "i" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Danger\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-warning",
-              attrs: { name: "some-radio9", value: "h" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Warning\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              staticClass: "custom-control-info",
-              attrs: { name: "some-radio9", value: "j" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Info\n    ")]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&":
-/*!*********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Contextual states" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeStates) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _c("span", [_vm._v("Bootstrap includes validation styles for ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("valid")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" and ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("invalid")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" states on most form controls.")])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        [
-          _c(
-            "b-form-radio-group",
-            {
-              staticClass: "demo-inline-spacing",
-              attrs: {
-                options: _vm.options,
-                state: _vm.state,
-                name: "radio-validation"
-              },
+      _c("div", { staticClass: "demo-vertical-spacing" }, [
+        _c(
+          "div",
+          { staticClass: "progress-wrapper" },
+          [
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v(
+                "\n        Reticulating splines… " +
+                  _vm._s(_vm.value + "%") +
+                  "\n      "
+              )
+            ]),
+            _vm._v(" "),
+            _c("b-progress", {
+              attrs: { max: "100" },
               model: {
                 value: _vm.value,
                 callback: function($$v) {
@@ -1040,140 +881,116 @@ var render = function() {
                 },
                 expression: "value"
               }
-            },
-            [
-              _c("b-form-invalid-feedback", { attrs: { state: _vm.state } }, [
-                _vm._v("\n        Please select one\n      ")
-              ]),
-              _vm._v(" "),
-              _c("b-form-valid-feedback", { attrs: { state: _vm.state } }, [
-                _vm._v("\n        Thank you\n      ")
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&":
-/*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6& ***!
-  \***********************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Custom Radio Buttons" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeCustom) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _vm._v("\n    For cross browser consistency, "),
-        _c("code", [_vm._v("<b-form-radio-group>")]),
-        _vm._v(" and "),
-        _c("code", [_vm._v("<b-form-radio>")]),
-        _vm._v(
-          " uses Bootstrap's custom radio input to replace the browser default radio input.\n  "
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "progress-wrapper" },
+          [
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v(
+                "\n        Reticulating splines… " +
+                  _vm._s(_vm.value1 + "%") +
+                  "\n      "
+              )
+            ]),
+            _vm._v(" "),
+            _c("b-progress", {
+              attrs: { max: "100" },
+              model: {
+                value: _vm.value1,
+                callback: function($$v) {
+                  _vm.value1 = $$v
+                },
+                expression: "value1"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "progress-wrapper" },
+          [
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v(
+                "\n        Reticulating splines… " +
+                  _vm._s(_vm.value2 + "%") +
+                  "\n      "
+              )
+            ]),
+            _vm._v(" "),
+            _c("b-progress", {
+              attrs: { max: "100" },
+              model: {
+                value: _vm.value2,
+                callback: function($$v) {
+                  _vm.value2 = $$v
+                },
+                expression: "value2"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "progress-wrapper" },
+          [
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v(
+                "\n        Reticulating splines… " +
+                  _vm._s(_vm.value3 + "%") +
+                  "\n      "
+              )
+            ]),
+            _vm._v(" "),
+            _c("b-progress", {
+              attrs: { max: "100" },
+              model: {
+                value: _vm.value3,
+                callback: function($$v) {
+                  _vm.value3 = $$v
+                },
+                expression: "value3"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "progress-wrapper" },
+          [
+            _c("b-card-text", { staticClass: "mb-0" }, [
+              _vm._v(
+                "\n        Reticulating splines… " +
+                  _vm._s(_vm.value4 + "%") +
+                  "\n      "
+              )
+            ]),
+            _vm._v(" "),
+            _c("b-progress", {
+              attrs: { max: "100" },
+              model: {
+                value: _vm.value4,
+                callback: function($$v) {
+                  _vm.value4 = $$v
+                },
+                expression: "value4"
+              }
+            })
+          ],
+          1
         )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "demo-inline-spacing" },
-        [
-          _c(
-            "b-form-radio",
-            {
-              attrs: { name: "some-radios", value: "A" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Checked\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: { name: "some-radios", value: "B" },
-              model: {
-                value: _vm.Selected,
-                callback: function($$v) {
-                  _vm.Selected = $$v
-                },
-                expression: "Selected"
-              }
-            },
-            [_vm._v("\n      Unchecked\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: { name: "some-radios2", value: "c", disabled: "" },
-              model: {
-                value: _vm.Selected1,
-                callback: function($$v) {
-                  _vm.Selected1 = $$v
-                },
-                expression: "Selected1"
-              }
-            },
-            [_vm._v("\n      Checked Disabled\n    ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-form-radio",
-            {
-              attrs: { name: "some-radios2", value: "d", disabled: "" },
-              model: {
-                value: _vm.Selected1,
-                callback: function($$v) {
-                  _vm.Selected1 = $$v
-                },
-                expression: "Selected1"
-              }
-            },
-            [_vm._v("\n      Unchecked Disabled\n    ")]
-          )
-        ],
-        1
-      )
-    ],
-    1
+      ])
+    ]
   )
 }
 var staticRenderFns = []
@@ -1183,10 +1000,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&":
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec& ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc&":
+/*!*************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc& ***!
+  \*************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1201,192 +1018,12 @@ var render = function() {
   return _c(
     "b-card-code",
     {
-      attrs: { title: "Changing the option field names" },
+      attrs: { title: "Colored Progress" },
       scopedSlots: _vm._u([
         {
           key: "code",
           fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeFieldNames) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _c("span", [
-          _vm._v(
-            "If you want to customize the field property names (for example using "
-          )
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("name")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" field for display ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("text")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(") you can easily change them by setting the ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("text-field, html-field, value-field,")]),
-        _vm._v(" "),
-        _c("span", [_vm._v("and")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled-field")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(
-            " props to a string that contains the property name you would like to use:"
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("b-form-radio-group", {
-        staticClass: "demo-inline-spacing",
-        attrs: {
-          options: _vm.options,
-          "value-field": "item",
-          "text-field": "name",
-          "disabled-field": "notEnabled"
-        },
-        model: {
-          value: _vm.selected,
-          callback: function($$v) {
-            _vm.selected = $$v
-          },
-          expression: "selected"
-        }
-      }),
-      _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-        _vm._v("\n    Selected: "),
-        _c("strong", [_vm._v(_vm._s(_vm.selected))])
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Radio group options array" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeArray) + "\n  ")]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _c("b-card-text", { staticClass: "mb-0" }, [
-        _c("code", [_vm._v("options")]),
-        _vm._v(" "),
-        _c("span", [
-          _vm._v(" can be an array of strings or objects. Available fields: ")
-        ]),
-        _vm._v(" "),
-        _c("code", [_vm._v("value")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" The selected value which will be set on ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("v-model")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(", ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("disabled")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" Disables item for selection, ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("text")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" Display text, or ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("html")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" Display basic inline html")])
-      ]),
-      _vm._v(" "),
-      _c("b-form-radio-group", {
-        staticClass: "demo-inline-spacing mb-1",
-        attrs: {
-          options: _vm.options,
-          "value-field": "value",
-          "text-field": "text",
-          "disabled-field": "disabled"
-        },
-        model: {
-          value: _vm.selected,
-          callback: function($$v) {
-            _vm.selected = $$v
-          },
-          expression: "selected"
-        }
-      }),
-      _vm._v(" "),
-      _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-        _vm._v("\n    Selected: "),
-        _c("strong", [_vm._v(_vm._s(_vm.selected))])
-      ])
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&":
-/*!****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55& ***!
-  \****************************************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-card-code",
-    {
-      attrs: { title: "Inline or stacked radios" },
-      scopedSlots: _vm._u([
-        {
-          key: "code",
-          fn: function() {
-            return [_vm._v("\n    " + _vm._s(_vm.codeInlineStack) + "\n  ")]
+            return [_vm._v("\n    " + _vm._s(_vm.codeColored) + "\n  ")]
           },
           proxy: true
         }
@@ -1394,85 +1031,512 @@ var render = function() {
     },
     [
       _c("b-card-text", [
-        _c("span", [_vm._v("By default ")]),
+        _c("span", [_vm._v("Use")]),
         _vm._v(" "),
-        _c("code", [_vm._v("<b-form-radio-group>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" generates inline radio inputs, while ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-radio>")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" generates stacked radios. Set the prop ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("stacked")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" on ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("<b-form-radio-group>")]),
+        _c("code", [_vm._v("variant")]),
         _vm._v(" "),
         _c("span", [
-          _vm._v(
-            " to make the radios appear one over the other, or when using radios not in a group, set the "
-          )
+          _vm._v("prop to add different colors to progressbar and add ")
         ]),
         _vm._v(" "),
-        _c("code", [_vm._v("inline")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" prop on ")]),
-        _vm._v(" "),
-        _c("code", [_vm._v("b-form-radio")]),
-        _vm._v(" "),
-        _c("span", [_vm._v(" to true to render them inline.")])
+        _c("code", [_vm._v(".progress-bar-{color_name}")]),
+        _vm._v(".\n  ")
       ]),
       _vm._v(" "),
       _c(
         "div",
+        { staticClass: "demo-vertical-spacing" },
         [
-          _c(
-            "b-form-group",
-            { attrs: { label: "Inline radios (default)" } },
-            [
-              _c("b-form-radio-group", {
-                staticClass: "demo-inline-spacing",
-                attrs: { options: _vm.options, name: "radio-inline" },
-                model: {
-                  value: _vm.selected,
-                  callback: function($$v) {
-                    _vm.selected = $$v
-                  },
-                  expression: "selected"
-                }
-              })
-            ],
-            1
-          ),
+          _c("b-progress", { attrs: { value: "25", max: "100" } }),
           _vm._v(" "),
-          _c(
-            "b-form-group",
-            { attrs: { label: "Stacked radios" } },
-            [
-              _c("b-form-radio-group", {
-                attrs: {
-                  options: _vm.options,
-                  name: "radios-stacked",
-                  stacked: ""
-                },
-                model: {
-                  value: _vm.selected,
-                  callback: function($$v) {
-                    _vm.selected = $$v
-                  },
-                  expression: "selected"
-                }
-              })
-            ],
-            1
-          ),
+          _c("b-progress", {
+            staticClass: "progress-bar-secondary",
+            attrs: { value: "35", max: "100", variant: "secondary" }
+          }),
           _vm._v(" "),
-          _c("b-card-text", { staticClass: "mt-1 mb-0" }, [
-            _vm._v("\n      Selected: "),
-            _c("strong", [_vm._v(_vm._s(_vm.selected))])
-          ])
+          _c("b-progress", {
+            staticClass: "progress-bar-success",
+            attrs: { value: "45", max: "100", variant: "success" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-danger",
+            attrs: { value: "55", max: "100", variant: "danger" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-warning",
+            attrs: { value: "65", max: "100", variant: "warning" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-info",
+            attrs: { value: "75", max: "100", variant: "info" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-dark",
+            attrs: { value: "85", max: "100", variant: "dark" }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Labeled Progress" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeLabel) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v("Add labels to your progress bars by either enabling")
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("show-progress")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("(percentage of max) or")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("show-value")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "\n      for the current absolute value. You may also set the precision (number of digits after the decimal) via the\n    "
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("precision")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("prop (default is 0digits after the decimal).")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "demo-vertical-spacing" }, [
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("No label")]),
+            _vm._v(" "),
+            _c("b-progress", { attrs: { value: "25", max: "100" } })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Value label")]),
+            _vm._v(" "),
+            _c("b-progress", {
+              staticClass: "progress-bar-secondary",
+              attrs: {
+                value: "35",
+                max: "100",
+                "show-value": "",
+                variant: "secondary"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Progress label")]),
+            _vm._v(" "),
+            _c("b-progress", {
+              staticClass: "progress-bar-success",
+              attrs: {
+                value: "45",
+                max: "100",
+                "show-progress": "",
+                variant: "success"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Value label with precision")]),
+            _vm._v(" "),
+            _c("b-progress", {
+              staticClass: "progress-bar-danger",
+              attrs: {
+                value: "55",
+                max: "100",
+                precision: "2",
+                "show-value": "",
+                variant: "danger"
+              }
+            })
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Progress label with precision")]),
+            _vm._v(" "),
+            _c("b-progress", {
+              staticClass: "progress-bar-warning",
+              attrs: {
+                value: "65",
+                max: "100",
+                precision: "2",
+                "show-progress": "",
+                variant: "warning"
+              }
+            })
+          ],
+          1
+        )
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Custom Labeled Progress" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeCustomLabel) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [
+          _vm._v(
+            "Need more control over the label? Provide your own label by using the default slot within a"
+          )
+        ]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-progress-bar>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("sub-component, or by using the")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("label")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("or")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("label-html")]),
+        _vm._v(" "),
+        _c("span", [_vm._v(" property on ")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-progress-bar>")]),
+        _vm._v(":\n  ")
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "demo-vertical-spacing" }, [
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Custom label via default slot")]),
+            _vm._v(" "),
+            _c(
+              "b-progress",
+              { attrs: { max: _vm.max } },
+              [
+                _c("b-progress-bar", { attrs: { value: _vm.value } }, [
+                  _c("strong", [
+                    _vm._v(
+                      _vm._s(_vm.value.toFixed(2)) + " / " + _vm._s(_vm.max)
+                    )
+                  ])
+                ])
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Custom label via property")]),
+            _vm._v(" "),
+            _c(
+              "b-progress",
+              { staticClass: "progress-bar-info", attrs: { max: _vm.max } },
+              [
+                _c("b-progress-bar", {
+                  attrs: {
+                    value: _vm.value,
+                    label: ((_vm.value / _vm.max) * 100).toFixed(2) + "%",
+                    variant: "info"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          [
+            _c("label", [_vm._v("Custom label via property (HTML support)")]),
+            _vm._v(" "),
+            _c(
+              "b-progress",
+              { staticClass: "progress-bar-warning", attrs: { max: _vm.max } },
+              [
+                _c("b-progress-bar", {
+                  attrs: {
+                    value: _vm.value,
+                    "label-html": "<del>" + _vm.value + "</del>",
+                    variant: "warning"
+                  }
+                })
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ])
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a&":
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a& ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Multiple bars" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeMultipleBar) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _c("span", [_vm._v("Include multiple")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-progress-bar>")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("sub-components in a")]),
+        _vm._v(" "),
+        _c("code", [_vm._v("<b-progress>")]),
+        _vm._v(" "),
+        _c("span", [
+          _vm._v(
+            "component to build a horizontally stacked set of progress bars."
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-progress",
+        { attrs: { max: _vm.max } },
+        [
+          _c("b-progress-bar", {
+            attrs: {
+              variant: "danger",
+              value: _vm.values[0],
+              "show-progress": ""
+            }
+          }),
+          _vm._v(" "),
+          _c("b-progress-bar", {
+            attrs: {
+              variant: "warning",
+              value: _vm.values[1],
+              "show-progress": ""
+            }
+          }),
+          _vm._v(" "),
+          _c("b-progress-bar", {
+            attrs: {
+              variant: "primary",
+              value: _vm.values[2],
+              "show-progress": ""
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7&":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-card-code",
+    {
+      attrs: { title: "Striped Progress" },
+      scopedSlots: _vm._u([
+        {
+          key: "code",
+          fn: function() {
+            return [_vm._v("\n    " + _vm._s(_vm.codeStripped) + "\n  ")]
+          },
+          proxy: true
+        }
+      ])
+    },
+    [
+      _c("b-card-text", [
+        _vm._v(
+          "Set striped to apply a stripe via CSS gradient over the progress bar's background variant."
+        )
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "demo-vertical-spacing" },
+        [
+          _c("b-progress", { attrs: { value: "25", max: "100", striped: "" } }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-secondary",
+            attrs: {
+              value: "35",
+              max: "100",
+              striped: "",
+              variant: "secondary"
+            }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-success",
+            attrs: { value: "45", max: "100", striped: "", variant: "success" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-danger",
+            attrs: { value: "55", max: "100", striped: "", variant: "danger" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-warning",
+            attrs: { value: "65", max: "100", striped: "", variant: "warning" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-info",
+            attrs: { value: "75", max: "100", striped: "", variant: "info" }
+          }),
+          _vm._v(" "),
+          _c("b-progress", {
+            staticClass: "progress-bar-dark",
+            attrs: { value: "85", max: "100", striped: "", variant: "dark" }
+          })
         ],
         1
       )
@@ -1502,18 +1566,363 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue":
+/***/ "./resources/js/src/views/components/progress/Progress.vue":
+/*!*****************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/Progress.vue ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Progress.vue?vue&type=template&id=2a78ec40& */ "./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40&");
+/* harmony import */ var _Progress_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Progress.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Progress_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/progress/Progress.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Progress_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Progress.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/Progress.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Progress_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40& ***!
+  \************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Progress.vue?vue&type=template&id=2a78ec40& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/Progress.vue?vue&type=template&id=2a78ec40&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Progress_vue_vue_type_template_id_2a78ec40___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressAnimated.vue":
+/*!*************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressAnimated.vue ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressAnimated.vue?vue&type=template&id=7a3ab883& */ "./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883&");
+/* harmony import */ var _ProgressAnimated_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressAnimated.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProgressAnimated_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/progress/ProgressAnimated.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressAnimated_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressAnimated.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressAnimated_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883& ***!
+  \********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressAnimated.vue?vue&type=template&id=7a3ab883& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressAnimated.vue?vue&type=template&id=7a3ab883&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressAnimated_vue_vue_type_template_id_7a3ab883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressBasic.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressBasic.vue ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressBasic.vue?vue&type=template&id=77e16efe& */ "./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe&");
+/* harmony import */ var _ProgressBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProgressBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/progress/ProgressBasic.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressBasic.vue?vue&type=template&id=77e16efe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressBasic.vue?vue&type=template&id=77e16efe&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBasic_vue_vue_type_template_id_77e16efe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressColored.vue":
+/*!************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressColored.vue ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressColored.vue?vue&type=template&id=64661bdc& */ "./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc&");
+/* harmony import */ var _ProgressColored_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressColored.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProgressColored_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/progress/ProgressColored.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressColored_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressColored.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressColored_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc& ***!
+  \*******************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressColored.vue?vue&type=template&id=64661bdc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressColored.vue?vue&type=template&id=64661bdc&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressColored_vue_vue_type_template_id_64661bdc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressLabel.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressLabel.vue ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressLabel.vue?vue&type=template&id=8e217278& */ "./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278&");
+/* harmony import */ var _ProgressLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressLabel.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ProgressLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/src/views/components/progress/ProgressLabel.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressLabel.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278& ***!
+  \*****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressLabel.vue?vue&type=template&id=8e217278& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabel.vue?vue&type=template&id=8e217278&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabel_vue_vue_type_template_id_8e217278___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue":
 /*!****************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue ***!
+  !*** ./resources/js/src/views/components/progress/ProgressLabelCustom.vue ***!
   \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadio.vue?vue&type=template&id=2b8c6dfc& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&");
-/* harmony import */ var _FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadio.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressLabelCustom.vue?vue&type=template&id=0125bcd5& */ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5&");
+/* harmony import */ var _ProgressLabelCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressLabelCustom.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1522,9 +1931,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ProgressLabelCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1534,55 +1943,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadio.vue"
+component.options.__file = "resources/js/src/views/components/progress/ProgressLabelCustom.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadio.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabelCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressLabelCustom.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabelCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&":
+/***/ "./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5&":
 /*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc& ***!
+  !*** ./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5& ***!
   \***********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadio.vue?vue&type=template&id=2b8c6dfc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadio.vue?vue&type=template&id=2b8c6dfc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressLabelCustom.vue?vue&type=template&id=0125bcd5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressLabelCustom.vue?vue&type=template&id=0125bcd5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadio_vue_vue_type_template_id_2b8c6dfc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressLabelCustom_vue_vue_type_template_id_0125bcd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue ***!
-  \*********************************************************************************/
+/***/ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressMultipleBar.vue ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&");
-/* harmony import */ var _FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioBasic.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a& */ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a&");
+/* harmony import */ var _ProgressMultipleBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressMultipleBar.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1591,9 +2000,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ProgressMultipleBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1603,262 +2012,55 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue"
+component.options.__file = "resources/js/src/views/components/progress/ProgressMultipleBar.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************/
+/***/ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioBasic.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressMultipleBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressMultipleBar.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressMultipleBar_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& ***!
-  \****************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioBasic.vue?vue&type=template&id=e6b4ba7c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioBasic.vue?vue&type=template&id=e6b4ba7c&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioBasic_vue_vue_type_template_id_e6b4ba7c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioColor.vue?vue&type=template&id=67ff5b77& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&");
-/* harmony import */ var _FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioColor.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioColor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77& ***!
-  \****************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioColor.vue?vue&type=template&id=67ff5b77& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioColor.vue?vue&type=template&id=67ff5b77&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioColor_vue_vue_type_template_id_67ff5b77___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue ***!
-  \********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioContextualStates.vue?vue&type=template&id=b4a80562& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&");
-/* harmony import */ var _FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioContextualStates.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioContextualStates.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&":
-/*!***************************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562& ***!
-  \***************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioContextualStates.vue?vue&type=template&id=b4a80562& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioContextualStates.vue?vue&type=template&id=b4a80562&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioContextualStates_vue_vue_type_template_id_b4a80562___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue":
-/*!**********************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue ***!
-  \**********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioCustom.vue?vue&type=template&id=2132cbe6& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&");
-/* harmony import */ var _FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioCustom.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a&":
 /*!***********************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a& ***!
   \***********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioCustom.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6& ***!
-  \*****************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioCustom.vue?vue&type=template&id=2132cbe6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioCustom.vue?vue&type=template&id=2132cbe6&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressMultipleBar.vue?vue&type=template&id=b46d5b9a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioCustom_vue_vue_type_template_id_2132cbe6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressMultipleBar_vue_vue_type_template_id_b46d5b9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/components/progress/ProgressStripped.vue":
+/*!*************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressStripped.vue ***!
+  \*************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioFieldNames.vue?vue&type=template&id=188b8eec& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&");
-/* harmony import */ var _FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioFieldNames.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProgressStripped.vue?vue&type=template&id=0a307bd7& */ "./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7&");
+/* harmony import */ var _ProgressStripped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProgressStripped.vue?vue&type=script&lang=js& */ "./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -1867,9 +2069,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ProgressStripped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -1879,206 +2081,70 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue"
+component.options.__file = "resources/js/src/views/components/progress/ProgressStripped.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************/
+/***/ "./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioFieldNames.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressStripped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressStripped.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressStripped_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&":
-/*!*********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec& ***!
-  \*********************************************************************************************************************/
+/***/ "./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7& ***!
+  \********************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioFieldNames.vue?vue&type=template&id=188b8eec& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioFieldNames.vue?vue&type=template&id=188b8eec&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./ProgressStripped.vue?vue&type=template&id=0a307bd7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/components/progress/ProgressStripped.vue?vue&type=template&id=0a307bd7&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioFieldNames_vue_vue_type_template_id_188b8eec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue":
-/*!****************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue ***!
-  \****************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue?vue&type=template&id=6642f612& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&");
-/* harmony import */ var _FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioOptionsArray.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioOptionsArray.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&":
-/*!***********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612& ***!
-  \***********************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioOptionsArray.vue?vue&type=template&id=6642f612& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioOptionsArray.vue?vue&type=template&id=6642f612&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioOptionsArray_vue_vue_type_template_id_6642f612___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressStripped_vue_vue_type_template_id_0a307bd7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue":
-/*!***************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue ***!
-  \***************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FormRadioStackInline.vue?vue&type=template&id=034f2b55& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&");
-/* harmony import */ var _FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FormRadioStackInline.vue?vue&type=script&lang=js& */ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioStackInline.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&":
-/*!**********************************************************************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55& ***!
-  \**********************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../node_modules/vue-loader/lib??vue-loader-options!./FormRadioStackInline.vue?vue&type=template&id=034f2b55& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/forms/form-element/form-radio/FormRadioStackInline.vue?vue&type=template&id=034f2b55&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FormRadioStackInline_vue_vue_type_template_id_034f2b55___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/src/views/forms/form-element/form-radio/code.js":
-/*!**********************************************************************!*\
-  !*** ./resources/js/src/views/forms/form-element/form-radio/code.js ***!
-  \**********************************************************************/
-/*! exports provided: codeBasic, codeColor, codeCustom, codeSize, codeStates, codeInlineStack, codeArray, codeFieldNames */
+/***/ "./resources/js/src/views/components/progress/code.js":
+/*!************************************************************!*\
+  !*** ./resources/js/src/views/components/progress/code.js ***!
+  \************************************************************/
+/*! exports provided: codeBasic, codeAnimated, codeLabel, codeMultipleBar, codeSize, codeStripped, codeCustomLabel, codeCustomSize, codeColored */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeBasic", function() { return codeBasic; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeColor", function() { return codeColor; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustom", function() { return codeCustom; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeAnimated", function() { return codeAnimated; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeLabel", function() { return codeLabel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeMultipleBar", function() { return codeMultipleBar; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeSize", function() { return codeSize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStates", function() { return codeStates; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeInlineStack", function() { return codeInlineStack; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeArray", function() { return codeArray; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeFieldNames", function() { return codeFieldNames; });
-var codeBasic = "\n<template>\n   <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      plain\n      name=\"some-radios3\"\n      value=\"A\"\n    >\n      Checked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      plain\n      name=\"some-radios3\"\n      value=\"B\"\n    >\n      Unchecked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      plain\n      name=\"some-radios4\"\n      value=\"c\"\n      disabled\n    >\n      Checked Disabled\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      plain\n      name=\"some-radios4\"\n      value=\"d\"\n      disabled\n    >\n      Unchecked Disabled\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'A',\n      Selected1: 'c',\n    }\n  },\n}\n</script>\n";
-var codeColor = "\n<template>\n  <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"e\"\n      class=\"custom-control-primary\"\n    >\n      Primary (Default)\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"ff\"\n      class=\"custom-control-secondary\"\n    >\n      Secondary\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"g\"\n      class=\"custom-control-success\"\n    >\n      Success\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"i\"\n      class=\"custom-control-danger\"\n    >\n      Danger\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"h\"\n      class=\"custom-control-warning\"\n    >\n      Warning\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radio9\"\n      value=\"j\"\n      class=\"custom-control-info\"\n    >\n      Info\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'e',\n    }\n  },\n}\n</script>\n";
-var codeCustom = "\n<template>\n   <div class=\"demo-inline-spacing\">\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radios\"\n      value=\"A\"\n    >\n      Checked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected\"\n      name=\"some-radios\"\n      value=\"B\"\n    >\n      Unchecked\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      name=\"some-radios2\"\n      value=\"c\"\n      disabled\n    >\n      Checked Disabled\n    </b-form-radio>\n    <b-form-radio\n      v-model=\"Selected1\"\n      name=\"some-radios2\"\n      value=\"d\"\n      disabled\n    >\n      Unchecked Disabled\n    </b-form-radio>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadio,\n  },\n  data() {\n    return {\n      Selected: 'A',\n      Selected1: 'c',\n    }\n  },\n}\n</script>\n";
-var codeSize = "\n<template>\n  <div>\n  <h1>Custom radio button sizes</h1>\n    <ul class=\"list-unstyled mb-0\">\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          size=\"sm\"\n        >\n          small\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio name=\"radio-size\">\n          Default\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          size=\"lg\"\n        >\n          Large\n        </b-form-radio>\n      </li>\n    </ul>\n    <h1>Vuexy radio button sizes</h1>\n    <ul class=\"list-unstyled mb-0\">\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          plain\n          class=\"vs-radio-con\"\n        >\n          <span class=\"vs-radio vs-radio-sm\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">small</span>\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          plain\n          class=\"vs-radio-con\"\n          name=\"radio-size\"\n        >\n          <span class=\"vs-radio\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">Default</span>\n        </b-form-radio>\n      </li>\n      <li class=\"d-inline-block mr-2\">\n        <b-form-radio\n          name=\"radio-size\"\n          plain\n          class=\"vs-radio-con\"\n        >\n          <span class=\"vs-radio vs-radio-lg\">\n            <span class=\"vs-radio--border\" />\n            <span class=\"vs-radio--circle\" />\n          </span>\n          <span class=\"ml-50\">Large</span>\n        </b-form-radio>\n      </li>\n    </ul>\n  </div>\n</template>\n\n<script>\nimport { BFormRadio } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadio,\n  },\n}\n</script>\n";
-var codeStates = "\n<template>\n  <div>\n    <b-form-radio-group\n      v-model=\"value\"\n      :options=\"options\"\n      :state=\"state\"\n      class=\"demo-inline-spacing\"\n      name=\"radio-validation\"\n    >\n      <b-form-invalid-feedback :state=\"state\">\n        Please select one\n      </b-form-invalid-feedback>\n      <b-form-valid-feedback :state=\"state\">\n        Thank you\n      </b-form-valid-feedback>\n    </b-form-radio-group>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup, BFormInvalidFeedback, BFormValidFeedback } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n    BFormInvalidFeedback,\n    BFormValidFeedback,\n  },\n  data() {\n    return {\n      value: null,\n      options: [\n        { text: 'First radio', value: 'first' },\n        { text: 'Second radio', value: 'second' },\n        { text: 'Third radio', value: 'third' },\n      ],\n    }\n  },\n  computed: {\n    state() {\n      return Boolean(this.value)\n    },\n  },\n}\n</script>\n";
-var codeInlineStack = "\n<template>\n  <div>\n    <b-form-group label=\"Inline radios (default)\">\n      <b-form-radio-group\n        v-model=\"selected\"\n        :options=\"options\"\n        class=\"demo-inline-spacing\"\n        name=\"radio-inline\"\n      />\n    </b-form-group>\n\n    <b-form-group label=\"Stacked radios\">\n      <b-form-radio-group\n        v-model=\"selected\"\n        :options=\"options\"\n        name=\"radios-stacked\"\n        stacked\n      />\n    </b-form-group>\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup, BFormGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n    BFormGroup,\n  },\n  data() {\n    return {\n      selected: 'first',\n      options: [\n        { text: 'First radio', value: 'first' },\n        { text: 'Second radio', value: 'second' },\n        { text: 'Third radio', value: 'third' },\n      ],\n    }\n  },\n}\n</script>\n";
-var codeArray = "\n<template>\n  <div>\n     <b-form-radio-group\n      v-model=\"selected\"\n      :options=\"options\"\n      class=\"demo-inline-spacing mb-1\"\n      value-field=\"value\"\n      text-field=\"text\"\n      disabled-field=\"disabled\"\n    />\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n\n<script>\nimport { BFormRadioGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n  },\n  data() {\n    return {\n      selected: 'first',\n      options: [\n        { text: 'Item 1', value: 'first', disabled: false },\n        { text: 'Item 2', value: 'second', disabled: false },\n        { html: '<b>Item</b> 3', value: 'third', disabled: true },\n        { text: 'Item 4', value: 'Item 4', disabled: false },\n        { text: 'Item 5', value: 'E', disabled: false },\n      ],\n    }\n  },\n}\n</script>\n";
-var codeFieldNames = "\n<template>\n  <div>\n    <b-form-radio-group\n      v-model=\"selected\"\n      :options=\"options\"\n      value-field=\"item\"\n      text-field=\"name\"\n      disabled-field=\"notEnabled\"\n      class=\"demo-inline-spacing\"\n    />\n\n    <b-card-text class=\"mt-1 mb-0\">\n      Selected: <strong>{{ selected }}</strong>\n    </b-card-text>\n  </div>\n</template>\n\n<script>\nimport { BFormRadioGroup } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BCardCode,\n    BFormRadioGroup,\n  },\n  data() {\n    return {\n      selected: 'A',\n      options: [\n        { item: 'A', name: 'Option A' },\n        { item: 'B', name: 'Option B' },\n        { item: 'D', name: 'Option C', notEnabled: true },\n        { item: { d: 1 }, name: 'Option D' },\n      ],\n    }\n  },\n}\n</script>\n";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeStripped", function() { return codeStripped; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustomLabel", function() { return codeCustomLabel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeCustomSize", function() { return codeCustomSize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "codeColored", function() { return codeColored; });
+var codeBasic = "\n<template>\n  <div class=\"demo-vertical-spacing\">\n    <div class=\"progress-wrapper\">\n      <b-card-text class=\"mb-0\">\n        Reticulating splines\u2026 {{ value+'%' }}\n      </b-card-text>\n      <b-progress\n        v-model=\"value\"\n        max=\"100\"\n      />\n    </div>\n    <div class=\"progress-wrapper\">\n      <b-card-text class=\"mb-0\">\n        Reticulating splines\u2026 {{ value1+'%' }}\n      </b-card-text>\n      <b-progress\n        v-model=\"value1\"\n        max=\"100\"\n      />\n    </div>\n    <div class=\"progress-wrapper\">\n      <b-card-text class=\"mb-0\">\n        Reticulating splines\u2026 {{ value2+'%' }}\n      </b-card-text>\n      <b-progress\n        v-model=\"value2\"\n        max=\"100\"\n      />\n    </div>\n\n    <div class=\"progress-wrapper\">\n      <b-card-text class=\"mb-0\">\n        Reticulating splines\u2026 {{ value3+'%' }}\n      </b-card-text>\n      <b-progress\n        v-model=\"value3\"\n        max=\"100\"\n      />\n    </div>\n\n    <div class=\"progress-wrapper\">\n      <b-card-text class=\"mb-0\">\n        Reticulating splines\u2026 {{ value4+'%' }}\n      </b-card-text>\n      <b-progress\n        v-model=\"value4\"\n        max=\"100\"\n      />\n    </div>\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n  data() {\n    return {\n      value: 0,\n      value1: 25,\n      value2: 50,\n      value3: 75,\n      value4: 100,\n    }\n  },\n}\n</script>\n";
+var codeAnimated = "\n<template>\n  <b-row\n    v-for=\"bar in bars\"\n    :key=\"bar.variant\"\n  >\n    <b-col\n      md=\"2\"\n      class=\"pt-2\"\n    >\n      {{ bar.variant }}:\n    </b-col>\n    <b-col\n      md=\"10\"\n      class=\"pt-md-2\"\n    >\n      <b-progress\n        :key=\"bar.variant\"\n        animated\n        :value=\"bar.value\"\n        :variant=\"bar.variant\"\n        :class=\"'progress-bar-'+bar.variant\"\n      />\n    </b-col>\n  </b-row>\n</template>\n\n<script>\nimport {BProgress, BRow, BCol} from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n  data: () => ({\n    bars: [\n      { variant: 'success', value: 75 },\n      { variant: 'info', value: 75 },\n      { variant: 'warning', value: 75 },\n      { variant: 'danger', value: 75 },\n      { variant: 'primary', value: 75 },\n      { variant: 'secondary', value: 75 },\n    ],\n    timer: null,\n  }),\n  mounted() {\n    this.timer = setInterval(() => {\n      // eslint-disable-next-line\n      this.bars.forEach(bar => (bar.value = 25 + Math.random() * 75))\n    }, 2000)\n  },\n  beforeDestroy() {\n    clearInterval(this.timer)\n    this.timer = null\n  },\n}\n</script>\n";
+var codeLabel = "\n<template>\n  <div class=\"demo-vertical-spacing\">\n    <div>\n      <label>No label</label>\n      <b-progress\n        value=\"25\"\n        max=\"100\"\n      />\n    </div>\n\n    <div>\n      <label>Value label</label>\n      <b-progress\n        value=\"35\"\n        max=\"100\"\n        show-value\n        variant=\"secondary\"\n        class=\"progress-bar-secondary\"\n      />\n    </div>\n\n    <div>\n      <label>Progress label</label>\n      <b-progress\n        value=\"45\"\n        max=\"100\"\n        show-progress\n        variant=\"success\"\n        class=\"progress-bar-success\"\n      />\n    </div>\n\n    <div>\n      <label>Value label with precision</label>\n      <b-progress\n        value=\"55\"\n        max=\"100\"\n        precision=\"2\"\n        show-value\n        variant=\"danger\"\n        class=\"progress-bar-danger\"\n      />\n    </div>\n\n    <div>\n      <label>Progress label with precision</label>\n      <b-progress\n        value=\"65\"\n        max=\"100\"\n        precision=\"2\"\n        show-progress\n        variant=\"warning\"\n        class=\"progress-bar-warning\"\n      />\n    </div>\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n}\n</script>\n";
+var codeMultipleBar = "\n<template>\n  <b-progress :max=\"max\">\n    <b-progress-bar\n      variant=\"danger\"\n      :value=\"values[0]\"\n      show-progress\n    />\n    <b-progress-bar\n      variant=\"warning\"\n      :value=\"values[1]\"\n      show-progress\n    />\n    <b-progress-bar\n      variant=\"primary\"\n      :value=\"values[2]\"\n      show-progress\n    />\n  </b-progress>\n</template>\n\n<script>\nimport { BProgressBar, BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgressBar,\n    BProgress,\n  },\n  data() {\n    return {\n      values: [15, 50, 10],\n      max: 100,\n    }\n  },\n}\n</script>\n";
+var codeSize = "\n<template>\n  <div>\n    <b-progress\n      value=\"65\"\n      variant=\"primary\"\n      class=\"progress-xl mb-2\"\n    />\n    <b-progress\n      value=\"65\"\n      variant=\"success\"\n      class=\"progress-lg mb-2\"\n    />\n    <b-progress\n      value=\"65\"\n      variant=\"danger\"\n      class=\"progress-md mb-2\"\n    />\n    <b-progress\n      value=\"65\"\n      variant=\"info\"\n      class=\"progress-sm mb-2\"\n    />\n    <h6>Custom heights</h6>\n    <b-progress\n      height=\"1rem\"\n      value=\"55\"\n      show-progress\n      class=\"mb-0\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n}\n</script>\n";
+var codeStripped = "\n<template>\n  <div class=\"demo-vertical-spacing\">\n    <b-progress\n      value=\"25\"\n      max=\"100\"\n      striped\n    />\n    <b-progress\n      value=\"35\"\n      max=\"100\"\n      striped\n      class=\"progress-bar-secondary\"\n      variant=\"secondary\"\n    />\n    <b-progress\n      value=\"45\"\n      max=\"100\"\n      striped\n      variant=\"success\"\n      class=\"progress-bar-success\"\n    />\n    <b-progress\n      value=\"55\"\n      max=\"100\"\n      striped\n      variant=\"danger\"\n      class=\"progress-bar-danger\"\n    />\n    <b-progress\n      value=\"65\"\n      max=\"100\"\n      striped\n      variant=\"warning\"\n      class=\"progress-bar-warning\"\n    />\n    <b-progress\n      value=\"75\"\n      max=\"100\"\n      striped\n      variant=\"info\"\n      class=\"progress-bar-info\"\n    />\n    <b-progress\n      value=\"85\"\n      max=\"100\"\n      striped\n      variant=\"dark\"\n      class=\"progress-bar-dark\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n}\n</script>\n\n";
+var codeCustomLabel = "\n<template>\n  <div class=\"demo-vertical-spacing\">\n    <div>\n      <label>Custom label via default slot</label>\n      <b-progress\n        :max=\"max\"\n      >\n        <b-progress-bar :value=\"value\">\n          <strong>{{ value.toFixed(2) }} / {{ max }}</strong>\n        </b-progress-bar>\n      </b-progress>\n    </div>\n\n    <div>\n      <label>Custom label via property</label>\n      <b-progress\n        :max=\"max\"\n        class=\"progress-bar-info\"\n      >\n        <b-progress-bar\n          :value=\"value\"\n          :label=\"`${((value / max) * 100).toFixed(2)}%`\"\n          variant=\"info\"\n        />\n      </b-progress>\n    </div>\n\n    <div>\n      <label>Custom label via property (HTML support)</label>\n      <b-progress\n        :max=\"max\"\n        class=\"progress-bar-warning\"\n      >\n        <b-progress-bar\n          :value=\"value\"\n          :label-html=\"`<del>${value}</del>`\"\n          variant=\"warning\"\n        />\n      </b-progress>\n    </div>\n  </div>\n</template>\n\n<script>\nimport { BProgress, BProgressBar } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n    BProgressBar,\n  },\n  data() {\n    return {\n      value: 33.333333333,\n      max: 50,\n    }\n  },\n}\n</script>\n";
+var codeCustomSize = "\n<template>\n  <div>\n    <h6>Default width</h6>\n    <b-progress\n      :value=\"value\"\n      class=\"mb-3\"\n    />\n\n    <h6>Custom widths</h6>\n    <b-progress\n      :value=\"value\"\n      class=\"w-75 mb-2\"\n      variant=\"info\"\n    />\n    <b-progress\n      :value=\"value\"\n      variant=\"warning\"\n      class=\"w-50 mb-2\"\n    />\n    <b-progress\n      :value=\"value\"\n      class=\"w-25 mb-0\"\n      variant=\"danger\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n  data: () => ({\n    value: 75,\n  }),\n}\n</script>\n";
+var codeColored = "\n<template>\n  <div class=\"demo-vertical-spacing\">\n    <b-progress\n      value=\"25\"\n      max=\"100\"\n    />\n    <b-progress\n      value=\"35\"\n      max=\"100\"\n      class=\"progress-bar-secondary\"\n      variant=\"secondary\"\n    />\n    <b-progress\n      value=\"45\"\n      max=\"100\"\n      class=\"progress-bar-success\"\n      variant=\"success\"\n    />\n    <b-progress\n      value=\"55\"\n      max=\"100\"\n      class=\"progress-bar-danger\"\n      variant=\"danger\"\n    />\n    <b-progress\n      value=\"65\"\n      max=\"100\"\n      class=\"progress-bar-warning\"\n      variant=\"warning\"\n    />\n    <b-progress\n      value=\"75\"\n      max=\"100\"\n      class=\"progress-bar-info\"\n      variant=\"info\"\n    />\n    <b-progress\n      value=\"85\"\n      max=\"100\"\n      class=\"progress-bar-dark\"\n      variant=\"dark\"\n    />\n  </div>\n</template>\n\n<script>\nimport { BProgress } from 'bootstrap-vue'\n\nexport default {\n  components: {\n    BProgress,\n  },\n}\n</script>\n";
 
 /***/ })
 

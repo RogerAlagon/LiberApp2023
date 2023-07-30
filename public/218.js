@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[218],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BRow: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BRow"],
     BCol: bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCol"],
-    'ssoma-proyeccion': _Gestion_Reporte_Proyeccion_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+    'mantenimiento-proyeccion': _Gestion_Reporte_Proyeccion_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   data: function data() {
     return {
@@ -51,7 +51,7 @@ __webpack_require__.r(__webpack_exports__);
     //entidades 
     this.$http.get('/LiberAPP/Dato/Select/ENTIDAD/GENERAL').then(function (res) {
       _this.entidades = res.data.filter(function (entidad) {
-        return entidad.valorDat == 'PERSONA';
+        return entidad.valorDat == 'VEHICULO';
       });
     })["catch"](function (error) {
       _this.Toast(true, 'danger', 'Entidades', 'Error al cargar los registros: ' + error);
@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
     this.$http.get('/LiberAPP/Area/Select').then(function (res) {
       _this.areas = res.data.filter(function (area) {
-        return area.nombreAre == 'SSOMA';
+        return area.nombreAre == 'MANTENIMIENTO';
       });
     })["catch"](function (error) {
       _this.Toast(true, 'danger', 'Areas', 'Error al cargar los registros: ' + error);
@@ -69,10 +69,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883&":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883& ***!
-  \**************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -91,7 +91,7 @@ var render = function() {
         "b-col",
         [
           _vm.entidades[0] !== undefined && _vm.areas[0] !== undefined
-            ? _c("ssoma-proyeccion", {
+            ? _c("mantenimiento-proyeccion", {
                 attrs: {
                   vista_entidad: _vm.entidades[0].idDato.valueOf(),
                   vista_area: _vm.areas[0].idArea.valueOf(),
@@ -115,17 +115,17 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue":
-/*!*************************************************************!*\
-  !*** ./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue ***!
-  \*************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue":
+/*!*********************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue ***!
+  \*********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Proyeccion.vue?vue&type=template&id=7bd4e883& */ "./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883&");
-/* harmony import */ var _Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Proyeccion.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Proyeccion.vue?vue&type=template&id=769ea6c0& */ "./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0&");
+/* harmony import */ var _Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Proyeccion.vue?vue&type=script&lang=js& */ "./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -136,8 +136,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -147,38 +147,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/src/views/Ssoma/Reporte/Proyeccion.vue"
+component.options.__file = "resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Proyeccion.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Proyeccion.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883&":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883& ***!
-  \********************************************************************************************/
+/***/ "./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0& ***!
+  \****************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Proyeccion.vue?vue&type=template&id=7bd4e883& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Ssoma/Reporte/Proyeccion.vue?vue&type=template&id=7bd4e883&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Proyeccion.vue?vue&type=template&id=769ea6c0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/src/views/Mantenimiento/Reporte/Proyeccion.vue?vue&type=template&id=769ea6c0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_7bd4e883___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Proyeccion_vue_vue_type_template_id_769ea6c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
