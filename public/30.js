@@ -665,6 +665,14 @@ __webpack_require__.r(__webpack_exports__);
         icon: 'LayersIcon',
         isBookmarked: true,
         value: 'SSOMA'
+      }, {
+        title: 'Gps',
+        route: {
+          name: 'access-control'
+        },
+        icon: 'MapPinIcon',
+        isBookmarked: true,
+        value: 'GPS'
       }],
       perfectScrollbarSettings: perfectScrollbarSettings,
       currentSelected: currentSelected,
@@ -6479,6 +6487,44 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/src/navigation/vertical/Gps.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/src/navigation/vertical/Gps.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  header: 'Modulo de Centro de Control',
+  module: 'GPS'
+}, {
+  title: 'Maestros',
+  icon: 'CpuIcon',
+  module: 'GPS',
+  children: [{
+    title: 'Geocercas',
+    route: 'gps-maestro-geocerca',
+    module: 'GPS'
+  }, {
+    title: 'Eventos',
+    route: 'gps-maestro-evento',
+    module: 'GPS'
+  }]
+}, {
+  title: 'Transacciones',
+  icon: 'FileIcon',
+  module: 'GPS',
+  children: [{
+    title: 'Seguimiento',
+    route: 'gps-transaccion-seguimiento',
+    module: 'GPS'
+  }]
+}]);
+
+/***/ }),
+
 /***/ "./resources/js/src/navigation/vertical/Inicio.js":
 /*!********************************************************!*\
   !*** ./resources/js/src/navigation/vertical/Inicio.js ***!
@@ -7276,6 +7322,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Logistica__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Logistica */ "./resources/js/src/navigation/vertical/Logistica.js");
 /* harmony import */ var _Gestion__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Gestion */ "./resources/js/src/navigation/vertical/Gestion.js");
 /* harmony import */ var _Ssoma__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./Ssoma */ "./resources/js/src/navigation/vertical/Ssoma.js");
+/* harmony import */ var _Gps__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./Gps */ "./resources/js/src/navigation/vertical/Gps.js");
 
 
 
@@ -7327,9 +7374,10 @@ tagVariant
 
 
 
+
  // Array of sections
 
-/* harmony default export */ __webpack_exports__["default"] = ([].concat(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Inicio__WEBPACK_IMPORTED_MODULE_8__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Personal__WEBPACK_IMPORTED_MODULE_14__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Asistencia__WEBPACK_IMPORTED_MODULE_15__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Finanza__WEBPACK_IMPORTED_MODULE_13__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Transporte__WEBPACK_IMPORTED_MODULE_10__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Combustible__WEBPACK_IMPORTED_MODULE_9__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Mantenimiento__WEBPACK_IMPORTED_MODULE_12__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Neumatico__WEBPACK_IMPORTED_MODULE_11__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Logistica__WEBPACK_IMPORTED_MODULE_16__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Ssoma__WEBPACK_IMPORTED_MODULE_18__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Gestion__WEBPACK_IMPORTED_MODULE_17__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_others__WEBPACK_IMPORTED_MODULE_4__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_dashboard__WEBPACK_IMPORTED_MODULE_2__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_apps_and_pages__WEBPACK_IMPORTED_MODULE_3__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_charts_and_maps__WEBPACK_IMPORTED_MODULE_5__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_ui_elements__WEBPACK_IMPORTED_MODULE_6__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_forms_and_table__WEBPACK_IMPORTED_MODULE_7__["default"]))); //export default [...Inicio,...Personal,...Finanza,...Transporte,...Combustible,...Mantenimiento,...Gerencia]
+/* harmony default export */ __webpack_exports__["default"] = ([].concat(Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Inicio__WEBPACK_IMPORTED_MODULE_8__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Personal__WEBPACK_IMPORTED_MODULE_14__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Asistencia__WEBPACK_IMPORTED_MODULE_15__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Finanza__WEBPACK_IMPORTED_MODULE_13__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Transporte__WEBPACK_IMPORTED_MODULE_10__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Combustible__WEBPACK_IMPORTED_MODULE_9__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Mantenimiento__WEBPACK_IMPORTED_MODULE_12__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Neumatico__WEBPACK_IMPORTED_MODULE_11__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Logistica__WEBPACK_IMPORTED_MODULE_16__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Ssoma__WEBPACK_IMPORTED_MODULE_18__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Gps__WEBPACK_IMPORTED_MODULE_19__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_Gestion__WEBPACK_IMPORTED_MODULE_17__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_others__WEBPACK_IMPORTED_MODULE_4__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_dashboard__WEBPACK_IMPORTED_MODULE_2__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_apps_and_pages__WEBPACK_IMPORTED_MODULE_3__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_charts_and_maps__WEBPACK_IMPORTED_MODULE_5__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_ui_elements__WEBPACK_IMPORTED_MODULE_6__["default"]), Object(_Applications_XAMPP_xamppfiles_htdocs_produccion_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_forms_and_table__WEBPACK_IMPORTED_MODULE_7__["default"]))); //export default [...Inicio,...Personal,...Finanza,...Transporte,...Combustible,...Mantenimiento,...Gerencia]
 
 /***/ }),
 

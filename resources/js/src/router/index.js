@@ -25,6 +25,7 @@ import Asistencia from './routes/Asistencia'
 import Gestion from './routes/Gestion'
 import Logistica from './routes/Logistica'
 import Ssoma from './routes/Ssoma'
+import Gps from './routes/Gps'
 
 
 Vue.use(VueRouter)
@@ -58,6 +59,7 @@ const router = new VueRouter({
     ...Gestion,
     ...Asistencia,
     ...Ssoma,
+    ...Gps,
     {
       path: '*',
       redirect: 'error-404',

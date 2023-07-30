@@ -47,8 +47,9 @@ import Asistencia from './Asistencia'
 import Logistica from './Logistica' 
 import Gestion from './Gestion'
 import Ssoma from './Ssoma'
+import Gps from './Gps'
 
 
 // Array of sections
-export default [...Inicio,...Personal,...Asistencia,...Finanza,...Transporte,...Combustible,...Mantenimiento,...Neumatico,...Logistica,...Ssoma,...Gestion, ...others, ...dashboard, ...appsAndPages, ...chartsAndMaps, ...uiElements, ...formAndTable]
+export default [...Inicio,...Personal,...Asistencia,...Finanza,...Transporte,...Combustible,...Mantenimiento,...Neumatico,...Logistica,...Ssoma, ...Gps, ...Gestion, ...others, ...dashboard, ...appsAndPages, ...chartsAndMaps, ...uiElements, ...formAndTable]
 //export default [...Inicio,...Personal,...Finanza,...Transporte,...Combustible,...Mantenimiento,...Gerencia]

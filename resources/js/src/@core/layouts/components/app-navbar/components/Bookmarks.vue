@@ -84,6 +84,7 @@ export default {
       { title: 'Logistica', route: { name: 'access-control' }, icon: 'BoxIcon', isBookmarked: true, value: 'LOGISTICA' },
       { title: 'Gestion', route: { name: 'access-control' }, icon: 'BarChartIcon', isBookmarked: true, value: 'GESTION' },
       { title: 'SSoma', route: { name: 'access-control' }, icon: 'LayersIcon', isBookmarked: true, value: 'SSOMA' },
+      { title: 'Gps', route: { name: 'access-control' }, icon: 'MapPinIcon', isBookmarked: true, value: 'GPS' },
     ],
       perfectScrollbarSettings,
       currentSelected,
